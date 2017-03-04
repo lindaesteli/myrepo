@@ -1,0 +1,524 @@
+"Basin
+Subbasin ID",Basin Name,Subbasin Name,Hydrologic Name,Basin - Subbasin Area (acre),Total Rank Scoring,Final Priority,Population (2010),Final Population Rank,"Population Growth
+%",Final Population Growth Rank,Total Wells,Final Well Rank (discounted),Total Public Supply Wells,Final Public Supply Well Rank,"Groundwater Volume
+(Ac-Ft)",% of total water supply supplied by groundwater,% of total water supply supplied by surface water,Final groundwater volume rank,Final % of total water supply supplied by groundwater rank,Final groundwater Reliance rank,Irrigated Acreage,Final Irrigated Acreage Rank,Impact Ranks,Impact Comments,Other Information Rank,Other Information Comments,Additional Comments
+1-1,SMITH RIVER PLAIN,,North Coast,"40,446",18.3,Medium,"24,588",2,111%,2,"1,462",3.75,34,4,"10,000",85%,15%,2,5,3.5,"8,383",3,,,,,GW use based on B118-03 data. Stable GW levels
+1-10,EEL RIVER VALLEY,,North Coast,"73,701",16.3,Medium,"21,558",1,112%,2,763,2.25,23,2,"55,000",77%,23%,4,4,4,"33,309",4,,,1,"Shallow basin with strong SW-GW interaction and fishery issues. Useable GW basin storage is estimated at 100,000 af and annual use is estimated at over one-half the total storage.",GW Use based on B118-03 and DWR Land Use 2012 data
+1-11,COVELO ROUND VALLEY,,North Coast,"16,396",0.0,Very Low,"1,968",1,160%,5,305,3,6,2,918,4%,96%,1,1,0,"8,561",4,,,,,
+1-12,LAYTONVILLE VALLEY,,North Coast,"5,020",0.0,Very Low,"1,167",1,94%,0,170,3.75,3,3,415,10%,90%,1,1,0,"1,329",3,,,,,GW Use based on B118-03 data
+1-13,LITTLE LAKE VALLEY,,North Coast,"10,018",0.0,Very Low,"5,993",2,107%,1,629,3.75,0,0,"2,000",1%,99%,2,1,0,"4,190",4,,,,,GW Use based on B118-03 data
+1-14,LOWER KLAMATH RIVER VALLEY,,North Coast,"7,026",0.0,Very Low,806,1,158%,0,48,1.5,18,5,450,22%,78%,1,2,0,428,2,,,,,GW Use based on B118-03 data
+1-15,HAPPY CAMP TOWN AREA,,North Coast,"2,771",0.0,Very Low,759,1,247%,0,30,2.25,0,0,450,40%,60%,2,3,0,1,1,,,,,GW Use based on B118-03 data
+1-16,SEIAD VALLEY,,North Coast,"2,243",0.0,Very Low,132,1,158%,0,7,0.75,2,4,21,8%,92%,0,1,0,50,1,,,,,
+1-17,BRAY TOWN AREA,,North Coast,"8,027",0.0,Very Low,0,0,0%,0,3,0.75,0,0,6,5%,95%,0,1,0,"1,281",3,,,,,GW Use based on B118-03 data
+1-18,RED ROCK VALLEY,,North Coast,"8,996",11.5,Low,23,0,213%,0,30,1.5,0,0,"14,109",90%,10%,5,5,5,"5,355",5,,,,,
+1-19,ANDERSON VALLEY,,North Coast,"4,969",0.0,Very Low,"1,297",1,157%,5,393,3.75,8,5,225,20%,80%,1,1,0,"1,094",3,,,,,
+1-2.01,KLAMATH RIVER VALLEY,TULELAKE,North Coast,"85,934",17.3,Medium,"2,261",1,102%,0,164,0.75,5,1,"75,000",29%,71%,5,2,3.5,"56,139",5,4,Declining GW levels in lower aquifer. Local GW Quality issues. On-going high volume of GW being extracted associated with surface water cutbacks from Klamath Project and GW transfers associated with Klamath Basin Agreement.,2,Interstate GW transfer issue. Strong SW-GW interaction and fisheries issues. Potential intra- basin issues associated with increased annual extraction.,GW Use based on Klamath Basin GW Transfers
+1-2.02,KLAMATH RIVER VALLEY,LOWER KLAMATH,North Coast,"75,333",7.8,Low,41,0,244%,0,17,0.75,0,0,"21,424",51%,49%,3,3,3,"18,926",3,1,GW Quality issues in refuge area. High temp and high TDS for deep wells.,,,
+1-20,GARCIA RIVER VALLEY,,North Coast,"2,242",0.0,Very Low,119,1,100%,0,21,2.25,0,0,302,17%,83%,2,1,0,588,3,,,,,B118-03 reports sea water intrusion may be a problem due to connection to Pacific Ocean
+1-21,FORT BRAGG TERRACE AREA,,North Coast,"24,085",0.0,Very Low,"12,517",2,100%,1,"1,997",3.75,62,5,447,17%,83%,1,1,0,"1,240",2,1,The terrace deposits between Ten Mile River and Laguna Point and Alder Creek and Point Arena are susceptible to seawater intrusion. (B-118).,,,
+1-22,FAIRCHILD SWAMP VALLEY,,North Coast,"3,278",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+1-25,PRAIRIE CREEK AREA,,North Coast,"20,013",0.0,Very Low,4,0,50%,0,4,0.75,0,0,2,100%,0%,1,5,0,0,0,,,,,
+1-26,REDWOOD CREEK AREA,,North Coast,"1,996",0.0,Very Low,234,1,93%,0,9,1.5,3,4,739,88%,12%,3,5,0,676,4,,,,,
+1-27,BIG LAGOON AREA,,North Coast,"13,343",0.0,Very Low,"2,465",1,119%,3,138,2.25,18,4,313,100%,0%,0,5,0,6,1,,,,,
+1-28,MATTOLE RIVER VALLEY,,North Coast,"3,150",0.0,Very Low,72,1,103%,0,8,0.75,0,0,150,50%,50%,1,3,0,0,0,,,,,GW Use based on B118-03 data
+1-29,HONEYDEW TOWN AREA,,North Coast,"2,369",0.0,Very Low,19,0,89%,0,3,0.75,0,0,1,0%,100%,0,0,0,0,0,,,,,
+1-3,BUTTE VALLEY,,North Coast,"79,689",15.5,Medium,"1,464",1,106%,0,417,1.5,6,1,"72,403",97%,3%,5,5,5,"29,324",4,2,Some high TDS wells. Declining GW levels over the last 5-years and increases agricultural acreage.,1,"Strong SW-GW interaction and reliance of GW for
+Meiss Lake wildlife area.",
+1-30,PEPPERWOOD TOWN AREA,,North Coast,"6,288",0.0,Very Low,315,1,110%,0,15,0.75,0,0,"1,000",66%,34%,2,4,0,"1,010",3,,,,,GW Use based on B118-03 data
+1-31,WEOTT TOWN AREA,,North Coast,"3,653",0.0,Very Low,364,1,135%,0,11,0.75,3,4,135,53%,47%,1,3,0,154,2,,,,,
+1-32,GARBERVILLE TOWN AREA,,North Coast,"2,112",0.0,Very Low,"1,391",2,114%,2,77,3.75,1,3,117,62%,38%,1,4,0,20,1,,,,,
+1-33,LARABEE VALLEY,,North Coast,967,0.0,Very Low,9,0,178%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+1-34,DINSMORES TOWN AREA,,North Coast,"2,276",0.0,Very Low,183,1,127%,0,9,1.5,4,5,125,87%,13%,1,5,0,8,1,,,,,GW Use based on B118-03 data
+1-35,HYAMPOM VALLEY,,North Coast,"1,354",0.0,Very Low,52,1,212%,0,12,2.25,0,0,201,100%,0%,2,5,0,72,2,,,,,
+1-36,HETTENSHAW VALLEY,,North Coast,846,0.0,Very Low,5,0,100%,0,6,1.5,0,0,1,0%,100%,0,0,0,680,5,,,,,GW Use based on B118-03 data
+1-37,COTTONEVA CREEK VALLEY,,North Coast,763,0.0,Very Low,1,0,100%,0,3,1.5,0,0,0,0%,100%,0,0,0,0,0,,,,,
+1-38,LOWER LAYTONVILLE VALLEY,,North Coast,"2,152",0.0,Very Low,107,1,198%,0,32,2.25,0,0,2,1%,99%,1,1,0,150,2,,,,,
+1-39,BRANSCOMB TOWN AREA,,North Coast,"1,381",0.0,Very Low,95,1,256%,0,22,3,0,0,1,1%,99%,1,1,0,23,1,,,,,
+1-4,SHASTA VALLEY,SHASTA VALLEY,North Coast,"52,589",20.3,Medium,"5,333",1,153%,5,750,2.25,7,1,"55,000",15%,85%,5,1,3,"26,842",4,1,"High Nitrates, ASAR, and TDS in portions of the basin. TMDL temperature issues along GW fed rivers.",3,"Strong SW-GW Interaction and significant local issues regarding GW mgmt. Basin underflow from Pluto's Cave Basalts and portions of debris flow contribute to surface water flow and low temps in the Shasta River, which supports threatened salmon population.",GW Use based on B118-03 data and Shasta Valley Water Inventory
+1-40,TEN MILE RIVER VALLEY,,North Coast,"1,491",0.0,Very Low,61,1,272%,0,46,3,0,0,0,0%,100%,0,0,0,0,0,,,,,B118-03 reports sea water intrusion may be a problem due to connection to Pacific Ocean
+1-41,LITTLE VALLEY,,North Coast,812,0.0,Very Low,11,1,100%,0,3,1.5,0,0,0,0%,100%,0,0,0,36,2,,,,,
+1-42,SHERWOOD VALLEY,,North Coast,"1,150",0.0,Very Low,13,1,100%,0,7,1.5,0,0,0,0%,100%,0,0,0,0,0,,,,,
+1-43,WILLIAMS VALLEY,,North Coast,"1,642",0.0,Very Low,2,0,100%,0,16,2.25,0,0,0,0%,100%,0,0,0,128,2,,,,,
+1-44,EDEN VALLEY,,North Coast,"1,376",0.0,Very Low,0,0,0%,0,0,0,0,0,600,55%,45%,3,3,0,381,3,,,,,
+1-45,BIG RIVER VALLEY,,North Coast,"1,685",0.0,Very Low,29,1,100%,0,7,1.5,4,5,0,0%,100%,0,0,0,0,0,,,,,B118-03 reports sea water intrusion may be a problem due to connection to Pacific Ocean
+1-46,NAVARRO RIVER VALLEY,,North Coast,770,0.0,Very Low,36,1,114%,0,5,1.5,0,0,0,0%,100%,0,0,0,0,0,,,,,B118-03 reports sea water intrusion may be a problem due to connection to Pacific Ocean
+1-48,GRAVELLY VALLEY,,North Coast,"2,974",0.0,Very Low,6,0,133%,0,18,1.5,5,5,3,100%,0%,0,5,0,0,0,,,,,PubCom - GW Use and percent of water supplied by GW
+1-49,ANNAPOLIS OHLSON RANCH FM HIGHLANDS,,North Coast,"8,646",0.0,Very Low,233,1,127%,0,76,2.25,0,0,3,33%,67%,1,2,0,138,1,,,,,
+1-5,SCOTT RIVER VALLEY,,North Coast,"63,780",15.3,Medium,"3,520",1,144%,0,885,2.25,2,1,"50,285",48%,52%,5,3,4,"34,540",4,,,3,GW Basin contributes to surface water flow in the Scott River which supports an threatened/endangered salmon. Adjudicated basin. Currently being reviewed for Public Trust issues regarding GW management.,
+1-50,KNIGHTS VALLEY,,North Coast,"4,086",0.0,Very Low,102,1,107%,0,62,2.25,0,0,502,62%,38%,2,4,0,"1,727",4,,,,,
+1-51,POTTER VALLEY,,North Coast,"8,237",0.0,Very Low,"1,145",1,94%,0,363,3.75,1,1,"6,045",57%,43%,0,0,0,"4,423",4,,,,,
+1-52,UKIAH VALLEY,,North Coast,"37,508",15.8,Medium,"32,761",2,100%,1,"1,689",3.75,29,3,"7,500",32%,68%,2,2,2,"9,361",3,,,1,"2010 Ukiah Valley Water Supply Assessment expresses concerns regarding SWRCB assertion that all or most of the ""groundwater"" in the basin is, for legal purposes, underflow from the Russian River and associated tributaries…which support endangered fishery.",GW Use based on 2010 Mendocino Water Agency Water Supply Assessment for Ukiah Valley
+1-53,SANEL VALLEY,,North Coast,"5,568",0.0,Very Low,698,1,103%,0,104,3,5,4,"1,247",60%,40%,2,3,0,"2,258",4,,,,,
+1-54.01,ALEXANDER VALLEY,ALEXANDER AREA,North Coast,"24,464",0.0,Very Low,"2,098",1,93%,0,"1,099",3.75,31,4,642,12%,88%,0,1,0,"9,636",4,,,,,
+1-54.02,ALEXANDER VALLEY,CLOVERDALE AREA,North Coast,"6,525",0.0,Very Low,"8,297",2,137%,4,592,3.75,16,5,759,59%,41%,2,3,0,"2,339",4,1,Elevated Boron detected in 3 of 3 wells (B-118). Site in Southern Cloverdale is on the EPA's Superfund Priority List (MGM Brakes) VOCs detected in GW (EPA 1983).,,,
+1-55.01,SANTA ROSA VALLEY,SANTA ROSA PLAIN,North Coast,"80,059",18.8,Medium,"250,375",3,119%,2,"10,983",3.75,192,5,"13,698",35%,65%,2,2,2,"17,727",3,,,,,
+1-55.02,SANTA ROSA VALLEY,HEALDSBURG AREA,North Coast,"15,400",0.0,Very Low,"10,515",2,98%,0,"1,383",3.75,33,5,"3,281",53%,47%,0,0,0,"7,973",4,,,,,
+1-55.03,SANTA ROSA VALLEY,RINCON VALLEY,North Coast,"5,549",0.0,Very Low,"21,787",4,122%,3,919,3.75,18,5,577,41%,59%,2,3,0,67,1,,,,,
+1-56,McDOWELL VALLEY,,North Coast,"1,486",0.0,Very Low,106,1,100%,0,48,3.75,0,0,307,60%,40%,2,3,0,664,4,,,,,
+1-57,BODEGA BAY AREA,,North Coast,"2,676",0.0,Very Low,719,1,106%,0,58,3,6,5,410,100%,0%,2,5,0,0,0,,,,,"GW Use based on report by Bodega Bay PUD for 1994 - 1999, average.  Sea water intrusion possibility due to contact with Pacific Ocean "
+1-59,WILSON GROVE FORMATION HIGHLANDS,,North Coast,"86,400",0.0,Very Low,"37,799",2,92%,0,"8,422",3.75,92,4,"3,417",23%,77%,0,0,0,"10,404",2,,,,,
+1-6,HAYFORK VALLEY,,North Coast,"3,295",0.0,Very Low,814,1,133%,0,67,3,0,0,"1,019",100%,0%,3,5,0,337,2,,,,,
+1-60,LOWER RUSSIAN RIVER VALLEY,,North Coast,"6,640",0.0,Very Low,"3,754",2,117%,2,188,3,38,5,106,11%,89%,2,1,0,"1,219",3,1,"Brackish water found in wells near the Russian River from the river mouth to below Duncan Mills (5 to 6 miles). During a period of extremely low streamflow, saline water might extend 10 miles upstream from river mouth to Monte Rio.(B-118).",,,
+1-61,FORT ROSS TERRACE DEPOSITS,,North Coast,"8,483",0.0,Very Low,"1,075",1,115%,2,176,3,13,4,37,67%,33%,1,4,0,0,0,1,"Seawater intrusion is not a common problem but it has occurred in localized areas near Point Arena and Iverson Point (DWR 1982). The Terrace deposits between Alder Creek and Point Arena are susceptible to seawater intrusion (DWR 1982, & B-118).",,,
+1-62,WILSON POINT AREA,,North Coast,709,0.0,Very Low,14,1,171%,0,0,0,0,0,100,100%,0%,2,5,0,36,2,,,,,
+1-7,HOOPA VALLEY,,North Coast,"3,894",0.0,Very Low,"1,797",2,110%,2,42,2.25,0,0,338,30%,70%,1,2,0,302,2,,,,,
+1-8.01,MAD RIVER VALLEY,MAD RIVER LOWLAND,North Coast,"13,981",0.0,Very Low,"14,204",2,114%,2,375,3,1,1,"6,400",20%,80%,0,0,0,"1,162",2,,,,,"1) Changed GW Use from 1664 to 6400 af/yr, based on B118-03 data. 2) Swapped the physical details between .01 and .02 subbasins. Physical details on the basins have always been backward since 2003"
+1-8.02,MAD RIVER VALLEY,DOWS PRAIRIE SCHOOL AREA,North Coast,"25,570",0.0,Very Low,"23,086",2,103%,1,555,3,12,3,"2,200",90%,10%,0,0,0,"8,347",4,,,,,1) Changed GW Use from 5114 to 2200 af/yr based on B118-03. 2) Swapped the physical details between .01 and .02 subbasins. (http://www.water.ca.gov/groundwater/bulletin118/north_coast.cfm).
+1-9,EUREKA PLAIN,,North Coast,"37,405",0.0,Very Low,"50,231",2,106%,1,878,3,5,1,"4,600",76%,24%,2,4,0,"6,811",3,,,,,"New LWU data indicates GW use of 11K/yr . Urban GW (6,336 AF) is supplied from outside the basin. Not counted in total."
+2-1,PETALUMA VALLEY,,San Francisco Bay,"46,043",18.3,Medium,"49,915",2,123%,3,"1,870",3.75,27,3,"2,689",26%,74%,1,2,1.5,"9,270",3,2,Widespread and serious nitrate contamination affecting shallow wells in the upland area NW of Petaluma. Generally poor quality GW south of Petaluma. Potential for seawater intrusion in tidal reaches. Increasing MTBE contamination.(B-118 unpublished data).,,,
+2-10,LIVERMORE VALLEY,,San Francisco Bay,"69,531",17.3,Medium,"196,658",3,124%,3,"4,632",3.75,32,3,"5,692",30%,70%,1,2,1.5,"6,347",2,1,Some areas have boron concentrations exceeding 2 mg/L (B-118 & Sorenson et. al. 1985).,,,
+2-11,SUNOL VALLEY,,San Francisco Bay,"16,623",0.0,Very Low,808,1,141%,0,213,2.25,0,0,509,41%,59%,1,3,0,405,1,,,,,
+2-19,KENWOOD VALLEY,,San Francisco Bay,"5,135",0.0,Very Low,"6,057",2,107%,1,424,3.75,12,5,136,8%,92%,1,1,0,"1,093",3,,,,,
+2-2.01,NAPA-SONOMA VALLEY,NAPA VALLEY,San Francisco Bay,"45,895",20.8,Medium,"91,234",3,108%,1,"3,960",3.75,76,5,"20,000",58%,42%,3,3,3,"20,510",4,1,"Two isolated areas in the Sonoma Valley indicate substantial declines in GW elevations and RWQCB report that 43 underground fuel tank leaks have occurred in the basin (unpublished B-118 data) (Ludhorff & Scalmanini Consulting Engineers, 1999).",,,GW Use based on data from 2005 Napa Co GW Hydrology report.
+2-2.02,NAPA-SONOMA VALLEY,SONOMA VALLEY,San Francisco Bay,"44,626",16.3,Medium,"31,275",2,103%,1,"2,242",3.75,31,3,"2,523",20%,80%,1,2,1.5,"15,382",4,1,"Brackish water occurs in deposits near San Pablo Bay and along the tidal portions of Sonoma creek. RWQCB reports 43 underground fuel tank leaks have occurred in the basin (unpublished B-118 data) (Ludhorff & Scalmanini, 1999).",,,
+2-2.03,NAPA-SONOMA VALLEY,NAPA-SONOMA LOWLANDS,San Francisco Bay,"40,455",0.0,Very Low,"58,367",2,99%,0,"1,127",3,12,2,"1,062",16%,84%,2,1,0,"5,159",2,,,,,
+2-22,HALF MOON BAY TERRACE,,San Francisco Bay,"9,189",0.0,Very Low,"19,825",3,125%,3,"1,031",3.75,17,5,603,56%,44%,1,3,0,"1,739",3,,,,,
+2-24,SAN GREGORIO VALLEY,,San Francisco Bay,"1,074",0.0,Very Low,66,1,100%,0,14,2.25,0,0,0,0%,100%,0,0,0,247,3,,,,,
+2-26,PESCADERO VALLEY,,San Francisco Bay,"2,904",0.0,Very Low,571,1,108%,0,76,3,3,4,0,0%,100%,0,0,0,473,3,,,,,
+2-27,SAND POINT AREA,,San Francisco Bay,"1,405",0.0,Very Low,43,1,109%,0,2,0.75,3,5,2,70%,30%,1,4,0,0,0,,,,,
+2-28,ROSS VALLEY,,San Francisco Bay,"1,763",0.0,Very Low,"7,194",4,109%,2,36,3,0,0,0,0%,100%,0,0,0,6,1,,,,,
+2-29,SAN RAFAEL VALLEY,,San Francisco Bay,874,0.0,Very Low,"10,153",5,103%,1,155,3.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+2-3,SUISUN-FAIRFIELD VALLEY,,San Francisco Bay,"133,505",0.0,Very Low,"136,754",2,145%,5,"1,613",2.25,11,1,"6,655",28%,72%,0,0,0,"11,899",2,,,,,
+2-30,NOVATO VALLEY,,San Francisco Bay,"20,519",0.0,Very Low,"42,516",3,109%,2,844,3.75,0,0,"2,700",46%,54%,0,0,0,"3,642",3,,,,,
+2-31,ARROYO DEL HAMBRE VALLEY,,San Francisco Bay,786,0.0,Very Low,"3,230",4,81%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+2-32,VISITACION VALLEY,,San Francisco Bay,"5,827",0.0,Very Low,"31,853",4,138%,4,210,3.75,0,0,10,5%,95%,0,1,0,0,0,,,,,
+2-33,ISLAIS VALLEY,,San Francisco Bay,"5,937",0.0,Very Low,"131,576",5,105%,1,126,3,0,0,0,0%,100%,0,0,0,0,0,,,,,
+2-35,WESTSIDE,,San Francisco Bay,"25,386",0.0,Very Low,"351,235",5,111%,2,"1,761",3.75,22,4,"8,564",30%,70%,0,0,0,44,1,,,,,PubCom - GW Use and % of water supplied by GW
+2-36,SAN PEDRO VALLEY,,San Francisco Bay,702,0.0,Very Low,"5,956",5,92%,0,50,3.75,0,0,0,0%,100%,0,0,0,4,1,,,,,
+2-37,SOUTH SAN FRANCISCO,,San Francisco Bay,"2,175",0.0,Very Low,"38,861",5,105%,1,106,3.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+2-38,LOBOS,,San Francisco Bay,"2,359",0.0,Very Low,"59,119",5,97%,0,24,2.25,0,0,0,0%,100%,0,0,0,0,0,1,"Limited water quality data but basins beneath the entire San Francisco peninsula are similar (Phillips et.al. 1993). May contain high concentrations of nitrates, chloride, boron and TDS.(B-118)",,,
+2-39,MARINA,,San Francisco Bay,"2,186",0.0,Very Low,"45,294",5,96%,0,26,2.25,0,0,0,0%,100%,0,0,0,0,0,1,"Limited water quality data but basins beneath the entire San Francisco peninsula are similar (Phillips et.al. 1993). May contain high concentrations of nitrates, chloride, boron and TDS.(B-118)",,,
+2-4,PITTSBURG PLAIN,,San Francisco Bay,"11,607",0.0,Very Low,"68,898",4,119%,3,"1,044",3.75,10,4,"1,845",10%,90%,2,1,0,0,0,,,,,GW Use based on GWMP. Averaged used
+2-40,DOWNTOWN,,San Francisco Bay,"7,635",0.0,Very Low,"323,721",5,104%,1,336,3.75,0,0,0,0%,100%,0,0,0,0,0,1,"Groundwater is subject to high concentrations of nitrates, chloride, boron and TDS (B-118) & (Phillips et.al. 1993).",,,
+2-5,CLAYTON VALLEY,,San Francisco Bay,"17,836",0.0,Very Low,"73,287",4,102%,1,828,3.75,3,2,189,15%,85%,1,1,0,29,1,,,,,
+2-6,YGNACIO VALLEY,,San Francisco Bay,"15,459",0.0,Very Low,"107,878",5,107%,1,"1,607",3.75,3,2,131,8%,92%,1,1,0,6,1,1,Hydrographs created from DWR well data indicate groundwater levels have declined gradually over the period of record.(B-118),,,
+2-7,SAN RAMON VALLEY,,San Francisco Bay,"7,053",0.0,Very Low,"30,112",4,112%,2,351,3.75,0,0,33,6%,94%,1,1,0,26,1,,,,,
+2-8,CASTRO VALLEY,,San Francisco Bay,"1,821",0.0,Very Low,"24,486",5,99%,0,244,3.75,0,0,39,11%,89%,2,1,0,0,0,,,,,
+2-9.01,SANTA CLARA VALLEY,NILES CONE,San Francisco Bay,"57,906",19.8,Medium,"321,494",4,107%,1,"6,051",3.75,25,3,"29,600",60%,40%,4,4,4,914,1,3,Saline water intrusion has increased landward and into deeper aquifers since first documented in the 1920's.(B-118),,,GW Use based on B118-03 data. GW percentage is updated based on PubCom
+2-9.02,SANTA CLARA VALLEY,SANTA CLARA,San Francisco Bay,"190,235",20.3,Medium,"1,633,190",5,115%,2,"46,423",3.75,220,4,"150,000",69%,31%,5,4,4.5,3,0,1,Areas with elevated mineral levels have been observed in the northern basin (SCVWD 2001). Elevated nitrate in some wells in the southern portion of the Basin (SCVWD).,,,GW Use of 150K afy based on 2012 SCVWD GWMP.
+2-9.03,SANTA CLARA VALLEY,SAN MATEO PLAIN,San Francisco Bay,"37,708",0.0,Very Low,"291,899",5,121%,3,"2,611",3.75,9,2,"1,987",14%,86%,0,0,1,97,1,1,2003 Water Board Study of South Bay GW basins,,,GW Use and reviewed WQ issues withing the basin. updated per PubCom
+2-9.04,SANTA CLARA VALLEY,EAST BAY PLAIN,San Francisco Bay,"77,292",14.8,Medium,"881,718",5,102%,1,"9,892",3.75,4,1,"3,350",10%,90%,0,0,1,68,1,2,SFRWQCB (1999) identified 13 locations as areas of major groundwater pollution. Most contamination appears to be restricted to the upper 50 feet of the subsurface. (B-118) & (RWQCB 1999).,,,GW Use based on B118-03 data.
+3-1,SOQUEL VALLEY,,Central Coast,"2,515",22.3,High,"18,634",5,116%,2,172,3.75,10,5,"6,890",63%,37%,5,4,4.5,26,1,1,"Water quality degradation, saline intrusion issues.",,,GW Use based on B118-03 data.
+3-12,SANTA MARIA,,Central Coast,"184,248",24.0,High,"201,759",2,127%,3,"1,234",1.5,179,4,"138,510",77%,23%,5,4,4.5,"115,386",5,4,Documented overdraft of basin. Water quality degradation due to farming practices.,,,
+3-13,CUYAMA VALLEY,,Central Coast,"242,114",13.8,Medium,"1,236",0,101%,0,248,0.75,12,1,"69,160",100%,0%,3,5,4,"26,023",2,3,Local salinity and TDS impairments in basin (B-118),3,"Declining Groundwater levels of 150-300' over the last 40-50 years (DWR, 1998). Conservation Assessment by TNC (2009) indicates annual GW budget deficit of ~ 28,500 af",GW Use based on B118-03 data.
+3-14,SAN ANTONIO CREEK VALLEY,,Central Coast,"81,941",15.0,Medium,"2,279",1,126%,0,362,1.5,12,1,"16,000",100%,0%,2,5,3.5,"11,614",2,4,"Overdraft, water quality degradation.",2,"Santa Barbara Water Element, Table 1, p.10, indicates San Antonio basin overdraft by ~ 9,000 af/yr",GW Use based on B118-03 data and 2009 Santa Barabara Water Element
+3-15,SANTA YNEZ RIVER VALLEY,,Central Coast,"204,642",17.3,Medium,"75,460",1,103%,1,"1,854",2.25,108,3,"77,114",98%,2%,3,5,4,"38,242",3,3,Overdraft has been documented by the county in the past. Also some groundwater quality impairments.,,,
+3-16,GOLETA,,Central Coast,"9,229",18.8,Medium,"47,252",4,108%,1,366,3.75,31,5,"3,000",11%,89%,3,1,2,"1,083",2,,,1,"Estimated overdraft for the north-central portion of the basin ins estimated at 1,180 af/yr (Santa Barbara Water Conservation Element, 2009)","Overdraft of this basin is not projected to continue as a result of the court judgement in the Wright vs Goleta Water District lawsuit. 5/7/14 - GWD GWMP (2010) indicates ~3000AF of combined GW pumping in the basin. For GWD, it represents 14% of supply."
+3-17,SANTA BARBARA,,Central Coast,"6,173",0.0,Very Low,"63,966",5,98%,0,425,3.75,7,4,"1,162",10%,90%,2,1,0,23,1,2,"Water Quality Impacts: Saline intrusion, locally high EC, hardness, hydrogen sulfides, and other constituents.(B-118)",,,"5/7/14 - The city used 662AF of GW in 2013 and private pumpers another 500AF (City of SB, WSMR - Jan 2014)"
+3-18,CARPINTERIA,,Central Coast,"8,140",0.0,Very Low,"14,561",3,86%,0,98,2.25,9,4,"1,387",14%,86%,2,1,0,"4,565",5,,,,,
+3-19,CARRIZO PLAIN,,Central Coast,"210,896",0.0,Very Low,440,0,116%,0,18,0.75,1,1,91,0%,100%,0,1,0,"18,500",2,,,,,
+3-2,PAJARO VALLEY,,Central Coast,"88,062",24.8,High,"114,282",2,111%,2,"3,523",3.75,135,4,"67,000",98%,2%,5,5,5,"29,650",4,4,"PVWMD 2011 Annual Report indicates that Pajaro Valley GW basin remains in significant overdraft, with continuing seawater intrusion and GW storage depletion.",,,NRO: B118-03 GW use estimate = 67 TAF. Harkins Slugh managed aquifer recharge and recovery facility started operation in 2011 with 250 AF of recharge.
+3-20,ANO NUEVO AREA,,Central Coast,"2,030",0.0,Very Low,46,1,93%,0,12,1.5,2,4,100,100%,0%,1,5,0,399,3,,,,,
+3-21,SANTA CRUZ PURISIMA FORMATION,,Central Coast,"40,166",14.3,Medium,"17,693",2,88%,0,"1,399",3.75,20,3,"15,000",79%,21%,3,4,3.5,531,1,,,1,"Basin comprises the highland area east of Santa Cruz and serves as a forebay to Pajaro, Soquel, and Terrace Basins to the west…which are in various stages of overdraft.",
+3-22,SANTA ANA VALLEY,,Central Coast,"2,724",0.0,Very Low,76,1,105%,0,25,2.25,0,0,"1,623",100%,0%,4,5,0,"1,486",4,,,,,
+3-23,UPPER SANTA ANA VALLEY,,Central Coast,"1,431",0.0,Very Low,5,0,300%,0,0,0,0,0,2,100%,0%,1,5,0,0,0,,,,,
+3-24,QUIEN SABE VALLEY,,Central Coast,"4,706",0.0,Very Low,5,0,300%,0,0,0,0,0,1,0%,100%,1,1,0,"1,142",3,,,,,
+3-25,TRES PINOS VALLEY,,Central Coast,"3,385",0.0,Very Low,48,1,113%,0,34,2.25,5,4,"1,806",100%,0%,4,5,0,"1,519",4,,,,,
+3-26,WEST SANTA CRUZ TERRACE,,Central Coast,"7,863",20.8,Medium,"70,336",5,104%,1,419,3.75,4,3,"4,036",64%,36%,4,4,4,221,1,2,Water quality degradation,1,"Low GW use, but basin at high risk of seawater intrusion due to thin alluvial aquifer and dependency on up-gradient users to maintain positive westward flow conditions (2005, Santa Cruz UWMP).",Potential for seawater intrusion due to reversal of GW gradients to the east. Future use of Live Oak wells (2 mgd) is in jeopardy if drought conditions change gradient and induce seawater intrusion…current conditions are in balance but close.
+3-27,SCOTTS VALLEY,,Central Coast,773,0.0,Very Low,"3,875",4,101%,1,337,3.75,3,5,285,0%,100%,3,0,0,0,0,4,Overdraft and water quality issues associated with contaminated sites within the basin.,,,
+3-28,SAN BENITO RIVER VALLEY,,Central Coast,"24,223",0.0,Very Low,101,0,102%,0,46,0.75,7,2,946,100%,0%,1,5,0,795,1,,,,,
+3-29,DRY LAKE VALLEY,,Central Coast,"1,416",0.0,Very Low,8,0,150%,0,0,0,0,0,201,100%,0%,2,5,0,125,2,,,,,
+3-3.01,GILROY-HOLLISTER VALLEY,LLAGAS AREA,Central Coast,"55,967",25.8,High,"91,706",3,113%,2,"5,537",3.75,94,5,"44,000",90%,10%,5,5,5,"36,140",5,2,"Nitrate has impacted a significant number of private domestic wells across the Llagas Subbasin due to historic and ongoing sources including agricultural activities and septic systems, Perchlorate is also a problem",,,
+3-3.02,GILROY-HOLLISTER VALLEY,BOLSA AREA,Central Coast,"20,912",16.3,Medium,"2,935",1,105%,1,229,2.25,3,1,"2,200",25%,75%,2,2,2,"13,051",5,4,"Water quality degradation, overdraft.",,,"2012 Groundwater reports for San BenitoWD show stable GW levels and average pumping of 2,200 per year for Bolsa area."
+3-3.03,GILROY-HOLLISTER VALLEY,HOLLISTER AREA,Central Coast,"32,729",17.5,Medium,"22,013",2,106%,1,731,3,33,4,"14,299",75%,25%,3,4,3.5,"14,342",4,,,,,
+3-3.04,GILROY-HOLLISTER VALLEY,SAN JUAN BAUTISTA AREA,Central Coast,"74,305",16.8,Medium,"26,150",1,108%,1,790,2.25,57,3,"13,530",80%,20%,2,5,3.5,"11,313",2,4,Poor water quality due to high TDS.,,,
+3-30,BITTER WATER VALLEY,,Central Coast,"32,222",0.0,Very Low,38,0,111%,0,18,0.75,0,0,"3,023",100%,0%,0,0,0,"2,557",2,,,,,
+3-31,HERNANDEZ VALLEY,,Central Coast,"2,865",0.0,Very Low,3,0,300%,0,10,1.5,0,0,0,0%,100%,0,0,0,0,0,,,,,
+3-32,PEACH TREE VALLEY,,Central Coast,"9,791",0.0,Very Low,7,0,157%,0,3,0.75,0,0,902,100%,0%,1,5,0,"1,193",2,,,,,
+3-33,SAN CARPOFORO VALLEY,,Central Coast,"1,054",0.0,Very Low,4,0,100%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+3-34,ARROYO DE LA CRUZ VALLEY,,Central Coast,"1,028",0.0,Very Low,1,0,300%,0,0,0,0,0,0,0%,100%,0,0,0,252,3,,,,,
+3-35,SAN SIMEON VALLEY,,Central Coast,560,0.0,Very Low,9,1,56%,0,0,0,8,5,"1,010",10%,90%,5,1,0,158,3,,,,,GW Use based on B118-03 data
+3-36,SANTA ROSA VALLEY,,Central Coast,"3,525",0.0,Very Low,920,1,110%,0,0,0,1,2,"5,900",8%,92%,0,0,0,"1,196",4,,,,,GW Use based on B118-03 data
+3-37,VILLA VALLEY,,Central Coast,"1,358",0.0,Very Low,21,1,124%,0,0,0,0,0,0,0%,100%,0,0,0,461,4,,,,,
+3-38,CAYUCOS VALLEY,,Central Coast,336,0.0,Very Low,3,0,167%,0,0,0,0,0,0,0%,100%,0,0,0,15,2,,,,,
+3-39,OLD VALLEY,,Central Coast,"1,179",0.0,Very Low,217,1,62%,0,0,0,0,0,0,0%,100%,0,0,0,58,2,,,,,
+3-4.01,SALINAS VALLEY,180/400 FOOT AQUIFER,Central Coast,"84,321",24.0,High,"55,740",2,99%,0,"2,443",3,126,4,"130,000",100%,0%,5,5,5,"57,746",5,5,Coastal basin with saline intrusion in both 180-Foot and 400-Foot aquifers due to excessive GW pumping,,,GW Use based on B118-03 data
+3-4.02,SALINAS VALLEY,EAST SIDE AQUIFER,Central Coast,"57,452",27.0,High,"128,646",3,129%,4,"1,587",3,61,4,"86,000",100%,0%,5,5,5,"35,445",5,3,"Overdraft conditions in basin, high TDS and Nitrates exceeding drinking water standards in portions of the basin",,,GW Use based on B118-03 data
+3-4.04,SALINAS VALLEY,FOREBAY AQUIFER,Central Coast,"94,025",17.3,Medium,"43,867",2,105%,1,935,2.25,34,2,"160,000",100%,0%,5,5,5,"60,146",5,,,,,GW Use based on B118-03 data
+3-4.05,SALINAS VALLEY,UPPER VALLEY AQUIFER,Central Coast,"98,164",15.5,Medium,"15,862",1,103%,1,525,1.5,20,2,"125,000",100%,0%,5,5,5,"51,574",4,1,Poor quality water along the eastern side of subbasin. PSW above MCL for inorganics and Nitrates (B-118).,,,GW Use based on 2011 MC WMA Annual Report. No data on %GW
+3-4.06,SALINAS VALLEY,PASO ROBLES AREA,Central Coast,"597,241",23.3,High,"56,077",1,137%,4,440,0.75,132,2,"120,215",100%,0%,2,5,3.5,"101,763",3,4,Nitrate and TDS impacts to groundwater (B-118),5,County groundwater ordinance banning further residential development in basin.,
+3-4.08,SALINAS VALLEY,SEASIDE AREA,Central Coast,"25,903",20.8,Medium,"65,899",3,100%,0,902,3.75,29,4,"11,135",100%,0%,3,5,4,758,1,5,Seawater intrusion in coastal basin due to excessive pumping,,,
+3-4.09,SALINAS VALLEY,LANGLEY AREA,Central Coast,"15,344",18.8,Medium,"9,833",2,104%,1,"1,136",3.75,71,5,"13,000",100%,0%,5,5,5,"2,084",2,,,,,
+3-4.10,SALINAS VALLEY,CORRAL DE TIERRA AREA,Central Coast,"22,274",15.0,Medium,"7,831",1,122%,3,449,3,21,4,"10,000",100%,0%,3,5,4,0,0,,,,,
+3-40,TORO VALLEY,,Central Coast,722,0.0,Very Low,8,1,100%,0,0,0,0,0,0,0%,100%,0,0,0,166,3,,,,,
+3-41,MORRO VALLEY,,Central Coast,646,0.0,Very Low,399,2,99%,0,0,0,7,5,0,0%,100%,0,0,0,749,5,,,,,
+3-42,CHORRO VALLEY,,Central Coast,"1,547",0.0,Very Low,247,1,99%,0,0,0,1,3,0,0%,100%,0,0,0,"1,123",5,,,,,
+3-43,RINCONADA VALLEY,,Central Coast,"2,579",0.0,Very Low,11,0,136%,0,0,0,0,0,2,0%,100%,1,1,0,973,4,,,,,
+3-44,POZO VALLEY,,Central Coast,"6,852",0.0,Very Low,52,0,96%,0,0,0,9,4,11,2%,98%,1,1,0,504,2,,,,,
+3-45,HUASNA VALLEY,,Central Coast,"4,706",0.0,Very Low,55,1,73%,0,2,0.75,0,0,14,1%,99%,0,1,0,580,2,,,,,
+3-46,RAFAEL VALLEY,,Central Coast,"2,996",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+3-47,BIG SPRING AREA,,Central Coast,"7,332",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,"1,435",3,,,,,
+3-49,MONTECITO,,Central Coast,"6,286",0.0,Very Low,"9,885",3,86%,0,476,3.75,8,4,300,5%,95%,1,1,0,236,1,1,Locally high TDS within the basin. Wells exceed Federal iron and manganese concentrations (B-118).,,,GW Use from Montecito Water District. 
+3-5,CHOLAME VALLEY,,Central Coast,"39,847",0.0,Very Low,48,0,8%,0,32,0.75,1,1,"5,011",100%,0%,0,0,0,"3,541",2,,,,,
+3-50,FELTON AREA,,Central Coast,"1,155",0.0,Very Low,"3,024",3,102%,1,41,3.75,0,0,165,63%,37%,2,4,0,0,0,3,Overdraft,,,
+3-51,MAJORS CREEK,,Central Coast,364,0.0,Very Low,53,1,91%,0,2,1.5,0,0,200,100%,0%,4,5,0,229,5,,,,,
+3-52,NEEDLE ROCK POINT,,Central Coast,479,0.0,Very Low,66,1,114%,0,33,3.75,0,0,200,100%,0%,3,5,0,283,5,,,,,
+3-53,FOOTHILL,,Central Coast,"3,123",0.0,Very Low,"17,543",4,115%,2,129,3.75,10,5,"1,255",3%,97%,3,1,0,1,1,5,USGS documented nitrates exceeding MCL and high sulfates in the basin. TDS is documented to be high in the basin and potential for saline intrusion.,,,
+3-6,LOCKWOOD VALLEY,,Central Coast,"59,933",0.0,Very Low,"1,171",1,173%,0,446,1.5,15,2,"4,565",100%,0%,0,0,0,"3,677",2,,,,,
+3-7,CARMEL VALLEY,,Central Coast,"5,151",22.8,High,"5,086",2,121%,3,331,3.75,20,5,"9,500",100%,0%,5,5,5,557,2,1,"Excessive pumping of Cal-Am wells caused basin overdraft and Carmel River to dry, leading to court order.",1,SW-GW Interaction Issue. Cal-Am Water Company court ordered to reduce 2/3rds of diversions from Carmel River.,GW use from B118-03 data
+3-8,LOS OSOS VALLEY,,Central Coast,"6,994",22.0,High,"13,948",3,99%,0,0,0,25,5,"2,100",40%,60%,3,3,3,"2,215",4,5,"Documented saline intrusion due to ""serious"" overdraft, also nitrate impairment.",2,Interlocutory Stipulated Judgment against water suppliers and purveyors in basin and proceeding with adjudication. Also add one point due to total well count error for this basin.,GW use from B118-03 data
+3-9,SAN LUIS OBISPO VALLEY,,Central Coast,"12,724",19.5,Medium,"18,834",2,108%,1,0,0,56,5,"5,000",60%,40%,3,4,3.5,"5,211",4,3,Overdraft Conditions,1,"While only 18,000 may live in the actual basin, over 45,000 (2010 census) rely on the basin for 2/3rds of their drinking water.",GW use from B118-03 data
+4-1,UPPER OJAI VALLEY,,South Coast,"3,815",0.0,Very Low,616,1,89%,0,7,0.75,1,2,13,1%,99%,1,1,0,"1,043",3,5,"Groundwater has been documented to contain high levels of boron, sodium chloride, high TDS, sulfate, nitrates, iron, and chlorides (B-118)",,,
+4-10,CONEJO,,South Coast,"18,848",13.0,Low,"96,704",4,115%,2,103,1.5,2,1,"2,029",52%,48%,2,3,2.5,1,1,1,Locally high TDS in basin and one well with nitrate levels above MCL (B-118).,,,
+4-11.01,COASTAL PLAIN OF LOS ANGELES,SANTA MONICA,South Coast,"31,846",19.3,Medium,"465,606",5,121%,3,"1,586",3.75,10,2,"3,500",42%,58%,2,3,2.5,0,0,3,MTBE contamination has led to significant reduction in groundwater production and locally high TDS.,,,GW Use based on 2011-12 MWD report
+4-11.02,COASTAL PLAIN OF LOS ANGELES,HOLLYWOOD,South Coast,"10,108",0.0,Very Low,"250,649",5,97%,0,505,3.75,7,3,"1,800",42%,58%,2,3,0,0,0,1,MWD lists some TDS and VOC water quality issues.,,,GW Use based on 2011-12 MWD report
+4-11.03,COASTAL PLAIN OF LOS ANGELES,WEST COAST,South Coast,"93,795",20.8,Medium,"1,195,195",5,106%,1,"4,221",3.75,45,3,"43,920",42%,58%,3,3,3,0,0,5,Basin in overdraft since 1960's. Adjudicated basin. Saline intrusion problem and a seawater barrier project is in effect to reduce seawater intrusion.,,,GW Use based on WRD data per 2011 Engineering Report.
+4-11.04,COASTAL PLAIN OF LOS ANGELES,CENTRAL,South Coast,"180,357",24.8,High,"3,052,303",5,111%,2,"6,752",3.75,428,5,"197,387",42%,58%,5,3,4,0,0,5,Basin was adjudicated in the early 1960's due to overdraft. Several public supply wells are known to be impacted by various water quality issues.,,,GW Use based on WRD data per 2011 Engineering Report.
+4-12,SAN FERNANDO VALLEY,,South Coast,"145,354",19.8,Medium,"1,745,338",5,120%,3,"1,909",2.25,102,3,"108,500",13%,87%,4,1,2.5,0,0,3,Several public supply wells have shown contamination per Bulletin 118.,1,Basin is adjudicated.,GW Use based on B118-03 data
+4-13,SAN GABRIEL VALLEY,,South Coast,"127,278",21.3,High,"1,275,187",5,104%,1,"1,587",2.25,404,5,"218,696",56%,44%,5,3,4,0,0,3,Superfund sites are present within the basin and other areas with water quality impacts are known.,1,Adjudication (aka Six Basins),"PubCom - Similar issues with WQ in Raymond (4-23) that had a higher ""Documented Impacts"". Made both the same value of 3"
+4-15,TIERRA REJADA,,South Coast,"4,611",0.0,Very Low,"3,673",2,127%,3,3,0.75,0,0,77,3%,97%,1,1,0,"1,598",4,1,Locally high nitrates documented in the basin (B-118).,,,
+4-16,HIDDEN VALLEY,,South Coast,"2,217",0.0,Very Low,503,1,102%,0,15,1.5,2,4,11,0%,100%,1,1,0,"1,271",5,,,,,
+4-17,LOCKWOOD VALLEY,,South Coast,"21,841",11.3,Low,241,1,112%,0,35,0.75,1,1,"3,500",89%,11%,2,5,3.5,0,0,5,"Boron, arsenic, and radioactive uranium in some wells (B-118).",,,
+4-18,HUNGRY VALLEY,,South Coast,"5,324",0.0,Very Low,2,0,0%,0,0,0,1,2,0,0%,100%,0,0,0,0,0,1,Water is slightly alkaline (B-118).,,,
+4-19,THOUSAND OAKS AREA,,South Coast,"3,115",0.0,Very Low,"17,202",4,103%,1,41,2.25,0,0,242,50%,50%,1,3,0,0,0,5,"High TDS, alkalinity, and hardness in the basin (B-118).",,,
+4-2,OJAI VALLEY,,South Coast,"6,851",18.5,Medium,"8,268",2,94%,0,50,1.5,7,4,"5,873",97%,3%,5,5,5,"2,614",4,2,High nitrates and sulfates reported in the basin. Medium to high levels of nitrates reported in the basin.,,,
+4-20,RUSSELL VALLEY,,South Coast,"3,087",0.0,Very Low,"18,860",4,93%,0,12,1.5,0,0,600,3%,97%,2,1,0,0,0,3,TDS and sulfate exceed MCL for some wells in the basin per Bulletin 118.,,,GW Use based on B118-03 data
+4-22,MALIBU VALLEY,,South Coast,615,0.0,Very Low,563,2,100%,0,34,3.75,0,0,0,0%,100%,0,0,0,0,0,5,"Saline intrusion, high TDS and chlorides have been documented.",,,
+4-23,RAYMOND,,South Coast,"26,310",20.8,Medium,"223,100",5,112%,2,33,0.75,79,5,"59,000",85%,15%,5,5,5,0,0,3,Water quality impacts and a superfund.,,,"GW Use based on watermaster report.  PubCom - Similar issues with WQ in San Gabriel (4-13) that had a lower ""Documented Impacts"" value. Made both the same value of 3."
+4-3.01,VENTURA RIVER VALLEY,UPPER VENTURA RIVER,South Coast,"7,430",18.3,Medium,"15,961",3,83%,0,20,0.75,23,5,"4,000",90%,10%,4,5,4.5,"1,125",2,3,TDS is known to be high in some parts of the basin (B-118).,,,GW Use based on 'average' found in CASGEM monitoring plan
+4-3.02,VENTURA RIVER VALLEY,LOWER VENTURA RIVER,South Coast,"5,312",0.0,Very Low,"15,920",3,102%,1,45,2.25,0,0,331,23%,77%,1,2,0,379,2,3,"Oil, high sulfates, nitrates, and hydrogen sulfide are documented to be present in the basin.",,,
+4-4.02,SANTA CLARA RIVER VALLEY,OXNARD,South Coast,"58,200",26.8,High,"235,973",4,122%,3,147,0.75,68,4,"77,036",94%,6%,5,5,5,"49,616",5,5,"Saline intrusion, nitrates, pesticides, and PCBs have impacted some water wells per (B-118).",,,
+4-4.03,SANTA CLARA RIVER VALLEY,MOUND,South Coast,"14,846",17.3,Medium,"77,886",4,111%,2,126,2.25,2,1,"7,330",83%,17%,3,5,4,"3,487",3,1,Some primary and secondary inorganic contaminants above the MCL (B-118).,,,
+4-4.04,SANTA CLARA RIVER VALLEY,SANTA PAULA,South Coast,"22,899",20.5,Medium,"46,816",3,109%,1,79,1.5,13,3,"25,940",97%,3%,5,5,5,"12,014",4,3,"Nitrates can fluctuate significantly in the basin, and above MCL. Other inorganics present above MCL. TDS is known to be high.",,,GW Use based on 'average' found in CASGEM monitoring plan
+4-4.05,SANTA CLARA RIVER VALLEY,FILLMORE,South Coast,"20,842",20.8,Medium,"16,417",2,116%,2,56,0.75,22,4,"44,350",99%,1%,0,0,5,"12,720",5,2,"Many groundwater quality impairments in the basin; Nitrates problematic during dry periods; High TDS, etc. (B-118). PubCom indicted WQ is localized and being managed",,,GW Use based on 'average' found in CASGEM monitoring plan
+4-4.06,SANTA CLARA RIVER VALLEY,PIRU,South Coast,"8,915",21.8,High,"2,666",1,129%,4,20,0.75,5,3,"12,490",80%,20%,5,5,5,"4,977",5,3,"GW Quality impacts: nitrates, storm runoff, leaking tanks, etc. (B-118). High Selenium and other inorganics, average TDS was 1450 mg/l (Ventura co 2011 annual GW report)",,,GW Use based on 'average' found in CASGEM monitoring plan
+4-4.07,SANTA CLARA RIVER VALLEY,SANTA CLARA RIVER VALLEY EAST,South Coast,"66,417",22.8,High,"221,204",3,231%,5,527,2.25,71,4,"35,000",15%,85%,4,1,2.5,63,1,5,"GW Quality Impacts: Nitrates, TCE, TDS, perchlorates, etc. (B-118)",,,GW Use based on B118-03 data
+4-5,ACTON VALLEY,,South Coast,"8,300",0.0,Very Low,"2,280",1,138%,4,230,3,16,5,"1,540",25%,75%,2,2,0,0,0,1,"Locally high concentrations of TDS, sulfate, and chloride and two wells in the basin with known concentrations of nitrates exceeding MCL (B-118).",,,GW Use based on B118-03 data
+4-6,PLEASANT VALLEY,,South Coast,"21,654",22.5,High,"69,392",3,126%,3,71,1.5,17,4,"18,000",85%,15%,5,5,5,"17,309",5,1,PC - Discharge of poor quality GW from dewatering wells and effluent discharge from the wastewater treatment facility into the Arroyo Simi have led to rising water levels in the basin along with higher TDS and Chloride levels.,,,GW Use based on B118-03 and CASGEM monitoring plan data
+4-7,ARROYO SANTA ROSA VALLEY,,South Coast,"3,747",19.8,Medium,"2,211",2,83%,0,6,0.75,5,4,"4,246",99%,1%,5,5,5,"2,368",5,3,"Elevated sulfates, nitrates, and TDS in the basin.(B-118)",,,
+4-8,LAS POSAS VALLEY,,South Coast,"42,353",22.3,High,"39,835",2,118%,2,600,2.25,21,3,"38,000",98%,2%,5,5,5,"23,416",5,3,"TDS is generally high in this basin. PubCom includes reports of subsidence, overdraft and saline intrusion (chloride from adjacient basin?)",,,GW Use based on 2012 Fox Canyon WMA Reports (tbl 2) GW extraction of East+South+West Las Posas PubCom - 600 wells
+4-9,SIMI VALLEY,,South Coast,"12,192",13.3,Low,"98,625",5,108%,1,10,0.75,3,2,"2,069",49%,51%,2,3,2.5,96,1,1,"VOCs, elevated TDS, and nitrates (B-118)",,,
+5-1.01,GOOSE LAKE,GOOSE VALLEY,Sacramento River,"35,966",0.0,Very Low,57,0,121%,0,86,0.75,0,0,"8,512",31%,69%,0,0,0,"14,360",4,,,,,
+5-1.02,GOOSE LAKE,FANDANGO VALLEY,Sacramento River,"18,439",0.0,Very Low,124,0,90%,0,73,1.5,2,1,"4,025",32%,68%,0,0,0,"6,830",4,,,,,
+5-10,AMERICAN VALLEY,,Sacramento River,"6,799",0.0,Very Low,"3,931",2,100%,0,348,3.75,12,5,"1,501",15%,85%,2,1,0,"2,802",4,,,,,
+5-11,MOHAWK VALLEY,,Sacramento River,"18,987",0.0,Very Low,"1,375",1,100%,0,344,3,11,3,607,13%,87%,1,1,0,"1,469",2,,,,,
+5-12.01,SIERRA VALLEY,SIERRA VALLEY,Sacramento River,"117,680",19.5,Medium,"2,196",1,100%,5,561,1.5,16,1,"68,188",32%,68%,4,2,3,"81,465",5,3,"Declining GW Levels and artesian well production along the east and northeast side of the valley. Poor quality water in west-central side of valley (boron, fluoride, arsenic, & sodium).",,,
+5-12.02,SIERRA VALLEY,CHILCOOT,Sacramento River,"7,551",0.0,Very Low,308,1,102%,0,125,3,5,3,300,2%,98%,1,1,0,"2,059",3,,,,,
+5-13,UPPER LAKE VALLEY,,Sacramento River,"7,260",0.0,Very Low,"2,055",1,123%,3,367,3.75,9,4,"5,400",68%,32%,0,0,0,"2,880",4,,,,,"PubCom - Changed  irrigated acreage to 254 ac/sq. mi,  groundwater use of 0.74 ac-ft/ac, Calculated Volume is 5400 Af-ft, 68% of the total supply coming from GW"
+5-14,SCOTTS VALLEY,,Sacramento River,"7,320",17.8,Medium,"6,553",2,97%,0,647,3.75,8,4,"5,124",80%,20%,4,4,4,"1,525",3,1,"Boron exceeds EPA maximum. Some additional WQ issues (inorganics and nitrates), but not signficant. Strong GW-SW interaction with Clear Lake.",,,"PubCom - Changed  irrigated acreage to 133 ac/sq. mi, GW Use of 0.70 ac-ft/ac, calc Volume is 5124 Af-ft, 80% of the total supply coming from GW."
+5-15,BIG VALLEY,,Sacramento River,"24,212",15.8,Medium,"6,344",1,118%,2,"1,091",3.75,4,2,"12,832",70%,30%,4,4,4,"6,800",3,,,,,"PubCom - Changed  irrigated acreage to 180 ac/sq. mi, GW use of 0.53 ac-ft/ac, calculated Volume is 12,832 Af-ft, 70% of the total supply coming from GW."
+5-16,HIGH VALLEY,,Sacramento River,"2,356",0.0,Very Low,34,1,150%,0,32,2.25,1,3,94,80%,20%,1,4,0,490,3,,,,,"PubCom - Changed  irrigated acreage to 133 ac/sq. mi,  GW use of 0.04 ac-ft/ac, Calculated GW volume is 94 Af-ft, 80% of the total supply coming from GW."
+5-17,BURNS VALLEY,,Sacramento River,"2,873",0.0,Very Low,"2,691",2,139%,4,151,3.75,0,0,160,30%,70%,1,2,0,81,1,,,,,"PubCom - Changed  irrigated acreage to 18.5 ac/sq. mi, GW use of 0.07 ac-ft/ac (.06), volume is 160 Af-ft, 30% of the total supply coming from GW."
+5-18,COYOTE VALLEY,,Sacramento River,"6,528",0.0,Very Low,"2,252",1,172%,5,138,3,2,2,"2,464",71%,29%,0,0,0,700,2,,,,,"PubCom - Changed  irrigated acreage to 67 ac/sq. mi, GW use of 0.377 ac-ft/ac, volume is 2464 Af-ft,  71% of the total supply coming from GW."
+5-19,COLLAYOMI VALLEY,,Sacramento River,"6,497",0.0,Very Low,"1,513",1,137%,4,178,3,2,2,649,67%,33%,1,4,0,240,1,,,,,"PubCom - Changed irrigated acreage to 23 ac/sq. mi, GW use of 0.1 ac-ft/ac, volume is 649 Af-ft, 67% of the total supply coming from GW."
+5-2.01,ALTURAS AREA,SOUTH FORK PITT RIVER,Sacramento River,"114,164",10.5,Low,"4,429",1,105%,0,714,1.5,9,1,"13,260",25%,75%,2,2,2,"35,874",4,1,Declining GW Levels in some parts of the basin.,,,
+5-2.02,ALTURAS AREA,WARM SPRINGS VALLEY,Sacramento River,"68,009",9.5,Low,964,1,102%,0,257,1.5,10,1,"8,097",25%,75%,2,2,2,"15,365",3,,,1,"40' declining in GW levels since 2000, along the west side of the basin.",
+5-20,BERRYESSA VALLEY,,Sacramento River,"1,375",0.0,Very Low,0,0,0%,0,2,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-21.50,SACRAMENTO VALLEY,RED BLUFF,Sacramento River,"274,489",16.0,Medium,"28,053",1,117%,2,"5,810",3,74,2,"90,000",51%,49%,3,3,3,"46,908",3,2,"Some GW quality impairments as per B-118, declining GW levels in west-side subdivision, and very high number of domestic GW use wells.",,,GW Use based on B118-03 and 2003 Tehama Co GW Inventory data
+5-21.51,SACRAMENTO VALLEY,CORNING,Sacramento River,"205,473",19.5,Medium,"18,852",1,119%,2,"4,125",3,28,1,"160,000",63%,37%,5,4,4.5,"72,909",4,2,Continued GW level decline over most of the basin.,2,This basin is becoming increasing dependent on GW due to uncertain reliability of CVP TCCA surface water supply.,GW Use based on B118-03 and 2003 Tehama Co GW Inventory data
+5-21.52,SACRAMENTO VALLEY,COLUSA,Sacramento River,"917,793",19.8,Medium,"48,369",1,123%,3,"9,695",2.25,135,1,"172,896",10%,90%,2,1,1.5,"572,927",5,3,Severely declining GW levels along the west-side of Glenn Co. Moderately declining GW levels in the Capay area. High TDS shallow aquifer in Maxwell- Williams area.,3,Increase in housing development along I5. GW-SW interaction is important to maintaining waterfowl refuges. Area is being highlighted as solution area for Delta outflow issues…proposed increase in CU and GW pumping.,
+5-21.53,SACRAMENTO VALLEY,BEND,Sacramento River,"21,748",0.0,Very Low,554,1,102%,0,227,2.25,2,1,"1,008",48%,52%,1,3,0,649,1,,,,,
+5-21.54,SACRAMENTO VALLEY,ANTELOPE,Sacramento River,"18,696",20.3,Medium,"6,124",1,105%,1,979,3.75,29,4,"20,000",73%,27%,5,4,4.5,"8,770",4,2,Nitrate issue in domestic wells.,,,GW Use based on B118-03 and 2003 Tehama Co GW Inventory data
+5-21.55,SACRAMENTO VALLEY,DYE CREEK,Sacramento River,"27,709",13.8,Medium,"1,626",1,119%,0,371,2.25,4,1,"39,000",29%,71%,5,2,3.5,"6,097",3,1,Some documented Boron issues along east-side of basin.,2,Strong SW-GW interaction. GW Basin provides underflow to Mill Creek which supports endangered spring-run salmon.,GW Use based on B118-03 and 2003 Tehama Co GW Inventory data
+5-21.56,SACRAMENTO VALLEY,LOS MOLINOS,Sacramento River,"33,148",14.3,Medium,"2,220",1,106%,0,489,2.25,9,2,"5,000",30%,70%,2,2,2,"6,204",3,1,Boron issues along east-side of basin.,3,GW basin provides underflow to Mill Creek which supports endangered spring-run salmon. High SW-GW interaction for much of the western basin.,GW Use based on 2003 Tehama Co GW Inventory data
+5-21.57,SACRAMENTO VALLEY,VINA,Sacramento River,"124,577",22.8,High,"71,397",2,140%,4,"4,295",3.75,62,3,"155,000",87%,13%,5,5,5,"43,328",4,,,1,GW from this basin is a key source of SW inflow and serves eastside creeks which have endangered spring run.,GW Use based on B118-03 and 2005 Butte County Inventory data
+5-21.58,SACRAMENTO VALLEY,WEST BUTTE,Sacramento River,"181,479",21.5,High,"36,152",1,136%,4,"3,660",3,37,2,"150,000",38%,62%,5,2,3.5,"116,582",5,2,Declining GW levels within the City of Chico and Durham areas (30-40' decline in mid-aquifer GW levels since 1998). High Nitrates in north and west Chico area. High density of GW contamination plumes surrounding City of Chico.,1,"GW serves as a source of underflow to Butte
+Creek, which has endangered spring-run salmon.",GW Use based on B118-03 and 2005 Butte County Inventory data
+5-21.59,SACRAMENTO VALLEY,EAST BUTTE,Sacramento River,"265,312",17.5,Medium,"38,465",1,132%,4,"4,436",3,48,2,"186,000",4%,96%,4,1,2.5,"144,305",4,,,1,GW basin provides underflow to Butte Creek which supports endangered spring-run salmon.,GW Use based on B118-03 and 2005 Butte County Inventory data
+5-21.60,SACRAMENTO VALLEY,NORTH YUBA,Sacramento River,"103,152",14.3,Medium,"14,667",1,100%,1,"1,334",2.25,17,2,"70,000",25%,75%,4,2,3,"53,387",4,,,1,Strong SW-GW interaction with Feather and Yuba River,GW Use based on B118-03 and 2005 Butte County Inventory data
+5-21.61,SACRAMENTO VALLEY,SOUTH YUBA,Sacramento River,"104,486",14.5,Medium,"45,014",2,104%,1,"2,086",3,63,3,"17,206",9%,91%,2,1,1.5,"47,048",4,,,,,
+5-21.62,SACRAMENTO VALLEY,SUTTER,Sacramento River,"234,264",17.5,Medium,"82,125",1,132%,4,"5,999",3,37,2,"175,300",7%,93%,4,1,2.5,"187,530",5,,,,,GW Use based on B118-03 data
+5-21.64,SACRAMENTO VALLEY,NORTH AMERICAN,Sacramento River,"340,170",22.5,High,"832,746",3,123%,3,"9,855",3,346,4,"399,000",24%,76%,5,2,3.5,"143,312",4,1,"From B118: Elevated levels of TDS, chloride, sodium, bicarbonate, boron, fluoride, nitrate, iron manganese, and arsenic may be of concern in some locations (DWR 1997). There are 3 sites with significant GW contamination in the basin.",1,From B118: GW levels in SW Placer County and northern Sacramento County have generally declined with many wells declining at a rate of about one and one-half feet per year for the last 40 years or more (PCWA 1999).,GW Use based on B118-03 data
+5-21.65,SACRAMENTO VALLEY,SOUTH AMERICAN,Sacramento River,"247,745",22.3,High,"718,113",3,127%,3,"11,779",3.75,197,4,"76,465",27%,73%,3,2,2.5,"61,539",3,3,From B118: Montgomery Watson (1997) listed seven sites within the subbasin with significant GW contamination. From Sac County GWMP: Overall decreasing GW level trend over past 50 years (~30ft).,,,
+5-21.66,SACRAMENTO VALLEY,SOLANO,Sacramento River,"424,832",15.5,Medium,"119,263",1,121%,3,"6,790",3,156,2,"69,149",10%,90%,2,1,1.5,"258,208",5,,,,,
+5-21.67,SACRAMENTO VALLEY,YOLO,Sacramento River,"225,718",22.3,High,"194,158",2,125%,3,"7,329",3.75,131,3,"200,000",25%,75%,5,2,3.5,"128,860",5,2,Localized TDS problems preclude using GW for some M&I uses without treatment. Some subsidence in northeast of Davis and in northern Yolo.,,,"GW Use based on Yolo County CU Report, 1992.  http://www.dcn.davis.ca.us/dcn/projects/conjunctiveuse/index.html"
+5-21.68,SACRAMENTO VALLEY,CAPAY VALLEY,Sacramento River,"24,970",11.5,Low,550,1,107%,0,501,3,2,1,"5,500",40%,60%,2,3,2.5,"6,066",3,1,Moderate to high levels of boron.,,,
+5-22.01,SAN JOAQUIN VALLEY,EASTERN SAN JOAQUIN,San Joaquin River,"707,073",25.5,High,"582,662",2,133%,4,"19,176",3,521,3,"491,297",43%,57%,4,3,3.5,"410,810",5,3,"Estimated that 70,000 af/year of overdraft occurs in northeastern San Joaquin County and about 35,000 af/year of overdraft occurs in the Stockton East Water District (B-118) & (USBR 1996). Basin experiencing long term GW overdraft 160,000AF/yr (local GWMP",2,From B118: as a result of overdraft poor quality groundwater has been moving east along a 16- mile front on the east side of the Delta and has continued to migrate eastward (USACE 2001). Large areas of nitrate contamination are located in the subbasin.,
+5-22.02,SAN JOAQUIN VALLEY,MODESTO,San Joaquin River,"246,518",23.5,High,"294,872",2,127%,3,"6,122",3,266,4,"226,000",32%,68%,5,2,3.5,"116,709",4,4,Water quality degradation due to industrial and agricultural practices,,,GW Use based on B118-03 data
+5-22.03,SAN JOAQUIN VALLEY,TURLOCK,San Joaquin River,"347,146",21.5,High,"197,605",2,125%,3,"9,758",3,202,3,"450,000",36%,64%,5,2,3.5,"250,852",5,2,Groundwater overdraft documented in local GWMP.,,,
+5-22.04,SAN JOAQUIN VALLEY,MERCED,San Joaquin River,"491,255",22.5,High,"173,731",1,137%,4,"8,392",3,152,2,"364,227",46%,54%,4,3,3.5,"279,142",5,4,Overdraft and water quality degradation (MAGPI GWMP).,,,
+5-22.05,SAN JOAQUIN VALLEY,CHOWCHILLA,San Joaquin River,"159,319",21.3,High,"15,820",1,134%,4,"2,203",2.25,26,2,"210,976",53%,47%,5,3,4,"153,038",5,3,"Overdraft, subsidence, water quality degradation",,,
+5-22.06,SAN JOAQUIN VALLEY,MADERA,San Joaquin River,"393,429",25.0,High,"116,919",1,143%,5,"9,100",3,132,2,"375,800",58%,42%,5,3,4,"238,070",5,5,"Subsidence, critical overdraft, water quality degradation",,,
+5-22.07,SAN JOAQUIN VALLEY,DELTA-MENDOTA,San Joaquin River,"746,697",22.3,High,"107,879",1,149%,5,"7,132",2.25,116,1,"509,687",37%,63%,4,2,3,"470,500",5,2,Overdraft issues in basin discussed in San Luis and Delta Mendota Water Authority GWMP,3,Important agricultural region.,
+5-22.08,SAN JOAQUIN VALLEY,KINGS,Tulare Lake,"977,030",22.8,High,"906,544",2,133%,4,"37,841",3.75,781,4,"1,055,502",48%,52%,5,3,4,"720,852",5,,,,,
+5-22.09,SAN JOAQUIN VALLEY,WESTSIDE,Tulare Lake,"640,504",22.5,High,"27,285",1,106%,1,"3,790",1.5,8,1,"411,534",37%,63%,4,2,3,"513,759",5,5,"Subsidence, critical overdraft, saline conditions, subsidence",5,"Additional points added for critical agricultural importance, very high TDS and pesticide contamination issues",
+5-22.10,SAN JOAQUIN VALLEY,PLEASANT VALLEY,Tulare Lake,"145,782",11.8,Low,"34,213",1,122%,3,358,0.75,0,0,"47,383",86%,14%,3,5,4,"28,131",3,,,,,
+5-22.11,SAN JOAQUIN VALLEY,KAWEAH,Tulare Lake,"446,283",26.5,High,"271,700",2,149%,5,"12,092",3,304,3,"453,226",38%,62%,5,2,3.5,"380,311",5,5,"Overdraft, water quality issues.",,,
+5-22.12,SAN JOAQUIN VALLEY,TULARE LAKE,Tulare Lake,"524,539",22.3,High,"125,701",1,141%,4,"5,345",2.25,68,1,"504,271",58%,42%,5,3,4,"332,240",5,5,"Subsidence, overdraft, water quality degradation",,,
+5-22.13,SAN JOAQUIN VALLEY,TULE,Tulare Lake,"469,959",22.3,High,"108,660",1,137%,4,"6,355",2.25,170,2,"592,823",55%,45%,5,3,4,"371,028",5,4,Critical aquifer overdraft conditions in basin. High Nitrate and TDS in some locations and some inorganic contamination issues.,,,
+5-22.14,SAN JOAQUIN VALLEY,KERN COUNTY,Tulare Lake,"1,950,113",22.5,High,"700,323",1,154%,5,"15,015",1.5,577,2,"1,041,462",36%,64%,4,2,3,"919,821",4,5,"Subsidence, overdraft, water quality degradation",1,"Agricultural importance, large basin which results in low population density.",
+5-22.15,SAN JOAQUIN VALLEY,TRACY,San Joaquin River,"344,884",19.0,Medium,"268,175",2,133%,4,"7,267",3,218,3,"19,198",2%,98%,1,1,1,"224,284",5,1,Poor water quality throughout the subbasin.(B-118),,,
+5-22.16,SAN JOAQUIN VALLEY,COSUMNES,San Joaquin River,"280,490",15.0,Medium,"59,163",1,117%,2,"5,539",3,59,2,"155,475",77%,23%,4,4,4,"82,534",3,,,,,
+5-23,PANOCHE VALLEY,,Tulare Lake,"33,090",0.0,Very Low,41,0,141%,0,26,0.75,0,0,200,100%,0%,0,5,0,122,1,,,,,
+5-25,KERN RIVER VALLEY,,Tulare Lake,"79,678",0.0,Very Low,"10,364",1,102%,1,843,2.25,82,4,"8,068",100%,0%,0,0,0,"2,391",1,,,,,
+5-26,WALKER BASIN CREEK VALLEY,,Tulare Lake,"7,693",0.0,Very Low,249,1,126%,0,134,3,1,1,3,1%,99%,0,1,0,348,2,,,,,
+5-27,CUMMINGS VALLEY,,Tulare Lake,"10,051",22.0,High,"7,665",2,210%,5,171,3,14,4,"3,000",100%,0%,3,5,4,"2,925",3,,,1,Adjudicated basin,GW Use based on 2011 Cummings Water Master report Basin in slight overdraft conditions
+5-28,TEHACHAPI VALLEY WEST,,Tulare Lake,"14,854",20.3,Medium,"17,313",2,149%,5,533,3.75,27,5,"3,500",10%,90%,2,1,1.5,348,1,1,Groundwater quality issues,1,Adjudicated basin,GW Use based on B118-03 data
+5-29,CASTAC LAKE VALLEY,,Tulare Lake,"3,573",0.0,Very Low,366,1,137%,0,8,0.75,6,5,87,100%,0%,1,5,0,19,1,,,,,
+5-3,JESS VALLEY,,Sacramento River,"6,708",0.0,Very Low,13,0,100%,0,4,0.75,0,0,3,0%,100%,1,1,0,"3,947",5,,,,,
+5-30,LOWER LAKE VALLEY,,Sacramento River,"2,404",0.0,Very Low,"2,694",2,75%,0,33,2.25,4,5,577,97%,3%,2,5,0,70,1,,,,,"PubCom - Changed  irrigated acreage to 18 ac/sq. mi, GW use of 0.24 ac-ft/ac, calculated volume is 577 Af-ft, 97% of the total supply coming from GW"
+5-31,LONG VALLEY,,Sacramento River,"2,799",0.0,Very Low,194,1,121%,0,40,2.25,0,0,532,100%,0%,2,5,0,450,3,,,,,"PubCom - Changed  irrigated acreage to 103 ac/sq. mi, GW use of 0.19 ac-ft/ac, calculated volume is 532 Af-ft, 100% of the total supply coming from GW"
+5-35,MCCLOUD AREA,,Sacramento River,"21,320",0.0,Very Low,822,1,83%,0,131,1.5,1,1,"2,000",49%,51%,1,3,0,37,1,,,,,GW Use based on B118-03 data
+5-36,ROUND VALLEY,,Sacramento River,"7,266",0.0,Very Low,27,0,93%,0,33,1.5,0,0,"2,811",45%,55%,0,0,0,"2,981",4,,,,,
+5-37,TOAD WELL AREA,,Sacramento River,"3,356",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-38,PONDOSA TOWN AREA,,Sacramento River,"2,082",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,305,2,,,,,
+5-4,BIG VALLEY,,Sacramento River,"92,050",13.5,Medium,"1,046",1,101%,0,610,1.5,9,1,"35,000",50%,50%,3,3,3,"34,129",4,3,Declining GW Levels over much of the basin.,,,GW Use based on B118-03 data
+5-40,HOT SPRINGS VALLEY,,Sacramento River,"2,404",0.0,Very Low,12,0,150%,0,11,1.5,0,0,300,11%,89%,2,1,0,"1,036",4,,,,,
+5-41,EGG LAKE VALLEY,,Sacramento River,"4,101",0.0,Very Low,0,0,0%,0,2,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-43,ROCK PRAIRIE VALLEY,,Sacramento River,"5,740",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-44,LONG VALLEY,,Sacramento River,"1,088",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-45,CAYTON VALLEY,,Sacramento River,"1,306",0.0,Very Low,2,0,100%,0,10,1.5,0,0,5,0%,100%,0,1,0,"1,100",5,,,,,GW Use based on B118-03 data
+5-46,LAKE BRITTON AREA,,Sacramento River,"14,055",0.0,Very Low,84,0,101%,0,30,0.75,3,2,43,17%,83%,0,1,0,55,1,,,,,
+5-47,GOOSE VALLEY,,Sacramento River,"4,208",0.0,Very Low,10,0,110%,0,7,0.75,0,0,405,4%,96%,1,1,0,"3,269",5,,,,,
+5-48,BURNEY CREEK VALLEY,,Sacramento River,"2,352",0.0,Very Low,"1,466",2,100%,1,25,2.25,0,0,849,17%,83%,3,1,0,"1,690",5,,,,,
+5-49,DRY BURNEY CREEK VALLEY,,Sacramento River,"3,074",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,GW Use based on B118-03 data
+5-5,FALL RIVER VALLEY,,Sacramento River,"54,803",12.8,Low,"1,629",1,102%,0,659,2.25,4,1,"22,722",29%,71%,3,2,2.5,"31,850",5,1,"Locally high nitrates. Variable GW level trends with some regions showing declines. Strong SW-GW interaction and GW dependent fisheries. Ecosystem dependent basin (springs, fisheries)",,,
+5-50,NORTH FORK BATTLE CREEK,,Sacramento River,"12,755",0.0,Very Low,528,1,157%,0,312,3,9,3,3,0%,100%,0,1,0,997,2,,,,,
+5-51,BUTTE CREEK VALLEY,,Sacramento River,"3,227",0.0,Very Low,0,0,0%,0,2,0.75,0,0,0,0%,100%,0,0,0,155,2,,,,,
+5-52,GRAYS VALLEY,,Sacramento River,"5,440",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-53,DIXIE VALLEY,,Sacramento River,"4,866",0.0,Very Low,6,0,133%,0,0,0,0,0,0,4.86E-05,100%,0,0,0,"2,796",5,,,,,
+5-54,ASH VALLEY,,Sacramento River,"6,008",0.0,Very Low,3,0,100%,0,11,0.75,0,0,2,0%,100%,0,1,0,945,3,,,,,
+5-56,YELLOW CREEK VALLEY,,Sacramento River,"2,311",0.0,Very Low,2,0,100%,0,0,0,0,0,1,0%,100%,0,1,0,"1,377",5,,,,,
+5-57,LAST CHANCE CREEK VALLEY,,Sacramento River,"4,659",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-58,CLOVER VALLEY,,Sacramento River,"16,784",0.0,Very Low,0,0,0%,0,9,0.75,0,0,5,1%,99%,0,1,0,"7,324",4,,,,,GW Use based on well log data.
+5-59,GRIZZLY VALLEY,,Sacramento River,"13,441",0.0,Very Low,0,0,0%,0,8,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-6.01,REDDING AREA,BOWMAN,Sacramento River,"78,426",16.0,Medium,"7,165",1,155%,5,"1,498",3,13,2,"16,500",39%,61%,2,2,2,"3,384",2,1,Some localized high boron.,,,GW Use on Tehama Co GW Inventory data
+5-6.02,REDDING AREA,ROSEWOOD,Sacramento River,"46,455",0.0,Very Low,"1,009",1,137%,0,442,2.25,0,0,"1,450",21%,79%,1,2,0,"2,395",2,,,,,
+5-6.03,REDDING AREA,ANDERSON,Sacramento River,"96,857",17.3,Medium,"52,937",2,112%,2,"3,430",3.75,109,4,"63,572",53%,47%,4,3,3.5,"12,473",2,,,,,
+5-6.04,REDDING AREA,ENTERPRISE,Sacramento River,"60,862",17.3,Medium,"68,627",2,125%,3,"2,768",3.75,68,4,"8,576",13%,87%,2,1,1.5,"7,010",2,,,1,Strong SW-GW interaction and endangered Sac River salmon runs,
+5-6.05,REDDING AREA,MILLVILLE,Sacramento River,"65,226",0.0,Very Low,"2,640",1,155%,0,807,2.25,2,1,"6,842",37%,63%,0,0,0,"6,548",2,,,,,
+5-6.06,REDDING AREA,SOUTH BATTLE CREEK,Sacramento River,"33,835",0.0,Very Low,48,0,144%,0,48,0.75,0,0,908,22%,78%,1,2,0,"1,444",2,,,,,
+5-60,HUMBUG VALLEY,,Sacramento River,"9,979",0.0,Very Low,"3,299",1,100%,0,341,3.75,8,4,200,46%,54%,0,3,0,648,2,,,,,GW Use based on B118-03 data
+5-61,CHROME TOWN AREA,,Sacramento River,"1,408",0.0,Very Low,6,0,100%,0,4,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-62,ELK CREEK AREA,,Sacramento River,"1,438",0.0,Very Low,174,1,100%,0,0,0,0,0,13,6%,94%,0,1,0,44,1,,,,,
+5-63,STONYFORD TOWN AREA,,Sacramento River,"6,437",0.0,Very Low,183,1,90%,0,61,2.25,5,3,"3,512",51%,49%,0,0,0,"1,584",3,,,,,
+5-64,BEAR VALLEY,,Sacramento River,"9,104",0.0,Very Low,4,0,75%,0,10,0.75,0,0,0,0%,100%,0,0,0,565,2,,,,,
+5-65,LITTLE INDIAN VALLEY,,Sacramento River,"1,269",0.0,Very Low,112,1,90%,0,47,3.75,0,0,507,70%,30%,3,4,0,148,2,,,,,
+5-66,CLEAR LAKE CACHE FORMATION,,Sacramento River,"29,717",0.0,Very Low,"7,960",1,155%,5,144,1.5,3,1,297,18%,82%,0,1,0,177,1,,,,,"PubCom - Changed  irrigated acreage to 3.8 ac/sq. mi, GW use of 0.01 ac-ft/ac, calculated volume is 297 Af-ft, 18% of the total supply coming from GW"
+5-68,POPE VALLEY,,Sacramento River,"7,177",0.0,Very Low,110,1,117%,0,54,1.5,0,0,13,1%,99%,2,1,0,"2,351",4,,,,,
+5-69,YOSEMITE VALLEY,,San Joaquin River,"7,465",0.0,Very Low,"1,016",1,320%,5,6,0.75,6,4,242,100%,0%,1,5,0,,0,,,,,
+5-7,LAKE ALMANOR VALLEY,,Sacramento River,"7,152",0.0,Very Low,"2,121",1,100%,0,49,1.5,4,3,810,52%,48%,2,3,0,247,1,,,,,
+5-70,LOS BANOS CREEK VALLEY,,San Joaquin River,"4,835",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-71,VALLECITOS CREEK VALLEY,,Tulare Lake,"15,110",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-8,MOUNTAIN MEADOWS VALLEY,,Sacramento River,"8,145",0.0,Very Low,0,0,0%,0,3,0.75,0,0,0,0%,100%,0,0,0,"3,719",4,,,,,
+5-80,BRITE VALLEY,,Tulare Lake,"3,181",0.0,Very Low,684,1,200%,0,111,3.75,4,4,256,44%,56%,1,3,0,160,2,,,1,Adjudicated basin,
+5-82,CUDDY CANYON VALLEY,,Tulare Lake,"3,308",0.0,Very Low,"2,641",2,134%,4,47,2.25,9,5,580,100%,0%,2,5,0,0,0,,,,,
+5-83,CUDDY RANCH AREA,,Tulare Lake,"4,213",0.0,Very Low,774,1,113%,0,30,1.5,8,5,0,0%,100%,0,0,0,290,2,,,,,
+5-84,CUDDY VALLEY,,Tulare Lake,"3,474",0.0,Very Low,779,1,125%,0,38,2.25,10,5,186,100%,0%,1,5,0,0,0,,,,,
+5-85,MIL POTRERO AREA,,Tulare Lake,"2,314",0.0,Very Low,"1,288",2,159%,5,13,1.5,5,5,307,100%,0%,2,5,0,0,0,,,,,
+5-86,JOSEPH CREEK,,Sacramento River,"4,458",0.0,Very Low,13,0,146%,0,22,1.5,0,0,"1,103",52%,48%,2,3,0,"1,074",3,,,,,
+5-87,MIDDLE FORK FEATHER RIVER,,Sacramento River,"4,342",0.0,Very Low,177,1,98%,0,101,3,1,2,68,14%,86%,0,1,0,132,1,,,,,
+5-88,STONY GORGE RESERVOIR,,Sacramento River,"1,065",0.0,Very Low,0,0,0%,0,0,0,0,0,10,1%,99%,0,1,0,310,3,,,,,GW Use based on B118-03 data
+5-89,SQUAW FLAT,,Sacramento River,"1,294",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+5-9,INDIAN VALLEY,,Sacramento River,"29,413",0.0,Very Low,"1,718",1,100%,0,487,3,7,2,100,2%,98%,0,1,0,"11,535",4,,,,,GW Use based on B118-03 data
+5-90,FUNKS CREEK,,Sacramento River,"3,012",0.0,Very Low,0,0,0%,0,4,0.75,0,0,0,0%,100%,0,0,0,109,1,,,,,
+5-91,ANTELOPE CREEK,,Sacramento River,"2,040",0.0,Very Low,3,0,167%,0,3,0.75,0,0,1,1%,99%,0,1,0,339,3,,,,,
+5-92,BLANCHARD VALLEY,,Sacramento River,"2,221",0.0,Very Low,0,0,0%,0,2,0.75,0,0,1,1%,99%,0,1,0,138,2,,,,,GW Use based on well log data.
+5-93,NORTH FORK CACHE CREEK,,Sacramento River,"3,474",0.0,Very Low,0,0,0%,0,1,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,"PubCom - No reliance on GW, No Irr Ac, etc. - Basin is actually a reservoir and its classification as a GW basin is under review"
+5-94,MIDDLE CREEK,,Sacramento River,705,0.0,Very Low,10,1,60%,0,16,3,0,0,402,92%,8%,4,5,0,96,2,,,,,"PubCom - Changed irrigated acreage to 87 ac/sq. mi, GW use of 0.57 ac-ft/ac, calculated volume is 402 Af-ft, 92% of the total supply coming from GW"
+5-95,MEADOW VALLEY,,Sacramento River,"5,734",0.0,Very Low,387,1,98%,0,176,3,1,2,148,13%,87%,1,1,0,344,2,,,,,
+6-1,SURPRISE VALLEY,,North Lahontan,"228,460",8.8,Low,"1,127",0,102%,0,557,0.75,2,1,"33,307",36%,64%,2,2,2,"49,199",3,2,"Declining GW Levels and GW Quality issues (sodium sulfate, high TDS, and thermal waters) in various portions of the basin.",,,
+6-10,ADOBE LAKE VALLEY,,South Lahontan,"39,978",0.0,Very Low,4,0,125%,0,2,0.75,0,0,200,100%,0%,0,5,0,0,0,,,,,
+6-100,SECRET VALLEY,,North Lahontan,"33,680",0.0,Very Low,26,0,108%,0,31,0.75,0,0,"5,406",50%,50%,0,0,0,"2,813",2,,,,,GW Use based on B118-03 data
+6-101,BULL FLAT,,North Lahontan,"18,151",0.0,Very Low,2,0,350%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-104,LONG VALLEY,,North Lahontan,"46,836",0.0,Very Low,141,0,70%,0,128,0.75,0,0,423,9%,91%,0,1,0,"1,085",1,,,3,Groundwater Exports to Reno are being evaluated. Long Valley Creek is a major source of recharge to Honey Lake GW Basin. Long Valley also provides underflow to Cold Spring Valley.,
+6-105,SLINKARD VALLEY,,North Lahontan,"4,517",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-106,LITTLE ANTELOPE VALLEY,,North Lahontan,"2,491",0.0,Very Low,0,0,0%,0,3,0.75,0,0,0,0%,100%,0,0,0,658,3,,,,,
+6-107,SWEETWATER FLAT,,North Lahontan,"4,747",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,89,1,,,,,
+6-108,OLYMPIC VALLEY,,North Lahontan,702,0.0,Very Low,471,2,83%,0,8,2.25,4,5,0,0%,100%,0,0,0,0,0,,,,,
+6-11,LONG VALLEY,,South Lahontan,"72,028",0.0,Very Low,800,1,118%,0,20,0.75,16,2,87,0%,100%,2,1,0,"6,898",2,1,"Local impairments from thermal waters and some springs with high TDS, fluoride, boron, and other elements, but water quality suitable overall.",,,
+6-12,OWENS VALLEY,,South Lahontan,"663,458",13.8,Medium,"17,664",1,116%,0,"1,279",0.75,95,1,"140,000",70%,30%,2,4,3,"25,560",1,2,Minor impairments locally due to inorganics.,5,Actual GW Volume not fully captured due to GW exports out of the basin. GW volume reflects the additional 100K AF of pumping that is exported. GW % is adjusted to reflect the additional pumping.,
+6-13,BLACK SPRINGS VALLEY,,South Lahontan,"30,911",0.0,Very Low,0,0,0%,0,3,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-14,FISH LAKE VALLEY,,South Lahontan,"48,333",6.8,Low,36,0,128%,0,10,0.75,0,0,"19,857",97%,3%,3,5,4,"3,487",2,,,,,
+6-15,DEEP SPRINGS VALLEY,,South Lahontan,"30,048",0.0,Very Low,5,0,540%,0,1,0.75,2,1,912,100%,0%,1,5,0,149,1,,,,,
+6-16,EUREKA VALLEY,,South Lahontan,"129,329",0.0,Very Low,10,0,540%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-17,SALINE VALLEY,,South Lahontan,"146,850",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,5,"GW Quality Impairments: High TDS and Fluorides, groundwater is inferior for domestic use. (B-118)",,,
+6-18,DEATH VALLEY,,South Lahontan,"926,496",0.0,Very Low,190,0,123%,0,52,0.75,5,1,"1,060",100%,0%,0,5,0,17,1,,,,,
+6-19,WINGATE VALLEY,,South Lahontan,"71,755",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-2,MADELINE PLAINS,,North Lahontan,"156,152",7.8,Low,151,0,159%,0,231,0.75,0,0,"42,400",56%,44%,3,3,3,"25,052",3,1,"Localized naturally occurring water quality issues (high TDS, nitrates, boron, ASAR, etc)",,,
+6-20,MIDDLE AMARGOSA VALLEY,,South Lahontan,"392,862",0.0,Very Low,230,0,175%,0,64,0.75,8,1,120,100%,0%,0,5,0,0,0,4,"Water quality is rated inferior to marginal for domestic purposes due to elevated fluoride and boron contents; however, locally groundwater is of good quality. (B-118)",,,
+6-21,LOWER KINGSTON VALLEY,,South Lahontan,"241,892",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,5,"Groundwater is inferior for domestic or irrigation purposes due to elevated fluoride, chloride, boron, sulfate and TDS (B-118)",,,
+6-22,UPPER KINGSTON VALLEY,,South Lahontan,"178,533",0.0,Very Low,37,0,16%,0,26,0.75,5,1,87,100%,0%,0,5,0,0,0,4,Groundwater is marginal to inferior for domestic or irrigation purposes due to elevated fluoride and TDS (B-118).,,,
+6-23,RIGGS VALLEY,,South Lahontan,"88,274",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-24,RED PASS VALLEY,,South Lahontan,"97,088",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-25,BICYCLE VALLEY,,South Lahontan,"90,100",0.0,Very Low,0,0,0%,0,2,0.75,3,1,0,0%,100%,0,0,0,0,0,3,Elevated TDS and fluoride (B-118).,,,
+6-26,AVAWATZ VALLEY,,South Lahontan,"27,826",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-27,LEACH VALLEY,,South Lahontan,"61,620",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-28,PAHRUMP VALLEY,,South Lahontan,"93,747",0.0,Very Low,99,0,190%,0,55,0.75,0,0,101,100%,0%,2,5,0,0,0,2,Water levels generally declining per B-118 and USGS NWIS. State of Nevada Department of Water Resources has documented overdraft and subsidence conditions in this basin (http://water.nv.gov/documents/presentations/pahru mp.pdf),,,
+6-29,MESQUITE VALLEY,,South Lahontan,"89,012",0.0,Very Low,64,0,144%,0,58,0.75,0,0,"1,675",16%,84%,1,1,0,"1,626",1,3,Declining water levels. Locally high TDS in  southern portion of basin makes GW marginal to inferior for domestic uses. (B-118),,,
+6-3,WILLOW CREEK VALLEY,,North Lahontan,"11,698",0.0,Very Low,62,0,156%,0,48,1.5,0,0,"6,914",36%,64%,0,0,0,"4,946",4,,,,,
+6-30,IVANPAH VALLEY,,South Lahontan,"200,155",0.0,Very Low,40,0,63%,0,54,0.75,13,1,89,100%,0%,0,5,0,0,0,4,Basin groundwater is rated marginal to inferior for both domestic and irrigational use because of elevated fluoride and sodium.(B-118),,,
+6-31,KELSO VALLEY,,South Lahontan,"257,279",0.0,Very Low,20,0,100%,0,16,0.75,0,0,83,100%,0%,0,5,0,0,0,,,,,
+6-32,BROADWELL VALLEY,,South Lahontan,"92,688",0.0,Very Low,8,0,113%,0,30,0.75,4,1,65,100%,0%,0,5,0,0,0,,,,,
+6-33,SODA LAKE VALLEY,,South Lahontan,"383,560",0.0,Very Low,750,0,106%,0,159,0.75,7,1,94,100%,0%,0,5,0,0,0,5,"Groundwater quality is rated marginal to inferior for both domestic and irrigation purposes. This assessment is based on 66 analyses showing elevated concentrations of fluoride, boron, and TDS. Geotracker shows many LUST sites.",,,
+6-34,SILVER LAKE VALLEY,,South Lahontan,"35,519",0.0,Very Low,0,0,0%,0,2,0.75,0,0,0,0%,100%,0,0,0,0,0,4,"Groundwater in this basin is rated marginal to inferior for both domestic and irrigation uses because of elevated concentrations of fluoride, boron, and TDS. (B-118)",,,
+6-35,CRONISE VALLEY,,South Lahontan,"127,313",0.0,Very Low,2,0,100%,0,4,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-36.01,LANGFORD VALLEY,LANGFORD WELL LAKE,South Lahontan,"19,457",0.0,Very Low,0,0,0%,0,0,0,3,1,0,0%,100%,0,0,0,0,0,,,,,
+6-36.02,LANGFORD VALLEY,IRWIN,South Lahontan,"10,557",0.0,Very Low,"8,845",2,145%,5,40,1.5,1,1,0,0%,100%,0,0,0,0,0,3,Locally high iron and fluoride concentrations.(B-118),,,
+6-37,COYOTE LAKE VALLEY,,South Lahontan,"88,735",0.0,Very Low,99,0,139%,0,3,0.75,0,0,102,100%,0%,0,5,0,0,0,4,"Groundwater quality is rated as inferior to marginal for both domestic and irrigation purposes because of elevated levels of fluoride, boron, sodium, and TDS. (B-118).",,,
+6-38,CAVES CANYON VALLEY,,South Lahontan,"73,542",0.0,Very Low,88,0,219%,0,2,0.75,5,1,0,0%,100%,0,0,0,0,0,3,"Suitability of groundwater quality is rated inferior for irrigation and suitable to inferior for domestic use (DWR 1964). Historical measurements show TDS content ranging from 622 to 1,272 mg/L with an average of 904 mg/L (DWR 1964).",,,
+6-4,HONEY LAKE VALLEY,,North Lahontan,"311,741",12.3,Low,"23,566",1,100%,0,"2,661",2.25,37,1,"50,721",32%,68%,2,2,2,"42,746",2,2,"GW Quality Issues: High boron, arsenic, ASAR, TDS, and Nitrates between Lichfield and Honey Lake, east of Honey Lake, and north of Herlong area. GW contamination from Herlong Army depot. Increased GW demand associated with prison expansion.",2,Interstate basin. Local concerns over GW export from Fish Springs Ranch to Reno.,
+6-40,LOWER MOJAVE RIVER VALLEY,,South Lahontan,"287,563",15.3,Medium,"32,938",1,103%,1,63,0.75,64,2,"31,374",99%,1%,2,5,3.5,"6,126",1,5,"Groundwater basin has been in overdraft. Water quality has been impaired from natural sources, leaking tanks, and superfund sites from military bases.",1,Basin is adjudicated. USGS reports GW Level declines of 100 ft since the 1930s,
+6-41,MIDDLE MOJAVE RIVER VALLEY,,South Lahontan,"212,595",11.3,Low,"6,654",1,124%,0,15,0.75,12,1,"30,000",86%,14%,2,5,3.5,685,1,3,"Groundwater Quality impairments for VOCs, salts, nitrates, and irrigation effluents. Waste water treatment plant have also affected groundwater quality. Some nitrates and fluoride exceed MCL.",1,Basin is adjudicated.,"GW Use based on B118-03 data, references MWA for the 1997-1998 water year."
+6-42,UPPER MOJAVE RIVER VALLEY,,South Lahontan,"415,295",21.8,High,"355,338",2,151%,5,163,0.75,172,3,"66,748",79%,21%,2,4,3,"1,183",1,5,"Overdraft. Water quality impacts in basin including nitrates, inorganics, and fuel additives, etc. Superfund site within basin.",2,"Basin is adjudicated (+1). Irrigated Acreage adjustment, add +1",
+6-43,EL MIRAGE VALLEY,,South Lahontan,"76,292",15.8,Medium,"10,933",1,130%,4,16,0.75,20,2,"5,300",100%,0%,1,5,3,462,1,4,"Groundwater levels have declined significantly in parts of the basin, some have recovered. Water is rated marginal to inferior for domestic and irrigation purposes. (B-118). Some documented VOCs issues also.",,,GW Use based from MWA covering for 1997-1998 water year.
+6-44,ANTELOPE VALLEY,,South Lahontan,"1,014,596",21.5,High,"398,864",2,143%,4,"4,476",1.5,269,2,"90,000",94%,6%,1,5,3,21,1,5,"Closed basin. Water quality impacts per IRWMP, DWR B-118, and other sources. Extractions likely exceed natural recharge.",3,"Pending Adjudication, water reliability issues, and renewed subsidence",
+6-45,TEHACHAPI VALLEY EAST,,South Lahontan,"24,055",0.0,Very Low,480,1,213%,0,228,2.25,8,2,101,48%,52%,0,3,0,96,1,5,Court adjudicated basin in overdraft. Groundwater quality issues.,,,
+6-46,FREMONT VALLEY,,South Lahontan,"336,682",10.8,Low,"16,883",1,190%,0,203,0.75,19,1,"4,584",96%,4%,1,5,3,0,0,5,Basin has naturally high TDS locally and other constituents. Groundwater levels have shown significant decline throughout the basin.,,,
+6-47,HARPER VALLEY,,South Lahontan,"411,827",9.8,Low,"1,634",0,82%,0,95,0.75,24,1,"10,000",8%,92%,1,1,1,813,1,5,"Extensive chromium issues well known in Hinkley. In addition, water quality of the basin is generally marginal to inferior for irrigation and domestic uses because of high concentrations of boron, fluoride, and sodium.",1,Adjudicated Basin,
+6-48,GOLDSTONE VALLEY,,South Lahontan,"28,287",0.0,Very Low,0,0,0%,0,6,0.75,0,0,0,0%,100%,0,0,0,0,0,3,"Groundwater quality in the basin is rated as inferior for irrigation purposes and marginal for domestic use because of elevated concentrations of chloride, fluoride, and TDS.",,,Mostly Federal land
+6-49,SUPERIOR VALLEY,,South Lahontan,"121,084",0.0,Very Low,0,0,0%,0,1,0.75,1,1,0,0%,100%,0,0,0,0,0,,,,,
+6-5.01,TAHOE VALLEY,TAHOE SOUTH,North Lahontan,"14,814",18.3,Medium,"25,967",3,93%,0,680,3.75,79,5,"10,000",90%,10%,4,5,4.5,0,0,2,"STPUD reports that MTBE has had a major impact on the groundwater supply within its service area, resulting in 12 of 34 production wells unusable and the destruction of 2 wells. (B-118) & (Berghson 2000).",,,"PubCom - GW volume of 8,285 AF plus a percentage for private pumping, adjusted total wells, PSW, and impacts of MTBE (inc Doc Impact to 2) based on supported district comments"
+6-5.02,TAHOE VALLEY,TAHOE WEST,North Lahontan,"6,173",0.0,Very Low,"3,110",2,79%,0,208,3.75,15,5,591,71%,29%,1,4,0,0,0,,,,,
+6-5.03,TAHOE VALLEY,TAHOE NORTH,North Lahontan,"1,931",0.0,Very Low,"3,410",3,78%,0,45,3,4,5,575,62%,38%,3,4,0,0,0,,,,,
+6-50,CUDDEBACK VALLEY,,South Lahontan,"95,418",0.0,Very Low,97,0,156%,0,0,0,0,0,240,99%,1%,0,5,0,0,0,3,Groundwater quality is ranked marginal to inferior for most beneficial uses due to elevated concentrations of chloride and TDS.,,,Mostly Federal land
+6-51,PILOT KNOB VALLEY,,South Lahontan,"139,460",0.0,Very Low,0,0,0%,0,3,0.75,6,1,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-52,SEARLES VALLEY,,South Lahontan,"198,115",0.0,Very Low,"1,651",0,101%,0,81,0.75,0,0,400,100%,0%,0,5,0,0,0,5,"Water locally beneficial in the north, but generally unsuitable for beneficial uses due to high concentrations of fluoride, boron, sodium, chloride, sulfate, and TDS. Water levels have declined due to pumping for evaporates.",,,
+6-53,SALT WELLS VALLEY,,South Lahontan,"29,629",0.0,Very Low,0,0,0%,0,1,0.75,0,0,0,0%,100%,0,0,0,0,0,5,"The groundwater is rated inferior for all beneficial uses because of high TDS content that ranges from about 4,000 mg/L to 39,000 mg/L. Other impairments are elevated concentrations of sodium, chloride, and boron (DWR 1964).",,,Mostly Federal land
+6-54,INDIAN WELLS VALLEY,,South Lahontan,"383,492",14.8,Medium,"34,837",1,136%,4,231,0.75,58,1,"24,000",100%,0%,1,5,3,0,0,5,Overdraft has been documented since the 1960's. Water quality issues with respect to overdraft and mixing of aquifers.,,,GW Use based on reports from Indian Wells Valley Co-op.
+6-55,COSO VALLEY,,South Lahontan,"25,684",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land. China Lake Naval Weapons.
+6-56,ROSE VALLEY,,South Lahontan,"42,709",0.0,Very Low,10,0,230%,0,10,0.75,2,1,16,100%,0%,1,5,0,0,0,,,,,
+6-57,DARWIN VALLEY,,South Lahontan,"44,386",0.0,Very Low,39,0,100%,0,7,0.75,0,0,54,100%,0%,0,5,0,0,0,,,,,
+6-58,PANAMINT VALLEY,,South Lahontan,"260,754",0.0,Very Low,7,0,414%,0,11,0.75,4,1,10,100%,0%,0,5,0,0,0,4,Water from most wells located on the valley floor is ranked inferior for domestic use and marginal to inferior for irrigation purposes.,,,Mostly Federal land
+6-6,CARSON VALLEY,,North Lahontan,"10,716",0.0,Very Low,328,1,95%,0,114,2.25,6,3,0,0%,100%,0,0,0,"2,990",3,,,,,
+6-61,CAMEO AREA,,South Lahontan,"9,349",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-62,RACE TRACK VALLEY,,South Lahontan,"14,184",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-63,HIDDEN VALLEY,,South Lahontan,"18,037",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-64,MARBLE CANYON AREA,,South Lahontan,"10,422",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-65,COTTONWOOD SPRING AREA,,South Lahontan,"3,918",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-66,LEE FLAT,,South Lahontan,"20,380",0.0,Very Low,0,0,0%,0,4,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-67,MARTIS VALLEY,,North Lahontan,"36,381",17.0,Medium,"14,743",2,128%,4,686,3,15,3,"9,300",90%,10%,3,5,4,0,0,,,1,"Strong SW-GW interaction with Martis Creek, as per 2013 GWMP",GW Use from 2013 Martis Valley GWMP.
+6-68,SANTA ROSA FLAT,,South Lahontan,"16,861",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-69,KELSO LANDER VALLEY,,South Lahontan,"11,208",0.0,Very Low,0,0,0%,0,8,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-7,ANTELOPE VALLEY,,North Lahontan,"20,125",0.0,Very Low,876,1,100%,0,191,2.25,13,3,64,0%,100%,0,1,0,"11,375",5,,,,,
+6-70,CACTUS FLAT,,South Lahontan,"7,056",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-71,LOST LAKE VALLEY,,South Lahontan,"23,414",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-72,COLES FLAT,,South Lahontan,"2,961",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-73,WILD HORSE MESA AREA,,South Lahontan,"3,337",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-74,HARRISBURG FLATS,,South Lahontan,"25,077",0.0,Very Low,1,0,500%,0,0,0,0,0,4,100%,0%,0,5,0,0,0,,,,,Mostly Federal land
+6-75,WILDROSE CANYON,,South Lahontan,"5,182",0.0,Very Low,1,0,500%,0,0,0,1,2,1,100%,0%,0,5,0,0,0,,,,,Mostly Federal land
+6-76,BROWN MOUNTAIN VALLEY,,South Lahontan,"21,862",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-77,GRASS VALLEY,,South Lahontan,"10,034",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-78,DENNING SPRING VALLEY,,South Lahontan,"7,289",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-79,CALIFORNIA VALLEY,,South Lahontan,"58,639",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-8,BRIDGEPORT VALLEY,,North Lahontan,"32,545",0.0,Very Low,586,1,96%,0,68,0.75,8,2,43,0%,100%,0,1,0,"16,618",4,,,,,
+6-80,MIDDLE PARK CANYON,,South Lahontan,"1,752",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-81,BUTTE VALLEY,,South Lahontan,"8,853",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-82,SPRING CANYON VALLEY,,South Lahontan,"4,832",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-84,GREENWATER VALLEY,,South Lahontan,"60,260",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-85,GOLD VALLEY,,South Lahontan,"3,234",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-86,RHODES HILL AREA,,South Lahontan,"15,697",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-88,OWL LAKE VALLEY,,South Lahontan,"22,402",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-89,KANE WASH AREA,,South Lahontan,"5,997",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+6-9,MONO VALLEY,,South Lahontan,"173,299",0.0,Very Low,385,0,97%,0,13,0.75,4,1,338,94%,6%,0,5,0,0,0,,,,,Mostly Federal land
+6-90,CADY FAULT AREA,,South Lahontan,"8,015",0.0,Very Low,6,0,250%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+6-91,COW HEAD LAKE VALLEY,,North Lahontan,"5,625",0.0,Very Low,0,0,0%,0,2,0.75,0,0,0,0%,100%,0,0,0,"3,287",5,,,,,GW Use based on well log and population data
+6-92,PINE CREEK VALLEY,,North Lahontan,"9,526",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,GW Use based on well log and population data
+6-93,HARVEY VALLEY,,North Lahontan,"4,503",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,GW Use based on well log and population data
+6-94,GRASSHOPPER VALLEY,,North Lahontan,"17,665",0.0,Very Low,0,0,0%,0,4,0.75,0,0,300,33%,67%,0,2,0,250,1,,,,,GW Use based on well log and population data
+6-95,DRY VALLEY,,North Lahontan,"6,498",0.0,Very Low,2,0,100%,0,4,0.75,0,0,0,0%,100%,0,0,0,104,1,,,,,
+6-96,EAGLE LAKE AREA,,North Lahontan,"12,700",0.0,Very Low,41,0,83%,0,177,2.25,0,0,10,100%,0%,1,5,0,0,0,,,,,
+6-97,HORSE LAKE VALLEY,,North Lahontan,"3,827",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,"1,563",4,,,,,GW Use based on well log and population data
+6-98,TULEDAD CANYON VALLEY,,North Lahontan,"5,167",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,83,1,,,,,GW Use based on well log and population data
+6-99,PAINTERS FLAT,,North Lahontan,"6,395",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,GW Use based on well log and population data
+7-1,LANFAIR VALLEY,,Colorado River,"158,360",0.0,Very Low,19,0,74%,0,52,0.75,0,0,122,100%,0%,0,5,0,0,0,,,,,
+7-10,TWENTYNINE PALMS VALLEY,,Colorado River,"62,829",8.8,Low,"22,113",1,119%,2,154,0.75,0,0,"4,026",100%,0%,1,5,3,13,1,1,"Some wells in the basin exceed the recommended levels for drinking water in fluoride, TDS, and sulfate concentrations. Thermal waters also occur in this basin (DWR 1984).",,,
+7-11,COPPER MOUNTAIN VALLEY,,Colorado River,"30,540",0.0,Very Low,"6,085",1,199%,5,4,0.75,1,1,561,59%,41%,1,3,0,11,1,1,Locally high TDS and septic tank problems.,,,
+7-12,WARREN VALLEY,,Colorado River,"23,952",15.3,Medium,"22,860",2,184%,5,3,0.75,33,4,"3,180",59%,41%,2,3,2.5,0,0,,,1,Basin is adjudicated.,GW Use from HDWD annual watermaster report
+7-13.01,DEADMAN VALLEY,DEADMAN LAKE,Colorado River,"89,793",0.0,Very Low,22,0,100%,0,12,0.75,0,0,4,100%,0%,0,5,0,0,0,,,,,
+7-13.02,DEADMAN VALLEY,SURPRISE SPRING,Colorado River,"29,507",0.0,Very Low,179,0,215%,0,0,0,10,2,31,99%,1%,0,5,0,0,0,,,,,
+7-14,LAVIC VALLEY,,Colorado River,"103,132",0.0,Very Low,0,0,0%,0,12,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-15,BESSEMER VALLEY,,Colorado River,"39,379",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-16,AMES VALLEY,,Colorado River,"109,340",0.0,Very Low,"4,540",1,106%,0,26,0.75,16,1,713,98%,2%,0,5,0,0,0,2,"Groundwater in the basin has locally high TDS, fluoride, and chloride contents (DWR 1975). TDS content reaches about 1,000 mg/L southwest of Emerson Lake (MWA 1999).",,,
+7-17,MEANS VALLEY,,Colorado River,"15,061",0.0,Very Low,46,0,196%,0,0,0,0,0,26,100%,0%,0,5,0,0,0,2,"Fluoride, nitrate, and TDS concentrations are impairments locally.",,,
+7-18.01,JOHNSON VALLEY,SOGGY LAKE,Colorado River,"77,865",0.0,Very Low,354,0,71%,0,4,0.75,3,1,248,100%,0%,0,5,0,0,0,,,,,
+7-18.02,JOHNSON VALLEY,UPPER JOHNSON VALLEY,Colorado River,"35,050",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-19,LUCERNE VALLEY,,Colorado River,"148,467",9.8,Low,"3,311",1,178%,0,32,0.75,22,1,"10,000",13%,87%,1,1,1,"1,435",1,4,Water level declines noted from 40 to 100 feet. Evidence of subsidence from overdraft of basin. Locally high nitrates and TDS (B-118).,1,Fall 1954 - Fall 2002 Change in GW Storage is estimated at - 460TAF ( Napoli),GW Use based on B118-03 data
+7-2,FENNER VALLEY,,Colorado River,"457,633",0.0,Very Low,31,0,68%,0,36,0.75,3,1,112,100%,0%,0,5,0,0,0,,,,,
+7-20,MORONGO VALLEY,,Colorado River,"7,286",0.0,Very Low,"2,983",2,165%,5,129,3,12,5,654,100%,0%,1,5,0,0,0,,,,,
+7-21.01,COACHELLA VALLEY,INDIO,Colorado River,"299,784",19.3,Medium,"368,855",2,183%,5,224,0.75,188,3,"200,979",43%,57%,4,3,3.5,"74,268",3,2,Nitrates and addition of salts due to Colorado River imported water. Local areas of elevated fluoride.,,,
+7-21.02,COACHELLA VALLEY,MISSION CREEK,Colorado River,"48,966",15.8,Medium,"18,974",1,223%,5,32,0.75,11,2,"12,500",100%,0%,3,5,4,0,0,2,Radiological and nitrate issues in the basin (B-118).,1,Mission Creek GW also supplies drinking water to Desert Hot  Springs and part of Indio subbasins,GW Use based on IRWM plan
+7-21.03,COACHELLA VALLEY,DESERT HOT SPRINGS,Colorado River,"101,862",12.3,Low,"22,568",1,218%,5,46,0.75,2,1,"2,500",100%,0%,0,5,2.5,896,1,1,High TDS and declining water levels have been documented for a long period of time in the Desert Hot Springs Subbasin.,,,"PubCom - GW is mainly for resorts, spas, industry, and possibly some irrigation"
+7-21.04,COACHELLA VALLEY,SAN GORGONIO PASS,Colorado River,"38,823",18.8,Medium,"29,540",2,166%,5,31,0.75,30,3,"15,909",93%,7%,3,5,4,138,1,2,Basin is in overdraft.,1,Basin is adjudicated.,
+7-22,WEST SALTON SEA,,Colorado River,"106,408",0.0,Very Low,"5,352",1,197%,0,2,0.75,0,0,64,100%,0%,0,5,0,0,0,3,"Groundwater is marginal to poor for domestic and irrigation use because of elevated fluoride, boron, and TDS.",,,
+7-24,BORREGO VALLEY,,Colorado River,"153,978",15.3,Medium,"3,853",1,174%,0,446,0.75,33,2,"20,000",100%,0%,2,5,3.5,"4,041",1,5,Overdraft conditions over 60 years. Some wells have been abandoned or destroyed due to high nitrates.,2,Most demand for basin is concentrated in north in a small area.,PubCom - Changed GW% to 100
+7-25,OCOTILLO-CLARK VALLEY,,Colorado River,"224,416",7.3,Low,27,0,137%,0,37,0.75,3,1,"3,300",0%,100%,0,1,0.5,"10,299",2,3,"High TDS, sulfate, chloride, and fluoride concentrations locally impair groundwater for domestic and irrigation use.",,,GW Use based on B118-03 data
+7-26,TERWILLIGER VALLEY,,Colorado River,"8,081",0.0,Very Low,"1,085",1,205%,5,188,3,1,1,"2,000",16%,84%,2,1,0,229,1,1,Locally elevated nitrates (B-118).,,,
+7-27,SAN FELIPE VALLEY,,Colorado River,"23,573",0.0,Very Low,188,0,161%,0,177,1.5,1,1,155,16%,84%,1,1,0,184,1,3,Significant groundwater declines documented in the late 1950s through early 1970s (B-118),,,
+7-28,VALLECITO-CARRIZO VALLEY,,Colorado River,"122,943",0.0,Very Low,77,0,209%,0,32,0.75,1,1,176,100%,0%,0,5,0,0,0,3,Groundwater quality is marginal for domestic use because of elevated levels of fluoride and mineral content.,,,
+7-29,COYOTE WELLS VALLEY,,Colorado River,"147,088",0.0,Very Low,374,0,70%,0,5,0.75,9,1,92,100%,0%,0,5,0,0,0,4,Basin is in overdraft (B-118). There are local fluoride issues and elevated TDS in some of the shallower wells in the basin.,,,
+7-3,WARD VALLEY,,Colorado River,"564,569",0.0,Very Low,22,0,318%,0,22,0.75,0,0,94,100%,0%,0,5,0,0,0,,,,,
+7-30,IMPERIAL VALLEY,,Colorado River,"969,017",0.0,Very Low,"164,037",1,131%,4,111,0.75,5,1,0,0%,100%,0,0,0,"621,898",5,,,,,
+7-31,OROCOPIA VALLEY,,Colorado River,"97,214",0.0,Very Low,"2,243",1,316%,0,4,0.75,0,0,957,94%,6%,3,5,2.5,0,0,1,Some natural occurrences of elements or compounds that exceed drinking water standards.,,,
+7-32,CHOCOLATE VALLEY,,Colorado River,"130,507",0.0,Very Low,658,0,355%,0,4,0.75,0,0,0,0%,100%,0,0,0,0,0,4,"Groundwater quality impairment due to elevated levels of fluoride, boron, and TDS (B-118). Elevated fluoride levels were found in nearly all mineral analyses of groundwater.",,,
+7-33,EAST SALTON SEA,,Colorado River,"197,043",0.0,Very Low,"1,093",0,84%,0,6,0.75,0,0,0,0%,100%,0,0,0,"8,432",2,,,,,
+7-34,AMOS VALLEY,,Colorado River,"131,584",0.0,Very Low,9,0,100%,0,0,0,3,1,0,0%,100%,0,0,0,0,0,,,,,
+7-35,OGILBY VALLEY,,Colorado River,"135,017",0.0,Very Low,36,0,100%,0,0,0,4,1,3,0%,100%,0,1,0,418,1,,,,,
+7-36,YUMA VALLEY,,Colorado River,"125,741",0.0,Very Low,"3,146",1,82%,0,3,0.75,8,1,"3,412",3%,97%,0,0,0,"30,197",3,,,,,
+7-37,ARROYO SECO VALLEY,,Colorado River,"259,806",0.0,Very Low,6,0,100%,0,3,0.75,1,1,28,100%,0%,0,5,0,0,0,,,,,
+7-38,PALO VERDE VALLEY,,Colorado River,"74,004",12.8,Low,"7,459",1,136%,4,80,0.75,15,2,"3,472",1%,99%,1,1,1,"64,741",5,1,Some elevated TDS in groundwater makes water unsuitable for domestic or irrigation purposes.(B-118),-2,Irrigated acres is almost all surface water. Reduce ranking somewhat due to low GW use,
+7-39,PALO VERDE MESA,,Colorado River,"228,010",9.3,Low,"9,231",1,87%,0,215,0.75,9,1,"3,710",2%,98%,0,1,0.5,"42,383",3,3,"Arsenic, selenium, fluoride, chloride, boron, sulfate, and TDS concentrations are high (DWR 1975).",,,
+7-4,RICE VALLEY,,Colorado River,"190,622",0.0,Very Low,23,0,83%,0,7,0.75,0,0,4,100%,0%,0,5,0,0,0,,,,,
+7-40,QUIEN SABE POINT VALLEY,,Colorado River,"25,489",0.0,Very Low,112,0,100%,0,0,0,0,0,93,2%,98%,0,1,0,541,1,,,,,
+7-41,CALZONA VALLEY,,Colorado River,"81,708",0.0,Very Low,"1,608",1,100%,0,4,0.75,0,0,"1,090",100%,0%,0,5,0,0,0,,,,,
+7-42,VIDAL VALLEY,,Colorado River,"139,577",0.0,Very Low,10,0,150%,0,2,0.75,1,1,6,100%,0%,0,5,0,0,0,4,"Fluoride, chloride, sulfate, and TDS concentrations are high (DWR 1975). GW near town of Vidal has fluoride concentrations making water unusable domestically and sodium contents make water marginal for irrigation.",,,
+7-43,CHEMEHUEVI VALLEY,,Colorado River,"275,713",0.0,Very Low,395,0,94%,0,18,0.75,0,0,94,100%,1.11E-15,0,5,0,0,0,3,"Concentrations of sulfate, chloride, fluoride, and TDS
+are high (DWR 1975).",,,
+7-44,NEEDLES VALLEY,,Colorado River,"89,101",8.3,Low,"4,902",1,90%,0,207,0.75,16,2,"2,500",11%,89%,0,1,0.5,"3,470",1,3,"Concentrations of sulfate, chloride, fluoride, and TDS content levels are high in the basin (DWR 1975).",,,Majority of basin land use is on AZ side.
+7-45,PIUTE VALLEY,,Colorado River,"177,319",0.0,Very Low,2,0,100%,0,10,0.75,0,0,96,100%,0%,0,5,0,0,0,,,,,
+7-46,CANEBRAKE VALLEY,,Colorado River,"5,460",0.0,Very Low,2,0,100%,0,0,0,0,0,2,100%,0%,1,5,0,0,0,,,,,
+7-47,JACUMBA VALLEY,,Colorado River,"2,472",0.0,Very Low,517,1,94%,0,14,1.5,2,4,427,100%,0%,2,5,0,0,0,5,"According to San Diego County documents, some wells are reportingly going dry; this is a small basin with over 500 residents and no source of imported water. TDS of some groundwaters recharging the basin are high.",3,"According to aerial imagery review, GIS, and other docs,approximately 500 acres of crops are irrigated and Bulletin 118 boundary is significantly over exaggerated (incorporating bedrock areas probably 30 percent of which are included in B118 boundary)",
+7-48,HELENDALE FAULT VALLEY,,Colorado River,"2,637",0.0,Very Low,9,0,211%,0,6,0.75,0,0,6,100%,0%,0,5,0,0,0,,,,,
+7-49,PIPES CANYON FAULT VALLEY,,Colorado River,"3,408",0.0,Very Low,5,0,600%,0,13,1.5,0,0,3,100%,0%,0,5,0,0,0,,,,,
+7-5,CHUCKWALLA VALLEY,,Colorado River,"608,995",10.8,Low,"7,853",1,36%,0,102,0.75,11,1,"5,959",75%,25%,0,4,2,422,1,3,"Sulfate, chloride, fluoride, and TDS concentrations are high for domestic use (DWR 1975). High of boron and TDS concentrations, and high sodium percentage impair groundwater for irrigation use (DWR 1975).",2,"Significant growth in industry (solar), and others. Prison is also a significant user the the GW resources.",
+7-50,IRON RIDGE AREA,,Colorado River,"5,284",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-51,LOST HORSE VALLEY,,Colorado River,"17,455",0.0,Very Low,0,0,0%,0,1,0.75,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-52,PLEASANT VALLEY,,Colorado River,"9,733",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-53,HEXIE MOUNTAIN AREA,,Colorado River,"11,236",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-54,BUCK RIDGE FAULT VALLEY,,Colorado River,"6,974",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,
+7-55,COLLINS VALLEY,,Colorado River,"7,121",0.0,Very Low,11,0,427%,0,0,0,0,0,6,100%,0%,1,5,0,0,0,,,,,
+7-56,YAQUI WELL AREA,,Colorado River,"15,098",0.0,Very Low,4,0,175%,0,7,0.75,2,1,3,100%,0%,1,5,0,0,0,,,,,
+7-59,MASON VALLEY,,Colorado River,"5,567",0.0,Very Low,23,0,252%,0,6,0.75,1,2,19,100%,0%,1,5,0,0,0,,,,,
+7-6,PINTO VALLEY,,Colorado River,"184,377",0.0,Very Low,7,0,300%,0,2,0.75,2,1,0,0%,100%,0,0,0,0,0,,,,,
+7-61,DAVIES VALLEY,,Colorado River,"3,600",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,Mostly Federal land
+7-62,JOSHUA TREE,,Colorado River,"27,422",0.0,Very Low,"4,951",1,173%,5,29,0.75,12,3,773,99%,1%,0,5,0,0,0,1,"Fluoride concentration in water from some wells has reached 9.0 mg/L, exceeding recommended maximum concentration levels of 1.4 mg/L (B-118, DWR 1984).",,,
+7-63,VANDEVENTER FLAT,,Colorado River,"6,787",0.0,Very Low,50,0,78%,0,6,0.75,0,0,16,94%,6%,0,5,0,0,0,,,,,
+7-7,CADIZ VALLEY,,Colorado River,"272,931",0.0,Very Low,10,0,540%,0,6,0.75,0,0,58,100%,0%,0,5,0,0,0,,,,,
+7-8,BRISTOL VALLEY,,Colorado River,"501,834",8.3,Low,27,0,174%,0,63,0.75,1,1,"5,000",100%,0%,0,5,2.5,943,1,3,Fluoride content in some wells exceeds the recommended MCL level (C-118). TDS content is extremely high in some wells near Bristol Lake (DWR 1967).,,,GW Used is from Metropolitan WD (1999)
+7-9,DALE VALLEY,,Colorado River,"214,650",0.0,Very Low,"1,197",0,98%,0,178,0.75,2,1,"1,500",91%,9%,0,5,0,18,1,5,"Groundwater quality in basin is generally unsuitable for domestic and agricultural uses (DWR 1979). TDS and F concentrations impair for domestic use, and B and Na concentrations impair agricultural use in basin (DWR 1979). USGS data shows declining water.",,,
+8-1,COASTAL PLAIN OF ORANGE COUNTY,,South Coast,"223,222",20.8,Medium,"2,309,966",5,110%,2,"8,534",3.75,200,4,"342,000",100%,0%,5,5,5,0,0,1,Saline intrusion issues.,,,
+8-2.01,UPPER SANTA ANA VALLEY,CHINO,South Coast,"154,693",23.3,High,"898,653",4,112%,2,"2,162",2.25,178,4,"169,488",53%,47%,5,3,4,"25,000",3,3,"Locally high nitrates and TDS. PubCom, to include subsidence, historic overdraft, ground fissuring, problems mitigated with OBMP, reduce from 4 to 3.",1,"Basin is adjudicated. Pub Com, program of controlled overdraft of 400,000 AF from the Chino Basin though 2030 to control the outflow of poor-quality rising GW","PubCom, Data provided for GW use, Percent supplied by GW, Irrigated Acres, wells, and PSW"
+8-2.02,UPPER SANTA ANA VALLEY,CUCAMONGA,South Coast,"9,574",18.3,Medium,"51,001",4,102%,1,26,0.75,17,5,"14,400",30%,70%,5,2,3.5,11,1,3,High nitrates reported in 14 of 24 wells tested (B-118),,,GW Use and percent supplied by GW is from Cucamona Valley Water District
+8-2.03,UPPER SANTA ANA VALLEY,RIVERSIDE-ARLINGTON,South Coast,"58,903",24.5,High,"336,884",4,111%,2,"1,397",3,47,4,"49,148",71%,29%,5,4,4.5,"3,583",2,5,Water quality degradation issues known in several public supply wells.,,,
+8-2.04,UPPER SANTA ANA VALLEY,RIALTO-COLTON,South Coast,"30,224",18.3,Medium,"145,832",4,106%,1,265,2.25,42,4,"12,000",52%,48%,3,3,3,32,1,3,Extensive perchlorate contamination in basin.,,,GW Use based on B118-03 data
+8-2.05,UPPER SANTA ANA VALLEY,CAJON,South Coast,"23,306",0.0,Very Low,520,1,102%,0,68,0.75,3,1,33,13%,87%,5,1,0.5,60,1,,,,,GW use may be under reported
+8-2.06,UPPER SANTA ANA VALLEY,BUNKER HILL,South Coast,"80,972",21.3,High,"363,394",4,104%,1,"1,247",2.25,167,5,"32,550",60%,40%,3,3,3,"3,257",2,3,The Bunker Hill sub-basin is impacted with PCE and TCE from the Newmark Superfund site and with perchlorate from the Crafton-Redlands plume.,1,Adjudication (Western San Bernardino),"PubCom, reported WQ issues and some declining GWL. "
+8-2.07,UPPER SANTA ANA VALLEY,YUCAIPA,South Coast,"25,410",20.8,Medium,"65,180",3,106%,1,220,2.25,37,4,"8,270",68%,32%,3,4,3.5,"1,272",2,5,Overdraft. Documented impacts of nitrates and sulfates. (B-118),,,
+8-2.08,UPPER SANTA ANA VALLEY,SAN TIMOTEO,South Coast,"73,541",19.0,Medium,"54,169",2,156%,5,460,1.5,53,3,"6,310",75%,25%,1,4,2.5,"1,155",1,3,Locally high nitrates and salinity (B-118). GAMA reported upper basin water quality issues.,1,Parts of the subbasin are adjudicated.,
+8-2.09,UPPER SANTA ANA VALLEY,TEMESCAL,South Coast,"23,654",19.5,Medium,"141,436",4,119%,2,445,3,15,3,"22,024",79%,21%,5,4,4.5,831,1,2,Groundwater quality impaired by nitrates and inorganics in some wells (B-118).,,,
+8-4,ELSINORE,,South Coast,"25,873",21.3,High,"60,946",3,132%,4,375,2.25,31,4,"5,872",72%,28%,2,4,3,286,1,3,High TDS due to Nitrate and Sulfate in some portions of the basin (Elsinore Gw AdvisoryComm). Some fluoride impacts to groundwater (B-118).,1,"Study done for Elsinore Basin GW Advisory Committee (Nov. 2012) indicates an average annual GW budget deficit of 1,800 af/yr for the last 11 years. Between 1990 and 2000 cumulative deficit was 19,000 af.",GW Use based on Bulletin 118 and MWD data
+8-5,SAN JACINTO,,South Coast,"188,623",24.3,High,"474,317",3,132%,4,"2,181",2.25,48,2,"91,842",86%,14%,3,5,4,"30,430",3,5,Basin is in overdraft (MWD). Groundwater quality issues documented in DWR B-118. Pumping has increased some contaminant distribution in the basin.,1,Adjudicated Basin,
+8-6,HEMET LAKE VALLEY,,South Coast,"16,811",0.0,Very Low,464,1,115%,0,47,0.75,9,3,5,1%,99%,0,1,0,84,1,2,Locally high nitrates and TDS.(B-118),,,
+8-7,BIG MEADOWS VALLEY,,South Coast,"14,263",0.0,Very Low,51,0,114%,0,23,0.75,15,4,3,52%,48%,5,3,0,0,0,,,,,
+8-8,SEVEN OAKS VALLEY,,South Coast,"4,103",0.0,Very Low,7,0,71%,0,0,0,1,2,0,0%,100%,0,0,0,0,0,,,,,
+8-9,BEAR VALLEY,,South Coast,"19,667",14.5,Medium,"16,866",2,102%,1,496,3,46,5,"3,500",52%,48%,2,3,2.5,0,0,1,Fluoride problems in some wells (B-118).,,,GW Use based on Bulletin 118 and Big Bear data
+9-1,SAN JUAN VALLEY,,South Coast,"16,797",13.3,Low,"61,131",3,101%,1,194,2.25,11,3,"5,500",6%,94%,3,1,2,0,0,2,"TDS is generally high, springs with high fluorine, local pesticide contamination, and secondary inorganic contamination (B-118). Desalters used to treat water.",,,GW Use from MWD in 2004/2005.
+9-10,SAN PASQUAL VALLEY,,South Coast,"4,563",19.0,Medium,968,1,139%,0,110,3,1,2,"8,800",100%,0%,5,5,5,"1,963",4,3,"Nitrate problems are widespread (B-118). TDS is also known to be high in places. During dry years, the basin has experienced water level declines up to 20 feet in one year per GWMP.",1,"2006 Farmland Mapping Data indicate irrigated acreage is 2,691 and quick GIS estimate by SRO indicates irrigated acreage is at least 2,100 acres.",GW Use and percent supplied by GW is from San Pasqual Valley GWMP
+9-11,SANTA MARIA VALLEY,,South Coast,"12,379",0.0,Very Low,"16,695",2,109%,2,542,3.75,0,0,4,0%,100%,0,1,0,624,2,,,,,
+9-12,SAN DIEGUITO CREEK,,South Coast,"3,578",0.0,Very Low,"3,135",2,111%,2,89,3,0,0,1,0%,100%,2,1,0,976,3,,,,,Possible WQ issues (histroical)
+9-13,POWAY VALLEY,,South Coast,"2,485",0.0,Very Low,"16,450",5,116%,2,89,3.75,0,0,4,4%,96%,2,1,0,3,1,,,,,Possible WQ issues (histroical)
+9-14,MISSION VALLEY,,South Coast,"7,387",0.0,Very Low,"37,066",4,120%,3,307,3.75,0,0,9,4%,96%,2,1,0,0,0,,,,,Possible WQ issues (histroical). Seawater intrusion is suspected (DWR 1975).
+9-15,SAN DIEGO RIVER VALLEY,,South Coast,"9,944",15.8,Medium,"45,800",4,107%,1,339,3.75,4,3,"4,000",1%,99%,3,1,2,215,1,1,"High Nitrates, Iron and Manganese treatment is required, high TDS (>3,000 mg/l) in western portion of basin",,,"GW Use is estimated from 2007 San Diego Groundwater Basin Report Chapter 4, and from 2001 GW Mgmt Planning Study for Santee-El Monte Basin."
+9-16,EL CAJON VALLEY,,South Coast,"7,203",0.0,Very Low,"92,314",5,109%,1,369,3.75,0,0,25,4%,96%,2,1,0,11,1,5,High nitrates and TDS have impaired the basin for domestic use and high chlorides make the water marginal to inferior for irrigation uses (B-118).,,,
+9-17,SWEETWATER VALLEY,,South Coast,"5,949",0.0,Very Low,"35,277",4,106%,1,509,3.75,5,4,9,4%,96%,2,1,0,0,0,5,"TDS, chloride and sodium content of the groundwater generally exceed the recommended limits for drinking (B-118, & DWR 1986).",,,
+9-18,OTAY VALLEY,,South Coast,"6,869",0.0,Very Low,"39,191",4,108%,1,204,3,0,0,10,2%,98%,2,1,0,83,1,5,Groundwater is marginal to inferior for domestic use in the coastal plain due to high TDS content and suitable in the eastern part of the basin and is marginal to inferior for irrigation due to high chloride concentrations (B-118 & DWR 1967).,,,
+9-19,TIA JUANA,,South Coast,"7,448",0.0,Very Low,"50,694",5,103%,1,87,2.25,0,0,14,1%,99%,0,1,0,305,2,5,"Chloride and sulfate exceed MCL in some wells(Izbicki 1985). MCL for aluminum, barium, lead, selenium, and silver concentrations are exceeded individually in some wells (Dudek 1994).",,,
+9-2,SAN MATEO VALLEY,,South Coast,"3,009",0.0,Very Low,554,1,141%,0,21,1.5,4,4,0,0%,100%,0,0,0,515,3,3,Locally high TDS and some elevated nitrates in wells (B-118),,,GW Use based on B118-03 data
+9-22,BATIQUITOS LAGOON VALLEY,,South Coast,745,0.0,Very Low,"2,109",3,180%,5,5,1.5,0,0,0,0%,100%,0,0,0,6,1,4,The groundwater in this basin was rated inferior for irrigation because of high chloride content and marginal for domestic use because of high sulfate and TDS concentrations (DWR 1967).,,,
+9-23,SAN ELIJO VALLEY,,South Coast,888,0.0,Very Low,"1,125",2,133%,4,25,3,0,0,0,0%,100%,0,0,0,8,1,5,High TDS limits beneficial uses (B-118),,,
+9-24,PAMO VALLEY,,South Coast,"1,514",0.0,Very Low,0,0,0%,0,0,0,0,0,0,0%,100%,0,0,0,0,0,,,,,GW Use may be under reported
+9-25,RANCHITA TOWN AREA,,South Coast,"3,146",0.0,Very Low,168,1,129%,0,78,3,0,0,0,0%,100%,0,0,0,29,1,,,,,GW Use may be under reported
+9-27,COTTONWOOD VALLEY,,South Coast,"3,871",0.0,Very Low,44,1,145%,0,17,1.5,5,4,0,0%,100%,0,0,0,148,1,,,1,"Basin area is listed by EPA as a ""Sole Source
+Aquifer"" in EPA Region 9.",GW Use may be under reported
+9-28,CAMPO VALLEY,,South Coast,"3,569",0.0,Very Low,985,1,179%,0,55,2.25,5,4,0,0%,100%,0,0,0,310,2,,,1,"Basin area is listed by EPA as a ""Sole Source
+Aquifer"" in EPA Region 9.",GW Use may be under reported
+9-29,POTRERO VALLEY,,South Coast,"2,035",0.0,Very Low,475,1,146%,0,62,3,3,4,0,0%,100%,0,0,0,131,2,,,,,GW Use may be under reported
+9-3,SAN ONOFRE VALLEY,,South Coast,"1,261",0.0,Very Low,"3,133",3,292%,5,2,0.75,3,5,1,4%,96%,2,1,0,0,0,,,,,
+9-32,SAN MARCOS AREA,,South Coast,"2,144",0.0,Very Low,"15,096",5,124%,3,52,3,0,0,4,4%,96%,2,1,0,0,0,,,,,Percent water provided by GW is based on B118-03 data
+9-4,SANTA MARGARITA VALLEY,,South Coast,"7,998",17.8,Medium,"4,121",2,102%,1,111,2.25,9,4,"5,800",93%,7%,4,5,4.5,157,1,2,"Groundwater in SW part of basin is marginal to inferior for domestic and agricultural uses (DWR 1967). Mg, SO4, Cl, NO3, and TDS concentrations are locally high for domestic. Use; Cl, B, and TDS are locally high for ag use (DWR 1975).",1,Adjudicated Basin,GW Use id provided by MWD and water master reports 
+9-5,TEMECULA VALLEY,,South Coast,"88,338",23.0,High,"219,431",3,148%,5,"1,556",3,53,3,"3,365",18%,82%,1,1,1,"4,800",2,5,"Groundwater source is impaired in various parts of the basin due to elevated nitrates, fluoride, sulfates, TDS, and VOCs (B-118).",1,Adjudicated Basin,
+9-6,CAHUILLA VALLEY,,South Coast,"18,342",17.5,Medium,"1,993",1,123%,3,406,3,8,3,"2,115",100%,0%,2,5,3.5,"1,849",2,1,"Locally, sulfates and nitrates are high for domestic use (DWR 1975). Nitrate concentrations reach as much as 128 mg/L (Moyle 1976).",1,Adjudicated Basin,GW Use and percent of water supplied by GW is from 2013 Water master report for years 2011-2012
+9-7,SAN LUIS REY VALLEY,,South Coast,"29,865",19.0,Medium,"43,942",2,105%,1,500,3,48,5,"14,400",5%,95%,3,1,2,"7,830",3,3,"TDS is a concern according to MWD. B-118 indicates problems with nitrates, inorganics, radiologicals, and VOCs. Desalination generally required in all areas of the basin.",,,"Groundwater reliance from MWD report online. Percentage of groundwater vs. surface water use is unknown. It is likely that the groundwater reliance percentage is much higher, but no information could be found other than the extraction amount of 14,400 AFY"
+9-8,WARNER VALLEY,,South Coast,"24,150",0.0,Very Low,185,0,78%,0,72,0.75,31,4,0,0%,100%,0,0,0,0,0,1,Groundwater generally suitable except for elevated fluoride contents near hot springs,,,
+9-9,ESCONDIDO VALLEY,,South Coast,"2,906",0.0,Very Low,"38,593",5,104%,1,221,3.75,0,0,10,3%,97%,0,1,0,40,1,2,"Local sources of groundwater in this basin are categorized as suitable to inferior for domestic use. The water categorized as inferior typically contains high nitrate, TDS, or sulfate content (DWR 1967).",,,

@@ -1,0 +1,1763 @@
+<metadata><idinfo><citation><citeinfo><origin>California Department of Forestry and Fire Protection (using data from BOR, DFG and DOC FMMP)</origin><pubdate>5/2009</pubdate><title>MGR_DWRATLAS.i03_CaliforniaCounties</title><geoform Sync="TRUE">vector digital data</geoform><ftname Sync="TRUE">cnty24k09_1_multipart</ftname><origin>California Department of Fish and Game</origin><onlink>http://projects.atlas.ca.gov/frs/?group_id=41&amp;release_id=279</onlink><edition>09_1</edition><othercit>The user will cite the California Department of Forestry and Fire Protection as the original source of the data, but will clearly denote cases where the original data have been altered, updated, or in any way changed from the original condition.</othercit><onlink>http://frap.cdf.ca.gov/data/frapgisdata/download.asp?rec=cnty24k</onlink></citeinfo></citation><descript><abstract>In late 1996, the Dept of Conservation (DOC) surveyed state and federal agencies about the county boundary coverage they used. As a result, DOC adopted the 1:24,000 (24K) scale U.S. Bureau of Reclamation (USBR) dataset (USGS source) for their Farmland Mapping and Monitoring Program (FMMP) but with several modifications. Detailed documentation of these changes is provided by FMMP and included in the lineage section of the metadata. A dataset named cnty24k97_1 was made available (approximately 2004) through the California Department of Forestry and Fire Protection - Fire and Resource Assessment Program (CDF - FRAP) and the California Spatial Information Library (CaSIL). In late 2006, the Department of Fish and Game (DFG) reviewed cnty24k97_1. Comparisons were made to a high-quality 100K dataset (co100a/county100k from the former Teale Data Center GIS Solutions Group) and legal boundary descriptions from ( http://www.leginfo.ca.gov ). The cnty24k97_1 dataset was missing Anacapa and Santa Barbara islands. DFG added the missing islands using previously-digitized coastline data (coastn27 of State Lands Commission origin), corrected a few county boundaries, built region topology, added additional attributes, and renamed the dataset to county24k. In 2007, the California Mapping Coordinating Committee (CMCC) requested that the California Department of Forestry and Fire Protection (CAL FIRE) resume stewardship of the statewide county boundaries data. CAL FIRE adopted the changes made by DFG and collected additional suggestions for the county data from DFG, DOC, and local government agencies. CAL FIRE incorporated these suggestions into the latest revision, which has been renamed cnty24k09_1. Detailed documentation of changes is included in the Process Step section of the metadata.</abstract><purpose>The multipart feature class combines polygons from a single county into one feature with one record in the attribute table (e.g. selecting Santa Barbara County in the attribute table will result in selecting all Santa Barbara County islands as well as the mainland portion of the county). This may be useful for selections and overlays when all parts of a county are needed.
+
+Ideally, state and federal agencies should be using the same framework data for common themes such as county boundaries. This layer provides an initial offering as "best available" at 1:24,000 scale. Additional improvements, including a review of data sources for the coastline, can be added over time based on interagency review and agreement on proposed changes.</purpose><langdata Sync="TRUE">en</langdata><supplinf>
+Extremely detailed descriptions of boundary changes made for different versions are provided in the Process Step metadata section. More general version notes are provided here;
+
+Cnty24k09_1 notes: 
+
+The linework has been updated to reflect legal boundary changes between the following counties: Fresno-Merced, Kern-Los Angles, Orange-Riverside, and Orange-Los Angeles.
+
+The linework has been improved for greater accuracy in sections shared by the following counties: Ventura-Kern, Ventura-Santa Barbara, and Lake-Mendocino-Sonoma.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2009</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc Sync="TRUE">-124.511650</westbc><eastbc Sync="TRUE">-113.497863</eastbc><northbc Sync="TRUE">42.068568</northbc><southbc Sync="TRUE">32.423674</southbc></bounding><lboundng><leftbc Sync="TRUE">-374443.187500</leftbc><rightbc Sync="TRUE">540082.750000</rightbc><bottombc Sync="TRUE">-604504.687500</bottombc><topbc Sync="TRUE">450029.875000</topbc></lboundng></spdom><keywords><theme><themekey>government</themekey><themekey>county boundaries</themekey><themekey>county boundary</themekey><themekey>county line</themekey><themekey>county</themekey><themekey>counties</themekey><themekey>boundary</themekey><themekey>border</themekey><themekey>borders</themekey></theme><theme><themekey>boundaries</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>location</themekey></theme><place><placekey>California</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><ptcontac><cntinfo><cntperp><cntper>County Boundaries Specialist</cntper><cntorg>California Department of Forestry and Fire Protection - FRAP</cntorg></cntperp><cntemail>FRAPdatacontact@fire.ca.gov</cntemail><cntvoice>(916) 327-3939</cntvoice><cntfax>(916) 324-1180</cntfax><hours>M-F 8-5</hours></cntinfo></ptcontac><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native><natvform Sync="TRUE">File Geodatabase Feature Class</natvform><browse><browsen>http://frap.cdf.ca.gov/data/browsegraphic/cnty24k.gif</browsen><browset>GIF</browset></browse></idinfo><dataqual><lineage><procstep><procdesc>
+Bureau of Reclamation County Line Modifications		14 July 1997
+
+During the transition to a county line standard for the Farmland
+Mapping and Monitoring Program (FMMP) survey counties, it was
+discovered that the Bureau of Reclamation's county line file that
+FMMP wanted to adopt was outdated in two locations. A third area
+believed to be outdated, but could not be confirmed, was also
+changed in the Bureau's master file. All three changes are described
+below.
+
+When a county line has changed and no longer agrees with the Bureau's
+master file, the preferred order for incorporating the new linework
+into it are as follows:
+
+Copying information from digital USGS 7.5' SDTS formatted files.
+Copying information from digital USGS 100K DLG formatted files.
+Digitizing off of USGS 7.5' paper quads (if they reflect the
+new county line).
+Any other means where a correct boundary can be incorporated.
+
+The modified Bureau of Reclamation file contains the following
+linework changes:
+
+Butte-Glenn Counties
+
+Background
+
+The area in question is the entire Butte-Glenn county line along the
+Sacramento River.  There were subtle and not so subtle differences
+between the FMMP's existing county line and what the Bureau was calling
+the county line.  Several sources were referenced with no clear
+indication of where the line fell.  In all the maps reviewed there
+was never a point in the process where the FMMP had to consider
+multiple interpretations of the county line. It was either FMMP's
+existing line or the Bureau's.
+
+Sources Referenced
+
+US Census Tiger File
+USGS 100K DLG
+USGS 7.5' DLG
+USGS 7.5' paper quads
+USGS 100K mylar quads
+ETAK
+
+State of California Legal text description of Butte County and Glenn
+County lines.
+
+Butte County Planning Department
+Butte County Public Works
+Butte County Assessor's Office
+Butte County Legal Counsel
+Glenn County Planning Department
+Glenn County Public Works
+Glenn County Assessor's Office
+
+Result
+
+After careful consideration of the sources contacted and/or reviewed,
+it was determined that the FMMP would adopt the 100K USGS DLG line as
+the county line between Butte and Glenn County.  The biggest obstacles
+in making this decision were the ignorance of both counties on where
+their county line fell, and the USGS contradicting itself as to where
+the line went.  The 100K USGS mylar and 100K DLG matched what FMMP was
+already using, while the 7.5' USGS paper quad and 7.5' USGS DLG
+identified a different county line.  In the end it was decided that
+FMMP would adopt the 100K DLG since it closely resembled the line
+the FMMP has used all along for these two counties. The adoption of
+the 100K DLG line was performed by R. Withers in June 1997. The entire
+common boundary between Butte and Glenn counties was replaced and is
+distinguished from the rest of the Bureau's linework by color. The
+change starts at lat. 39- 23' 02.5349" N long. -121- 53' 20.1887" W
+and ends at lat. 39- 47' 52.0638" N long. -122- 02' 43.6258" W.
+
+Orange-Riverside Counties
+
+Background
+
+The USGS, Bureau of Reclamation, and the FMMP all had interpreted the
+county line between Orange and Riverside counties in the same way,
+but a note from Karen Freeman at the City of Anaheim Planning
+Department described a minor change that she was aware of between
+the two.  Upon investigation, it was confirmed that a change had
+occurred. Since the adjustment of the line was written using bearing
+and distance, R. Withers tried to draw out the line using the
+precision placement options of Microstation 95 (version 5 mode).
+The legal text was obtained from the State of California (the
+county line change is highlighted in bold and is underlined):
+
+http://www.leginfo.ca.gov/cgi-bin/calawquery?codesection=gov&amp;codebody=23101
+
+23130.  The boundaries of Orange County are as follows:
+
+Beginning at the northwest corner of San Diego County at a point
+in the Pacific Ocean opposite San Mateo point; thence northerly along
+the San Diego County line to the southerly line of the Rancho
+Mission Viejo as shown on the survey on file in book 8, pages 34
+through 46 inclusive of Records of Survey in the office of the County
+Recorder of Orange County;
+
+Thence, easterly and northeasterly to an angle point therein, said
+point being Rancho Mission Viejo Corner No. 7, as shown on said
+Record of Survey; thence northerly 12,693.95 feet along the
+northwestern boundary of San Diego County to the southwest corner of
+Section 33, T. 7 S., R. 6 W., said point being also the most
+southwest corner of Riverside County; thence northerly 1,324.46 feet
+along the western boundary of said Riverside County to the
+southwesterly corner of Government Lot 3, Fractional Section 33, T. 7
+S., R. 6 W., S.B.M., as shown on that survey on file in book 122,
+pages 17 and 18 of Records of Survey in the office of the County
+Recorder of Orange County;
+
+Thence leaving said western boundary south 89*25'11 east, 2,042.68
+feet to the southeast corner of the NE.1/4 of the SE.  1/4 of said
+Section 33; thence north 01*00'50 east, 1,320.33 feet to the
+northeast corner of the NE. 1/4 of the SE.  1/4 of said Section 33;
+thence north 00*27'14 east, 2,647.46 feet to the northeast corner of
+said Section 33; thence along the north line of said section north
+89*16'14 west, 2,086.39 feet to the northwest corner of Government
+Lot 1 of said section, being a point on the existing western boundary
+of said Riverside County;
+
+Thence along said boundary of Riverside County northerly,
+northeasterly, northwesterly, westerly, northerly, westerly and
+northwesterly to a point on the south line of Section 36, T. 3 S., R.
+8 W., as shown on that survey on file in book 131, pages 24 and 25
+of Records of Survey in the office of the Orange County Recorder,
+said point lying distant therein north 89*05'38 west 151.58 feet from
+the southeast corner of said Section 36;
+
+Thence leaving said existing boundary of Riverside County and
+along said south line north 89*05'38 west, 2,484.00 feet; thence
+continuing along said south line, north 89*07'27 west, 818.46 feet to
+the easterly line of the Rancho Lomas de Santiago; thence along said
+easterly line north 02*53'27 west, 3,273.18 feet to a point on a
+nontangent curve, concave to the northwest and having a radius of
+1,550.00 feet, a radial from said point bears north 14*05'30 west;
+thence easterly, leaving said east line, along said curve through a
+central angle of 15*01'17 and arc length of 406.35 feet; thence
+nontangent to said curve, south 84*32'29 east, 155.61 feet; thence
+north 65*40'06 east, 75.15 feet; thence north 48*16'56 east, 150.70
+feet; thence north 68*49'57 east, 35.37 feet to said existing
+boundary of Riverside County;
+
+Thence northwesterly along the said boundary to the corner common
+to Riverside, San Bernardino, and Orange Counties; thence
+northwesterly along the southwest boundary of San Bernardino County
+to the point of intersection of said boundary with the southerly line
+of T. 2 S., R.  9 W., being also the corner common to San Bernardino
+and Los Angeles Counties; thence westerly along the township line
+between T. 2 and 3 S., to the corner common to T. 2 and 3 S., R.  10
+and 11 W.; thence southerly along the range line between R.  10 and
+11 W., to the southeast corner of  Section 13, T. 3 S., R.  11 W., in
+the Rancho Los Coyotes; thence in a general southwesterly direction
+along section lines, quarter section lines and quarter quarter
+section lines in the Rancho Los Coyotes, as follows:  westerly along
+the section line to the quarter corner on the south line of said
+Section 13; thence southerly along the quarter section line to the
+center of Section 24, T. 3 S., R. 11 W.; thence westerly along the
+quarter section line to the quarter corner on the west line of said
+Section 24; thence southerly along the section line to the southwest
+corner of said Section 24; thence westerly along the section line to
+the quarter corner on the north line of  Section 26, T. 3 S., R.  11
+W.; thence southerly along the quarter section line to the center of
+said Section 26;
+
+Thence westerly along the quarter section line to the quarter
+corner on the west line of said Section 26; thence southerly along
+the section line to the southwest corner of said Section 26; thence
+westerly along the section line to the northeast corner of Section
+33, T. 3 S., R. 11 W.; thence southerly along the section line to the
+quarter corner on the east line of said Section 33; thence westerly
+along the quarter section line to the center of said Section 33;
+thence southerly along the quarter section line to the northeast
+corner of the SE. 1/4 of the SW. 1/4 of said Section 33; thence
+westerly along the quarter quarter section line to the center of the
+SW. 1/4 of said Section 33; thence southerly along the quarter
+quarter section line to the south line of said Section 33; thence
+westerly along the township line between T. 3 and 4 S., to the
+northeast corner of Section 5, T.  4 S., R. 11 W.; thence southerly
+along the section line to the northeast corner of the SE. 1/4 of said
+Section 5; thence westerly along the quarter section line to the
+northwest corner of the NE. 1/4 of the SE.  1/4 of said Section 5;
+thence southerly along the quarter quarter section line to the center
+of the SE. 1/4 of said Section 5; thence westerly along the quarter
+quarter section line to the westerly line of the SE. 1/4 of said
+Section 5; thence southerly along the quarter section line to the
+quarter corner on the south line of said Section 5; thence westerly
+along the section line to the northeast corner of the NW. 1/4 of the
+NW.  1/4 of Section 8, T.  4 S., R.  11 W.;
+
+Thence southerly along the quarter quarter section lines to the
+northeast corner of the SW. 1/4 of the SW. 1/4 of said Section 8;
+thence southwesterly in a straight line to a point on the south line
+of the Moody Creek Channel as shown on that survey on file in book
+120, page 5 of Records of Survey in the office of the Recorder of
+Orange County, said point being on a nontangent curve, concave
+southeasterly and having a radius of 950.00 feet, a radial from said
+point bears south 03*41'24 east; thence westerly along said south
+line and said curve through a central angle of 26*34'39 and an arc
+length of 440.67 feet to its point of intersection with the east line
+of the Coyote Creek Channel, said point being on a nontangent curve
+concave northwesterly and having a radius of 5,200.00 feet, a radial
+from said point bears north 75*11'46 west; thence southwesterly along
+said easterly line and said curve through a central angle of 03*10'
+38 and an arc length of 288.36 feet; thence continuing along said
+easterly line, tangent to said curve, south 17*58'52 west, 132.27
+feet to a point on the existing boundary of Los Angeles County;
+thence southwesterly along said boundary in a straight line to the
+southwest corner of Section 8, T. 4 S., R. 11 W.  said corner also
+being Los Angeles/Orange County Corner No. 11 as shown on Los Angeles
+County Surveyor's Map No. 8175 on file in the office of the Surveyor
+of the County of Los Angeles;
+
+Thence south 00*11'50 east, along the section line to a point on
+the boundary line between Rancho Los Coyotes and Rancho Los Alamitos,
+said point also being Los Angeles/Orange County Corner No. 10;
+
+Thence south 59*07'40 west, a distance of 3,391.48 feet to Los
+Angeles/Orange County Corner No. 9;
+
+Thence south 39*48'20 west, a distance of 5,650.97 feet to Los
+Angeles/Orange County Corner No. 8;
+
+Thence south 11*36'55 west, a distance of 2,241.41 feet to Los
+Angeles/Orange County Corner No. 7;
+
+Thence south 27*55'55 west, a distance of 8,375.40 feet to Los
+Angeles/Orange County Corner No. 6;
+
+Thence south 31*22'50 east, a distance of 1,296.21 feet to Los
+Angeles/Orange County Corner No. 5;
+
+Thence south 27*12'00 east, a distance of 2,106.10 feet to Los
+Angeles/Orange County Corner No. 4;
+
+Thence south 16*46'45 east, a distance of 1,444.82 feet to Los
+Angeles/Orange County Corner No. 3;
+
+Thence south 2*48'35 east, a distance of 2,207.94 feet to Los
+Angeles/Orange County Corner No. 2;
+
+Thence south 57*10'40 west, a distance of 8,238.78 feet to Los
+Angeles/Orange County Corner No. 1;
+
+Thence south 33*00'00 west, a distance of 622.43 feet to a point
+on the northeasterly line of block 59, Alamitos Bay tract, as shown
+on the map recorded in map book 5, page 137, on file in the office of
+the Recorder of the County of Los Angeles, distant thereon south
+57*50'45 east, a distance of 428.91 feet from the most northerly
+corner of said block 59; thence continuing south 33*00'00 west, a
+distance of three miles, more or less to the southwesterly boundary
+line of the State of California (the boundary line between Los
+Angeles and Orange hereinabove described and established being shown
+on said county surveyor's map No. 8175 ; and likewise on map No.  300
+on file in the office of the Surveyor of Orange County); thence
+southeasterly along the state line to the point of beginning.
+
+Sources Referenced
+
+USGS 7.5' paper quad
+City of Anaheim Planning Department
+US Census Tiger File
+ETAK
+State of California legal text description of Orange County.
+
+Result
+
+The precision placement of the modified Orange-Riverside line was
+successful. However, the Bureau's line does not take into account
+minor directional changes north and south of the main area of concern.
+As a result, the line had to be redigitized from the USGS 7.5'
+quadrangle Black Star Canyon.  The new county line is distinguished
+from the rest of the Bureau's linework by color. The change starts at
+lat. 33- 46' 00.4197" N long. -117- 34' 37.4973" W and ends at
+lat. 33- 52' 39.0641" N long. -117- 40' 42.3113" W.
+
+Santa Cruz-Santa Clara Counties
+
+Background
+
+There had been a long history dating back to the late 1980's(?)
+regarding the correct placement of the county line between
+Santa Cruz and Santa Clara counties. The 100K USGS map did not
+agree with the 7.5' USGS quadrangles and the counties were of
+little help in resolving placement of the line. At that time
+the FMMP decided to go with the 100K line.
+
+In 1997 the issue came up again because the FMMP line did not match the
+Bureau's county line.  Most of the 7.5' USGS paper quads along the
+county border were updated by USGS in the early to mid 1990's, and
+the legal text description of the county line agreed with what was
+represented on the newer 7.5' quads.
+
+Sources referenced
+
+State of California Legal text description of Santa Clara County and
+Santa Cruz County lines
+USGS 100K DLG
+USGS 7.5' DLG
+USGS 7.5' paper quads
+USGS 100K mylar quads
+
+Result
+
+The 100K DLG information was incomplete, but matched the 100K USGS
+paper map where DLG information was available. The 7.5' DLG
+information though complete, had some quads that matched the newer
+7.5' paper maps and some that appeared to match older 7.5' USGS quads.
+The problem was finally resolved by digitizing the entire Santa
+Cruz-Santa Clara line off the newer 7.5' paper quads. This process
+was completed in May 1997 by R. Withers.  The change begins in the
+south where San Benito, Santa Clara, and Santa Cruz counties meet,
+and ends just past the junction of Santa Cruz, Santa Clara, and
+San Mateo counties.  The new county line is distinguished from the
+rest of the Bureau's linework by color. The change starts at
+lat. 36- 53' 57.9613" N long. -121- 34' 49.6766" W and ends at
+lat. 37- 17' 36.4162" N log. -122- 09' 35.4072" W.
+
+Modifications to FMMP County Line's Within Its Files
+
+There are two areas where the Bureau's line and the state's legal text
+description agreed, and the FMMP county line was out of date.
+
+A county line adjustment between Kern and Ventura counties resulted in
+about 9-10 sq. mi. going from Ventura to Kern County.  The area was not
+surveyed on the Ventura side, but falls in the Interim Farmland area of
+Kern County.  The addition was photo interpreted and incorporated into
+the 1994 Kern County survey area.  Ventura County was unaffected since
+the FMMP does not map that portion of the county.
+
+The Tehama-Shasta county line change is located on the Lassen Peak and
+Gray's Peak USGS quads and involves about 5 sq. mi. going from Tehama
+to Shasta County.  The FMMP loses land from its overall survey area
+because there's no soil survey information for that portion of Shasta
+County. All of the land lost is National Forest Service land and was
+classified as 'X' when it was mapped as part of Tehama County.
+
+R. Withers
+</procdesc><procdate>19970714</procdate></procstep><procstep><procdesc>Converted to California Teale Albers NAD83.</procdesc><proccont><cntinfo><cntperp><cntper>GIS Service Center</cntper><cntorg>California Department of Fish and Game</cntorg></cntperp><cntemail>geodata@dfg.ca.gov</cntemail></cntinfo></proccont><procdate>200405</procdate></procstep><procstep><proccont><cntinfo><cntperp><cntper>Will Patterson</cntper><cntorg>California Department of Fish and Game</cntorg></cntperp><cntemail>geodata@dfg.ca.gov</cntemail></cntinfo></proccont><procdesc>In late 2006, the Department of Fish and Game (DFG) reviewed the 24K dataset known as cnty24k97_1.  Comparisons were made to a high-quality 100K dataset (co100a/county100k from the former Teale Data Center GIS Solutions Group) and legal boundary descriptions from ( http://www.leginfo.ca.gov ).  The cnty24k97_1 dataset was missing Anacapa and Santa Barbara islands.  DFG added the missing islands using previously-digitized coastline data (coastn27 of State Lands Commission origin), corrected a few county boundaries, built region topology, added additional attributes, and renamed the dataset to county24k.
+
+The specific county boundary corrections were as follows:
+- San Francisco county boundary corrected to extend across the mouth of San Francisco bay instead of along the coastline as per ( http://www.leginfo.ca.gov ).
+- Small changes along the Orange/Riverside county boundary as per the Teale co100a/county100k dataset and ( http://www.leginfo.ca.gov ).</procdesc><procdate>200611</procdate></procstep><srcinfo><srcscale>24,000</srcscale><typesrc>digital GIS data</typesrc></srcinfo><procstep><procdesc>Bureau of Reclamation County Line Modifications (Update)
+
+6 May 2009
+
+Since the time of the last update of the county data by the Department of Conservation's Farmland Mapping and Monitoring Program (DOC-FMMP) in July 1997, the California Mapping Coordinating Committee (CMCC) has requested that the California Department of Forestry and Fire Protection (CAL FIRE) resume stewardship of the statewide county boundary data (originally digitized by the US Bureau of Reclamation).  For the past few years CAL FIRE has received suggestions for enhancements to the county data from multiple sources.  Our latest update to county lines is based on comments and input from DOC-FMMP, CA Department of Fish and Game, CA Board of Equalization, Kern County, Orange County, and Ventura County.  Data editing was performed by both Department of Fish and Game and CAL FIRE.  All changes are described below.
+
+When a request was made to change a county line, CAL FIRE looked at two spatial sources: parcel data from counties, and the set of scanned USGS 7.5' topo quads (aka 24k DRGs) on the California Spatial Information Library (CaSIL).  In addition, CAL FIRE also reviewed the legal text for county boundary descriptions (Government Code Section 23100-23158) on the California Legislative Information website:
+http://www.leginfo.ca.gov/cgi-bin/calawquery?codesection=gov&amp;codebody=23101
+
+Documentation for legal boundary changes was also provided to CAL FIRE by CA Board of Equalization.
+
+
+Ventura-Kern and Ventura-Santa Barbara Counties
+
+Background
+
+The two county line sections in question are the western edge of Ventura County (shared with Santa Barbara County) and one of the northern edges of Ventura County (shared with Kern County).  Ventura County Fire Protection District contacted CAL FIRE to let us know that the Bureau's line did not line up well with their county parcel data.  Parcel data from Ventura County, Santa Barbara County, and Kern County aligned well with each other, but did not align well with the Bureau's county lines.  Because Ventura County FPD needs CAL FIRE data to align with their data, Ventura County FPD requested that we adjust the Bureau's line.
+
+Sources Referenced
+
+Kern County Parcel Data
+Santa Barbara Parcel Data
+Ventura County Parcel Data
+Ventura County Fire Protection District
+
+Result
+
+After considering the sources reviewed, CAL FIRE decided to adjust the two county line sections that Ventura County FPD requested for us to adjust.  The need for county boundary lines that agree with the county linework used by local governments is becoming more critical as more and more local governments are using GIS data from the state.  Parcel data from the three counties does not align perfectly (node-to-node) from county to county.  However, all 3 counties' parcel data illustrate the northwest corner of Ventura County as being about 0.1 mile west of where it is shown on the Bureau file.  In addition, Kern parcel data and Santa Barbara parcel data illustrate one of the northern edges of Kern County as being 0.5 mile north of where it is shown in the Bureau file.
+
+CAL FIRE edited the Bureau's line by "snapping" the Bureau's northwest corner of Ventura County to the northwest corner of Ventura County's parcel data.  CAL FIRE also used Ventura County's parcel data as a basis for snapping the northern section of the Bureau's line by snapping the nodes of the Bureau's line to the nodes of the parcel data.
+
+
+Lake-Mendocino-Sonoma Counties
+
+Background
+
+The boundary in question is the southeast corner of Mendocino County shared with Lake County and Sonoma County.  Department of Fish and Game observed that the Bureau line did not line up with the scanned USGS 7.5' quad on CaSIL.
+
+Sources Referenced
+
+USGS 7.5' paper quad, "The Geysers" 1975
+USGS 7.5' scanned quad, "The Geysers" 1993
+Lake County parcel data
+Mendocino County parcel data
+Sonoma County parcel data
+
+Result
+
+After examining the 1975 USGS 7.5' quad and the 1993 USGS 7.5' quad CAL FIRE determined that USGS changed the way the boundary was drawn in the 1993 quad, which was released after the Bureau digitized the county lines into GIS format back in 1992.  This is not considered a legal change because the Public Land Survey System (PLSS) lines (which form the basis for the county boundary lines in this area) are represented as dashed lines in both quads, which means neither version is up to National Map standards.  However, after comparing parcel data from Lake, Mendocino, and Sonoma counties to the two USGS quads, it is clear that these counties based their county lines on the more recent 1993 quad.  CAL FIRE adjusted the Bureau line for the southeast corner of Lake-Mendocino-Sonoma in order to match both the parcel data and the latest USGS quad.
+
+
+Fresno-Merced Counties (legal boundary change - January 1, 2008)
+
+Background
+
+On December 31, 2007 a Merced County press release announced that a portion of the Merced-Fresno county line would change on January 1, 2008 by officially moving a portion (6.52 sq mi or 4,175 ac) of Fresno County into Merced County.  The purpose of the change was to enhance access to emergency services for local residents in the area south of Dos Palos.
+
+Sources Referenced
+
+Merced County Press Release (12/31/07)
+Fresno Local Agency Formation Commission Report (12/5/07)
+Vicinity Map of boundary change (in LAFCo report)
+California Board of Equalization documents
+Fresno County parcel data
+Merced County parcel data
+
+
+Result
+
+The vicinity map included in the LAFCo report showed which Fresno parcels would be moved into Merced County.  CAL FIRE adjusted the Bureau line to the new county line by using the vicinity map and Fresno County parcel data as guidelines.
+
+
+San Bernardino-Riverside Counties (legal boundary change - 2003)
+
+Background
+
+California Board of Equalization reported a minor legal boundary change along the southern boundary of San Bernardino County (near the southwest corner of San Bernardino County) shared with Riverside County.  The section of the boundary that changed is within unincorporated area that is west of the city of Rialto.  Two former Riverside parcels were moved into San Bernardino and two former San Bernardino parcels were moved into Riverside.
+
+Sources Referenced
+
+California Board of Equalization documents
+Riverside County parcel data
+San Bernardino County parcel data
+
+Result
+
+California Board of Equalization provided CAL FIRE with copies of documents confirming the boundary change.  Parcel data from San Bernardino and Riverside Counties also confirmed the change.  CAL FIRE adjusted the Bureau line to match with the parcel data.
+
+
+Yuba-Placer-Sutter Counties (legal boundary change - 2002)
+
+Background
+
+California Board of Equalization reported an annexation by city of Wheatland near the boundary of Yuba County.  This annexation indicated that a legal boundary change had occurred that affected Yuba, Placer, and Sutter Counties-parts of Placer and Sutter had been annexed by Yuba.  Board of Equalization later provided CAL FIRE with the documentation that confirmed the county boundary changes.
+
+Sources Referenced
+
+California Board of Equalization documents
+Yuba County parcel data
+Placer County parcel data
+Sutter County parcel data
+
+Result
+
+The documents provided by Board of Equalization confirmed the boundary change among the three counties.  In addition, the parcel data from the three counties also confirmed the change.  CAL FIRE adjusted the Bureau line to match the parcel data, using Yuba county parcels as the main guideline. 
+
+
+
+Kern-Los Angeles Counties (legal boundary change - 2001)
+
+Background
+
+Kern County Fire Department (KCFD) reported a boundary change in northwest Los Angeles County that had not been reflected in the Bureau county line.  The part of the boundary in question was a segment shared between Kern County and Los Angles County.
+
+Sources Referenced
+
+State of California Legal text description of Los Angeles and Kern County boundary lines
+California Board of Equalization documents
+Los Angeles County parcel data
+Kern County parcel data
+
+Result
+
+After examining multiple sources CAL FIRE confirmed that KCFD was correct.  The Los Angeles County parcel data and Kern County parcel data both reflect the boundary change.  In addition the legal text for county boundary descriptions from the California Legislative Information website also confirms the change.  CAL FIRE adjusted the Bureau line so that it would conform to the boundary shown in Kern County's parcel data. 
+
+
+Orange-Riverside Counties (legal boundary change)
+
+Background
+
+During their review of the Bureau's county lines in 2006, Department of Fish and Game observed an inconsistency along the Orange-Riverside boundary when comparing the Bureau's line with the county line in co100a from the former Teale Data Center Solutions Group.  The area in question is in southwest Riverside County.  
+
+Sources Referenced
+
+State of California Legal text description of Orange and Riverside Counties
+co100a shapefile (aka 100k counties) from the former Teale Data Center GIS Solutions Group
+Orange County parcel data
+Riverside County parcel data
+
+Result
+
+Department of Fish and Game (DFG) confirmed that a boundary change had occurred by checking the county boundary legal text on the California Legislative Information website.  DFG adjusted the Bureau line to match co100a, which was already consistent with the legal text description.  CAL FIRE also checked the legal text and concurred that the change was accurate.  CAL FIRE also compared the DFG line adjustment with parcel data from Orange County and Riverside County and determined the alignment with parcel data was good.  So CAL FIRE made no further adjustments to DFG's adjustment in this area.
+
+
+Orange-Los Angeles Counties (legal boundary change - August 29, 1999)
+
+Background
+
+The Orange County Local Agency Formation Commission (LAFCo) contacted CaSIL in 2008 to report that the Bureau's line did not reflect a change along the Orange-Los Angeles County boundary that occurred on August 29, 1999.  The area in question is along the northern boundary of Orange County and shared with the southern boundary of Los Angeles County.
+
+Sources Referenced
+
+Orange County Local Agency Formation Commission documents
+California Board of Equalization documents
+Los Angeles County parcel data
+Orange County parcel data
+
+Result
+
+Documentation provided by the Orange county LAFCo provided clear evidence of the boundary change in 1999.  CAL FIRE found the area in question by comparing the Bureau's county line to parcel data for Orange County and Los Angeles County.  The Orange County parcel data clearly showed the parcels that Orange County had annexed from Los Angeles County.  CAL FIRE adjusted the Bureau line to match the county line as shown by Orange County parcel data.
+
+
+Orange County (man-made island)
+
+Background
+
+During a review of the county lines in 2008, Department of Conservation observed that the Bureau's county lines for Orange County did not include a man-made island in the Huntington Harbor/Seal Beach area.
+
+Sources Referenced
+
+Imagery from the National Agricultural Imagery Program (NAIP)
+
+Result
+
+CAL FIRE digitized the missing island based on NAIP data.
+
+
+San Francisco County (along mouth of bay)
+
+Background
+
+Department of Fish and Game observed that the Bureau's western boundary for San Francisco County followed the shoreline and did not include the mouth of the bay between Pt. Reyes (at the southern tip of Marin County) and Pt. Lobos along the northwest shore of San Francisco County.
+
+Sources Referenced
+
+State of California Legal text description of San Francisco County
+
+
+Result
+
+Department of Fish and Game confirmed that the bay opening is part of San Francisco County by checking the county boundary legal text on the California Legislative Information website.  DFG adjusted the western boundary to include the bay opening.  CAL FIRE and DOC-FMMP have both concurred with this change and CAL FIRE has not made any further adjustments to DFG's adjustment.
+
+
+Santa Barbara County (offshore islands)
+
+Background
+
+During their review of the Bureau's county lines in 2006, Department of Fish and Game observed that the Bureau's county lines for Santa Barbara did not include Anacapa and Santa Barbara islands.
+
+Sources Referenced
+
+coastn27 coverage from State Lands Commission
+
+Result
+
+Department of Fish and Game added the missing islands using previously-digitized coastline data (coast27 of State Lands Commission origin).  Both CAL FIRE and DOC-FMMP concur with this change and have not made any further changes to the DFG linework.
+
+
+Changes other than linework
+
+During their 2006 update of the data, Department of Fish and Game created a multipart version of the counties feature class (using region topology in coverage format), which has 58 multipart features (one record for each county in the attribute table).  CAL FIRE updated linework in both the single part feature class and the multipart feature class.  Both of these feature classes can be found in the File geodatabase.
+
+Department of Fish and Game also added three additional attributes (ABBREV, ABCODE, and FIPS) to both versions of the feature class.  CAL FIRE has kept these attributes, but renamed the FIPS field to ANSI (American National Standards Institute) to reflect the Federal Government's new name for FIPS.  In addition to keeping the attributes from Department of Fish and Game, CAL FIRE has added an ISLAND attribute, which indicates with a Y or N if a feature is an island (making it easy to remove them from display).  CAL FIRE has also updated the ABBREV field to reflect the new county abbreviations recommended by CMCC in April 2009.
+
+In the line feature class, CAL FIRE has also added a TYPE attribute, which classifies the lines into 5 categories: coast, county, island, stateline, and Mexico.  The line feature class includes a cartographic representation, which symbolizes the county lines based on the TYPE categories.
+
+R. Caluza
+</procdesc><procdate>2009</procdate></procstep></lineage></dataqual><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="County_Boundaries"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><planar><planci><plance Sync="TRUE">coordinate pair</plance><coordrep><absres Sync="TRUE">0.000100</absres><ordres Sync="TRUE">0.000100</ordres></coordrep><plandu Sync="TRUE">meters</plandu></planci></planar><geodetic><horizdn Sync="TRUE">North American Datum of 1983</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_California_Teale_Albers</projcsn></cordsysn></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref><eainfo><detailed Name="County_Boundaries"><enttyp><enttypl Sync="TRUE">County_Boundaries</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc><enttypd>multipart feature class of county boundaries</enttypd><enttypds>USGS</enttypds></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atindex>Yes</atindex></attr><attr><attrlabl Sync="TRUE">NAME_PCASE</attrlabl><attalias Sync="TRUE">NAME_PCASE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>County name, proper case</attrdef><attrdefs>Unknown</attrdefs></attr><attr><attrlabl Sync="TRUE">NAME_UCASE</attrlabl><attalias Sync="TRUE">NAME_UCASE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>County name, upper case</attrdef><attrdefs>Unknown</attrdefs></attr><attr><attrlabl Sync="TRUE">FMNAME_PC</attrlabl><attalias Sync="TRUE">FMNAME_PC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Formal name of county, proper case</attrdef><attrdefs>Unknown</attrdefs></attr><attr><attrlabl Sync="TRUE">FMNAME_UC</attrlabl><attalias Sync="TRUE">FMNAME_UC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">26</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Formal name of county, upper case</attrdef><attrdefs>Unknown</attrdefs></attr><attr><attrlabl Sync="TRUE">ABBREV</attrlabl><attalias Sync="TRUE">ABBREV</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>County name abbreviation</attrdef><attrdefs>Unknown</attrdefs></attr><attr><attrlabl Sync="TRUE">NUM</attrlabl><attalias Sync="TRUE">NUM</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale><attrdef>County number (Alphabetical order; 1 = Alameda thru 58 = Yuba)</attrdef><attrdefs>Unknown</attrdefs></attr><attr><attrlabl Sync="TRUE">ABCODE</attrlabl><attalias Sync="TRUE">ABCODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Teale code within County Library</attrdef><attrdefs>Teale Data Center GIS Solutions Group</attrdefs></attr><attr><attrlabl Sync="TRUE">ANSI</attrlabl><attalias Sync="TRUE">ANSI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>American National Standards Institute number -- formerly known as Federal Information Processing System (FIPS) number</attrdef><attrdefs>U.S. Government</attrdefs></attr><attr><attrlabl Sync="TRUE">SHAPE_STAr</attrlabl><attalias Sync="TRUE">SHAPE_STAr</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_STLe</attrlabl><attalias Sync="TRUE">SHAPE_STLe</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo><metainfo><metd Sync="TRUE">20090518</metd><metc><cntinfo><cntperp><cntper>County Boundaries Specialist</cntper><cntorg>California Department of Forestry and Fire Protection - FRAP</cntorg></cntperp><cntemail>geodata@dfg.ca.gov</cntemail><cntvoice>(916) 327-3939</cntvoice><cntfax>(916) 324-1180</cntfax><hours>M-F 8-5</hours><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr></cntinfo></metc><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><langmeta Sync="TRUE">en</langmeta><metac>none</metac><metuc>none</metuc><metsi><metscs>Public Data</metscs></metsi></metainfo><Esri><CreaDate>20140329</CreaDate><CreaTime>00465900</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20150129</SyncDate><SyncTime>08583100</SyncTime><ModDate>20150129</ModDate><ModTime>08583100</ModTime><PublishStatus>Published</PublishStatus><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090506" Time="113415" Name="" export="">CopyFeatures P:\_GDB_TO_LIB\cnty24k09_1.gdb\cnty24k09_1_multipart P:\_GDB_TO_LIB\cnty24k09_1.mdb\cnty24k09_1_multipart # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090506" Time="115640" Name="" export="">CopyFeatures P:\_GDB_TO_LIB\cnty24k09_1.mdb\cnty24k09_1_multipart P:\_GDB_TO_LIB\cnty24k09_1.gdb\cnty24k09_1_multipart # 0 0 0</Process><Process ToolSource="d:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20121002" Time="153156" Name="" export="">FeatureClassToFeatureClass \\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties "Database Connections\mgr_dwratlas@mrsbmapp00583.sde" i03_CaliforniaCounties # "NAME_PCASE "NAME_PCASE" true true false 40 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,NAME_PCASE,-1,-1;NAME_UCASE "NAME_UCASE" true true false 30 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,NAME_UCASE,-1,-1;FMNAME_PC "FMNAME_PC" true true false 40 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,FMNAME_PC,-1,-1;FMNAME_UC "FMNAME_UC" true true false 26 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,FMNAME_UC,-1,-1;ABBREV "ABBREV" true true false 4 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,ABBREV,-1,-1;NUM "NUM" true true false 2 Short 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,NUM,-1,-1;ABCODE "ABCODE" true true false 6 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,ABCODE,-1,-1;ANSI "ANSI" true true false 3 Text 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,ANSI,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,\\doe-fotox\home\Photog\Reference_material\CA_counties\cnty24k09_1.gdb\i03_CaliforniaCounties,Shape_Area,-1,-1" #</Process><Process ToolSource="D:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20121003" Time="131004" Name="" export="">ChangePrivileges 'Database Connections\mgr_dwratlas@mrsbmapp00583.sde\MGR_DWRATLAS.i03_California';'Database Connections\mgr_dwratlas@mrsbmapp00583.sde\MGR_DWRATLAS.i03_CaliforniaCounties' ruppert GRANT GRANT</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20121003" Time="154717" Name="" export="">ChangePrivileges 'Database Connections\mgr_dwratlas@mrsbmapp00583.sde\MGR_DWRATLAS.i03_California';'Database Connections\mgr_dwratlas@mrsbmapp00583.sde\MGR_DWRATLAS.i03_CaliforniaCounties' jdudas GRANT AS_IS</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20150129" Time="085833">FeatureClassToFeatureClass "Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties" C:\Users\pshipman\Desktop County_Boundaries.shp # "NAME_PCASE "NAME_PCASE" true true false 40 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,NAME_PCASE,-1,-1;NAME_UCASE "NAME_UCASE" true true false 30 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,NAME_UCASE,-1,-1;FMNAME_PC "FMNAME_PC" true true false 40 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,FMNAME_PC,-1,-1;FMNAME_UC "FMNAME_UC" true true false 26 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,FMNAME_UC,-1,-1;ABBREV "ABBREV" true true false 4 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,ABBREV,-1,-1;NUM "NUM" true true false 2 Short 0 5 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,NUM,-1,-1;ABCODE "ABCODE" true true false 6 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,ABCODE,-1,-1;ANSI "ANSI" true true false 3 Text 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,ANSI,-1,-1;SHAPE_STAr "SHAPE.STArea()" false false true 0 Double 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,SHAPE.STArea(),-1,-1;SHAPE_STLe "SHAPE.STLength()" false false true 0 Double 0 0 ,First,#,Database Connections\prod-atlas-osa.sde\atlas.SDE.i03_CaliforniaCounties,SHAPE.STLength(),-1,-1" #</Process></lineage><itemProps><itemLocation><linkage Sync="TRUE">file://\\DSIWM-240403\C$\Users\pshipman\Desktop\County_Boundaries.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">County_Boundaries</itemName><nativeExtBox><westBL Sync="TRUE">-374443.187500</westBL><eastBL Sync="TRUE">540082.750000</eastBL><southBL Sync="TRUE">-604504.687500</southBL><northBL Sync="TRUE">450029.875000</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1983_California_Teale_Albers</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_California_Teale_Albers&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,-4000000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-120.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,34.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,40.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3310]]&lt;/WKT&gt;&lt;XOrigin&gt;-16909700&lt;/XOrigin&gt;&lt;YOrigin&gt;-8597000&lt;/YOrigin&gt;&lt;XYScale&gt;266332319.7555542&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3310&lt;/WKID&gt;&lt;LatestWKID&gt;3310&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>FGDC</ArcGISProfile><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange></Esri><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KK
+KACiiigAooooAzJfEdhDdXFuXlaW3YLKI7eRwhKhgMhSOjA/jUVr4r029to54HnmgkUMkiWspVge
+hB28isDxck8UmvW9payzNeWStmPDASsrx7iC2cYROFH8J79diyvI7+2WaLdtYkYYEFSCQQR2III/
+CvkMbnNfCVpU1BOz8+1zojTUlcur4hs2zxc8etpKP/ZaP+Ei05WCyXItiQSPtKtCD9C4GetUbLUb
+XUVlNrcRXAikMTmJw21xglTjvyOPeopf+Qza/wDXvN/6FHXIuIq17Spr8SvYruav/CRaV/0E7P8A
+7/p/jVmzv7bUEZ7W4iuURtjNC4cK2AcHHfBB/EVnU7Qf9bqf/XyP/RMdenl2cSx1b2ThbS+5E6fI
+r3NaiiivpzAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoopkqebE6bmTcCNynBHuPe
+gDktH1BtVvNbvYYm+zvdGO2klICzKiKhZeCQpdXwehHzAYOTl6Z4fnvdIgnfUZEju5BeT2zpuhZW
+lMpTDfMvBCHnBAJK5Naun6pbafZx2l7JDYXVqixSQyOFAwB8y56oRyD+BwQQM6/N/wD2X4fsrZzb
+C6KwzSfMGQCFnxxyAdhBwVPIwQa/KcTOpPEVJTXK2/utc74pJKxa0XTIryCS/Mk6JeESRRRTPEkc
+QULGAqkYJUAnPOTjoABJe6RAl7p7CS6DNK0ZP2uXlTGzEfe9VU/hT4dO1SG2jt476yghQBVEFky7
+EAwAuZCBj6H6VQ1AzDxFpVkmpzSE+ZLImIg0YCEK2dmOcsNpGTkkHCEHkTcpO0u/fsUbH9jwf89L
+r/wLl/8AiqueGbdbY6miGQj7UDmSRnP+pj7sSaxrXWL6K1hlvtOlhjG1JZNwZ1bAy+xc/JuyMg57
+428ja8NzR3A1CWJ1kie4VkdDlWBhjIIPcV72RKSxmr6P9DKr8Js0UUV+hnGFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAc/wCIRFBq2kyA4nuHe2ZR/HH5bPyO+GQYPbcR/FWB4ls7
+HToYJoLYQXULeerWlum/y1wJDlhtGFbPJHIHXpXR+K3W2t7K8fKxWtyJJJc4WNCjIzP/ALI3de3B
+OACRzmt3+m317bCZ/tenywT2tw0G50QSbeZGQEKuEYElhjIPuPgc7g441Sto199rnXSfulvW4LiD
+S5ZI9TuGlwDEh8sCRs5CfKob5unykHnioLwW2m2FnqGnGQSMWeKIq7tdBxvZCDltxCZBPK7eflyD
+nRW1tt1rRngSa4RXQXSwRlljkQFcogVjjdjgHOBzknFKCZb+M4sZWgkC3LtqFyRHbQosQlgG7LKQ
+4+dWUAgtnONteDGHT/I0bNjTfGRvYYpWaxVZlWRVknZGhDDcschCsu/aMkbh3wCBk7XgJPLsdSUS
+xSr9udlMEm9FUqjBQfRQQuPasOwknukjaSz1ASzhRCoka3to0AztAQ5XA7uoLHpxgDe8L3CWd3e2
+E7LFeSSC4WLzmlyhQKDuYAk5jfj2PaveyVwji2trp9fQyq3cTpaKKK++OUKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAQgMCCAQexri9QuoPCmoW2l3Ecj6ZehltX2KyxkAs0JGckB
+RlcKcKrZ4XNdrWLrvh23167tWnjljltlZ7e9hkAaByVz8pypJwMEqw4PTPPn47BxxtF02tej7MuE
+uV3OF0m9ge60/TNIuLee9tZJN11EqyK9qUUh2ww3E7oQTnlkJAIGKLOPTH13WrfUrOGe6lRRKYLM
+yNIcupf5dxGU8ockcq3HBo03Troaxqcs1lDOJLh23WpNs8zIRC5GHw2PL3Ycj7/B4JOj4dtbfwy2
+p29vZhGe4VltLaUySuSiFnZnIySWyWJ7dTxX5zVXs5Sj1XpvfXX18rHYtSC21nW7jTEngurR0WES
+XV3d2rxRQ4XJ24b5z69gQ3IxtEMNvqOm+Foob2HzpZLqOVr15TG5LTq0bSAklSCVBCsQAPlI4An1
+N/7Etkm1CSRrIzy3X9nxKGneTzCyAYblcspI7Nglgm7GpeXWqXFpIk1jZ2kTrlpbiXz0Vcj5WQBd
+zYyMA4/2j0rJScbOKVr37bf108gtc6Cx1KSGRYLxgdxAjuDgByTwpHZunse2OlatcB4annt1m0nV
+bSK2Ejv9kjBVo5YcAsoGeMEthCOFwBu2k10VtqL6OoS8leWzH3bmTkxDIwHPUjn7x6AfMTy1fY5b
+m6m1h8S/e6Po/Xz/AK3OedO2sTdooor6owCiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKAPOvFNh9j1yWe+s7ObSomNxCl0m9HZlUSbWI2xSKVZhnhhI3I+Yipb6zph1aG90RrEPOv2C
+eJGCvHL5oCh1UEMUJkyNy9eCdwI73xLeXFhod1cWxhWSMBmedSyIm4b2IBGcLuOMjOK5mfSl0WOB
+YovtGl+WkFzBKQRGiKdsqjpnoG9QARyuD8HnOHp0Kqkm7zu7dP6b1/pHVTbaJpktNItIrFo3vri6
+UQN5hBkn+U8yMcdg36gDtVSZrux06FtXUajeqwW1s7Vz+/kXLKSSFG75QSSAq7c8U61i07UZ7jTD
+PHqEMublZorjMsZVgMMyncCpxtYHPykcFctYlWx0KSU21lNd6gsOQQryyspJIUytnAJQ8E9uhOM/
+N7adf6+43JBov9qaRPBqSKs90WMhjIcoNxKAErg7QQBxjIPXJyzSrKyuo3hudMtIr2DCzIIkIJIz
+uXjlTzgnHQjAINWII76/iila9jt4m+dRaRgkqc7QWcHIwQfug5Hp1qtCNE1+GUCV7e/jW2d5HL+X
+IhZk5Yk4YM49Mhem45hNu6uBr2kz6OVRQXsP7g5MA/2f9n/Z7duOBuRyLNGroyujAMrKcgg9CDWT
+UMRk02R5bcM8TsXltx3Pcpnoe+Oh57nNfU5XnLhahiXp0fb18vMwqUr6xN6iora5iu4RLC4dD3HU
+HuCOoI7g8ipa+5TTV0coUUUUwCiiigAooooAKKKKACiiigAooooAKKKKACiiigBHQOpVgGVhggjI
+IrlLySLwtfR28m5dPu222gRC3ly8s0QAycEAsoxxhhwAorrKr39jDqVnLa3Cb4ZV2sM4P1B6gg8g
+jkEZrgxuDhjaLpT+T7MuMnF3OJuore1v5NT0y2aK/eIRSo9jIq3CL91WYJkEdA3IAJ+U8YPt0Woe
+H7mQRXct1fWpJDWsnVkOFHy4AGfXueTkmtTTJ7mB5rTUPMFzHJKUkkQASwhzsYFflJ2lM9ME9BWd
+Z6hb2Imm02eG80wDfJbwuubfLHLoAOVPzMcnt8uc4r8zq0p0ZulNe9F/10+7yO1NNXRqjVrdQAI7
+oAdhaS//ABNUdcvlu9LmWCG7kuEKzRILWQb5EYOqkkAYLKAckcHqK2o5FlRXRg6MAQynII9RTq41
+JRd7FGausO9y8AsLkzIiuyboshWLAH7/AHKt+VSf2hP/ANAy6/76i/8Ai6IT/wATq6H/AE7w/wDo
+UtXqG0ugGb9uvYJjNa6dOJWwGjlkjWN/94hiQfcAn2OAK6Gw1CLUId6ZR14khfG+JsZ2sATz+YPB
+BIINUKgltyJ1uYGEV0ilQ+Mhh/dYdxn8u2K+iyzN5YW1KrrD8V/wPL7jGdPm1W5v0VU06/F/C5Ke
+XNE3lyx5yFbAPBwMjBBB9+QDkC3X6FCcakVODumcbVgoooqwCiiigAooooAKKKKACiiigAooooAK
+KKKACiiigDkPGGl2N3qkUmpWUc1hJayQSTSpuAbIZVznK5G/nAydoyTgBt7qehXRQXl1ZrLHyouH
+EcsZyORnDKc7fTt7V1GoSXkdqWsYYJ7jcuI7iUxIRkbvmCsc4yRxycdOtc+PEHiG4T914YBBO0ie
++WMDjOfukkcgdOobGRtLfO43KIYuq6vO035XXY2jUcVaxmafp9zF4cs5LPULtcQxSCIFJNw2qWUF
+1J5Gcc8E9hxWpFZyzRpImqXLo4DKwWLBB6H7lEvh/UrGOQaU9pFDIQRZylgsHGD5bgHA4BClCASe
+3FVYdRi8PIbDUWS2eBE8tvN8zzwwbAUbVJb5H+RV7DAxwPk8ZluJw3NKUbxT306/ibxnGRPYwPBr
+F2HuJLgmCH5pAoI+aT+6BWnXPWmpX0+tXajTRbyNGhRbucIXiHQjYHBIZnBGRgeX/erTX+05ev2S
+1wOg3TZP/jmP1/CvInF31NUXqKpeTqP/AD9Wv/gM3/xyk+yXsp/eX4jA6fZoQufrv3/piosu4D5H
+bTb+O+jWR42/d3McYLZTBw4XPLKfTJIJGCQMb9tcxXlvFPC6ywyqHR16MpGQR+Fco+nNdavY2dze
+T3NpKskkkMirtl2gAI2xR8p3ZOeDjBBzXXABQAAAB2FfouRe0eF993jfT+vyOOrbmFooor6MxCii
+igAooooAKKKKACiiigAooooAKKKKACiiigAqK5uFtLeWZw7JGhdhFGzsQBnhVBLH2AJPapaKAIIJ
+zdxQTxFkhkUPtliZHwRkZDYKn1BGe3FY0lhLqet3Fvqui2d3Y+U/kXxVWwp2gxMrZbJy3I+XC+px
+XQVlabpd5YarqMzag9zYXLLLFazKWa3fGGCuT9w4yFxwScHGAEwOf1nRLrRpLOWO8d9LglMhknzN
+LASNq7mY5aL5jkk7l4OcZK3xDqWBm7tc9yLVv/jldBd2yXlpNbyKrRyoyMrAkEEYIPIrk/D2rXc+
+jWn9p2VzbamieXdRJC8oWVTtbDKCCCRuB7qQcDNfD5zl7pyjVw8NHukr6/8ABOqlO+jJXk1JL+G3
++02pEkbybvszcbSgx/rP9r9KsfZbyX/WXwTHT7NCFJ+u4t+mKY6Xc2pQXEWn3MkCRSJvOxCSWQj5
+WYN/CeoFXFt9SfkWtuinoJLghh9QEIz9Ca8WGW42pblpP5pL8zTniupR0NPs3ii4S61F55jbL9li
+meNTtZmMmFVVz9xOTnAA6ZOeqrEj0O6nvLea7uLdoYXEqwRQHcHAIH7wt0GeygnHoSK26+/y2lVo
+YaNOrFRa7fnock2nK6CiiivUICiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKAP/Z</Data></Thumbnail><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="45eabd76befcbef03422e4a3bd263869" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+Q2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIEZvcmVzdHJ5IGFuZCBGaXJlIFByb3RlY3Rpb24gKHVz
+aW5nIGRhdGEgZnJvbSBCT1IsIERGRyBhbmQgRE9DIEZNTVApPC9vcmlnaW4+DQogICAgICAgIDxw
+dWJkYXRlPjUvMjAwOTwvcHViZGF0ZT4NCiAgICAgICAgPHRpdGxlPk1HUl9EV1JBVExBUy5pMDNf
+Q2FsaWZvcm5pYUNvdW50aWVzPC90aXRsZT4NCiAgICAgICAgPG9yaWdpbj5DYWxpZm9ybmlhIERl
+cGFydG1lbnQgb2YgRmlzaCBhbmQgR2FtZTwvb3JpZ2luPg0KICAgICAgICA8b25saW5rPmh0dHA6
+Ly9wcm9qZWN0cy5hdGxhcy5jYS5nb3YvZnJzLz9ncm91cF9pZD00MSZhbXA7cmVsZWFzZV9pZD0y
+Nzk8L29ubGluaz4NCiAgICAgICAgPGVkaXRpb24+MDlfMTwvZWRpdGlvbj4NCiAgICAgICAgPG90
+aGVyY2l0PlRoZSB1c2VyIHdpbGwgY2l0ZSB0aGUgQ2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIEZv
+cmVzdHJ5IGFuZCBGaXJlIFByb3RlY3Rpb24gYXMgdGhlIG9yaWdpbmFsIHNvdXJjZSBvZiB0aGUg
+ZGF0YSwgYnV0IHdpbGwgY2xlYXJseSBkZW5vdGUgY2FzZXMgd2hlcmUgdGhlIG9yaWdpbmFsIGRh
+dGEgaGF2ZSBiZWVuIGFsdGVyZWQsIHVwZGF0ZWQsIG9yIGluIGFueSB3YXkgY2hhbmdlZCBmcm9t
+IHRoZSBvcmlnaW5hbCBjb25kaXRpb24uPC9vdGhlcmNpdD4NCiAgICAgICAgPG9ubGluaz5odHRw
+Oi8vZnJhcC5jZGYuY2EuZ292L2RhdGEvZnJhcGdpc2RhdGEvZG93bmxvYWQuYXNwP3JlYz1jbnR5
+MjRrPC9vbmxpbms+DQogICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRl
+c2NyaXB0Pg0KICAgICAgPGFic3RyYWN0PkluIGxhdGUgMTk5NiwgdGhlIERlcHQgb2YgQ29uc2Vy
+dmF0aW9uIChET0MpIHN1cnZleWVkIHN0YXRlIGFuZCBmZWRlcmFsIGFnZW5jaWVzIGFib3V0IHRo
+ZSBjb3VudHkgYm91bmRhcnkgY292ZXJhZ2UgdGhleSB1c2VkLiBBcyBhIHJlc3VsdCwgRE9DIGFk
+b3B0ZWQgdGhlIDE6MjQsMDAwICgyNEspIHNjYWxlIFUuUy4gQnVyZWF1IG9mIFJlY2xhbWF0aW9u
+IChVU0JSKSBkYXRhc2V0IChVU0dTIHNvdXJjZSkgZm9yIHRoZWlyIEZhcm1sYW5kIE1hcHBpbmcg
+YW5kIE1vbml0b3JpbmcgUHJvZ3JhbSAoRk1NUCkgYnV0IHdpdGggc2V2ZXJhbCBtb2RpZmljYXRp
+b25zLiBEZXRhaWxlZCBkb2N1bWVudGF0aW9uIG9mIHRoZXNlIGNoYW5nZXMgaXMgcHJvdmlkZWQg
+YnkgRk1NUCBhbmQgaW5jbHVkZWQgaW4gdGhlIGxpbmVhZ2Ugc2VjdGlvbiBvZiB0aGUgbWV0YWRh
+dGEuIEEgZGF0YXNldCBuYW1lZCBjbnR5MjRrOTdfMSB3YXMgbWFkZSBhdmFpbGFibGUgKGFwcHJv
+eGltYXRlbHkgMjAwNCkgdGhyb3VnaCB0aGUgQ2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIEZvcmVz
+dHJ5IGFuZCBGaXJlIFByb3RlY3Rpb24gLSBGaXJlIGFuZCBSZXNvdXJjZSBBc3Nlc3NtZW50IFBy
+b2dyYW0gKENERiAtIEZSQVApIGFuZCB0aGUgQ2FsaWZvcm5pYSBTcGF0aWFsIEluZm9ybWF0aW9u
+IExpYnJhcnkgKENhU0lMKS4gSW4gbGF0ZSAyMDA2LCB0aGUgRGVwYXJ0bWVudCBvZiBGaXNoIGFu
+ZCBHYW1lIChERkcpIHJldmlld2VkIGNudHkyNGs5N18xLiBDb21wYXJpc29ucyB3ZXJlIG1hZGUg
+dG8gYSBoaWdoLXF1YWxpdHkgMTAwSyBkYXRhc2V0IChjbzEwMGEvY291bnR5MTAwayBmcm9tIHRo
+ZSBmb3JtZXIgVGVhbGUgRGF0YSBDZW50ZXIgR0lTIFNvbHV0aW9ucyBHcm91cCkgYW5kIGxlZ2Fs
+IGJvdW5kYXJ5IGRlc2NyaXB0aW9ucyBmcm9tICggaHR0cDovL3d3dy5sZWdpbmZvLmNhLmdvdiAp
+LiBUaGUgY250eTI0azk3XzEgZGF0YXNldCB3YXMgbWlzc2luZyBBbmFjYXBhIGFuZCBTYW50YSBC
+YXJiYXJhIGlzbGFuZHMuIERGRyBhZGRlZCB0aGUgbWlzc2luZyBpc2xhbmRzIHVzaW5nIHByZXZp
+b3VzbHktZGlnaXRpemVkIGNvYXN0bGluZSBkYXRhIChjb2FzdG4yNyBvZiBTdGF0ZSBMYW5kcyBD
+b21taXNzaW9uIG9yaWdpbiksIGNvcnJlY3RlZCBhIGZldyBjb3VudHkgYm91bmRhcmllcywgYnVp
+bHQgcmVnaW9uIHRvcG9sb2d5LCBhZGRlZCBhZGRpdGlvbmFsIGF0dHJpYnV0ZXMsIGFuZCByZW5h
+bWVkIHRoZSBkYXRhc2V0IHRvIGNvdW50eTI0ay4gSW4gMjAwNywgdGhlIENhbGlmb3JuaWEgTWFw
+cGluZyBDb29yZGluYXRpbmcgQ29tbWl0dGVlIChDTUNDKSByZXF1ZXN0ZWQgdGhhdCB0aGUgQ2Fs
+aWZvcm5pYSBEZXBhcnRtZW50IG9mIEZvcmVzdHJ5IGFuZCBGaXJlIFByb3RlY3Rpb24gKENBTCBG
+SVJFKSByZXN1bWUgc3Rld2FyZHNoaXAgb2YgdGhlIHN0YXRld2lkZSBjb3VudHkgYm91bmRhcmll
+cyBkYXRhLiBDQUwgRklSRSBhZG9wdGVkIHRoZSBjaGFuZ2VzIG1hZGUgYnkgREZHIGFuZCBjb2xs
+ZWN0ZWQgYWRkaXRpb25hbCBzdWdnZXN0aW9ucyBmb3IgdGhlIGNvdW50eSBkYXRhIGZyb20gREZH
+LCBET0MsIGFuZCBsb2NhbCBnb3Zlcm5tZW50IGFnZW5jaWVzLiBDQUwgRklSRSBpbmNvcnBvcmF0
+ZWQgdGhlc2Ugc3VnZ2VzdGlvbnMgaW50byB0aGUgbGF0ZXN0IHJldmlzaW9uLCB3aGljaCBoYXMg
+YmVlbiByZW5hbWVkIGNudHkyNGswOV8xLiBEZXRhaWxlZCBkb2N1bWVudGF0aW9uIG9mIGNoYW5n
+ZXMgaXMgaW5jbHVkZWQgaW4gdGhlIFByb2Nlc3MgU3RlcCBzZWN0aW9uIG9mIHRoZSBtZXRhZGF0
+YS48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+VGhlIG11bHRpcGFydCBmZWF0dXJlIGNsYXNz
+IGNvbWJpbmVzIHBvbHlnb25zIGZyb20gYSBzaW5nbGUgY291bnR5IGludG8gb25lIGZlYXR1cmUg
+d2l0aCBvbmUgcmVjb3JkIGluIHRoZSBhdHRyaWJ1dGUgdGFibGUgKGUuZy4gc2VsZWN0aW5nIFNh
+bnRhIEJhcmJhcmEgQ291bnR5IGluIHRoZSBhdHRyaWJ1dGUgdGFibGUgd2lsbCByZXN1bHQgaW4g
+c2VsZWN0aW5nIGFsbCBTYW50YSBCYXJiYXJhIENvdW50eSBpc2xhbmRzIGFzIHdlbGwgYXMgdGhl
+IG1haW5sYW5kIHBvcnRpb24gb2YgdGhlIGNvdW50eSkuIFRoaXMgbWF5IGJlIHVzZWZ1bCBmb3Ig
+c2VsZWN0aW9ucyBhbmQgb3ZlcmxheXMgd2hlbiBhbGwgcGFydHMgb2YgYSBjb3VudHkgYXJlIG5l
+ZWRlZC4NCg0KSWRlYWxseSwgc3RhdGUgYW5kIGZlZGVyYWwgYWdlbmNpZXMgc2hvdWxkIGJlIHVz
+aW5nIHRoZSBzYW1lIGZyYW1ld29yayBkYXRhIGZvciBjb21tb24gdGhlbWVzIHN1Y2ggYXMgY291
+bnR5IGJvdW5kYXJpZXMuIFRoaXMgbGF5ZXIgcHJvdmlkZXMgYW4gaW5pdGlhbCBvZmZlcmluZyBh
+cyAiYmVzdCBhdmFpbGFibGUiIGF0IDE6MjQsMDAwIHNjYWxlLiBBZGRpdGlvbmFsIGltcHJvdmVt
+ZW50cywgaW5jbHVkaW5nIGEgcmV2aWV3IG9mIGRhdGEgc291cmNlcyBmb3IgdGhlIGNvYXN0bGlu
+ZSwgY2FuIGJlIGFkZGVkIG92ZXIgdGltZSBiYXNlZCBvbiBpbnRlcmFnZW5jeSByZXZpZXcgYW5k
+IGFncmVlbWVudCBvbiBwcm9wb3NlZCBjaGFuZ2VzLjwvcHVycG9zZT4NCiAgICAgIDxzdXBwbGlu
+Zj4NCkV4dHJlbWVseSBkZXRhaWxlZCBkZXNjcmlwdGlvbnMgb2YgYm91bmRhcnkgY2hhbmdlcyBt
+YWRlIGZvciBkaWZmZXJlbnQgdmVyc2lvbnMgYXJlIHByb3ZpZGVkIGluIHRoZSBQcm9jZXNzIFN0
+ZXAgbWV0YWRhdGEgc2VjdGlvbi4gTW9yZSBnZW5lcmFsIHZlcnNpb24gbm90ZXMgYXJlIHByb3Zp
+ZGVkIGhlcmU7DQoNCkNudHkyNGswOV8xIG5vdGVzOiANCg0KVGhlIGxpbmV3b3JrIGhhcyBiZWVu
+IHVwZGF0ZWQgdG8gcmVmbGVjdCBsZWdhbCBib3VuZGFyeSBjaGFuZ2VzIGJldHdlZW4gdGhlIGZv
+bGxvd2luZyBjb3VudGllczogRnJlc25vLU1lcmNlZCwgS2Vybi1Mb3MgQW5nbGVzLCBPcmFuZ2Ut
+Uml2ZXJzaWRlLCBhbmQgT3JhbmdlLUxvcyBBbmdlbGVzLg0KDQpUaGUgbGluZXdvcmsgaGFzIGJl
+ZW4gaW1wcm92ZWQgZm9yIGdyZWF0ZXIgYWNjdXJhY3kgaW4gc2VjdGlvbnMgc2hhcmVkIGJ5IHRo
+ZSBmb2xsb3dpbmcgY291bnRpZXM6IFZlbnR1cmEtS2VybiwgVmVudHVyYS1TYW50YSBCYXJiYXJh
+LCBhbmQgTGFrZS1NZW5kb2Npbm8tU29ub21hLjwvc3VwcGxpbmY+DQogICAgPC9kZXNjcmlwdD4N
+CiAgICA8dGltZXBlcmQ+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAg
+ICAgICAgIDxjYWxkYXRlPjIwMDk8L2NhbGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAg
+IDwvdGltZWluZm8+DQogICAgICA8Y3VycmVudD5wdWJsaWNhdGlvbiBkYXRlPC9jdXJyZW50Pg0K
+ICAgIDwvdGltZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAgICAgIDxwcm9ncmVzcz5Db21wbGV0ZTwv
+cHJvZ3Jlc3M+DQogICAgICA8dXBkYXRlPklycmVndWxhcjwvdXBkYXRlPg0KICAgIDwvc3RhdHVz
+Pg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la2V5PmdvdmVy
+bm1lbnQ8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Y291bnR5IGJvdW5kYXJpZXM8L3Ro
+ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Y291bnR5IGJvdW5kYXJ5PC90aGVtZWtleT4NCiAg
+ICAgICAgPHRoZW1la2V5PmNvdW50eSBsaW5lPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5
+PmNvdW50eTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5jb3VudGllczwvdGhlbWVrZXk+
+DQogICAgICAgIDx0aGVtZWtleT5ib3VuZGFyeTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtl
+eT5ib3JkZXI8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Ym9yZGVyczwvdGhlbWVrZXk+
+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrZXk+Ym91bmRh
+cmllczwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWt0PklTTyAxOTExNSBUb3BpYyBDYXRlZ29y
+eTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PmxvY2F0aW9uPC90aGVtZWtleT4NCiAgICAg
+IDwvdGhlbWU+DQogICAgICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWtleT5DYWxpZm9ybmlhPC9w
+bGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8YWNjY29uc3Q+
+Tm9uZTwvYWNjY29uc3Q+DQogICAgPHVzZWNvbnN0Pk5vbmU8L3VzZWNvbnN0Pg0KICAgIDxwdGNv
+bnRhYz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250cGVycD4NCiAgICAgICAgICA8Y250
+cGVyPkNvdW50eSBCb3VuZGFyaWVzIFNwZWNpYWxpc3Q8L2NudHBlcj4NCiAgICAgICAgICA8Y250
+b3JnPkNhbGlmb3JuaWEgRGVwYXJ0bWVudCBvZiBGb3Jlc3RyeSBhbmQgRmlyZSBQcm90ZWN0aW9u
+IC0gRlJBUDwvY250b3JnPg0KICAgICAgICA8L2NudHBlcnA+DQogICAgICAgIDxjbnRlbWFpbD5G
+UkFQZGF0YWNvbnRhY3RAZmlyZS5jYS5nb3Y8L2NudGVtYWlsPg0KICAgICAgICA8Y250dm9pY2U+
+KDkxNikgMzI3LTM5Mzk8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4Pig5MTYpIDMyNC0xMTgw
+PC9jbnRmYXg+DQogICAgICAgIDxob3Vycz5NLUYgOC01PC9ob3Vycz4NCiAgICAgIDwvY250aW5m
+bz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxicm93c2U+DQogICAgICA8YnJvd3Nlbj5odHRwOi8v
+ZnJhcC5jZGYuY2EuZ292L2RhdGEvYnJvd3NlZ3JhcGhpYy9jbnR5MjRrLmdpZjwvYnJvd3Nlbj4N
+CiAgICAgIDxicm93c2V0PkdJRjwvYnJvd3NldD4NCiAgICA8L2Jyb3dzZT4NCiAgPC9pZGluZm8+
+DQogIDxkYXRhcXVhbD4NCiAgICA8bGluZWFnZT4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAg
+PHByb2NkZXNjPg0KQnVyZWF1IG9mIFJlY2xhbWF0aW9uIENvdW50eSBMaW5lIE1vZGlmaWNhdGlv
+bnMJCTE0IEp1bHkgMTk5Nw0KDQpEdXJpbmcgdGhlIHRyYW5zaXRpb24gdG8gYSBjb3VudHkgbGlu
+ZSBzdGFuZGFyZCBmb3IgdGhlIEZhcm1sYW5kDQpNYXBwaW5nIGFuZCBNb25pdG9yaW5nIFByb2dy
+YW0gKEZNTVApIHN1cnZleSBjb3VudGllcywgaXQgd2FzDQpkaXNjb3ZlcmVkIHRoYXQgdGhlIEJ1
+cmVhdSBvZiBSZWNsYW1hdGlvbidzIGNvdW50eSBsaW5lIGZpbGUgdGhhdA0KRk1NUCB3YW50ZWQg
+dG8gYWRvcHQgd2FzIG91dGRhdGVkIGluIHR3byBsb2NhdGlvbnMuIEEgdGhpcmQgYXJlYQ0KYmVs
+aWV2ZWQgdG8gYmUgb3V0ZGF0ZWQsIGJ1dCBjb3VsZCBub3QgYmUgY29uZmlybWVkLCB3YXMgYWxz
+bw0KY2hhbmdlZCBpbiB0aGUgQnVyZWF1J3MgbWFzdGVyIGZpbGUuIEFsbCB0aHJlZSBjaGFuZ2Vz
+IGFyZSBkZXNjcmliZWQNCmJlbG93Lg0KDQpXaGVuIGEgY291bnR5IGxpbmUgaGFzIGNoYW5nZWQg
+YW5kIG5vIGxvbmdlciBhZ3JlZXMgd2l0aCB0aGUgQnVyZWF1J3MNCm1hc3RlciBmaWxlLCB0aGUg
+cHJlZmVycmVkIG9yZGVyIGZvciBpbmNvcnBvcmF0aW5nIHRoZSBuZXcgbGluZXdvcmsNCmludG8g
+aXQgYXJlIGFzIGZvbGxvd3M6DQoNCkNvcHlpbmcgaW5mb3JtYXRpb24gZnJvbSBkaWdpdGFsIFVT
+R1MgNy41JyBTRFRTIGZvcm1hdHRlZCBmaWxlcy4NCkNvcHlpbmcgaW5mb3JtYXRpb24gZnJvbSBk
+aWdpdGFsIFVTR1MgMTAwSyBETEcgZm9ybWF0dGVkIGZpbGVzLg0KRGlnaXRpemluZyBvZmYgb2Yg
+VVNHUyA3LjUnIHBhcGVyIHF1YWRzIChpZiB0aGV5IHJlZmxlY3QgdGhlDQpuZXcgY291bnR5IGxp
+bmUpLg0KQW55IG90aGVyIG1lYW5zIHdoZXJlIGEgY29ycmVjdCBib3VuZGFyeSBjYW4gYmUgaW5j
+b3Jwb3JhdGVkLg0KDQpUaGUgbW9kaWZpZWQgQnVyZWF1IG9mIFJlY2xhbWF0aW9uIGZpbGUgY29u
+dGFpbnMgdGhlIGZvbGxvd2luZw0KbGluZXdvcmsgY2hhbmdlczoNCg0KQnV0dGUtR2xlbm4gQ291
+bnRpZXMNCg0KQmFja2dyb3VuZA0KDQpUaGUgYXJlYSBpbiBxdWVzdGlvbiBpcyB0aGUgZW50aXJl
+IEJ1dHRlLUdsZW5uIGNvdW50eSBsaW5lIGFsb25nIHRoZQ0KU2FjcmFtZW50byBSaXZlci4gIFRo
+ZXJlIHdlcmUgc3VidGxlIGFuZCBub3Qgc28gc3VidGxlIGRpZmZlcmVuY2VzDQpiZXR3ZWVuIHRo
+ZSBGTU1QJ3MgZXhpc3RpbmcgY291bnR5IGxpbmUgYW5kIHdoYXQgdGhlIEJ1cmVhdSB3YXMgY2Fs
+bGluZw0KdGhlIGNvdW50eSBsaW5lLiAgU2V2ZXJhbCBzb3VyY2VzIHdlcmUgcmVmZXJlbmNlZCB3
+aXRoIG5vIGNsZWFyDQppbmRpY2F0aW9uIG9mIHdoZXJlIHRoZSBsaW5lIGZlbGwuICBJbiBhbGwg
+dGhlIG1hcHMgcmV2aWV3ZWQgdGhlcmUNCndhcyBuZXZlciBhIHBvaW50IGluIHRoZSBwcm9jZXNz
+IHdoZXJlIHRoZSBGTU1QIGhhZCB0byBjb25zaWRlcg0KbXVsdGlwbGUgaW50ZXJwcmV0YXRpb25z
+IG9mIHRoZSBjb3VudHkgbGluZS4gSXQgd2FzIGVpdGhlciBGTU1QJ3MNCmV4aXN0aW5nIGxpbmUg
+b3IgdGhlIEJ1cmVhdSdzLg0KDQpTb3VyY2VzIFJlZmVyZW5jZWQNCg0KVVMgQ2Vuc3VzIFRpZ2Vy
+IEZpbGUNClVTR1MgMTAwSyBETEcNClVTR1MgNy41JyBETEcNClVTR1MgNy41JyBwYXBlciBxdWFk
+cw0KVVNHUyAxMDBLIG15bGFyIHF1YWRzDQpFVEFLDQoNClN0YXRlIG9mIENhbGlmb3JuaWEgTGVn
+YWwgdGV4dCBkZXNjcmlwdGlvbiBvZiBCdXR0ZSBDb3VudHkgYW5kIEdsZW5uDQpDb3VudHkgbGlu
+ZXMuDQoNCkJ1dHRlIENvdW50eSBQbGFubmluZyBEZXBhcnRtZW50DQpCdXR0ZSBDb3VudHkgUHVi
+bGljIFdvcmtzDQpCdXR0ZSBDb3VudHkgQXNzZXNzb3IncyBPZmZpY2UNCkJ1dHRlIENvdW50eSBM
+ZWdhbCBDb3Vuc2VsDQpHbGVubiBDb3VudHkgUGxhbm5pbmcgRGVwYXJ0bWVudA0KR2xlbm4gQ291
+bnR5IFB1YmxpYyBXb3Jrcw0KR2xlbm4gQ291bnR5IEFzc2Vzc29yJ3MgT2ZmaWNlDQoNClJlc3Vs
+dA0KDQpBZnRlciBjYXJlZnVsIGNvbnNpZGVyYXRpb24gb2YgdGhlIHNvdXJjZXMgY29udGFjdGVk
+IGFuZC9vciByZXZpZXdlZCwNCml0IHdhcyBkZXRlcm1pbmVkIHRoYXQgdGhlIEZNTVAgd291bGQg
+YWRvcHQgdGhlIDEwMEsgVVNHUyBETEcgbGluZSBhcw0KdGhlIGNvdW50eSBsaW5lIGJldHdlZW4g
+QnV0dGUgYW5kIEdsZW5uIENvdW50eS4gIFRoZSBiaWdnZXN0IG9ic3RhY2xlcw0KaW4gbWFraW5n
+IHRoaXMgZGVjaXNpb24gd2VyZSB0aGUgaWdub3JhbmNlIG9mIGJvdGggY291bnRpZXMgb24gd2hl
+cmUNCnRoZWlyIGNvdW50eSBsaW5lIGZlbGwsIGFuZCB0aGUgVVNHUyBjb250cmFkaWN0aW5nIGl0
+c2VsZiBhcyB0byB3aGVyZQ0KdGhlIGxpbmUgd2VudC4gIFRoZSAxMDBLIFVTR1MgbXlsYXIgYW5k
+IDEwMEsgRExHIG1hdGNoZWQgd2hhdCBGTU1QIHdhcw0KYWxyZWFkeSB1c2luZywgd2hpbGUgdGhl
+IDcuNScgVVNHUyBwYXBlciBxdWFkIGFuZCA3LjUnIFVTR1MgRExHDQppZGVudGlmaWVkIGEgZGlm
+ZmVyZW50IGNvdW50eSBsaW5lLiAgSW4gdGhlIGVuZCBpdCB3YXMgZGVjaWRlZCB0aGF0DQpGTU1Q
+IHdvdWxkIGFkb3B0IHRoZSAxMDBLIERMRyBzaW5jZSBpdCBjbG9zZWx5IHJlc2VtYmxlZCB0aGUg
+bGluZQ0KdGhlIEZNTVAgaGFzIHVzZWQgYWxsIGFsb25nIGZvciB0aGVzZSB0d28gY291bnRpZXMu
+IFRoZSBhZG9wdGlvbiBvZg0KdGhlIDEwMEsgRExHIGxpbmUgd2FzIHBlcmZvcm1lZCBieSBSLiBX
+aXRoZXJzIGluIEp1bmUgMTk5Ny4gVGhlIGVudGlyZQ0KY29tbW9uIGJvdW5kYXJ5IGJldHdlZW4g
+QnV0dGUgYW5kIEdsZW5uIGNvdW50aWVzIHdhcyByZXBsYWNlZCBhbmQgaXMNCmRpc3Rpbmd1aXNo
+ZWQgZnJvbSB0aGUgcmVzdCBvZiB0aGUgQnVyZWF1J3MgbGluZXdvcmsgYnkgY29sb3IuIFRoZQ0K
+Y2hhbmdlIHN0YXJ0cyBhdCBsYXQuIDM5LSAyMycgMDIuNTM0OSIgTiBsb25nLiAtMTIxLSA1Mycg
+MjAuMTg4NyIgVw0KYW5kIGVuZHMgYXQgbGF0LiAzOS0gNDcnIDUyLjA2MzgiIE4gbG9uZy4gLTEy
+Mi0gMDInIDQzLjYyNTgiIFcuDQoNCk9yYW5nZS1SaXZlcnNpZGUgQ291bnRpZXMNCg0KQmFja2dy
+b3VuZA0KDQpUaGUgVVNHUywgQnVyZWF1IG9mIFJlY2xhbWF0aW9uLCBhbmQgdGhlIEZNTVAgYWxs
+IGhhZCBpbnRlcnByZXRlZCB0aGUNCmNvdW50eSBsaW5lIGJldHdlZW4gT3JhbmdlIGFuZCBSaXZl
+cnNpZGUgY291bnRpZXMgaW4gdGhlIHNhbWUgd2F5LA0KYnV0IGEgbm90ZSBmcm9tIEthcmVuIEZy
+ZWVtYW4gYXQgdGhlIENpdHkgb2YgQW5haGVpbSBQbGFubmluZw0KRGVwYXJ0bWVudCBkZXNjcmli
+ZWQgYSBtaW5vciBjaGFuZ2UgdGhhdCBzaGUgd2FzIGF3YXJlIG9mIGJldHdlZW4NCnRoZSB0d28u
+ICBVcG9uIGludmVzdGlnYXRpb24sIGl0IHdhcyBjb25maXJtZWQgdGhhdCBhIGNoYW5nZSBoYWQN
+Cm9jY3VycmVkLiBTaW5jZSB0aGUgYWRqdXN0bWVudCBvZiB0aGUgbGluZSB3YXMgd3JpdHRlbiB1
+c2luZyBiZWFyaW5nDQphbmQgZGlzdGFuY2UsIFIuIFdpdGhlcnMgdHJpZWQgdG8gZHJhdyBvdXQg
+dGhlIGxpbmUgdXNpbmcgdGhlDQpwcmVjaXNpb24gcGxhY2VtZW50IG9wdGlvbnMgb2YgTWljcm9z
+dGF0aW9uIDk1ICh2ZXJzaW9uIDUgbW9kZSkuDQpUaGUgbGVnYWwgdGV4dCB3YXMgb2J0YWluZWQg
+ZnJvbSB0aGUgU3RhdGUgb2YgQ2FsaWZvcm5pYSAodGhlDQpjb3VudHkgbGluZSBjaGFuZ2UgaXMg
+aGlnaGxpZ2h0ZWQgaW4gYm9sZCBhbmQgaXMgdW5kZXJsaW5lZCk6DQoNCmh0dHA6Ly93d3cubGVn
+aW5mby5jYS5nb3YvY2dpLWJpbi9jYWxhd3F1ZXJ5P2NvZGVzZWN0aW9uPWdvdiZhbXA7Y29kZWJv
+ZHk9MjMxMDENCg0KMjMxMzAuICBUaGUgYm91bmRhcmllcyBvZiBPcmFuZ2UgQ291bnR5IGFyZSBh
+cyBmb2xsb3dzOg0KDQpCZWdpbm5pbmcgYXQgdGhlIG5vcnRod2VzdCBjb3JuZXIgb2YgU2FuIERp
+ZWdvIENvdW50eSBhdCBhIHBvaW50DQppbiB0aGUgUGFjaWZpYyBPY2VhbiBvcHBvc2l0ZSBTYW4g
+TWF0ZW8gcG9pbnQ7IHRoZW5jZSBub3J0aGVybHkgYWxvbmcNCnRoZSBTYW4gRGllZ28gQ291bnR5
+IGxpbmUgdG8gdGhlIHNvdXRoZXJseSBsaW5lIG9mIHRoZSBSYW5jaG8NCk1pc3Npb24gVmllam8g
+YXMgc2hvd24gb24gdGhlIHN1cnZleSBvbiBmaWxlIGluIGJvb2sgOCwgcGFnZXMgMzQNCnRocm91
+Z2ggNDYgaW5jbHVzaXZlIG9mIFJlY29yZHMgb2YgU3VydmV5IGluIHRoZSBvZmZpY2Ugb2YgdGhl
+IENvdW50eQ0KUmVjb3JkZXIgb2YgT3JhbmdlIENvdW50eTsNCg0KVGhlbmNlLCBlYXN0ZXJseSBh
+bmQgbm9ydGhlYXN0ZXJseSB0byBhbiBhbmdsZSBwb2ludCB0aGVyZWluLCBzYWlkDQpwb2ludCBi
+ZWluZyBSYW5jaG8gTWlzc2lvbiBWaWVqbyBDb3JuZXIgTm8uIDcsIGFzIHNob3duIG9uIHNhaWQN
+ClJlY29yZCBvZiBTdXJ2ZXk7IHRoZW5jZSBub3J0aGVybHkgMTIsNjkzLjk1IGZlZXQgYWxvbmcg
+dGhlDQpub3J0aHdlc3Rlcm4gYm91bmRhcnkgb2YgU2FuIERpZWdvIENvdW50eSB0byB0aGUgc291
+dGh3ZXN0IGNvcm5lciBvZg0KU2VjdGlvbiAzMywgVC4gNyBTLiwgUi4gNiBXLiwgc2FpZCBwb2lu
+dCBiZWluZyBhbHNvIHRoZSBtb3N0DQpzb3V0aHdlc3QgY29ybmVyIG9mIFJpdmVyc2lkZSBDb3Vu
+dHk7IHRoZW5jZSBub3J0aGVybHkgMSwzMjQuNDYgZmVldA0KYWxvbmcgdGhlIHdlc3Rlcm4gYm91
+bmRhcnkgb2Ygc2FpZCBSaXZlcnNpZGUgQ291bnR5IHRvIHRoZQ0Kc291dGh3ZXN0ZXJseSBjb3Ju
+ZXIgb2YgR292ZXJubWVudCBMb3QgMywgRnJhY3Rpb25hbCBTZWN0aW9uIDMzLCBULiA3DQpTLiwg
+Ui4gNiBXLiwgUy5CLk0uLCBhcyBzaG93biBvbiB0aGF0IHN1cnZleSBvbiBmaWxlIGluIGJvb2sg
+MTIyLA0KcGFnZXMgMTcgYW5kIDE4IG9mIFJlY29yZHMgb2YgU3VydmV5IGluIHRoZSBvZmZpY2Ug
+b2YgdGhlIENvdW50eQ0KUmVjb3JkZXIgb2YgT3JhbmdlIENvdW50eTsNCg0KVGhlbmNlIGxlYXZp
+bmcgc2FpZCB3ZXN0ZXJuIGJvdW5kYXJ5IHNvdXRoIDg5KjI1JzExIGVhc3QsIDIsMDQyLjY4DQpm
+ZWV0IHRvIHRoZSBzb3V0aGVhc3QgY29ybmVyIG9mIHRoZSBORS4xLzQgb2YgdGhlIFNFLiAgMS80
+IG9mIHNhaWQNClNlY3Rpb24gMzM7IHRoZW5jZSBub3J0aCAwMSowMCc1MCBlYXN0LCAxLDMyMC4z
+MyBmZWV0IHRvIHRoZQ0Kbm9ydGhlYXN0IGNvcm5lciBvZiB0aGUgTkUuIDEvNCBvZiB0aGUgU0Uu
+ICAxLzQgb2Ygc2FpZCBTZWN0aW9uIDMzOw0KdGhlbmNlIG5vcnRoIDAwKjI3JzE0IGVhc3QsIDIs
+NjQ3LjQ2IGZlZXQgdG8gdGhlIG5vcnRoZWFzdCBjb3JuZXIgb2YNCnNhaWQgU2VjdGlvbiAzMzsg
+dGhlbmNlIGFsb25nIHRoZSBub3J0aCBsaW5lIG9mIHNhaWQgc2VjdGlvbiBub3J0aA0KODkqMTYn
+MTQgd2VzdCwgMiwwODYuMzkgZmVldCB0byB0aGUgbm9ydGh3ZXN0IGNvcm5lciBvZiBHb3Zlcm5t
+ZW50DQpMb3QgMSBvZiBzYWlkIHNlY3Rpb24sIGJlaW5nIGEgcG9pbnQgb24gdGhlIGV4aXN0aW5n
+IHdlc3Rlcm4gYm91bmRhcnkNCm9mIHNhaWQgUml2ZXJzaWRlIENvdW50eTsNCg0KVGhlbmNlIGFs
+b25nIHNhaWQgYm91bmRhcnkgb2YgUml2ZXJzaWRlIENvdW50eSBub3J0aGVybHksDQpub3J0aGVh
+c3Rlcmx5LCBub3J0aHdlc3Rlcmx5LCB3ZXN0ZXJseSwgbm9ydGhlcmx5LCB3ZXN0ZXJseSBhbmQN
+Cm5vcnRod2VzdGVybHkgdG8gYSBwb2ludCBvbiB0aGUgc291dGggbGluZSBvZiBTZWN0aW9uIDM2
+LCBULiAzIFMuLCBSLg0KOCBXLiwgYXMgc2hvd24gb24gdGhhdCBzdXJ2ZXkgb24gZmlsZSBpbiBi
+b29rIDEzMSwgcGFnZXMgMjQgYW5kIDI1DQpvZiBSZWNvcmRzIG9mIFN1cnZleSBpbiB0aGUgb2Zm
+aWNlIG9mIHRoZSBPcmFuZ2UgQ291bnR5IFJlY29yZGVyLA0Kc2FpZCBwb2ludCBseWluZyBkaXN0
+YW50IHRoZXJlaW4gbm9ydGggODkqMDUnMzggd2VzdCAxNTEuNTggZmVldCBmcm9tDQp0aGUgc291
+dGhlYXN0IGNvcm5lciBvZiBzYWlkIFNlY3Rpb24gMzY7DQoNClRoZW5jZSBsZWF2aW5nIHNhaWQg
+ZXhpc3RpbmcgYm91bmRhcnkgb2YgUml2ZXJzaWRlIENvdW50eSBhbmQNCmFsb25nIHNhaWQgc291
+dGggbGluZSBub3J0aCA4OSowNSczOCB3ZXN0LCAyLDQ4NC4wMCBmZWV0OyB0aGVuY2UNCmNvbnRp
+bnVpbmcgYWxvbmcgc2FpZCBzb3V0aCBsaW5lLCBub3J0aCA4OSowNycyNyB3ZXN0LCA4MTguNDYg
+ZmVldCB0bw0KdGhlIGVhc3Rlcmx5IGxpbmUgb2YgdGhlIFJhbmNobyBMb21hcyBkZSBTYW50aWFn
+bzsgdGhlbmNlIGFsb25nIHNhaWQNCmVhc3Rlcmx5IGxpbmUgbm9ydGggMDIqNTMnMjcgd2VzdCwg
+MywyNzMuMTggZmVldCB0byBhIHBvaW50IG9uIGENCm5vbnRhbmdlbnQgY3VydmUsIGNvbmNhdmUg
+dG8gdGhlIG5vcnRod2VzdCBhbmQgaGF2aW5nIGEgcmFkaXVzIG9mDQoxLDU1MC4wMCBmZWV0LCBh
+IHJhZGlhbCBmcm9tIHNhaWQgcG9pbnQgYmVhcnMgbm9ydGggMTQqMDUnMzAgd2VzdDsNCnRoZW5j
+ZSBlYXN0ZXJseSwgbGVhdmluZyBzYWlkIGVhc3QgbGluZSwgYWxvbmcgc2FpZCBjdXJ2ZSB0aHJv
+dWdoIGENCmNlbnRyYWwgYW5nbGUgb2YgMTUqMDEnMTcgYW5kIGFyYyBsZW5ndGggb2YgNDA2LjM1
+IGZlZXQ7IHRoZW5jZQ0Kbm9udGFuZ2VudCB0byBzYWlkIGN1cnZlLCBzb3V0aCA4NCozMicyOSBl
+YXN0LCAxNTUuNjEgZmVldDsgdGhlbmNlDQpub3J0aCA2NSo0MCcwNiBlYXN0LCA3NS4xNSBmZWV0
+OyB0aGVuY2Ugbm9ydGggNDgqMTYnNTYgZWFzdCwgMTUwLjcwDQpmZWV0OyB0aGVuY2Ugbm9ydGgg
+NjgqNDknNTcgZWFzdCwgMzUuMzcgZmVldCB0byBzYWlkIGV4aXN0aW5nDQpib3VuZGFyeSBvZiBS
+aXZlcnNpZGUgQ291bnR5Ow0KDQpUaGVuY2Ugbm9ydGh3ZXN0ZXJseSBhbG9uZyB0aGUgc2FpZCBi
+b3VuZGFyeSB0byB0aGUgY29ybmVyIGNvbW1vbg0KdG8gUml2ZXJzaWRlLCBTYW4gQmVybmFyZGlu
+bywgYW5kIE9yYW5nZSBDb3VudGllczsgdGhlbmNlDQpub3J0aHdlc3Rlcmx5IGFsb25nIHRoZSBz
+b3V0aHdlc3QgYm91bmRhcnkgb2YgU2FuIEJlcm5hcmRpbm8gQ291bnR5DQp0byB0aGUgcG9pbnQg
+b2YgaW50ZXJzZWN0aW9uIG9mIHNhaWQgYm91bmRhcnkgd2l0aCB0aGUgc291dGhlcmx5IGxpbmUN
+Cm9mIFQuIDIgUy4sIFIuICA5IFcuLCBiZWluZyBhbHNvIHRoZSBjb3JuZXIgY29tbW9uIHRvIFNh
+biBCZXJuYXJkaW5vDQphbmQgTG9zIEFuZ2VsZXMgQ291bnRpZXM7IHRoZW5jZSB3ZXN0ZXJseSBh
+bG9uZyB0aGUgdG93bnNoaXAgbGluZQ0KYmV0d2VlbiBULiAyIGFuZCAzIFMuLCB0byB0aGUgY29y
+bmVyIGNvbW1vbiB0byBULiAyIGFuZCAzIFMuLCBSLiAgMTANCmFuZCAxMSBXLjsgdGhlbmNlIHNv
+dXRoZXJseSBhbG9uZyB0aGUgcmFuZ2UgbGluZSBiZXR3ZWVuIFIuICAxMCBhbmQNCjExIFcuLCB0
+byB0aGUgc291dGhlYXN0IGNvcm5lciBvZiAgU2VjdGlvbiAxMywgVC4gMyBTLiwgUi4gIDExIFcu
+LCBpbg0KdGhlIFJhbmNobyBMb3MgQ295b3RlczsgdGhlbmNlIGluIGEgZ2VuZXJhbCBzb3V0aHdl
+c3Rlcmx5IGRpcmVjdGlvbg0KYWxvbmcgc2VjdGlvbiBsaW5lcywgcXVhcnRlciBzZWN0aW9uIGxp
+bmVzIGFuZCBxdWFydGVyIHF1YXJ0ZXINCnNlY3Rpb24gbGluZXMgaW4gdGhlIFJhbmNobyBMb3Mg
+Q295b3RlcywgYXMgZm9sbG93czogIHdlc3Rlcmx5IGFsb25nDQp0aGUgc2VjdGlvbiBsaW5lIHRv
+IHRoZSBxdWFydGVyIGNvcm5lciBvbiB0aGUgc291dGggbGluZSBvZiBzYWlkDQpTZWN0aW9uIDEz
+OyB0aGVuY2Ugc291dGhlcmx5IGFsb25nIHRoZSBxdWFydGVyIHNlY3Rpb24gbGluZSB0byB0aGUN
+CmNlbnRlciBvZiBTZWN0aW9uIDI0LCBULiAzIFMuLCBSLiAxMSBXLjsgdGhlbmNlIHdlc3Rlcmx5
+IGFsb25nIHRoZQ0KcXVhcnRlciBzZWN0aW9uIGxpbmUgdG8gdGhlIHF1YXJ0ZXIgY29ybmVyIG9u
+IHRoZSB3ZXN0IGxpbmUgb2Ygc2FpZA0KU2VjdGlvbiAyNDsgdGhlbmNlIHNvdXRoZXJseSBhbG9u
+ZyB0aGUgc2VjdGlvbiBsaW5lIHRvIHRoZSBzb3V0aHdlc3QNCmNvcm5lciBvZiBzYWlkIFNlY3Rp
+b24gMjQ7IHRoZW5jZSB3ZXN0ZXJseSBhbG9uZyB0aGUgc2VjdGlvbiBsaW5lIHRvDQp0aGUgcXVh
+cnRlciBjb3JuZXIgb24gdGhlIG5vcnRoIGxpbmUgb2YgIFNlY3Rpb24gMjYsIFQuIDMgUy4sIFIu
+ICAxMQ0KVy47IHRoZW5jZSBzb3V0aGVybHkgYWxvbmcgdGhlIHF1YXJ0ZXIgc2VjdGlvbiBsaW5l
+IHRvIHRoZSBjZW50ZXIgb2YNCnNhaWQgU2VjdGlvbiAyNjsNCg0KVGhlbmNlIHdlc3Rlcmx5IGFs
+b25nIHRoZSBxdWFydGVyIHNlY3Rpb24gbGluZSB0byB0aGUgcXVhcnRlcg0KY29ybmVyIG9uIHRo
+ZSB3ZXN0IGxpbmUgb2Ygc2FpZCBTZWN0aW9uIDI2OyB0aGVuY2Ugc291dGhlcmx5IGFsb25nDQp0
+aGUgc2VjdGlvbiBsaW5lIHRvIHRoZSBzb3V0aHdlc3QgY29ybmVyIG9mIHNhaWQgU2VjdGlvbiAy
+NjsgdGhlbmNlDQp3ZXN0ZXJseSBhbG9uZyB0aGUgc2VjdGlvbiBsaW5lIHRvIHRoZSBub3J0aGVh
+c3QgY29ybmVyIG9mIFNlY3Rpb24NCjMzLCBULiAzIFMuLCBSLiAxMSBXLjsgdGhlbmNlIHNvdXRo
+ZXJseSBhbG9uZyB0aGUgc2VjdGlvbiBsaW5lIHRvIHRoZQ0KcXVhcnRlciBjb3JuZXIgb24gdGhl
+IGVhc3QgbGluZSBvZiBzYWlkIFNlY3Rpb24gMzM7IHRoZW5jZSB3ZXN0ZXJseQ0KYWxvbmcgdGhl
+IHF1YXJ0ZXIgc2VjdGlvbiBsaW5lIHRvIHRoZSBjZW50ZXIgb2Ygc2FpZCBTZWN0aW9uIDMzOw0K
+dGhlbmNlIHNvdXRoZXJseSBhbG9uZyB0aGUgcXVhcnRlciBzZWN0aW9uIGxpbmUgdG8gdGhlIG5v
+cnRoZWFzdA0KY29ybmVyIG9mIHRoZSBTRS4gMS80IG9mIHRoZSBTVy4gMS80IG9mIHNhaWQgU2Vj
+dGlvbiAzMzsgdGhlbmNlDQp3ZXN0ZXJseSBhbG9uZyB0aGUgcXVhcnRlciBxdWFydGVyIHNlY3Rp
+b24gbGluZSB0byB0aGUgY2VudGVyIG9mIHRoZQ0KU1cuIDEvNCBvZiBzYWlkIFNlY3Rpb24gMzM7
+IHRoZW5jZSBzb3V0aGVybHkgYWxvbmcgdGhlIHF1YXJ0ZXINCnF1YXJ0ZXIgc2VjdGlvbiBsaW5l
+IHRvIHRoZSBzb3V0aCBsaW5lIG9mIHNhaWQgU2VjdGlvbiAzMzsgdGhlbmNlDQp3ZXN0ZXJseSBh
+bG9uZyB0aGUgdG93bnNoaXAgbGluZSBiZXR3ZWVuIFQuIDMgYW5kIDQgUy4sIHRvIHRoZQ0Kbm9y
+dGhlYXN0IGNvcm5lciBvZiBTZWN0aW9uIDUsIFQuICA0IFMuLCBSLiAxMSBXLjsgdGhlbmNlIHNv
+dXRoZXJseQ0KYWxvbmcgdGhlIHNlY3Rpb24gbGluZSB0byB0aGUgbm9ydGhlYXN0IGNvcm5lciBv
+ZiB0aGUgU0UuIDEvNCBvZiBzYWlkDQpTZWN0aW9uIDU7IHRoZW5jZSB3ZXN0ZXJseSBhbG9uZyB0
+aGUgcXVhcnRlciBzZWN0aW9uIGxpbmUgdG8gdGhlDQpub3J0aHdlc3QgY29ybmVyIG9mIHRoZSBO
+RS4gMS80IG9mIHRoZSBTRS4gIDEvNCBvZiBzYWlkIFNlY3Rpb24gNTsNCnRoZW5jZSBzb3V0aGVy
+bHkgYWxvbmcgdGhlIHF1YXJ0ZXIgcXVhcnRlciBzZWN0aW9uIGxpbmUgdG8gdGhlIGNlbnRlcg0K
+b2YgdGhlIFNFLiAxLzQgb2Ygc2FpZCBTZWN0aW9uIDU7IHRoZW5jZSB3ZXN0ZXJseSBhbG9uZyB0
+aGUgcXVhcnRlcg0KcXVhcnRlciBzZWN0aW9uIGxpbmUgdG8gdGhlIHdlc3Rlcmx5IGxpbmUgb2Yg
+dGhlIFNFLiAxLzQgb2Ygc2FpZA0KU2VjdGlvbiA1OyB0aGVuY2Ugc291dGhlcmx5IGFsb25nIHRo
+ZSBxdWFydGVyIHNlY3Rpb24gbGluZSB0byB0aGUNCnF1YXJ0ZXIgY29ybmVyIG9uIHRoZSBzb3V0
+aCBsaW5lIG9mIHNhaWQgU2VjdGlvbiA1OyB0aGVuY2Ugd2VzdGVybHkNCmFsb25nIHRoZSBzZWN0
+aW9uIGxpbmUgdG8gdGhlIG5vcnRoZWFzdCBjb3JuZXIgb2YgdGhlIE5XLiAxLzQgb2YgdGhlDQpO
+Vy4gIDEvNCBvZiBTZWN0aW9uIDgsIFQuICA0IFMuLCBSLiAgMTEgVy47DQoNClRoZW5jZSBzb3V0
+aGVybHkgYWxvbmcgdGhlIHF1YXJ0ZXIgcXVhcnRlciBzZWN0aW9uIGxpbmVzIHRvIHRoZQ0Kbm9y
+dGhlYXN0IGNvcm5lciBvZiB0aGUgU1cuIDEvNCBvZiB0aGUgU1cuIDEvNCBvZiBzYWlkIFNlY3Rp
+b24gODsNCnRoZW5jZSBzb3V0aHdlc3Rlcmx5IGluIGEgc3RyYWlnaHQgbGluZSB0byBhIHBvaW50
+IG9uIHRoZSBzb3V0aCBsaW5lDQpvZiB0aGUgTW9vZHkgQ3JlZWsgQ2hhbm5lbCBhcyBzaG93biBv
+biB0aGF0IHN1cnZleSBvbiBmaWxlIGluIGJvb2sNCjEyMCwgcGFnZSA1IG9mIFJlY29yZHMgb2Yg
+U3VydmV5IGluIHRoZSBvZmZpY2Ugb2YgdGhlIFJlY29yZGVyIG9mDQpPcmFuZ2UgQ291bnR5LCBz
+YWlkIHBvaW50IGJlaW5nIG9uIGEgbm9udGFuZ2VudCBjdXJ2ZSwgY29uY2F2ZQ0Kc291dGhlYXN0
+ZXJseSBhbmQgaGF2aW5nIGEgcmFkaXVzIG9mIDk1MC4wMCBmZWV0LCBhIHJhZGlhbCBmcm9tIHNh
+aWQNCnBvaW50IGJlYXJzIHNvdXRoIDAzKjQxJzI0IGVhc3Q7IHRoZW5jZSB3ZXN0ZXJseSBhbG9u
+ZyBzYWlkIHNvdXRoDQpsaW5lIGFuZCBzYWlkIGN1cnZlIHRocm91Z2ggYSBjZW50cmFsIGFuZ2xl
+IG9mIDI2KjM0JzM5IGFuZCBhbiBhcmMNCmxlbmd0aCBvZiA0NDAuNjcgZmVldCB0byBpdHMgcG9p
+bnQgb2YgaW50ZXJzZWN0aW9uIHdpdGggdGhlIGVhc3QgbGluZQ0Kb2YgdGhlIENveW90ZSBDcmVl
+ayBDaGFubmVsLCBzYWlkIHBvaW50IGJlaW5nIG9uIGEgbm9udGFuZ2VudCBjdXJ2ZQ0KY29uY2F2
+ZSBub3J0aHdlc3Rlcmx5IGFuZCBoYXZpbmcgYSByYWRpdXMgb2YgNSwyMDAuMDAgZmVldCwgYSBy
+YWRpYWwNCmZyb20gc2FpZCBwb2ludCBiZWFycyBub3J0aCA3NSoxMSc0NiB3ZXN0OyB0aGVuY2Ug
+c291dGh3ZXN0ZXJseSBhbG9uZw0Kc2FpZCBlYXN0ZXJseSBsaW5lIGFuZCBzYWlkIGN1cnZlIHRo
+cm91Z2ggYSBjZW50cmFsIGFuZ2xlIG9mIDAzKjEwJw0KMzggYW5kIGFuIGFyYyBsZW5ndGggb2Yg
+Mjg4LjM2IGZlZXQ7IHRoZW5jZSBjb250aW51aW5nIGFsb25nIHNhaWQNCmVhc3Rlcmx5IGxpbmUs
+IHRhbmdlbnQgdG8gc2FpZCBjdXJ2ZSwgc291dGggMTcqNTgnNTIgd2VzdCwgMTMyLjI3DQpmZWV0
+IHRvIGEgcG9pbnQgb24gdGhlIGV4aXN0aW5nIGJvdW5kYXJ5IG9mIExvcyBBbmdlbGVzIENvdW50
+eTsNCnRoZW5jZSBzb3V0aHdlc3Rlcmx5IGFsb25nIHNhaWQgYm91bmRhcnkgaW4gYSBzdHJhaWdo
+dCBsaW5lIHRvIHRoZQ0Kc291dGh3ZXN0IGNvcm5lciBvZiBTZWN0aW9uIDgsIFQuIDQgUy4sIFIu
+IDExIFcuICBzYWlkIGNvcm5lciBhbHNvDQpiZWluZyBMb3MgQW5nZWxlcy9PcmFuZ2UgQ291bnR5
+IENvcm5lciBOby4gMTEgYXMgc2hvd24gb24gTG9zIEFuZ2VsZXMNCkNvdW50eSBTdXJ2ZXlvcidz
+IE1hcCBOby4gODE3NSBvbiBmaWxlIGluIHRoZSBvZmZpY2Ugb2YgdGhlIFN1cnZleW9yDQpvZiB0
+aGUgQ291bnR5IG9mIExvcyBBbmdlbGVzOw0KDQpUaGVuY2Ugc291dGggMDAqMTEnNTAgZWFzdCwg
+YWxvbmcgdGhlIHNlY3Rpb24gbGluZSB0byBhIHBvaW50IG9uDQp0aGUgYm91bmRhcnkgbGluZSBi
+ZXR3ZWVuIFJhbmNobyBMb3MgQ295b3RlcyBhbmQgUmFuY2hvIExvcyBBbGFtaXRvcywNCnNhaWQg
+cG9pbnQgYWxzbyBiZWluZyBMb3MgQW5nZWxlcy9PcmFuZ2UgQ291bnR5IENvcm5lciBOby4gMTA7
+DQoNClRoZW5jZSBzb3V0aCA1OSowNyc0MCB3ZXN0LCBhIGRpc3RhbmNlIG9mIDMsMzkxLjQ4IGZl
+ZXQgdG8gTG9zDQpBbmdlbGVzL09yYW5nZSBDb3VudHkgQ29ybmVyIE5vLiA5Ow0KDQpUaGVuY2Ug
+c291dGggMzkqNDgnMjAgd2VzdCwgYSBkaXN0YW5jZSBvZiA1LDY1MC45NyBmZWV0IHRvIExvcw0K
+QW5nZWxlcy9PcmFuZ2UgQ291bnR5IENvcm5lciBOby4gODsNCg0KVGhlbmNlIHNvdXRoIDExKjM2
+JzU1IHdlc3QsIGEgZGlzdGFuY2Ugb2YgMiwyNDEuNDEgZmVldCB0byBMb3MNCkFuZ2VsZXMvT3Jh
+bmdlIENvdW50eSBDb3JuZXIgTm8uIDc7DQoNClRoZW5jZSBzb3V0aCAyNyo1NSc1NSB3ZXN0LCBh
+IGRpc3RhbmNlIG9mIDgsMzc1LjQwIGZlZXQgdG8gTG9zDQpBbmdlbGVzL09yYW5nZSBDb3VudHkg
+Q29ybmVyIE5vLiA2Ow0KDQpUaGVuY2Ugc291dGggMzEqMjInNTAgZWFzdCwgYSBkaXN0YW5jZSBv
+ZiAxLDI5Ni4yMSBmZWV0IHRvIExvcw0KQW5nZWxlcy9PcmFuZ2UgQ291bnR5IENvcm5lciBOby4g
+NTsNCg0KVGhlbmNlIHNvdXRoIDI3KjEyJzAwIGVhc3QsIGEgZGlzdGFuY2Ugb2YgMiwxMDYuMTAg
+ZmVldCB0byBMb3MNCkFuZ2VsZXMvT3JhbmdlIENvdW50eSBDb3JuZXIgTm8uIDQ7DQoNClRoZW5j
+ZSBzb3V0aCAxNio0Nic0NSBlYXN0LCBhIGRpc3RhbmNlIG9mIDEsNDQ0LjgyIGZlZXQgdG8gTG9z
+DQpBbmdlbGVzL09yYW5nZSBDb3VudHkgQ29ybmVyIE5vLiAzOw0KDQpUaGVuY2Ugc291dGggMio0
+OCczNSBlYXN0LCBhIGRpc3RhbmNlIG9mIDIsMjA3Ljk0IGZlZXQgdG8gTG9zDQpBbmdlbGVzL09y
+YW5nZSBDb3VudHkgQ29ybmVyIE5vLiAyOw0KDQpUaGVuY2Ugc291dGggNTcqMTAnNDAgd2VzdCwg
+YSBkaXN0YW5jZSBvZiA4LDIzOC43OCBmZWV0IHRvIExvcw0KQW5nZWxlcy9PcmFuZ2UgQ291bnR5
+IENvcm5lciBOby4gMTsNCg0KVGhlbmNlIHNvdXRoIDMzKjAwJzAwIHdlc3QsIGEgZGlzdGFuY2Ug
+b2YgNjIyLjQzIGZlZXQgdG8gYSBwb2ludA0Kb24gdGhlIG5vcnRoZWFzdGVybHkgbGluZSBvZiBi
+bG9jayA1OSwgQWxhbWl0b3MgQmF5IHRyYWN0LCBhcyBzaG93bg0Kb24gdGhlIG1hcCByZWNvcmRl
+ZCBpbiBtYXAgYm9vayA1LCBwYWdlIDEzNywgb24gZmlsZSBpbiB0aGUgb2ZmaWNlIG9mDQp0aGUg
+UmVjb3JkZXIgb2YgdGhlIENvdW50eSBvZiBMb3MgQW5nZWxlcywgZGlzdGFudCB0aGVyZW9uIHNv
+dXRoDQo1Nyo1MCc0NSBlYXN0LCBhIGRpc3RhbmNlIG9mIDQyOC45MSBmZWV0IGZyb20gdGhlIG1v
+c3Qgbm9ydGhlcmx5DQpjb3JuZXIgb2Ygc2FpZCBibG9jayA1OTsgdGhlbmNlIGNvbnRpbnVpbmcg
+c291dGggMzMqMDAnMDAgd2VzdCwgYQ0KZGlzdGFuY2Ugb2YgdGhyZWUgbWlsZXMsIG1vcmUgb3Ig
+bGVzcyB0byB0aGUgc291dGh3ZXN0ZXJseSBib3VuZGFyeQ0KbGluZSBvZiB0aGUgU3RhdGUgb2Yg
+Q2FsaWZvcm5pYSAodGhlIGJvdW5kYXJ5IGxpbmUgYmV0d2VlbiBMb3MNCkFuZ2VsZXMgYW5kIE9y
+YW5nZSBoZXJlaW5hYm92ZSBkZXNjcmliZWQgYW5kIGVzdGFibGlzaGVkIGJlaW5nIHNob3duDQpv
+biBzYWlkIGNvdW50eSBzdXJ2ZXlvcidzIG1hcCBOby4gODE3NSA7IGFuZCBsaWtld2lzZSBvbiBt
+YXAgTm8uICAzMDANCm9uIGZpbGUgaW4gdGhlIG9mZmljZSBvZiB0aGUgU3VydmV5b3Igb2YgT3Jh
+bmdlIENvdW50eSk7IHRoZW5jZQ0Kc291dGhlYXN0ZXJseSBhbG9uZyB0aGUgc3RhdGUgbGluZSB0
+byB0aGUgcG9pbnQgb2YgYmVnaW5uaW5nLg0KDQpTb3VyY2VzIFJlZmVyZW5jZWQNCg0KVVNHUyA3
+LjUnIHBhcGVyIHF1YWQNCkNpdHkgb2YgQW5haGVpbSBQbGFubmluZyBEZXBhcnRtZW50DQpVUyBD
+ZW5zdXMgVGlnZXIgRmlsZQ0KRVRBSw0KU3RhdGUgb2YgQ2FsaWZvcm5pYSBsZWdhbCB0ZXh0IGRl
+c2NyaXB0aW9uIG9mIE9yYW5nZSBDb3VudHkuDQoNClJlc3VsdA0KDQpUaGUgcHJlY2lzaW9uIHBs
+YWNlbWVudCBvZiB0aGUgbW9kaWZpZWQgT3JhbmdlLVJpdmVyc2lkZSBsaW5lIHdhcw0Kc3VjY2Vz
+c2Z1bC4gSG93ZXZlciwgdGhlIEJ1cmVhdSdzIGxpbmUgZG9lcyBub3QgdGFrZSBpbnRvIGFjY291
+bnQNCm1pbm9yIGRpcmVjdGlvbmFsIGNoYW5nZXMgbm9ydGggYW5kIHNvdXRoIG9mIHRoZSBtYWlu
+IGFyZWEgb2YgY29uY2Vybi4NCkFzIGEgcmVzdWx0LCB0aGUgbGluZSBoYWQgdG8gYmUgcmVkaWdp
+dGl6ZWQgZnJvbSB0aGUgVVNHUyA3LjUnDQpxdWFkcmFuZ2xlIEJsYWNrIFN0YXIgQ2FueW9uLiAg
+VGhlIG5ldyBjb3VudHkgbGluZSBpcyBkaXN0aW5ndWlzaGVkDQpmcm9tIHRoZSByZXN0IG9mIHRo
+ZSBCdXJlYXUncyBsaW5ld29yayBieSBjb2xvci4gVGhlIGNoYW5nZSBzdGFydHMgYXQNCmxhdC4g
+MzMtIDQ2JyAwMC40MTk3IiBOIGxvbmcuIC0xMTctIDM0JyAzNy40OTczIiBXIGFuZCBlbmRzIGF0
+DQpsYXQuIDMzLSA1MicgMzkuMDY0MSIgTiBsb25nLiAtMTE3LSA0MCcgNDIuMzExMyIgVy4NCg0K
+U2FudGEgQ3J1ei1TYW50YSBDbGFyYSBDb3VudGllcw0KDQpCYWNrZ3JvdW5kDQoNClRoZXJlIGhh
+ZCBiZWVuIGEgbG9uZyBoaXN0b3J5IGRhdGluZyBiYWNrIHRvIHRoZSBsYXRlIDE5ODAncyg/KQ0K
+cmVnYXJkaW5nIHRoZSBjb3JyZWN0IHBsYWNlbWVudCBvZiB0aGUgY291bnR5IGxpbmUgYmV0d2Vl
+bg0KU2FudGEgQ3J1eiBhbmQgU2FudGEgQ2xhcmEgY291bnRpZXMuIFRoZSAxMDBLIFVTR1MgbWFw
+IGRpZCBub3QNCmFncmVlIHdpdGggdGhlIDcuNScgVVNHUyBxdWFkcmFuZ2xlcyBhbmQgdGhlIGNv
+dW50aWVzIHdlcmUgb2YNCmxpdHRsZSBoZWxwIGluIHJlc29sdmluZyBwbGFjZW1lbnQgb2YgdGhl
+IGxpbmUuIEF0IHRoYXQgdGltZQ0KdGhlIEZNTVAgZGVjaWRlZCB0byBnbyB3aXRoIHRoZSAxMDBL
+IGxpbmUuDQoNCkluIDE5OTcgdGhlIGlzc3VlIGNhbWUgdXAgYWdhaW4gYmVjYXVzZSB0aGUgRk1N
+UCBsaW5lIGRpZCBub3QgbWF0Y2ggdGhlDQpCdXJlYXUncyBjb3VudHkgbGluZS4gIE1vc3Qgb2Yg
+dGhlIDcuNScgVVNHUyBwYXBlciBxdWFkcyBhbG9uZyB0aGUNCmNvdW50eSBib3JkZXIgd2VyZSB1
+cGRhdGVkIGJ5IFVTR1MgaW4gdGhlIGVhcmx5IHRvIG1pZCAxOTkwJ3MsIGFuZA0KdGhlIGxlZ2Fs
+IHRleHQgZGVzY3JpcHRpb24gb2YgdGhlIGNvdW50eSBsaW5lIGFncmVlZCB3aXRoIHdoYXQgd2Fz
+DQpyZXByZXNlbnRlZCBvbiB0aGUgbmV3ZXIgNy41JyBxdWFkcy4NCg0KU291cmNlcyByZWZlcmVu
+Y2VkDQoNClN0YXRlIG9mIENhbGlmb3JuaWEgTGVnYWwgdGV4dCBkZXNjcmlwdGlvbiBvZiBTYW50
+YSBDbGFyYSBDb3VudHkgYW5kDQpTYW50YSBDcnV6IENvdW50eSBsaW5lcw0KVVNHUyAxMDBLIERM
+Rw0KVVNHUyA3LjUnIERMRw0KVVNHUyA3LjUnIHBhcGVyIHF1YWRzDQpVU0dTIDEwMEsgbXlsYXIg
+cXVhZHMNCg0KUmVzdWx0DQoNClRoZSAxMDBLIERMRyBpbmZvcm1hdGlvbiB3YXMgaW5jb21wbGV0
+ZSwgYnV0IG1hdGNoZWQgdGhlIDEwMEsgVVNHUw0KcGFwZXIgbWFwIHdoZXJlIERMRyBpbmZvcm1h
+dGlvbiB3YXMgYXZhaWxhYmxlLiBUaGUgNy41JyBETEcNCmluZm9ybWF0aW9uIHRob3VnaCBjb21w
+bGV0ZSwgaGFkIHNvbWUgcXVhZHMgdGhhdCBtYXRjaGVkIHRoZSBuZXdlcg0KNy41JyBwYXBlciBt
+YXBzIGFuZCBzb21lIHRoYXQgYXBwZWFyZWQgdG8gbWF0Y2ggb2xkZXIgNy41JyBVU0dTIHF1YWRz
+Lg0KVGhlIHByb2JsZW0gd2FzIGZpbmFsbHkgcmVzb2x2ZWQgYnkgZGlnaXRpemluZyB0aGUgZW50
+aXJlIFNhbnRhDQpDcnV6LVNhbnRhIENsYXJhIGxpbmUgb2ZmIHRoZSBuZXdlciA3LjUnIHBhcGVy
+IHF1YWRzLiBUaGlzIHByb2Nlc3MNCndhcyBjb21wbGV0ZWQgaW4gTWF5IDE5OTcgYnkgUi4gV2l0
+aGVycy4gIFRoZSBjaGFuZ2UgYmVnaW5zIGluIHRoZQ0Kc291dGggd2hlcmUgU2FuIEJlbml0bywg
+U2FudGEgQ2xhcmEsIGFuZCBTYW50YSBDcnV6IGNvdW50aWVzIG1lZXQsDQphbmQgZW5kcyBqdXN0
+IHBhc3QgdGhlIGp1bmN0aW9uIG9mIFNhbnRhIENydXosIFNhbnRhIENsYXJhLCBhbmQNClNhbiBN
+YXRlbyBjb3VudGllcy4gIFRoZSBuZXcgY291bnR5IGxpbmUgaXMgZGlzdGluZ3Vpc2hlZCBmcm9t
+IHRoZQ0KcmVzdCBvZiB0aGUgQnVyZWF1J3MgbGluZXdvcmsgYnkgY29sb3IuIFRoZSBjaGFuZ2Ug
+c3RhcnRzIGF0DQpsYXQuIDM2LSA1MycgNTcuOTYxMyIgTiBsb25nLiAtMTIxLSAzNCcgNDkuNjc2
+NiIgVyBhbmQgZW5kcyBhdA0KbGF0LiAzNy0gMTcnIDM2LjQxNjIiIE4gbG9nLiAtMTIyLSAwOScg
+MzUuNDA3MiIgVy4NCg0KTW9kaWZpY2F0aW9ucyB0byBGTU1QIENvdW50eSBMaW5lJ3MgV2l0aGlu
+IEl0cyBGaWxlcw0KDQpUaGVyZSBhcmUgdHdvIGFyZWFzIHdoZXJlIHRoZSBCdXJlYXUncyBsaW5l
+IGFuZCB0aGUgc3RhdGUncyBsZWdhbCB0ZXh0DQpkZXNjcmlwdGlvbiBhZ3JlZWQsIGFuZCB0aGUg
+Rk1NUCBjb3VudHkgbGluZSB3YXMgb3V0IG9mIGRhdGUuDQoNCkEgY291bnR5IGxpbmUgYWRqdXN0
+bWVudCBiZXR3ZWVuIEtlcm4gYW5kIFZlbnR1cmEgY291bnRpZXMgcmVzdWx0ZWQgaW4NCmFib3V0
+IDktMTAgc3EuIG1pLiBnb2luZyBmcm9tIFZlbnR1cmEgdG8gS2VybiBDb3VudHkuICBUaGUgYXJl
+YSB3YXMgbm90DQpzdXJ2ZXllZCBvbiB0aGUgVmVudHVyYSBzaWRlLCBidXQgZmFsbHMgaW4gdGhl
+IEludGVyaW0gRmFybWxhbmQgYXJlYSBvZg0KS2VybiBDb3VudHkuICBUaGUgYWRkaXRpb24gd2Fz
+IHBob3RvIGludGVycHJldGVkIGFuZCBpbmNvcnBvcmF0ZWQgaW50bw0KdGhlIDE5OTQgS2VybiBD
+b3VudHkgc3VydmV5IGFyZWEuICBWZW50dXJhIENvdW50eSB3YXMgdW5hZmZlY3RlZCBzaW5jZQ0K
+dGhlIEZNTVAgZG9lcyBub3QgbWFwIHRoYXQgcG9ydGlvbiBvZiB0aGUgY291bnR5Lg0KDQpUaGUg
+VGVoYW1hLVNoYXN0YSBjb3VudHkgbGluZSBjaGFuZ2UgaXMgbG9jYXRlZCBvbiB0aGUgTGFzc2Vu
+IFBlYWsgYW5kDQpHcmF5J3MgUGVhayBVU0dTIHF1YWRzIGFuZCBpbnZvbHZlcyBhYm91dCA1IHNx
+LiBtaS4gZ29pbmcgZnJvbSBUZWhhbWENCnRvIFNoYXN0YSBDb3VudHkuICBUaGUgRk1NUCBsb3Nl
+cyBsYW5kIGZyb20gaXRzIG92ZXJhbGwgc3VydmV5IGFyZWENCmJlY2F1c2UgdGhlcmUncyBubyBz
+b2lsIHN1cnZleSBpbmZvcm1hdGlvbiBmb3IgdGhhdCBwb3J0aW9uIG9mIFNoYXN0YQ0KQ291bnR5
+LiBBbGwgb2YgdGhlIGxhbmQgbG9zdCBpcyBOYXRpb25hbCBGb3Jlc3QgU2VydmljZSBsYW5kIGFu
+ZCB3YXMNCmNsYXNzaWZpZWQgYXMgJ1gnIHdoZW4gaXQgd2FzIG1hcHBlZCBhcyBwYXJ0IG9mIFRl
+aGFtYSBDb3VudHkuDQoNClIuIFdpdGhlcnMNCjwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jZGF0
+ZT4xOTk3MDcxNDwvcHJvY2RhdGU+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVw
+Pg0KICAgICAgICA8cHJvY2Rlc2M+Q29udmVydGVkIHRvIENhbGlmb3JuaWEgVGVhbGUgQWxiZXJz
+IE5BRDgzLjwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jY29udD4NCiAgICAgICAgICA8Y250aW5m
+bz4NCiAgICAgICAgICAgIDxjbnRwZXJwPg0KICAgICAgICAgICAgICA8Y250cGVyPkdJUyBTZXJ2
+aWNlIENlbnRlcjwvY250cGVyPg0KICAgICAgICAgICAgICA8Y250b3JnPkNhbGlmb3JuaWEgRGVw
+YXJ0bWVudCBvZiBGaXNoIGFuZCBHYW1lPC9jbnRvcmc+DQogICAgICAgICAgICA8L2NudHBlcnA+
+DQogICAgICAgICAgICA8Y250ZW1haWw+Z2VvZGF0YUBkZmcuY2EuZ292PC9jbnRlbWFpbD4NCiAg
+ICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2NvbnQ+DQogICAgICAgIDxwcm9jZGF0
+ZT4yMDA0MDU8L3Byb2NkYXRlPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4N
+CiAgICAgICAgPHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNu
+dHBlcnA+DQogICAgICAgICAgICAgIDxjbnRwZXI+V2lsbCBQYXR0ZXJzb248L2NudHBlcj4NCiAg
+ICAgICAgICAgICAgPGNudG9yZz5DYWxpZm9ybmlhIERlcGFydG1lbnQgb2YgRmlzaCBhbmQgR2Ft
+ZTwvY250b3JnPg0KICAgICAgICAgICAgPC9jbnRwZXJwPg0KICAgICAgICAgICAgPGNudGVtYWls
+Pmdlb2RhdGFAZGZnLmNhLmdvdjwvY250ZW1haWw+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAg
+ICAgICA8L3Byb2Njb250Pg0KICAgICAgICA8cHJvY2Rlc2M+SW4gbGF0ZSAyMDA2LCB0aGUgRGVw
+YXJ0bWVudCBvZiBGaXNoIGFuZCBHYW1lIChERkcpIHJldmlld2VkIHRoZSAyNEsgZGF0YXNldCBr
+bm93biBhcyBjbnR5MjRrOTdfMS4gIENvbXBhcmlzb25zIHdlcmUgbWFkZSB0byBhIGhpZ2gtcXVh
+bGl0eSAxMDBLIGRhdGFzZXQgKGNvMTAwYS9jb3VudHkxMDBrIGZyb20gdGhlIGZvcm1lciBUZWFs
+ZSBEYXRhIENlbnRlciBHSVMgU29sdXRpb25zIEdyb3VwKSBhbmQgbGVnYWwgYm91bmRhcnkgZGVz
+Y3JpcHRpb25zIGZyb20gKCBodHRwOi8vd3d3LmxlZ2luZm8uY2EuZ292ICkuICBUaGUgY250eTI0
+azk3XzEgZGF0YXNldCB3YXMgbWlzc2luZyBBbmFjYXBhIGFuZCBTYW50YSBCYXJiYXJhIGlzbGFu
+ZHMuICBERkcgYWRkZWQgdGhlIG1pc3NpbmcgaXNsYW5kcyB1c2luZyBwcmV2aW91c2x5LWRpZ2l0
+aXplZCBjb2FzdGxpbmUgZGF0YSAoY29hc3RuMjcgb2YgU3RhdGUgTGFuZHMgQ29tbWlzc2lvbiBv
+cmlnaW4pLCBjb3JyZWN0ZWQgYSBmZXcgY291bnR5IGJvdW5kYXJpZXMsIGJ1aWx0IHJlZ2lvbiB0
+b3BvbG9neSwgYWRkZWQgYWRkaXRpb25hbCBhdHRyaWJ1dGVzLCBhbmQgcmVuYW1lZCB0aGUgZGF0
+YXNldCB0byBjb3VudHkyNGsuDQoNClRoZSBzcGVjaWZpYyBjb3VudHkgYm91bmRhcnkgY29ycmVj
+dGlvbnMgd2VyZSBhcyBmb2xsb3dzOg0KLSBTYW4gRnJhbmNpc2NvIGNvdW50eSBib3VuZGFyeSBj
+b3JyZWN0ZWQgdG8gZXh0ZW5kIGFjcm9zcyB0aGUgbW91dGggb2YgU2FuIEZyYW5jaXNjbyBiYXkg
+aW5zdGVhZCBvZiBhbG9uZyB0aGUgY29hc3RsaW5lIGFzIHBlciAoIGh0dHA6Ly93d3cubGVnaW5m
+by5jYS5nb3YgKS4NCi0gU21hbGwgY2hhbmdlcyBhbG9uZyB0aGUgT3JhbmdlL1JpdmVyc2lkZSBj
+b3VudHkgYm91bmRhcnkgYXMgcGVyIHRoZSBUZWFsZSBjbzEwMGEvY291bnR5MTAwayBkYXRhc2V0
+IGFuZCAoIGh0dHA6Ly93d3cubGVnaW5mby5jYS5nb3YgKS48L3Byb2NkZXNjPg0KICAgICAgICA8
+cHJvY2RhdGU+MjAwNjExPC9wcm9jZGF0ZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8c3Jj
+aW5mbz4NCiAgICAgICAgPHNyY3NjYWxlPjI0LDAwMDwvc3Jjc2NhbGU+DQogICAgICAgIDx0eXBl
+c3JjPmRpZ2l0YWwgR0lTIGRhdGE8L3R5cGVzcmM+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8
+cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5CdXJlYXUgb2YgUmVjbGFtYXRpb24gQ291bnR5
+IExpbmUgTW9kaWZpY2F0aW9ucyAoVXBkYXRlKQ0KDQo2IE1heSAyMDA5DQoNClNpbmNlIHRoZSB0
+aW1lIG9mIHRoZSBsYXN0IHVwZGF0ZSBvZiB0aGUgY291bnR5IGRhdGEgYnkgdGhlIERlcGFydG1l
+bnQgb2YgQ29uc2VydmF0aW9uJ3MgRmFybWxhbmQgTWFwcGluZyBhbmQgTW9uaXRvcmluZyBQcm9n
+cmFtIChET0MtRk1NUCkgaW4gSnVseSAxOTk3LCB0aGUgQ2FsaWZvcm5pYSBNYXBwaW5nIENvb3Jk
+aW5hdGluZyBDb21taXR0ZWUgKENNQ0MpIGhhcyByZXF1ZXN0ZWQgdGhhdCB0aGUgQ2FsaWZvcm5p
+YSBEZXBhcnRtZW50IG9mIEZvcmVzdHJ5IGFuZCBGaXJlIFByb3RlY3Rpb24gKENBTCBGSVJFKSBy
+ZXN1bWUgc3Rld2FyZHNoaXAgb2YgdGhlIHN0YXRld2lkZSBjb3VudHkgYm91bmRhcnkgZGF0YSAo
+b3JpZ2luYWxseSBkaWdpdGl6ZWQgYnkgdGhlIFVTIEJ1cmVhdSBvZiBSZWNsYW1hdGlvbikuICBG
+b3IgdGhlIHBhc3QgZmV3IHllYXJzIENBTCBGSVJFIGhhcyByZWNlaXZlZCBzdWdnZXN0aW9ucyBm
+b3IgZW5oYW5jZW1lbnRzIHRvIHRoZSBjb3VudHkgZGF0YSBmcm9tIG11bHRpcGxlIHNvdXJjZXMu
+ICBPdXIgbGF0ZXN0IHVwZGF0ZSB0byBjb3VudHkgbGluZXMgaXMgYmFzZWQgb24gY29tbWVudHMg
+YW5kIGlucHV0IGZyb20gRE9DLUZNTVAsIENBIERlcGFydG1lbnQgb2YgRmlzaCBhbmQgR2FtZSwg
+Q0EgQm9hcmQgb2YgRXF1YWxpemF0aW9uLCBLZXJuIENvdW50eSwgT3JhbmdlIENvdW50eSwgYW5k
+IFZlbnR1cmEgQ291bnR5LiAgRGF0YSBlZGl0aW5nIHdhcyBwZXJmb3JtZWQgYnkgYm90aCBEZXBh
+cnRtZW50IG9mIEZpc2ggYW5kIEdhbWUgYW5kIENBTCBGSVJFLiAgQWxsIGNoYW5nZXMgYXJlIGRl
+c2NyaWJlZCBiZWxvdy4NCg0KV2hlbiBhIHJlcXVlc3Qgd2FzIG1hZGUgdG8gY2hhbmdlIGEgY291
+bnR5IGxpbmUsIENBTCBGSVJFIGxvb2tlZCBhdCB0d28gc3BhdGlhbCBzb3VyY2VzOiBwYXJjZWwg
+ZGF0YSBmcm9tIGNvdW50aWVzLCBhbmQgdGhlIHNldCBvZiBzY2FubmVkIFVTR1MgNy41JyB0b3Bv
+IHF1YWRzIChha2EgMjRrIERSR3MpIG9uIHRoZSBDYWxpZm9ybmlhIFNwYXRpYWwgSW5mb3JtYXRp
+b24gTGlicmFyeSAoQ2FTSUwpLiAgSW4gYWRkaXRpb24sIENBTCBGSVJFIGFsc28gcmV2aWV3ZWQg
+dGhlIGxlZ2FsIHRleHQgZm9yIGNvdW50eSBib3VuZGFyeSBkZXNjcmlwdGlvbnMgKEdvdmVybm1l
+bnQgQ29kZSBTZWN0aW9uIDIzMTAwLTIzMTU4KSBvbiB0aGUgQ2FsaWZvcm5pYSBMZWdpc2xhdGl2
+ZSBJbmZvcm1hdGlvbiB3ZWJzaXRlOg0KaHR0cDovL3d3dy5sZWdpbmZvLmNhLmdvdi9jZ2ktYmlu
+L2NhbGF3cXVlcnk/Y29kZXNlY3Rpb249Z292JmFtcDtjb2RlYm9keT0yMzEwMQ0KDQpEb2N1bWVu
+dGF0aW9uIGZvciBsZWdhbCBib3VuZGFyeSBjaGFuZ2VzIHdhcyBhbHNvIHByb3ZpZGVkIHRvIENB
+TCBGSVJFIGJ5IENBIEJvYXJkIG9mIEVxdWFsaXphdGlvbi4NCg0KDQpWZW50dXJhLUtlcm4gYW5k
+IFZlbnR1cmEtU2FudGEgQmFyYmFyYSBDb3VudGllcw0KDQpCYWNrZ3JvdW5kDQoNClRoZSB0d28g
+Y291bnR5IGxpbmUgc2VjdGlvbnMgaW4gcXVlc3Rpb24gYXJlIHRoZSB3ZXN0ZXJuIGVkZ2Ugb2Yg
+VmVudHVyYSBDb3VudHkgKHNoYXJlZCB3aXRoIFNhbnRhIEJhcmJhcmEgQ291bnR5KSBhbmQgb25l
+IG9mIHRoZSBub3J0aGVybiBlZGdlcyBvZiBWZW50dXJhIENvdW50eSAoc2hhcmVkIHdpdGggS2Vy
+biBDb3VudHkpLiAgVmVudHVyYSBDb3VudHkgRmlyZSBQcm90ZWN0aW9uIERpc3RyaWN0IGNvbnRh
+Y3RlZCBDQUwgRklSRSB0byBsZXQgdXMga25vdyB0aGF0IHRoZSBCdXJlYXUncyBsaW5lIGRpZCBu
+b3QgbGluZSB1cCB3ZWxsIHdpdGggdGhlaXIgY291bnR5IHBhcmNlbCBkYXRhLiAgUGFyY2VsIGRh
+dGEgZnJvbSBWZW50dXJhIENvdW50eSwgU2FudGEgQmFyYmFyYSBDb3VudHksIGFuZCBLZXJuIENv
+dW50eSBhbGlnbmVkIHdlbGwgd2l0aCBlYWNoIG90aGVyLCBidXQgZGlkIG5vdCBhbGlnbiB3ZWxs
+IHdpdGggdGhlIEJ1cmVhdSdzIGNvdW50eSBsaW5lcy4gIEJlY2F1c2UgVmVudHVyYSBDb3VudHkg
+RlBEIG5lZWRzIENBTCBGSVJFIGRhdGEgdG8gYWxpZ24gd2l0aCB0aGVpciBkYXRhLCBWZW50dXJh
+IENvdW50eSBGUEQgcmVxdWVzdGVkIHRoYXQgd2UgYWRqdXN0IHRoZSBCdXJlYXUncyBsaW5lLg0K
+DQpTb3VyY2VzIFJlZmVyZW5jZWQNCg0KS2VybiBDb3VudHkgUGFyY2VsIERhdGENClNhbnRhIEJh
+cmJhcmEgUGFyY2VsIERhdGENClZlbnR1cmEgQ291bnR5IFBhcmNlbCBEYXRhDQpWZW50dXJhIENv
+dW50eSBGaXJlIFByb3RlY3Rpb24gRGlzdHJpY3QNCg0KUmVzdWx0DQoNCkFmdGVyIGNvbnNpZGVy
+aW5nIHRoZSBzb3VyY2VzIHJldmlld2VkLCBDQUwgRklSRSBkZWNpZGVkIHRvIGFkanVzdCB0aGUg
+dHdvIGNvdW50eSBsaW5lIHNlY3Rpb25zIHRoYXQgVmVudHVyYSBDb3VudHkgRlBEIHJlcXVlc3Rl
+ZCBmb3IgdXMgdG8gYWRqdXN0LiAgVGhlIG5lZWQgZm9yIGNvdW50eSBib3VuZGFyeSBsaW5lcyB0
+aGF0IGFncmVlIHdpdGggdGhlIGNvdW50eSBsaW5ld29yayB1c2VkIGJ5IGxvY2FsIGdvdmVybm1l
+bnRzIGlzIGJlY29taW5nIG1vcmUgY3JpdGljYWwgYXMgbW9yZSBhbmQgbW9yZSBsb2NhbCBnb3Zl
+cm5tZW50cyBhcmUgdXNpbmcgR0lTIGRhdGEgZnJvbSB0aGUgc3RhdGUuICBQYXJjZWwgZGF0YSBm
+cm9tIHRoZSB0aHJlZSBjb3VudGllcyBkb2VzIG5vdCBhbGlnbiBwZXJmZWN0bHkgKG5vZGUtdG8t
+bm9kZSkgZnJvbSBjb3VudHkgdG8gY291bnR5LiAgSG93ZXZlciwgYWxsIDMgY291bnRpZXMnIHBh
+cmNlbCBkYXRhIGlsbHVzdHJhdGUgdGhlIG5vcnRod2VzdCBjb3JuZXIgb2YgVmVudHVyYSBDb3Vu
+dHkgYXMgYmVpbmcgYWJvdXQgMC4xIG1pbGUgd2VzdCBvZiB3aGVyZSBpdCBpcyBzaG93biBvbiB0
+aGUgQnVyZWF1IGZpbGUuICBJbiBhZGRpdGlvbiwgS2VybiBwYXJjZWwgZGF0YSBhbmQgU2FudGEg
+QmFyYmFyYSBwYXJjZWwgZGF0YSBpbGx1c3RyYXRlIG9uZSBvZiB0aGUgbm9ydGhlcm4gZWRnZXMg
+b2YgS2VybiBDb3VudHkgYXMgYmVpbmcgMC41IG1pbGUgbm9ydGggb2Ygd2hlcmUgaXQgaXMgc2hv
+d24gaW4gdGhlIEJ1cmVhdSBmaWxlLg0KDQpDQUwgRklSRSBlZGl0ZWQgdGhlIEJ1cmVhdSdzIGxp
+bmUgYnkgInNuYXBwaW5nIiB0aGUgQnVyZWF1J3Mgbm9ydGh3ZXN0IGNvcm5lciBvZiBWZW50dXJh
+IENvdW50eSB0byB0aGUgbm9ydGh3ZXN0IGNvcm5lciBvZiBWZW50dXJhIENvdW50eSdzIHBhcmNl
+bCBkYXRhLiAgQ0FMIEZJUkUgYWxzbyB1c2VkIFZlbnR1cmEgQ291bnR5J3MgcGFyY2VsIGRhdGEg
+YXMgYSBiYXNpcyBmb3Igc25hcHBpbmcgdGhlIG5vcnRoZXJuIHNlY3Rpb24gb2YgdGhlIEJ1cmVh
+dSdzIGxpbmUgYnkgc25hcHBpbmcgdGhlIG5vZGVzIG9mIHRoZSBCdXJlYXUncyBsaW5lIHRvIHRo
+ZSBub2RlcyBvZiB0aGUgcGFyY2VsIGRhdGEuDQoNCg0KTGFrZS1NZW5kb2Npbm8tU29ub21hIENv
+dW50aWVzDQoNCkJhY2tncm91bmQNCg0KVGhlIGJvdW5kYXJ5IGluIHF1ZXN0aW9uIGlzIHRoZSBz
+b3V0aGVhc3QgY29ybmVyIG9mIE1lbmRvY2lubyBDb3VudHkgc2hhcmVkIHdpdGggTGFrZSBDb3Vu
+dHkgYW5kIFNvbm9tYSBDb3VudHkuICBEZXBhcnRtZW50IG9mIEZpc2ggYW5kIEdhbWUgb2JzZXJ2
+ZWQgdGhhdCB0aGUgQnVyZWF1IGxpbmUgZGlkIG5vdCBsaW5lIHVwIHdpdGggdGhlIHNjYW5uZWQg
+VVNHUyA3LjUnIHF1YWQgb24gQ2FTSUwuDQoNClNvdXJjZXMgUmVmZXJlbmNlZA0KDQpVU0dTIDcu
+NScgcGFwZXIgcXVhZCwgIlRoZSBHZXlzZXJzIiAxOTc1DQpVU0dTIDcuNScgc2Nhbm5lZCBxdWFk
+LCAiVGhlIEdleXNlcnMiIDE5OTMNCkxha2UgQ291bnR5IHBhcmNlbCBkYXRhDQpNZW5kb2Npbm8g
+Q291bnR5IHBhcmNlbCBkYXRhDQpTb25vbWEgQ291bnR5IHBhcmNlbCBkYXRhDQoNClJlc3VsdA0K
+DQpBZnRlciBleGFtaW5pbmcgdGhlIDE5NzUgVVNHUyA3LjUnIHF1YWQgYW5kIHRoZSAxOTkzIFVT
+R1MgNy41JyBxdWFkIENBTCBGSVJFIGRldGVybWluZWQgdGhhdCBVU0dTIGNoYW5nZWQgdGhlIHdh
+eSB0aGUgYm91bmRhcnkgd2FzIGRyYXduIGluIHRoZSAxOTkzIHF1YWQsIHdoaWNoIHdhcyByZWxl
+YXNlZCBhZnRlciB0aGUgQnVyZWF1IGRpZ2l0aXplZCB0aGUgY291bnR5IGxpbmVzIGludG8gR0lT
+IGZvcm1hdCBiYWNrIGluIDE5OTIuICBUaGlzIGlzIG5vdCBjb25zaWRlcmVkIGEgbGVnYWwgY2hh
+bmdlIGJlY2F1c2UgdGhlIFB1YmxpYyBMYW5kIFN1cnZleSBTeXN0ZW0gKFBMU1MpIGxpbmVzICh3
+aGljaCBmb3JtIHRoZSBiYXNpcyBmb3IgdGhlIGNvdW50eSBib3VuZGFyeSBsaW5lcyBpbiB0aGlz
+IGFyZWEpIGFyZSByZXByZXNlbnRlZCBhcyBkYXNoZWQgbGluZXMgaW4gYm90aCBxdWFkcywgd2hp
+Y2ggbWVhbnMgbmVpdGhlciB2ZXJzaW9uIGlzIHVwIHRvIE5hdGlvbmFsIE1hcCBzdGFuZGFyZHMu
+ICBIb3dldmVyLCBhZnRlciBjb21wYXJpbmcgcGFyY2VsIGRhdGEgZnJvbSBMYWtlLCBNZW5kb2Np
+bm8sIGFuZCBTb25vbWEgY291bnRpZXMgdG8gdGhlIHR3byBVU0dTIHF1YWRzLCBpdCBpcyBjbGVh
+ciB0aGF0IHRoZXNlIGNvdW50aWVzIGJhc2VkIHRoZWlyIGNvdW50eSBsaW5lcyBvbiB0aGUgbW9y
+ZSByZWNlbnQgMTk5MyBxdWFkLiAgQ0FMIEZJUkUgYWRqdXN0ZWQgdGhlIEJ1cmVhdSBsaW5lIGZv
+ciB0aGUgc291dGhlYXN0IGNvcm5lciBvZiBMYWtlLU1lbmRvY2luby1Tb25vbWEgaW4gb3JkZXIg
+dG8gbWF0Y2ggYm90aCB0aGUgcGFyY2VsIGRhdGEgYW5kIHRoZSBsYXRlc3QgVVNHUyBxdWFkLg0K
+DQoNCkZyZXNuby1NZXJjZWQgQ291bnRpZXMgKGxlZ2FsIGJvdW5kYXJ5IGNoYW5nZSAtIEphbnVh
+cnkgMSwgMjAwOCkNCg0KQmFja2dyb3VuZA0KDQpPbiBEZWNlbWJlciAzMSwgMjAwNyBhIE1lcmNl
+ZCBDb3VudHkgcHJlc3MgcmVsZWFzZSBhbm5vdW5jZWQgdGhhdCBhIHBvcnRpb24gb2YgdGhlIE1l
+cmNlZC1GcmVzbm8gY291bnR5IGxpbmUgd291bGQgY2hhbmdlIG9uIEphbnVhcnkgMSwgMjAwOCBi
+eSBvZmZpY2lhbGx5IG1vdmluZyBhIHBvcnRpb24gKDYuNTIgc3EgbWkgb3IgNCwxNzUgYWMpIG9m
+IEZyZXNubyBDb3VudHkgaW50byBNZXJjZWQgQ291bnR5LiAgVGhlIHB1cnBvc2Ugb2YgdGhlIGNo
+YW5nZSB3YXMgdG8gZW5oYW5jZSBhY2Nlc3MgdG8gZW1lcmdlbmN5IHNlcnZpY2VzIGZvciBsb2Nh
+bCByZXNpZGVudHMgaW4gdGhlIGFyZWEgc291dGggb2YgRG9zIFBhbG9zLg0KDQpTb3VyY2VzIFJl
+ZmVyZW5jZWQNCg0KTWVyY2VkIENvdW50eSBQcmVzcyBSZWxlYXNlICgxMi8zMS8wNykNCkZyZXNu
+byBMb2NhbCBBZ2VuY3kgRm9ybWF0aW9uIENvbW1pc3Npb24gUmVwb3J0ICgxMi81LzA3KQ0KVmlj
+aW5pdHkgTWFwIG9mIGJvdW5kYXJ5IGNoYW5nZSAoaW4gTEFGQ28gcmVwb3J0KQ0KQ2FsaWZvcm5p
+YSBCb2FyZCBvZiBFcXVhbGl6YXRpb24gZG9jdW1lbnRzDQpGcmVzbm8gQ291bnR5IHBhcmNlbCBk
+YXRhDQpNZXJjZWQgQ291bnR5IHBhcmNlbCBkYXRhDQoNCg0KUmVzdWx0DQoNClRoZSB2aWNpbml0
+eSBtYXAgaW5jbHVkZWQgaW4gdGhlIExBRkNvIHJlcG9ydCBzaG93ZWQgd2hpY2ggRnJlc25vIHBh
+cmNlbHMgd291bGQgYmUgbW92ZWQgaW50byBNZXJjZWQgQ291bnR5LiAgQ0FMIEZJUkUgYWRqdXN0
+ZWQgdGhlIEJ1cmVhdSBsaW5lIHRvIHRoZSBuZXcgY291bnR5IGxpbmUgYnkgdXNpbmcgdGhlIHZp
+Y2luaXR5IG1hcCBhbmQgRnJlc25vIENvdW50eSBwYXJjZWwgZGF0YSBhcyBndWlkZWxpbmVzLg0K
+DQoNClNhbiBCZXJuYXJkaW5vLVJpdmVyc2lkZSBDb3VudGllcyAobGVnYWwgYm91bmRhcnkgY2hh
+bmdlIC0gMjAwMykNCg0KQmFja2dyb3VuZA0KDQpDYWxpZm9ybmlhIEJvYXJkIG9mIEVxdWFsaXph
+dGlvbiByZXBvcnRlZCBhIG1pbm9yIGxlZ2FsIGJvdW5kYXJ5IGNoYW5nZSBhbG9uZyB0aGUgc291
+dGhlcm4gYm91bmRhcnkgb2YgU2FuIEJlcm5hcmRpbm8gQ291bnR5IChuZWFyIHRoZSBzb3V0aHdl
+c3QgY29ybmVyIG9mIFNhbiBCZXJuYXJkaW5vIENvdW50eSkgc2hhcmVkIHdpdGggUml2ZXJzaWRl
+IENvdW50eS4gIFRoZSBzZWN0aW9uIG9mIHRoZSBib3VuZGFyeSB0aGF0IGNoYW5nZWQgaXMgd2l0
+aGluIHVuaW5jb3Jwb3JhdGVkIGFyZWEgdGhhdCBpcyB3ZXN0IG9mIHRoZSBjaXR5IG9mIFJpYWx0
+by4gIFR3byBmb3JtZXIgUml2ZXJzaWRlIHBhcmNlbHMgd2VyZSBtb3ZlZCBpbnRvIFNhbiBCZXJu
+YXJkaW5vIGFuZCB0d28gZm9ybWVyIFNhbiBCZXJuYXJkaW5vIHBhcmNlbHMgd2VyZSBtb3ZlZCBp
+bnRvIFJpdmVyc2lkZS4NCg0KU291cmNlcyBSZWZlcmVuY2VkDQoNCkNhbGlmb3JuaWEgQm9hcmQg
+b2YgRXF1YWxpemF0aW9uIGRvY3VtZW50cw0KUml2ZXJzaWRlIENvdW50eSBwYXJjZWwgZGF0YQ0K
+U2FuIEJlcm5hcmRpbm8gQ291bnR5IHBhcmNlbCBkYXRhDQoNClJlc3VsdA0KDQpDYWxpZm9ybmlh
+IEJvYXJkIG9mIEVxdWFsaXphdGlvbiBwcm92aWRlZCBDQUwgRklSRSB3aXRoIGNvcGllcyBvZiBk
+b2N1bWVudHMgY29uZmlybWluZyB0aGUgYm91bmRhcnkgY2hhbmdlLiAgUGFyY2VsIGRhdGEgZnJv
+bSBTYW4gQmVybmFyZGlubyBhbmQgUml2ZXJzaWRlIENvdW50aWVzIGFsc28gY29uZmlybWVkIHRo
+ZSBjaGFuZ2UuICBDQUwgRklSRSBhZGp1c3RlZCB0aGUgQnVyZWF1IGxpbmUgdG8gbWF0Y2ggd2l0
+aCB0aGUgcGFyY2VsIGRhdGEuDQoNCg0KWXViYS1QbGFjZXItU3V0dGVyIENvdW50aWVzIChsZWdh
+bCBib3VuZGFyeSBjaGFuZ2UgLSAyMDAyKQ0KDQpCYWNrZ3JvdW5kDQoNCkNhbGlmb3JuaWEgQm9h
+cmQgb2YgRXF1YWxpemF0aW9uIHJlcG9ydGVkIGFuIGFubmV4YXRpb24gYnkgY2l0eSBvZiBXaGVh
+dGxhbmQgbmVhciB0aGUgYm91bmRhcnkgb2YgWXViYSBDb3VudHkuICBUaGlzIGFubmV4YXRpb24g
+aW5kaWNhdGVkIHRoYXQgYSBsZWdhbCBib3VuZGFyeSBjaGFuZ2UgaGFkIG9jY3VycmVkIHRoYXQg
+YWZmZWN0ZWQgWXViYSwgUGxhY2VyLCBhbmQgU3V0dGVyIENvdW50aWVzLXBhcnRzIG9mIFBsYWNl
+ciBhbmQgU3V0dGVyIGhhZCBiZWVuIGFubmV4ZWQgYnkgWXViYS4gIEJvYXJkIG9mIEVxdWFsaXph
+dGlvbiBsYXRlciBwcm92aWRlZCBDQUwgRklSRSB3aXRoIHRoZSBkb2N1bWVudGF0aW9uIHRoYXQg
+Y29uZmlybWVkIHRoZSBjb3VudHkgYm91bmRhcnkgY2hhbmdlcy4NCg0KU291cmNlcyBSZWZlcmVu
+Y2VkDQoNCkNhbGlmb3JuaWEgQm9hcmQgb2YgRXF1YWxpemF0aW9uIGRvY3VtZW50cw0KWXViYSBD
+b3VudHkgcGFyY2VsIGRhdGENClBsYWNlciBDb3VudHkgcGFyY2VsIGRhdGENClN1dHRlciBDb3Vu
+dHkgcGFyY2VsIGRhdGENCg0KUmVzdWx0DQoNClRoZSBkb2N1bWVudHMgcHJvdmlkZWQgYnkgQm9h
+cmQgb2YgRXF1YWxpemF0aW9uIGNvbmZpcm1lZCB0aGUgYm91bmRhcnkgY2hhbmdlIGFtb25nIHRo
+ZSB0aHJlZSBjb3VudGllcy4gIEluIGFkZGl0aW9uLCB0aGUgcGFyY2VsIGRhdGEgZnJvbSB0aGUg
+dGhyZWUgY291bnRpZXMgYWxzbyBjb25maXJtZWQgdGhlIGNoYW5nZS4gIENBTCBGSVJFIGFkanVz
+dGVkIHRoZSBCdXJlYXUgbGluZSB0byBtYXRjaCB0aGUgcGFyY2VsIGRhdGEsIHVzaW5nIFl1YmEg
+Y291bnR5IHBhcmNlbHMgYXMgdGhlIG1haW4gZ3VpZGVsaW5lLiANCg0KDQoNCktlcm4tTG9zIEFu
+Z2VsZXMgQ291bnRpZXMgKGxlZ2FsIGJvdW5kYXJ5IGNoYW5nZSAtIDIwMDEpDQoNCkJhY2tncm91
+bmQNCg0KS2VybiBDb3VudHkgRmlyZSBEZXBhcnRtZW50IChLQ0ZEKSByZXBvcnRlZCBhIGJvdW5k
+YXJ5IGNoYW5nZSBpbiBub3J0aHdlc3QgTG9zIEFuZ2VsZXMgQ291bnR5IHRoYXQgaGFkIG5vdCBi
+ZWVuIHJlZmxlY3RlZCBpbiB0aGUgQnVyZWF1IGNvdW50eSBsaW5lLiAgVGhlIHBhcnQgb2YgdGhl
+IGJvdW5kYXJ5IGluIHF1ZXN0aW9uIHdhcyBhIHNlZ21lbnQgc2hhcmVkIGJldHdlZW4gS2VybiBD
+b3VudHkgYW5kIExvcyBBbmdsZXMgQ291bnR5Lg0KDQpTb3VyY2VzIFJlZmVyZW5jZWQNCg0KU3Rh
+dGUgb2YgQ2FsaWZvcm5pYSBMZWdhbCB0ZXh0IGRlc2NyaXB0aW9uIG9mIExvcyBBbmdlbGVzIGFu
+ZCBLZXJuIENvdW50eSBib3VuZGFyeSBsaW5lcw0KQ2FsaWZvcm5pYSBCb2FyZCBvZiBFcXVhbGl6
+YXRpb24gZG9jdW1lbnRzDQpMb3MgQW5nZWxlcyBDb3VudHkgcGFyY2VsIGRhdGENCktlcm4gQ291
+bnR5IHBhcmNlbCBkYXRhDQoNClJlc3VsdA0KDQpBZnRlciBleGFtaW5pbmcgbXVsdGlwbGUgc291
+cmNlcyBDQUwgRklSRSBjb25maXJtZWQgdGhhdCBLQ0ZEIHdhcyBjb3JyZWN0LiAgVGhlIExvcyBB
+bmdlbGVzIENvdW50eSBwYXJjZWwgZGF0YSBhbmQgS2VybiBDb3VudHkgcGFyY2VsIGRhdGEgYm90
+aCByZWZsZWN0IHRoZSBib3VuZGFyeSBjaGFuZ2UuICBJbiBhZGRpdGlvbiB0aGUgbGVnYWwgdGV4
+dCBmb3IgY291bnR5IGJvdW5kYXJ5IGRlc2NyaXB0aW9ucyBmcm9tIHRoZSBDYWxpZm9ybmlhIExl
+Z2lzbGF0aXZlIEluZm9ybWF0aW9uIHdlYnNpdGUgYWxzbyBjb25maXJtcyB0aGUgY2hhbmdlLiAg
+Q0FMIEZJUkUgYWRqdXN0ZWQgdGhlIEJ1cmVhdSBsaW5lIHNvIHRoYXQgaXQgd291bGQgY29uZm9y
+bSB0byB0aGUgYm91bmRhcnkgc2hvd24gaW4gS2VybiBDb3VudHkncyBwYXJjZWwgZGF0YS4gDQoN
+Cg0KT3JhbmdlLVJpdmVyc2lkZSBDb3VudGllcyAobGVnYWwgYm91bmRhcnkgY2hhbmdlKQ0KDQpC
+YWNrZ3JvdW5kDQoNCkR1cmluZyB0aGVpciByZXZpZXcgb2YgdGhlIEJ1cmVhdSdzIGNvdW50eSBs
+aW5lcyBpbiAyMDA2LCBEZXBhcnRtZW50IG9mIEZpc2ggYW5kIEdhbWUgb2JzZXJ2ZWQgYW4gaW5j
+b25zaXN0ZW5jeSBhbG9uZyB0aGUgT3JhbmdlLVJpdmVyc2lkZSBib3VuZGFyeSB3aGVuIGNvbXBh
+cmluZyB0aGUgQnVyZWF1J3MgbGluZSB3aXRoIHRoZSBjb3VudHkgbGluZSBpbiBjbzEwMGEgZnJv
+bSB0aGUgZm9ybWVyIFRlYWxlIERhdGEgQ2VudGVyIFNvbHV0aW9ucyBHcm91cC4gIFRoZSBhcmVh
+IGluIHF1ZXN0aW9uIGlzIGluIHNvdXRod2VzdCBSaXZlcnNpZGUgQ291bnR5LiAgDQoNClNvdXJj
+ZXMgUmVmZXJlbmNlZA0KDQpTdGF0ZSBvZiBDYWxpZm9ybmlhIExlZ2FsIHRleHQgZGVzY3JpcHRp
+b24gb2YgT3JhbmdlIGFuZCBSaXZlcnNpZGUgQ291bnRpZXMNCmNvMTAwYSBzaGFwZWZpbGUgKGFr
+YSAxMDBrIGNvdW50aWVzKSBmcm9tIHRoZSBmb3JtZXIgVGVhbGUgRGF0YSBDZW50ZXIgR0lTIFNv
+bHV0aW9ucyBHcm91cA0KT3JhbmdlIENvdW50eSBwYXJjZWwgZGF0YQ0KUml2ZXJzaWRlIENvdW50
+eSBwYXJjZWwgZGF0YQ0KDQpSZXN1bHQNCg0KRGVwYXJ0bWVudCBvZiBGaXNoIGFuZCBHYW1lIChE
+RkcpIGNvbmZpcm1lZCB0aGF0IGEgYm91bmRhcnkgY2hhbmdlIGhhZCBvY2N1cnJlZCBieSBjaGVj
+a2luZyB0aGUgY291bnR5IGJvdW5kYXJ5IGxlZ2FsIHRleHQgb24gdGhlIENhbGlmb3JuaWEgTGVn
+aXNsYXRpdmUgSW5mb3JtYXRpb24gd2Vic2l0ZS4gIERGRyBhZGp1c3RlZCB0aGUgQnVyZWF1IGxp
+bmUgdG8gbWF0Y2ggY28xMDBhLCB3aGljaCB3YXMgYWxyZWFkeSBjb25zaXN0ZW50IHdpdGggdGhl
+IGxlZ2FsIHRleHQgZGVzY3JpcHRpb24uICBDQUwgRklSRSBhbHNvIGNoZWNrZWQgdGhlIGxlZ2Fs
+IHRleHQgYW5kIGNvbmN1cnJlZCB0aGF0IHRoZSBjaGFuZ2Ugd2FzIGFjY3VyYXRlLiAgQ0FMIEZJ
+UkUgYWxzbyBjb21wYXJlZCB0aGUgREZHIGxpbmUgYWRqdXN0bWVudCB3aXRoIHBhcmNlbCBkYXRh
+IGZyb20gT3JhbmdlIENvdW50eSBhbmQgUml2ZXJzaWRlIENvdW50eSBhbmQgZGV0ZXJtaW5lZCB0
+aGUgYWxpZ25tZW50IHdpdGggcGFyY2VsIGRhdGEgd2FzIGdvb2QuICBTbyBDQUwgRklSRSBtYWRl
+IG5vIGZ1cnRoZXIgYWRqdXN0bWVudHMgdG8gREZHJ3MgYWRqdXN0bWVudCBpbiB0aGlzIGFyZWEu
+DQoNCg0KT3JhbmdlLUxvcyBBbmdlbGVzIENvdW50aWVzIChsZWdhbCBib3VuZGFyeSBjaGFuZ2Ug
+LSBBdWd1c3QgMjksIDE5OTkpDQoNCkJhY2tncm91bmQNCg0KVGhlIE9yYW5nZSBDb3VudHkgTG9j
+YWwgQWdlbmN5IEZvcm1hdGlvbiBDb21taXNzaW9uIChMQUZDbykgY29udGFjdGVkIENhU0lMIGlu
+IDIwMDggdG8gcmVwb3J0IHRoYXQgdGhlIEJ1cmVhdSdzIGxpbmUgZGlkIG5vdCByZWZsZWN0IGEg
+Y2hhbmdlIGFsb25nIHRoZSBPcmFuZ2UtTG9zIEFuZ2VsZXMgQ291bnR5IGJvdW5kYXJ5IHRoYXQg
+b2NjdXJyZWQgb24gQXVndXN0IDI5LCAxOTk5LiAgVGhlIGFyZWEgaW4gcXVlc3Rpb24gaXMgYWxv
+bmcgdGhlIG5vcnRoZXJuIGJvdW5kYXJ5IG9mIE9yYW5nZSBDb3VudHkgYW5kIHNoYXJlZCB3aXRo
+IHRoZSBzb3V0aGVybiBib3VuZGFyeSBvZiBMb3MgQW5nZWxlcyBDb3VudHkuDQoNClNvdXJjZXMg
+UmVmZXJlbmNlZA0KDQpPcmFuZ2UgQ291bnR5IExvY2FsIEFnZW5jeSBGb3JtYXRpb24gQ29tbWlz
+c2lvbiBkb2N1bWVudHMNCkNhbGlmb3JuaWEgQm9hcmQgb2YgRXF1YWxpemF0aW9uIGRvY3VtZW50
+cw0KTG9zIEFuZ2VsZXMgQ291bnR5IHBhcmNlbCBkYXRhDQpPcmFuZ2UgQ291bnR5IHBhcmNlbCBk
+YXRhDQoNClJlc3VsdA0KDQpEb2N1bWVudGF0aW9uIHByb3ZpZGVkIGJ5IHRoZSBPcmFuZ2UgY291
+bnR5IExBRkNvIHByb3ZpZGVkIGNsZWFyIGV2aWRlbmNlIG9mIHRoZSBib3VuZGFyeSBjaGFuZ2Ug
+aW4gMTk5OS4gIENBTCBGSVJFIGZvdW5kIHRoZSBhcmVhIGluIHF1ZXN0aW9uIGJ5IGNvbXBhcmlu
+ZyB0aGUgQnVyZWF1J3MgY291bnR5IGxpbmUgdG8gcGFyY2VsIGRhdGEgZm9yIE9yYW5nZSBDb3Vu
+dHkgYW5kIExvcyBBbmdlbGVzIENvdW50eS4gIFRoZSBPcmFuZ2UgQ291bnR5IHBhcmNlbCBkYXRh
+IGNsZWFybHkgc2hvd2VkIHRoZSBwYXJjZWxzIHRoYXQgT3JhbmdlIENvdW50eSBoYWQgYW5uZXhl
+ZCBmcm9tIExvcyBBbmdlbGVzIENvdW50eS4gIENBTCBGSVJFIGFkanVzdGVkIHRoZSBCdXJlYXUg
+bGluZSB0byBtYXRjaCB0aGUgY291bnR5IGxpbmUgYXMgc2hvd24gYnkgT3JhbmdlIENvdW50eSBw
+YXJjZWwgZGF0YS4NCg0KDQpPcmFuZ2UgQ291bnR5IChtYW4tbWFkZSBpc2xhbmQpDQoNCkJhY2tn
+cm91bmQNCg0KRHVyaW5nIGEgcmV2aWV3IG9mIHRoZSBjb3VudHkgbGluZXMgaW4gMjAwOCwgRGVw
+YXJ0bWVudCBvZiBDb25zZXJ2YXRpb24gb2JzZXJ2ZWQgdGhhdCB0aGUgQnVyZWF1J3MgY291bnR5
+IGxpbmVzIGZvciBPcmFuZ2UgQ291bnR5IGRpZCBub3QgaW5jbHVkZSBhIG1hbi1tYWRlIGlzbGFu
+ZCBpbiB0aGUgSHVudGluZ3RvbiBIYXJib3IvU2VhbCBCZWFjaCBhcmVhLg0KDQpTb3VyY2VzIFJl
+ZmVyZW5jZWQNCg0KSW1hZ2VyeSBmcm9tIHRoZSBOYXRpb25hbCBBZ3JpY3VsdHVyYWwgSW1hZ2Vy
+eSBQcm9ncmFtIChOQUlQKQ0KDQpSZXN1bHQNCg0KQ0FMIEZJUkUgZGlnaXRpemVkIHRoZSBtaXNz
+aW5nIGlzbGFuZCBiYXNlZCBvbiBOQUlQIGRhdGEuDQoNCg0KU2FuIEZyYW5jaXNjbyBDb3VudHkg
+KGFsb25nIG1vdXRoIG9mIGJheSkNCg0KQmFja2dyb3VuZA0KDQpEZXBhcnRtZW50IG9mIEZpc2gg
+YW5kIEdhbWUgb2JzZXJ2ZWQgdGhhdCB0aGUgQnVyZWF1J3Mgd2VzdGVybiBib3VuZGFyeSBmb3Ig
+U2FuIEZyYW5jaXNjbyBDb3VudHkgZm9sbG93ZWQgdGhlIHNob3JlbGluZSBhbmQgZGlkIG5vdCBp
+bmNsdWRlIHRoZSBtb3V0aCBvZiB0aGUgYmF5IGJldHdlZW4gUHQuIFJleWVzIChhdCB0aGUgc291
+dGhlcm4gdGlwIG9mIE1hcmluIENvdW50eSkgYW5kIFB0LiBMb2JvcyBhbG9uZyB0aGUgbm9ydGh3
+ZXN0IHNob3JlIG9mIFNhbiBGcmFuY2lzY28gQ291bnR5Lg0KDQpTb3VyY2VzIFJlZmVyZW5jZWQN
+Cg0KU3RhdGUgb2YgQ2FsaWZvcm5pYSBMZWdhbCB0ZXh0IGRlc2NyaXB0aW9uIG9mIFNhbiBGcmFu
+Y2lzY28gQ291bnR5DQoNCg0KUmVzdWx0DQoNCkRlcGFydG1lbnQgb2YgRmlzaCBhbmQgR2FtZSBj
+b25maXJtZWQgdGhhdCB0aGUgYmF5IG9wZW5pbmcgaXMgcGFydCBvZiBTYW4gRnJhbmNpc2NvIENv
+dW50eSBieSBjaGVja2luZyB0aGUgY291bnR5IGJvdW5kYXJ5IGxlZ2FsIHRleHQgb24gdGhlIENh
+bGlmb3JuaWEgTGVnaXNsYXRpdmUgSW5mb3JtYXRpb24gd2Vic2l0ZS4gIERGRyBhZGp1c3RlZCB0
+aGUgd2VzdGVybiBib3VuZGFyeSB0byBpbmNsdWRlIHRoZSBiYXkgb3BlbmluZy4gIENBTCBGSVJF
+IGFuZCBET0MtRk1NUCBoYXZlIGJvdGggY29uY3VycmVkIHdpdGggdGhpcyBjaGFuZ2UgYW5kIENB
+TCBGSVJFIGhhcyBub3QgbWFkZSBhbnkgZnVydGhlciBhZGp1c3RtZW50cyB0byBERkcncyBhZGp1
+c3RtZW50Lg0KDQoNClNhbnRhIEJhcmJhcmEgQ291bnR5IChvZmZzaG9yZSBpc2xhbmRzKQ0KDQpC
+YWNrZ3JvdW5kDQoNCkR1cmluZyB0aGVpciByZXZpZXcgb2YgdGhlIEJ1cmVhdSdzIGNvdW50eSBs
+aW5lcyBpbiAyMDA2LCBEZXBhcnRtZW50IG9mIEZpc2ggYW5kIEdhbWUgb2JzZXJ2ZWQgdGhhdCB0
+aGUgQnVyZWF1J3MgY291bnR5IGxpbmVzIGZvciBTYW50YSBCYXJiYXJhIGRpZCBub3QgaW5jbHVk
+ZSBBbmFjYXBhIGFuZCBTYW50YSBCYXJiYXJhIGlzbGFuZHMuDQoNClNvdXJjZXMgUmVmZXJlbmNl
+ZA0KDQpjb2FzdG4yNyBjb3ZlcmFnZSBmcm9tIFN0YXRlIExhbmRzIENvbW1pc3Npb24NCg0KUmVz
+dWx0DQoNCkRlcGFydG1lbnQgb2YgRmlzaCBhbmQgR2FtZSBhZGRlZCB0aGUgbWlzc2luZyBpc2xh
+bmRzIHVzaW5nIHByZXZpb3VzbHktZGlnaXRpemVkIGNvYXN0bGluZSBkYXRhIChjb2FzdDI3IG9m
+IFN0YXRlIExhbmRzIENvbW1pc3Npb24gb3JpZ2luKS4gIEJvdGggQ0FMIEZJUkUgYW5kIERPQy1G
+TU1QIGNvbmN1ciB3aXRoIHRoaXMgY2hhbmdlIGFuZCBoYXZlIG5vdCBtYWRlIGFueSBmdXJ0aGVy
+IGNoYW5nZXMgdG8gdGhlIERGRyBsaW5ld29yay4NCg0KDQpDaGFuZ2VzIG90aGVyIHRoYW4gbGlu
+ZXdvcmsNCg0KRHVyaW5nIHRoZWlyIDIwMDYgdXBkYXRlIG9mIHRoZSBkYXRhLCBEZXBhcnRtZW50
+IG9mIEZpc2ggYW5kIEdhbWUgY3JlYXRlZCBhIG11bHRpcGFydCB2ZXJzaW9uIG9mIHRoZSBjb3Vu
+dGllcyBmZWF0dXJlIGNsYXNzICh1c2luZyByZWdpb24gdG9wb2xvZ3kgaW4gY292ZXJhZ2UgZm9y
+bWF0KSwgd2hpY2ggaGFzIDU4IG11bHRpcGFydCBmZWF0dXJlcyAob25lIHJlY29yZCBmb3IgZWFj
+aCBjb3VudHkgaW4gdGhlIGF0dHJpYnV0ZSB0YWJsZSkuICBDQUwgRklSRSB1cGRhdGVkIGxpbmV3
+b3JrIGluIGJvdGggdGhlIHNpbmdsZSBwYXJ0IGZlYXR1cmUgY2xhc3MgYW5kIHRoZSBtdWx0aXBh
+cnQgZmVhdHVyZSBjbGFzcy4gIEJvdGggb2YgdGhlc2UgZmVhdHVyZSBjbGFzc2VzIGNhbiBiZSBm
+b3VuZCBpbiB0aGUgRmlsZSBnZW9kYXRhYmFzZS4NCg0KRGVwYXJ0bWVudCBvZiBGaXNoIGFuZCBH
+YW1lIGFsc28gYWRkZWQgdGhyZWUgYWRkaXRpb25hbCBhdHRyaWJ1dGVzIChBQkJSRVYsIEFCQ09E
+RSwgYW5kIEZJUFMpIHRvIGJvdGggdmVyc2lvbnMgb2YgdGhlIGZlYXR1cmUgY2xhc3MuICBDQUwg
+RklSRSBoYXMga2VwdCB0aGVzZSBhdHRyaWJ1dGVzLCBidXQgcmVuYW1lZCB0aGUgRklQUyBmaWVs
+ZCB0byBBTlNJIChBbWVyaWNhbiBOYXRpb25hbCBTdGFuZGFyZHMgSW5zdGl0dXRlKSB0byByZWZs
+ZWN0IHRoZSBGZWRlcmFsIEdvdmVybm1lbnQncyBuZXcgbmFtZSBmb3IgRklQUy4gIEluIGFkZGl0
+aW9uIHRvIGtlZXBpbmcgdGhlIGF0dHJpYnV0ZXMgZnJvbSBEZXBhcnRtZW50IG9mIEZpc2ggYW5k
+IEdhbWUsIENBTCBGSVJFIGhhcyBhZGRlZCBhbiBJU0xBTkQgYXR0cmlidXRlLCB3aGljaCBpbmRp
+Y2F0ZXMgd2l0aCBhIFkgb3IgTiBpZiBhIGZlYXR1cmUgaXMgYW4gaXNsYW5kIChtYWtpbmcgaXQg
+ZWFzeSB0byByZW1vdmUgdGhlbSBmcm9tIGRpc3BsYXkpLiAgQ0FMIEZJUkUgaGFzIGFsc28gdXBk
+YXRlZCB0aGUgQUJCUkVWIGZpZWxkIHRvIHJlZmxlY3QgdGhlIG5ldyBjb3VudHkgYWJicmV2aWF0
+aW9ucyByZWNvbW1lbmRlZCBieSBDTUNDIGluIEFwcmlsIDIwMDkuDQoNCkluIHRoZSBsaW5lIGZl
+YXR1cmUgY2xhc3MsIENBTCBGSVJFIGhhcyBhbHNvIGFkZGVkIGEgVFlQRSBhdHRyaWJ1dGUsIHdo
+aWNoIGNsYXNzaWZpZXMgdGhlIGxpbmVzIGludG8gNSBjYXRlZ29yaWVzOiBjb2FzdCwgY291bnR5
+LCBpc2xhbmQsIHN0YXRlbGluZSwgYW5kIE1leGljby4gIFRoZSBsaW5lIGZlYXR1cmUgY2xhc3Mg
+aW5jbHVkZXMgYSBjYXJ0b2dyYXBoaWMgcmVwcmVzZW50YXRpb24sIHdoaWNoIHN5bWJvbGl6ZXMg
+dGhlIGNvdW50eSBsaW5lcyBiYXNlZCBvbiB0aGUgVFlQRSBjYXRlZ29yaWVzLg0KDQpSLiBDYWx1
+emENCjwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jZGF0ZT4yMDA5PC9wcm9jZGF0ZT4NCiAgICAg
+IDwvcHJvY3N0ZXA+DQogICAgPC9saW5lYWdlPg0KICA8L2RhdGFxdWFsPg0KICA8ZWFpbmZvPg0K
+ICAgIDxkZXRhaWxlZCBOYW1lPSJNR1JfRFdSQVRMQVMuaTAzX0NhbGlmb3JuaWFDb3VudGllcyI+
+DQogICAgICA8ZW50dHlwPg0KICAgICAgICA8ZW50dHlwbCBTeW5jPSJUUlVFIj5NR1JfRFdSQVRM
+QVMuaTAzX0NhbGlmb3JuaWFDb3VudGllczwvZW50dHlwbD4NCiAgICAgICAgPGVudHR5cHQgU3lu
+Yz0iVFJVRSI+RmVhdHVyZSBDbGFzczwvZW50dHlwdD4NCiAgICAgICAgPGVudHR5cGMgU3luYz0i
+VFJVRSI+NTg8L2VudHR5cGM+DQogICAgICAgIDxlbnR0eXBkPm11bHRpcGFydCBmZWF0dXJlIGNs
+YXNzIG9mIGNvdW50eSBib3VuZGFyaWVzPC9lbnR0eXBkPg0KICAgICAgICA8ZW50dHlwZHM+VVNH
+UzwvZW50dHlwZHM+DQogICAgICA8L2VudHR5cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0
+cmxhYmwgU3luYz0iVFJVRSI+T0JKRUNUSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMg
+U3luYz0iVFJVRSI+T0JKRUNUSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+T0lEPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjQ8L2F0
+dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MTA8L2F0cHJlY2lzPg0KICAg
+ICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRyZGVm
+IFN5bmM9IlRSVUUiPkludGVybmFsIGZlYXR1cmUgbnVtYmVyLjwvYXR0cmRlZj4NCiAgICAgICAg
+PGF0dHJkZWZzIFN5bmM9IlRSVUUiPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+
+DQogICAgICAgICAgPHVkb20gU3luYz0iVFJVRSI+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVt
+YmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwv
+YXR0cmRvbXY+DQogICAgICAgIDxhdGluZGV4PlllczwvYXRpbmRleD4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U2hhcGU8L2F0dHJs
+YWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U0hBUEU8L2F0dGFsaWFzPg0KICAg
+ICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+R2VvbWV0cnk8L2F0dHJ0eXBlPg0KICAgICAgICA8
+YXR0d2lkdGggU3luYz0iVFJVRSI+NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5j
+PSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0
+dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5GZWF0dXJlIGdlb21ldHJ5Ljwv
+YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzIFN5bmM9IlRSVUUiPkVTUkk8L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20gU3luYz0iVFJVRSI+Q29vcmRpbmF0
+ZXMgZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAg
+ICAgICAgPGF0aW5kZXg+WWVzPC9hdGluZGV4Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5OQU1FX1BDQVNFPC9hdHRybGFibD4NCiAg
+ICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk5BTUVfUENBU0U8L2F0dGFsaWFzPg0KICAgICAg
+ICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdp
+ZHRoIFN5bmM9IlRSVUUiPjQwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRS
+VUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2Nh
+bGU+DQogICAgICAgIDxhdHRyZGVmPkNvdW50eSBuYW1lLCBwcm9wZXIgY2FzZTwvYXR0cmRlZj4N
+CiAgICAgICAgPGF0dHJkZWZzPlVua25vd248L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5OQU1FX1VDQVNFPC9hdHRy
+bGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk5BTUVfVUNBU0U8L2F0dGFsaWFz
+Pg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAg
+ICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjMwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lz
+IFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+
+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRyZGVmPkNvdW50eSBuYW1lLCB1cHBlciBjYXNlPC9h
+dHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VW5rbm93bjwvYXR0cmRlZnM+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkZNTkFNRV9Q
+QzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5GTU5BTUVfUEM8L2F0
+dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4N
+CiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjQwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0
+cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0i
+VFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRyZGVmPkZvcm1hbCBuYW1lIG9mIGNvdW50
+eSwgcHJvcGVyIGNhc2U8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Vbmtub3duPC9hdHRy
+ZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3lu
+Yz0iVFJVRSI+Rk1OQU1FX1VDPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRS
+VUUiPkZNTkFNRV9VQzwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5T
+dHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MjY8L2F0dHdp
+ZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAg
+IDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0dHJkZWY+Rm9y
+bWFsIG5hbWUgb2YgY291bnR5LCB1cHBlciBjYXNlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+VW5rbm93bjwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAg
+ICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkFCQlJFVjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRh
+bGlhcyBTeW5jPSJUUlVFIj5BQkJSRVY8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjQ8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+
+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0
+dHJkZWY+Q291bnR5IG5hbWUgYWJicmV2aWF0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+VW5rbm93bjwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAg
+ICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPk5VTTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5OVU08L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+U21hbGxJbnRlZ2VyPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjI8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+NTwvYXRwcmVjaXM+
+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0
+dHJkZWY+Q291bnR5IG51bWJlciAoQWxwaGFiZXRpY2FsIG9yZGVyOyAxID0gQWxhbWVkYSB0aHJ1
+IDU4ID0gWXViYSk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Vbmtub3duPC9hdHRyZGVm
+cz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0i
+VFJVRSI+QUJDT0RFPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkFC
+Q09ERTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NjwvYXR0d2lkdGg+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxl
+IFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZj5UZWFsZSBjb2RlIHdp
+dGhpbiBDb3VudHkgTGlicmFyeTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlRlYWxlIERh
+dGEgQ2VudGVyIEdJUyBTb2x1dGlvbnMgR3JvdXA8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0K
+ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5BTlNJPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkFOU0k8L2F0dGFsaWFzPg0KICAgICAg
+ICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdp
+ZHRoIFN5bmM9IlRSVUUiPjM8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJV
+RSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2Fs
+ZT4NCiAgICAgICAgPGF0dHJkZWY+QW1lcmljYW4gTmF0aW9uYWwgU3RhbmRhcmRzIEluc3RpdHV0
+ZSBudW1iZXIgLS0gZm9ybWVybHkga25vd24gYXMgRmVkZXJhbCBJbmZvcm1hdGlvbiBQcm9jZXNz
+aW5nIFN5c3RlbSAoRklQUykgbnVtYmVyPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+VS5T
+LiBHb3Zlcm5tZW50PC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+ICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U0VfQU5OT19DQURfREFUQTwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TRV9BTk5PX0NBRF9EQVRBPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkJsb2I8L2F0dHJ0eXBlPg0KICAgICAgICA8
+YXR0d2lkdGggU3luYz0iVFJVRSI+MDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5j
+PSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0
+dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZj5Vbmtub3duPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnM+VW5rbm93bjwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkdMT0JBTElEPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPkdMT0JBTElEPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPkdsb2JhbElEPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5
+bmM9IlRSVUUiPjM4PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8
+L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQog
+ICAgICAgIDxhdHRyZGVmPlVVSUQgKFVuaXZlcnNhbCBVbmlxdWUgSWRlbnRpZmllcik8L2F0dHJk
+ZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U0hBUEUuQVJFQTwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TSEFQRS5BUkVBPC9hdHRhbGlh
+cz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAg
+ICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4wPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lz
+IFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+
+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRyZGVmPk1lYXN1cmUgb2YgYXJlYSBpbiBTcXVhcmUg
+VW5pdHM8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5HcmVnIFR3aXN0PC9hdHRyZGVmcz4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJV
+RSI+U0hBUEUuTEVOPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNI
+QVBFLkxFTjwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8
+L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MDwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZj5NZWFzdXJlIG9m
+IENvdW50eSBMZW5ndGg8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5HcmVnIFR3aXN0PC9h
+dHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0KICA8L2VhaW5mbz4NCiAg
+PG1ldGFpbmZvPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJw
+Pg0KICAgICAgICAgIDxjbnRwZXI+Q291bnR5IEJvdW5kYXJpZXMgU3BlY2lhbGlzdDwvY250cGVy
+Pg0KICAgICAgICAgIDxjbnRvcmc+Q2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIEZvcmVzdHJ5IGFu
+ZCBGaXJlIFByb3RlY3Rpb24gLSBGUkFQPC9jbnRvcmc+DQogICAgICAgIDwvY250cGVycD4NCiAg
+ICAgICAgPGNudGVtYWlsPmdlb2RhdGFAZGZnLmNhLmdvdjwvY250ZW1haWw+DQogICAgICAgIDxj
+bnR2b2ljZT4oOTE2KSAzMjctMzkzOTwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+KDkxNikg
+MzI0LTExODA8L2NudGZheD4NCiAgICAgICAgPGhvdXJzPk0tRiA4LTU8L2hvdXJzPg0KICAgICAg
+PC9jbnRpbmZvPg0KICAgIDwvbWV0Yz4NCiAgICA8bWV0YWM+bm9uZTwvbWV0YWM+DQogICAgPG1l
+dHVjPm5vbmU8L21ldHVjPg0KICAgIDxtZXRzaT4NCiAgICAgIDxtZXRzY3M+UHVibGljIERhdGE8
+L21ldHNjcz4NCiAgICA8L21ldHNpPg0KICA8L21ldGFpbmZvPg0KICA8RXNyaT4NCiAgICA8Q3Jl
+YURhdGU+MjAxMjEwMDE8L0NyZWFEYXRlPg0KICAgIDxDcmVhVGltZT4xMzIxMjYwMDwvQ3JlYVRp
+bWU+DQogICAgPFN5bmNPbmNlPkZBTFNFPC9TeW5jT25jZT4NCiAgICA8U3luY0RhdGU+MjAxMzA3
+MDE8L1N5bmNEYXRlPg0KICAgIDxTeW5jVGltZT4xNTE1MjEwMDwvU3luY1RpbWU+DQogICAgPE1v
+ZERhdGU+MjAxMzA3MDE8L01vZERhdGU+DQogICAgPE1vZFRpbWU+MTUxNTIxMDA8L01vZFRpbWU+
+DQogICAgPFB1Ymxpc2hTdGF0dXM+UHVibGlzaGVkPC9QdWJsaXNoU3RhdHVzPg0KICAgIDxEYXRh
+UHJvcGVydGllcz4NCiAgICAgIDxsaW5lYWdlPg0KICAgICAgICA8UHJvY2VzcyBUb29sU291cmNl
+PSJDOlxQcm9ncmFtIEZpbGVzXEFyY0dJU1xBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFn
+ZW1lbnQgVG9vbHMudGJ4XENvcHlGZWF0dXJlcyIgRGF0ZT0iMjAwOTA1MDYiIFRpbWU9IjExMzQx
+NSI+Q29weUZlYXR1cmVzIFA6XF9HREJfVE9fTElCXGNudHkyNGswOV8xLmdkYlxjbnR5MjRrMDlf
+MV9tdWx0aXBhcnQgUDpcX0dEQl9UT19MSUJcY250eTI0azA5XzEubWRiXGNudHkyNGswOV8xX211
+bHRpcGFydCAjIDAgMCAwPC9Qcm9jZXNzPg0KICAgICAgICA8UHJvY2VzcyBUb29sU291cmNlPSJD
+OlxQcm9ncmFtIEZpbGVzXEFyY0dJU1xBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFnZW1l
+bnQgVG9vbHMudGJ4XENvcHlGZWF0dXJlcyIgRGF0ZT0iMjAwOTA1MDYiIFRpbWU9IjExNTY0MCI+
+Q29weUZlYXR1cmVzIFA6XF9HREJfVE9fTElCXGNudHkyNGswOV8xLm1kYlxjbnR5MjRrMDlfMV9t
+dWx0aXBhcnQgUDpcX0dEQl9UT19MSUJcY250eTI0azA5XzEuZ2RiXGNudHkyNGswOV8xX211bHRp
+cGFydCAjIDAgMCAwPC9Qcm9jZXNzPg0KICAgICAgICA8UHJvY2VzcyBUb29sU291cmNlPSJkOlxw
+cm9ncmFtIGZpbGVzICh4ODYpXGFyY2dpc1xkZXNrdG9wMTAuMFxBcmNUb29sYm94XFRvb2xib3hl
+c1xDb252ZXJzaW9uIFRvb2xzLnRieFxGZWF0dXJlQ2xhc3NUb0ZlYXR1cmVDbGFzcyIgRGF0ZT0i
+MjAxMjEwMDIiIFRpbWU9IjE1MzE1NiI+RmVhdHVyZUNsYXNzVG9GZWF0dXJlQ2xhc3MgXFxkb2Ut
+Zm90b3hcaG9tZVxQaG90b2dcUmVmZXJlbmNlX21hdGVyaWFsXENBX2NvdW50aWVzXGNudHkyNGsw
+OV8xLmdkYlxpMDNfQ2FsaWZvcm5pYUNvdW50aWVzICJEYXRhYmFzZSBDb25uZWN0aW9uc1xtZ3Jf
+ZHdyYXRsYXNAbXJzYm1hcHAwMDU4My5zZGUiIGkwM19DYWxpZm9ybmlhQ291bnRpZXMgIyAiTkFN
+RV9QQ0FTRSAiTkFNRV9QQ0FTRSIgdHJ1ZSB0cnVlIGZhbHNlIDQwIFRleHQgMCAwICxGaXJzdCwj
+LFxcZG9lLWZvdG94XGhvbWVcUGhvdG9nXFJlZmVyZW5jZV9tYXRlcmlhbFxDQV9jb3VudGllc1xj
+bnR5MjRrMDlfMS5nZGJcaTAzX0NhbGlmb3JuaWFDb3VudGllcyxOQU1FX1BDQVNFLC0xLC0xO05B
+TUVfVUNBU0UgIk5BTUVfVUNBU0UiIHRydWUgdHJ1ZSBmYWxzZSAzMCBUZXh0IDAgMCAsRmlyc3Qs
+IyxcXGRvZS1mb3RveFxob21lXFBob3RvZ1xSZWZlcmVuY2VfbWF0ZXJpYWxcQ0FfY291bnRpZXNc
+Y250eTI0azA5XzEuZ2RiXGkwM19DYWxpZm9ybmlhQ291bnRpZXMsTkFNRV9VQ0FTRSwtMSwtMTtG
+TU5BTUVfUEMgIkZNTkFNRV9QQyIgdHJ1ZSB0cnVlIGZhbHNlIDQwIFRleHQgMCAwICxGaXJzdCwj
+LFxcZG9lLWZvdG94XGhvbWVcUGhvdG9nXFJlZmVyZW5jZV9tYXRlcmlhbFxDQV9jb3VudGllc1xj
+bnR5MjRrMDlfMS5nZGJcaTAzX0NhbGlmb3JuaWFDb3VudGllcyxGTU5BTUVfUEMsLTEsLTE7Rk1O
+QU1FX1VDICJGTU5BTUVfVUMiIHRydWUgdHJ1ZSBmYWxzZSAyNiBUZXh0IDAgMCAsRmlyc3QsIyxc
+XGRvZS1mb3RveFxob21lXFBob3RvZ1xSZWZlcmVuY2VfbWF0ZXJpYWxcQ0FfY291bnRpZXNcY250
+eTI0azA5XzEuZ2RiXGkwM19DYWxpZm9ybmlhQ291bnRpZXMsRk1OQU1FX1VDLC0xLC0xO0FCQlJF
+ViAiQUJCUkVWIiB0cnVlIHRydWUgZmFsc2UgNCBUZXh0IDAgMCAsRmlyc3QsIyxcXGRvZS1mb3Rv
+eFxob21lXFBob3RvZ1xSZWZlcmVuY2VfbWF0ZXJpYWxcQ0FfY291bnRpZXNcY250eTI0azA5XzEu
+Z2RiXGkwM19DYWxpZm9ybmlhQ291bnRpZXMsQUJCUkVWLC0xLC0xO05VTSAiTlVNIiB0cnVlIHRy
+dWUgZmFsc2UgMiBTaG9ydCAwIDAgLEZpcnN0LCMsXFxkb2UtZm90b3hcaG9tZVxQaG90b2dcUmVm
+ZXJlbmNlX21hdGVyaWFsXENBX2NvdW50aWVzXGNudHkyNGswOV8xLmdkYlxpMDNfQ2FsaWZvcm5p
+YUNvdW50aWVzLE5VTSwtMSwtMTtBQkNPREUgIkFCQ09ERSIgdHJ1ZSB0cnVlIGZhbHNlIDYgVGV4
+dCAwIDAgLEZpcnN0LCMsXFxkb2UtZm90b3hcaG9tZVxQaG90b2dcUmVmZXJlbmNlX21hdGVyaWFs
+XENBX2NvdW50aWVzXGNudHkyNGswOV8xLmdkYlxpMDNfQ2FsaWZvcm5pYUNvdW50aWVzLEFCQ09E
+RSwtMSwtMTtBTlNJICJBTlNJIiB0cnVlIHRydWUgZmFsc2UgMyBUZXh0IDAgMCAsRmlyc3QsIyxc
+XGRvZS1mb3RveFxob21lXFBob3RvZ1xSZWZlcmVuY2VfbWF0ZXJpYWxcQ0FfY291bnRpZXNcY250
+eTI0azA5XzEuZ2RiXGkwM19DYWxpZm9ybmlhQ291bnRpZXMsQU5TSSwtMSwtMTtTaGFwZV9MZW5n
+dGggIlNoYXBlX0xlbmd0aCIgZmFsc2UgdHJ1ZSB0cnVlIDggRG91YmxlIDAgMCAsRmlyc3QsIyxc
+XGRvZS1mb3RveFxob21lXFBob3RvZ1xSZWZlcmVuY2VfbWF0ZXJpYWxcQ0FfY291bnRpZXNcY250
+eTI0azA5XzEuZ2RiXGkwM19DYWxpZm9ybmlhQ291bnRpZXMsU2hhcGVfTGVuZ3RoLC0xLC0xO1No
+YXBlX0FyZWEgIlNoYXBlX0FyZWEiIGZhbHNlIHRydWUgdHJ1ZSA4IERvdWJsZSAwIDAgLEZpcnN0
+LCMsXFxkb2UtZm90b3hcaG9tZVxQaG90b2dcUmVmZXJlbmNlX21hdGVyaWFsXENBX2NvdW50aWVz
+XGNudHkyNGswOV8xLmdkYlxpMDNfQ2FsaWZvcm5pYUNvdW50aWVzLFNoYXBlX0FyZWEsLTEsLTEi
+ICM8L1Byb2Nlc3M+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9IkQ6XFByb2dyYW0gRmls
+ZXMgKHg4NilcQXJjR0lTXERlc2t0b3AxMC4wXEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFu
+YWdlbWVudCBUb29scy50YnhcQ2hhbmdlUHJpdmlsZWdlcyIgRGF0ZT0iMjAxMjEwMDMiIFRpbWU9
+IjEzMTAwNCI+Q2hhbmdlUHJpdmlsZWdlcyAnRGF0YWJhc2UgQ29ubmVjdGlvbnNcbWdyX2R3cmF0
+bGFzQG1yc2JtYXBwMDA1ODMuc2RlXE1HUl9EV1JBVExBUy5pMDNfQ2FsaWZvcm5pYSc7J0RhdGFi
+YXNlIENvbm5lY3Rpb25zXG1ncl9kd3JhdGxhc0BtcnNibWFwcDAwNTgzLnNkZVxNR1JfRFdSQVRM
+QVMuaTAzX0NhbGlmb3JuaWFDb3VudGllcycgcnVwcGVydCBHUkFOVCBHUkFOVDwvUHJvY2Vzcz4N
+CiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iQzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcmNH
+SVNcRGVza3RvcDEwLjBcQXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5hZ2VtZW50IFRvb2xz
+LnRieFxDaGFuZ2VQcml2aWxlZ2VzIiBEYXRlPSIyMDEyMTAwMyIgVGltZT0iMTU0NzE3Ij5DaGFu
+Z2VQcml2aWxlZ2VzICdEYXRhYmFzZSBDb25uZWN0aW9uc1xtZ3JfZHdyYXRsYXNAbXJzYm1hcHAw
+MDU4My5zZGVcTUdSX0RXUkFUTEFTLmkwM19DYWxpZm9ybmlhJzsnRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcbWdyX2R3cmF0bGFzQG1yc2JtYXBwMDA1ODMuc2RlXE1HUl9EV1JBVExBUy5pMDNfQ2FsaWZv
+cm5pYUNvdW50aWVzJyBqZHVkYXMgR1JBTlQgQVNfSVM8L1Byb2Nlc3M+DQogICAgICA8L2xpbmVh
+Z2U+DQogICAgPC9EYXRhUHJvcGVydGllcz4NCiAgICA8QXJjR0lTRm9ybWF0PjEuMDwvQXJjR0lT
+Rm9ybWF0Pg0KICAgIDxzY2FsZVJhbmdlPg0KICAgICAgPG1pblNjYWxlPjE1MDAwMDAwMDwvbWlu
+U2NhbGU+DQogICAgICA8bWF4U2NhbGU+NTAwMDwvbWF4U2NhbGU+DQogICAgPC9zY2FsZVJhbmdl
+Pg0KICAgIDxBcmNHSVNQcm9maWxlPkZHREM8L0FyY0dJU1Byb2ZpbGU+DQogIDwvRXNyaT4NCiAg
+PGRhdGFJZEluZm8+DQogICAgPGlkQ2l0YXRpb24+DQogICAgICA8cHJlc0Zvcm0+DQogICAgICAg
+IDxmZ2RjR2VvZm9ybT52ZWN0b3IgZGlnaXRhbCBkYXRhPC9mZ2RjR2VvZm9ybT4NCiAgICAgIDwv
+cHJlc0Zvcm0+DQogICAgICA8ZGF0ZT4NCiAgICAgICAgPHB1YkRhdGU+MjAxMy0wNy0wMVQwMDow
+MDowMDwvcHViRGF0ZT4NCiAgICAgIDwvZGF0ZT4NCiAgICA8L2lkQ2l0YXRpb24+DQogICAgPGlk
+UHVycD5UaGUgbXVsdGlwYXJ0IGZlYXR1cmUgY2xhc3MgY29tYmluZXMgcG9seWdvbnMgZnJvbSBh
+IHNpbmdsZSBjb3VudHkgaW50byBvbmUgZmVhdHVyZSB3aXRoIG9uZSByZWNvcmQgaW4gdGhlIGF0
+dHJpYnV0ZSB0YWJsZSAoZS5nLiBzZWxlY3RpbmcgU2FudGEgQmFyYmFyYSBDb3VudHkgaW4gdGhl
+IGF0dHJpYnV0ZSB0YWJsZSB3aWxsIHJlc3VsdCBpbiBzZWxlY3RpbmcgYWxsIFNhbnRhIEJhcmJh
+cmEgQ291bnR5IGlzbGFuZHMgYXMgd2VsbCBhcyB0aGUgbWFpbmxhbmQgcG9ydGlvbiBvZiB0aGUg
+Y291bnR5KS4gVGhpcyBtYXkgYmUgdXNlZnVsIGZvciBzZWxlY3Rpb25zIGFuZCBvdmVybGF5cyB3
+aGVuIGFsbCBwYXJ0cyBvZiBhIGNvdW50eSBhcmUgbmVlZGVkLg0KDQpJZGVhbGx5LCBzdGF0ZSBh
+bmQgZmVkZXJhbCBhZ2VuY2llcyBzaG91bGQgYmUgdXNpbmcgdGhlIHNhbWUgZnJhbWV3b3JrIGRh
+dGEgZm9yIGNvbW1vbiB0aGVtZXMgc3VjaCBhcyBjb3VudHkgYm91bmRhcmllcy4gVGhpcyBsYXll
+ciBwcm92aWRlcyBhbiBpbml0aWFsIG9mZmVyaW5nIGFzICJiZXN0IGF2YWlsYWJsZSIgYXQgMToy
+NCwwMDAgc2NhbGUuIEFkZGl0aW9uYWwgaW1wcm92ZW1lbnRzLCBpbmNsdWRpbmcgYSByZXZpZXcg
+b2YgZGF0YSBzb3VyY2VzIGZvciB0aGUgY29hc3RsaW5lLCBjYW4gYmUgYWRkZWQgb3ZlciB0aW1l
+IGJhc2VkIG9uIGludGVyYWdlbmN5IHJldmlldyBhbmQgYWdyZWVtZW50IG9uIHByb3Bvc2VkIGNo
+YW5nZXMuPC9pZFB1cnA+DQogICAgPGlkQWJzPiZsdDtESVYgU1RZTEU9InRleHQtYWxpZ246TGVm
+dDsiJmd0OyZsdDtESVYmZ3Q7Jmx0O0RJViZndDsmbHQ7UCZndDsmbHQ7U1BBTiZndDtJbiBsYXRl
+IDE5OTYsIHRoZSBEZXB0IG9mIENvbnNlcnZhdGlvbiAoRE9DKSBzdXJ2ZXllZCBzdGF0ZSBhbmQg
+ZmVkZXJhbCBhZ2VuY2llcyBhYm91dCB0aGUgY291bnR5IGJvdW5kYXJ5IGNvdmVyYWdlIHRoZXkg
+dXNlZC4gQXMgYSByZXN1bHQsIERPQyBhZG9wdGVkIHRoZSAxOjI0LDAwMCAoMjRLKSBzY2FsZSBV
+LlMuIEJ1cmVhdSBvZiBSZWNsYW1hdGlvbiAoVVNCUikgZGF0YXNldCAoVVNHUyBzb3VyY2UpIGZv
+ciB0aGVpciBGYXJtbGFuZCBNYXBwaW5nIGFuZCBNb25pdG9yaW5nIFByb2dyYW0gKEZNTVApIGJ1
+dCB3aXRoIHNldmVyYWwgbW9kaWZpY2F0aW9ucy4gRGV0YWlsZWQgZG9jdW1lbnRhdGlvbiBvZiB0
+aGVzZSBjaGFuZ2VzIGlzIHByb3ZpZGVkIGJ5IEZNTVAgYW5kIGluY2x1ZGVkIGluIHRoZSBsaW5l
+YWdlIHNlY3Rpb24gb2YgdGhlIG1ldGFkYXRhLiBBIGRhdGFzZXQgbmFtZWQgY250eTI0azk3XzEg
+d2FzIG1hZGUgYXZhaWxhYmxlIChhcHByb3hpbWF0ZWx5IDIwMDQpIHRocm91Z2ggdGhlIENhbGlm
+b3JuaWEgRGVwYXJ0bWVudCBvZiBGb3Jlc3RyeSBhbmQgRmlyZSBQcm90ZWN0aW9uIC0gRmlyZSBh
+bmQgUmVzb3VyY2UgQXNzZXNzbWVudCBQcm9ncmFtIChDREYgLSBGUkFQKSBhbmQgdGhlIENhbGlm
+b3JuaWEgU3BhdGlhbCBJbmZvcm1hdGlvbiBMaWJyYXJ5IChDYVNJTCkuIEluIGxhdGUgMjAwNiwg
+dGhlIERlcGFydG1lbnQgb2YgRmlzaCBhbmQgR2FtZSAoREZHKSByZXZpZXdlZCBjbnR5MjRrOTdf
+MS4gQ29tcGFyaXNvbnMgd2VyZSBtYWRlIHRvIGEgaGlnaC1xdWFsaXR5IDEwMEsgZGF0YXNldCAo
+Y28xMDBhL2NvdW50eTEwMGsgZnJvbSB0aGUgZm9ybWVyIFRlYWxlIERhdGEgQ2VudGVyIEdJUyBT
+b2x1dGlvbnMgR3JvdXApIGFuZCBsZWdhbCBib3VuZGFyeSBkZXNjcmlwdGlvbnMgZnJvbSAoIGh0
+dHA6Ly93d3cubGVnaW5mby5jYS5nb3YgKS4gVGhlIGNudHkyNGs5N18xIGRhdGFzZXQgd2FzIG1p
+c3NpbmcgQW5hY2FwYSBhbmQgU2FudGEgQmFyYmFyYSBpc2xhbmRzLiBERkcgYWRkZWQgdGhlIG1p
+c3NpbmcgaXNsYW5kcyB1c2luZyBwcmV2aW91c2x5LWRpZ2l0aXplZCBjb2FzdGxpbmUgZGF0YSAo
+Y29hc3RuMjcgb2YgU3RhdGUgTGFuZHMgQ29tbWlzc2lvbiBvcmlnaW4pLCBjb3JyZWN0ZWQgYSBm
+ZXcgY291bnR5IGJvdW5kYXJpZXMsIGJ1aWx0IHJlZ2lvbiB0b3BvbG9neSwgYWRkZWQgYWRkaXRp
+b25hbCBhdHRyaWJ1dGVzLCBhbmQgcmVuYW1lZCB0aGUgZGF0YXNldCB0byBjb3VudHkyNGsuIElu
+IDIwMDcsIHRoZSBDYWxpZm9ybmlhIE1hcHBpbmcgQ29vcmRpbmF0aW5nIENvbW1pdHRlZSAoQ01D
+QykgcmVxdWVzdGVkIHRoYXQgdGhlIENhbGlmb3JuaWEgRGVwYXJ0bWVudCBvZiBGb3Jlc3RyeSBh
+bmQgRmlyZSBQcm90ZWN0aW9uIChDQUwgRklSRSkgcmVzdW1lIHN0ZXdhcmRzaGlwIG9mIHRoZSBz
+dGF0ZXdpZGUgY291bnR5IGJvdW5kYXJpZXMgZGF0YS4gQ0FMIEZJUkUgYWRvcHRlZCB0aGUgY2hh
+bmdlcyBtYWRlIGJ5IERGRyBhbmQgY29sbGVjdGVkIGFkZGl0aW9uYWwgc3VnZ2VzdGlvbnMgZm9y
+IHRoZSBjb3VudHkgZGF0YSBmcm9tIERGRywgRE9DLCBhbmQgbG9jYWwgZ292ZXJubWVudCBhZ2Vu
+Y2llcy4gQ0FMIEZJUkUgaW5jb3Jwb3JhdGVkIHRoZXNlIHN1Z2dlc3Rpb25zIGludG8gdGhlIGxh
+dGVzdCByZXZpc2lvbiwgd2hpY2ggaGFzIGJlZW4gcmVuYW1lZCBjbnR5MjRrMDlfMS4gRGV0YWls
+ZWQgZG9jdW1lbnRhdGlvbiBvZiBjaGFuZ2VzIGlzIGluY2x1ZGVkIGluIHRoZSBQcm9jZXNzIFN0
+ZXAgc2VjdGlvbiBvZiB0aGUgbWV0YWRhdGEuJmx0Oy9TUEFOJmd0OyZsdDsvUCZndDsmbHQ7L0RJ
+ViZndDsmbHQ7L0RJViZndDsmbHQ7L0RJViZndDs8L2lkQWJzPg0KICAgIDxzZWFyY2hLZXlzPg0K
+ICAgICAgPGtleXdvcmQ+Z292ZXJubWVudDwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPmNvdW50
+eSBib3VuZGFyaWVzPC9rZXl3b3JkPg0KICAgICAgPGtleXdvcmQ+Y291bnR5IGJvdW5kYXJ5PC9r
+ZXl3b3JkPg0KICAgICAgPGtleXdvcmQ+Y291bnR5IGxpbmU8L2tleXdvcmQ+DQogICAgICA8a2V5
+d29yZD5jb3VudHk8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD5jb3VudGllczwva2V5d29yZD4N
+CiAgICAgIDxrZXl3b3JkPmJvdW5kYXJ5PC9rZXl3b3JkPg0KICAgICAgPGtleXdvcmQ+Ym9yZGVy
+PC9rZXl3b3JkPg0KICAgICAgPGtleXdvcmQ+Ym9yZGVyczwva2V5d29yZD4NCiAgICAgIDxrZXl3
+b3JkPmJvdW5kYXJpZXM8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD5sb2NhdGlvbjwva2V5d29y
+ZD4NCiAgICA8L3NlYXJjaEtleXM+DQogICAgPHJlc0NvbnN0Pg0KICAgICAgPENvbnN0cz4NCiAg
+ICAgICAgPHVzZUxpbWl0PiZsdDtESVYgU1RZTEU9InRleHQtYWxpZ246TGVmdDsiJmd0OyZsdDtE
+SVYmZ3Q7Jmx0O0RJViZndDsmbHQ7UCZndDsmbHQ7U1BBTiZndDtOb25lJmx0Oy9TUEFOJmd0OyZs
+dDsvUCZndDsmbHQ7L0RJViZndDsmbHQ7L0RJViZndDsmbHQ7L0RJViZndDs8L3VzZUxpbWl0Pg0K
+ICAgICAgICA8dXNlTGltaXQ+Jmx0O0RJViBTVFlMRT0idGV4dC1hbGlnbjpMZWZ0OyImZ3Q7Jmx0
+O0RJViZndDsmbHQ7RElWJmd0OyZsdDtQJmd0OyZsdDtTUEFOJmd0O05vbmUmbHQ7L1NQQU4mZ3Q7
+Jmx0Oy9QJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OzwvdXNlTGltaXQ+
+DQogICAgICA8L0NvbnN0cz4NCiAgICA8L3Jlc0NvbnN0Pg0KICAgIDxyZXNDb25zdD4NCiAgICAg
+IDxMZWdDb25zdHM+DQogICAgICAgIDx1c2VMaW1pdD5Ob25lPC91c2VMaW1pdD4NCiAgICAgIDwv
+TGVnQ29uc3RzPg0KICAgIDwvcmVzQ29uc3Q+DQogICAgPGRhdGFDaGFyPg0KICAgICAgPENoYXJT
+ZXRDZCB2YWx1ZT0iMDA0IiAvPg0KICAgIDwvZGF0YUNoYXI+DQogICAgPHJlc01haW50Pg0KICAg
+ICAgPG1haW50RnJlcT4NCiAgICAgICAgPE1haW50RnJlcUNkIHZhbHVlPSIwMDgiIC8+DQogICAg
+ICA8L21haW50RnJlcT4NCiAgICA8L3Jlc01haW50Pg0KICA8L2RhdGFJZEluZm8+DQogIDxCaW5h
+cnk+DQogICAgPFRodW1ibmFpbD4NCiAgICAgIDxEYXRhIEVzcmlQcm9wZXJ0eVR5cGU9IlBpY3R1
+cmVYIj4vOWovNEFBUVNrWkpSZ0FCQVFFQVlBQmdBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01F
+QlFnRkJRUUVCUW9IQndZSURBb01EQXNLDQpDd3NORGhJUURRNFJEZ3NMRUJZUUVSTVVGUlVWREE4
+WEdCWVVHQklVRlJULzJ3QkRBUU1FQkFVRUJRa0ZCUWtVRFFzTkZCUVVGQlFVDQpGQlFVRkJRVUZC
+UVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FD
+RkFNZ0RBU0lBDQpBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJn
+Y0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBDQpBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzDQpPRGs2
+UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVYcURoSVdHaDRpSmlwS1Rs
+SldXbDVpWm1xS2pwS1dtDQpwNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpa
+MnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBDQpBd0VCQVFFQkFRRUJBUUFBQUFB
+QUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4
+DQpCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlrTk9FbDhSY1lHUm9tSnln
+cEtqVTJOemc1T2tORVJVWkhTRWxLDQpVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdv
+T0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzDQp1TG02d3NQRXhjYkh5
+TW5LMHRQVTFkYlgyTm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3
+RDlVNktLDQpLQUNpaWlnQW9vb29BekpmRWRoRGRYRnVYbGFXM1lMS0k3ZVJ3aEtoZ01oU09qQS9q
+VVZyNHIwMjl0bzU0SG5tZ2tVTWtpV3NwVmdlDQpoQjI4aXNEeGNrOFVtdlc5cGF5ek5lV1N0bVBE
+QVNzcng3aUMyY1lST0ZIOEo3OWRpeXZJNysyV2FMZHRZa1lZRUZTQ1FRUjJJSUkvDQpDdmtNYm5O
+ZkNWcFUxQk96OCsxem9qVFVsY3VyNGhzMnp4YzhldHBLUC9aYVArRWkwNVdDeVhJdGlRU1B0S3RD
+RDlDNEdldFViTFViDQpYVVZsTnJjUlhBaWtNVG1KdzIxeGdsVGp2eU9QZW9wZitRemEvd0RYdk4v
+NkZIWEl1SXExN1NwcjhTdllydWF2L0NSYVYvMEU3UDhBDQo3L3AvalZtenY3YlVFWjdXNGl1VVJ0
+ak5DNGNLMkFjSEhmQkIvRVZuVTdRZjlicWYvWHlQL1JNZGVubDJjU3gxYjJUaGJTKzVFNmZJDQpy
+M05haWlpdnB6QUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb3Br
+cWViRTZibVRjQ055bkJIdVBlDQpnRGt0SDFCdFZ2TmJ2WVltK3p2ZEdPMmtsSUN6S2lLaFplQ1Fw
+ZFh3ZWhIekFZT1RsNlo0Zm52ZElnbmZVWkVqdTVCZVQyenB1aFpXDQpsTXBURGZNdkJDSG5CQUpL
+NU5hdW42cGJhZlp4Mmw3SkRZWFZxaXhTUXlPRkF3Qjh5NTZvUnlEK0J3UVFNNi9OL3dEMlg0ZnNy
+WnpiDQpDNkt3elNmTUdRQ0ZueHh5QWRoQndWUEl3UWEvS2NUT3BQRVZKVFhLMi91dGM3NHBKS3hh
+MFhUSXJ5Q1MvTWs2SmVFU1JSUlRQRWtjDQpRVUxHQXFrWUpVQW5QT1Rqb0FCSmU2UkFsN3A3Q1M2
+RE5LMFpQMnVYbFRHekVmZTlWVS9oVDRkTzFTRzJqdDQ3NnlnaFFCVkVGa3k3DQpFQXdBdVpDQmo2
+SDZWUTFBekR4RnBWa21welNFK1pMSW1JZzBZQ0VLMmRtT2NzTnBHVGtrSENFSGtUY3BPMHUvZnNV
+Ykg5andmODlMDQpyL3dMbC84QWlxdWVHYmRiWTZtaUdRajdVRG1TUm5QK3BqN3NTYXhyWFdMNksx
+aGx2dE9saGpHMUpaTndaMWJBeSt4Yy9KdXlNZzU3DQo0MjhqYThOelIzQTFDV0oxa2llNFZrZERs
+V0JoaklJUGNWNzJSS1N4bXI2UDlES3I4SnMwVVVWK2huR0ZGRkZBQlJSUlFBVVVVVUFGDQpGRkZB
+QlJSUlFBVVVVVUFGRkZGQUJSUlJRQVVVVVVBYy93Q0lSRkJxMmt5QTRudUhlMlpSL0hINWJQeU8r
+R1FZUGJjUi9GV0I0bHM3DQpIVG9ZSm9MWVFYVUxlZXJXbHVtL3kxd0pEbGh0R0ZiUEpISUhYcFhS
+K0szVzJ0N0s4Zkt4V3R5SkpKYzRXTkNqSXpQL0FMSTNkZTNCDQpPQUNSem10MyttMzE3YkNaL3Rl
+bnl3VDJ0dzBHNTBRU2JlWkdRRUt1RVlFbGhqSVB1UGdjN2c0NDFTdG8xOTlyblhTZnVsdlc0TGlE
+DQpTNVpJOVR1R2x3REVoOHNDUnM1Q2ZLb2I1dW55a0huaW9Md1cybTJGbnFHbkdRU01XZUtJcTd0
+ZEJ4dlpDRGx0eENaQlBLN2VmbHlEDQpuUlcxdHQxclJuZ1NhNFJYUVhTd1JsbGprUUZjb2dWampk
+amdIT0J6a25GS0NaYitNNHNaV2drQzNMdHFGeVJIYlFvc1FsZ0c3TEtRDQo0K2RXVUFndG5PTnRl
+REdIVC9JMGJOalRmR1J2WVlwV2F4VlpsV1JWa25aR2hERGNzY2hDc3UvYU1rYmgzd0NCazdYZ0pQ
+THNkU1VTDQp4U3I5dWRsTUVtOUZVcWpCUWZSUVF1UGFzT3drbnVramFTejFBU3poUkNva2EzdG8w
+QXp0QVE1WEE3dW9MSHB4Z0RlOEwzQ1dkM2UyDQpFN0xGZVNTQzRXTHptbHloUUtEdVlBazVqZmoy
+UGF2ZXlWd2ppMnRycDlmUXlxM2NUcGFLS0srK09VS0tLS0FDaWlpZ0Fvb29vQUtLDQpLS0FDaWlp
+Z0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FRZ01DQ0FRZXhyaTlRdW9QQ21vVzJsM0VjajZaZWhsdFgy
+S3l4a0FzMEpHY2tCDQpSbGNLY0tyWjRYTmRyV0xydmgyMzE2N3RXbmpsamx0bFo3ZTloa0FhQnlW
+ejhweXBKd01FcXc0UFRQUG40N0J4eHRGMDJ0ZWo3TXVFDQp1VjNPRjBtOWdlNjAvVE5JdUxlZTl0
+WkpOMTFFcXlLOXFVVWgyd3czRTdvUVRubGtKQUlHS0xPUFRIMTNXcmZVck9HZTZsUlJLWUxNDQp5
+TkljdXBmNWR4R1U4b2NrY3EzSEJvMDNUcm9heHFjczFsRE9KTGgyM1dwTnM4eklSQzVHSHcyUEwz
+WWNqNy9CNEpPajRkdGJmd3kyDQpwMjl2WmhHZTRWbHRMYVV5U3VTaUZuWm5JeVNXeVdKN2RUeFg1
+elZYczVTajFYcHZmWFgxOHJIWXRTQzIxblc3alRFbmd1clIwV0VTDQpYVjNkMnJ4UlE0WEoyNGI1
+ejY5Z1EzSXh0RU1OdnFPbStGb29iMkh6cFpMcU9WcjE1VEc1TFRxMGJTQWtsU0NWQkNzUUFQbEk0
+QW4xDQpOLzdFdGttMUNTUnJJenkzWDlueEtHbmVUekN5QVlibGNzcEk3TmdsZ203R3BlWFdxWEZw
+SWsxaloya1RybHBiaVh6MFZjajVXUUJkDQp6WXlNQTQvMmowckpTY2JPS1ZyMzdiZjEwOGd0YzZD
+eDFLU0dSWUx4Z2R4QWp1RGdCeVR3cEhadW5zZTJPbGF0Y0I0YW5udDFtMG5WDQpiU0syRWp2OWtq
+QlZvNVljQXNvR2VNRXRoQ09Gd0J1MmsxMFZ0cUw2T29TOGxlV3pIM2JtVGt4REl3SFBVam43eDZB
+Zk1UeTFmWTViDQptNm0xaDhTL2U2UG8vWHovQUszT2VkTzJzVGRvb29yNm93Q2lpaWdBb29vb0FL
+S0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vDQpBS0tLS0FQT3ZGTmg5ajF5V2UrczdPYlNv
+bU54Q2wwbTlIWmxVU2JXSTJ4U0tWWmhuaGhJM0krWWlwYjZ6cGgxYUc5MFJyRVBPdjJDDQplSkdD
+dkhMNW9DaDFVRU1VSmt5Tnk5ZUNkd0k3M3hMZVhGaG9kMWNXeGhXU01CbWVkU3lJbTRiMklCR2NM
+dU9Nak9LNW1mU2wwV09CDQpZb3Z0R2wrV2tGekJLUVJHaUtkc3FqcG5vRzlRQVJ5dUQ4SG5PSHAw
+S3FrbTd6dTdkUDZiMS9wSFZUYmFKcGt0Tkl0SXJGbzN2cmk2DQpVUU41aEJrbitVOHlNY2RnMzZn
+RHRWU1pydXgwNkZ0WFVhamVxd1cxczdWeisva1hMS1NTRkc3NVFTU0FxN2M4VTYxaTA3VVo3alRE
+DQpQSHFFTXVibFpvcmpNc1pWZ01NeW5jQ3B4dFlIUHlrY0ZjdFlsV3gwS1NVMjFsTmQ2Z3NPUVFy
+eXlzcEpJVXl0bkFKUThFOXVoT00vDQpON2FkZjYrNDNKQm92OXFhUlBCcVNLczkwV01oakljb054
+S0FFcmc3UVFCeGpJUFhKeXpTckt5dW8zaHVkTXRJcjJEQ3pJSWtJSkl6DQp1WGpsVHpnbkhRakFJ
+TldJSTc2L2lpbGE5anQ0bStkUmFSZ2txYzdRV2NISXdRZnVnNUhwMXF0Q05FMStHVUNWN2Uvalcy
+ZDVITCtYDQpJaFprNVlrNFlNNDlNaGVtNDVoTnU2dUJyMmt6Nk9WUlFYc1A3ZzVNQS8yZjluL1o3
+ZHVPQnVSeUxOR3JveXVqQU1yS2NnZzlDRFdUDQpVTVJrMDJSNWJjTThUc1hsdHgzUGNwbm9lK09o
+NTduTmZVNVhuTGhhaGlYcDBmYjE4dk13cVVyNnhONmlvcmE1aXU0UkxDNGREM0hVDQpIdUNPb0k3
+ZzhpcGErNVRUVjBjb1VVVVV3Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0JI
+UU9wVmdHVmhnZ2pJDQpJcmxMeVNMd3RmUjI4bTVkUHUyMjJnUkMzbHk4czBRQXljRUFzb3h4aGh3
+QW9ycktyMzlqRHFWbkxhM0NiNFpWMnNNNFAxQjZnZzhnDQpqa0Vacmd4dURoamFMcFQrVDdNdU1u
+RjNPSnVvcmUxdjVOVDB5MmFLL2VJUlNvOWpJcTNDTDkxV1lKa0VkQTNJQUorVThZUHQwV29lDQpI
+N21RUlhjdDFmV3BKRFdzblZrT0ZIeTRBR2ZYdWVUa210VFRKN21CNXJUVVBNRnpISktVa2tRQVN3
+aHpzWUZmbEoybE05TUU5QldkDQpaNmhiMkltbTAyZUc4MHdEZkpid3V1YmZMSExvQU9WUHpNY250
+OHVjNHI4enEwcDBadWxOZTlGLzEwKzd5TzFOTlhScWpWcmRRQUk3DQpvQWRoYVMvL0FCTlVkY3Zs
+dTlMbVdDRzdrdUVLelJJTFdRYjVFWU9xa2tBWUxLQWNrY0hxSzJvNUZsUlhSZzZNQVF5bklJOVJU
+cTQxDQpKUmQ3RkdhdXNPOXk4QXNMa3pJaXV5Ym9zaFdMQUg3L0FIS3QrVlNmMmhQL0FOQXk2Lzc2
+aS84QWk2SVQvd0FUcTZIL0FFN3cvd0RvDQpVdFhxRzB1Z0diOXV2WUpqTmE2ZE9KV3dHamxraldO
+Lzk0aGlRZmNBbjJPQUs2R3cxQ0xVSWQ2WlIxNGtoZkcrSnNaMnNBVHorWVBCDQpCSUlOVUtnbHR5
+SjF1WUdFVjBpbFErTWhoL2RZZHhuOHUySytpeXpONVlXMUtyckQ4Vi93UEw3akdkUG0xVzV2MFZV
+MDYvRi9DNUtlDQpYTkUzbHl4NXlGYkFQQndNakJCQjkrUURrQzNYNkZDY2FrVk9EdW1jYlZnb29v
+cXdDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLDQpLS0tBQ2lpaWdEa1BHR2wyTjNxa1VtcFdV
+YzFoSmF5UVNUU3B1QWJJWlZ6bks1Ry9uQXlkb3lUZ0J0N3FlaFhSUVhsMVpyTEh5b3VIDQpFY3Na
+eU9SbkRLYzdmVHQ3VjFHb1NYa2RxV3NZWUo3amN1STdpVXhJUmtidm1Dc2M0eVJ4eWNkT3RjK1BF
+SGlHNFQ5MTRZQkJPMGllDQorV01Eak9mdWtrY2dkT29iR1J0TGZPNDNLSVl1cTZ2TzAzNVhYWTJq
+VWNWYXhtYWZwOXpGNGNzNUxQVUx0Y1F4U0NJRkpOdzJxV1VGDQoxSjVHY2M4RTloeFdwRlp5elJw
+SW1xWExvNERLd1dMQkI2SDdsRXZoL1VyR09RYVU5cEZESVFSWnlsZ3NIR0Q1YmdIQTRCQ2xDQVNl
+DQozRlZZZFJpOFBJYkRVV1MyZUJFOHR2Tjh6end3YkFVYlZKYjVIK1JWN0RBeHdQazhabHVKdzNO
+S1VieFQzMDYvaWJ4bkdSUFl3UEJyDQpGMkh1SkxnbUNINXBBb0krYVQrNkJXblhQV21wWDArdFhh
+alRSYnlOR2hSYnVjSVhpSFFqWUhCSVpuQkdSZ2VYL2VyVFgrMDVldjJTDQoxd09nM1RaUC9qbVAx
+L0N2SW5GMzFOVVhxS3BlVHFQL0FEOVd2L2dNMy94eWsreVhzcC9lWDRqQTZmWm9RdWZydjMvcGlv
+c3U0RDVIDQpiVGIrTytqV1I0Mi9kM01jWUxaVEJ3NFhQTEtmVEpJSkdDUU1iOXRjeFhsdkZQQzZ5
+d3lxSFIxNk1wR1FSK0ZjbytuTmRhdlkyZHplDQpUM05wS3Nra2tNaXJ0bDJnQUkyeFI4cDNaT2VE
+akJCelhYQUJRQUFBQjJGZm91UmUwZUY5OTNqZlQrdnlPT3JibUZvb29yNk14Q2lpDQppZ0Fvb29v
+QUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQXFLNXVGdExlV1p3N0pHaGRoRkd6c1FCbmhWQkxI
+MkFKUGFwYUtBSUlKDQp6ZHhRVHhGa2hrVVB0bGlaSHdSa1pEWUtuMUJHZTNGWTBsaExxZXQzRnZx
+dWkyZDNZK1Uva1h4Vld3cDJneE1yWmJKeTNJK1hDK3B4DQpYUVZsYWJwZDVZYXJxTXphZzl6WVhM
+TExGYXpLV2EzZkdHQ3VUOXc0eUZ4d1NjSEdBRXdPZjFuUkxyUnBMT1dPOGQ5TGdsTWhrbnpODQpM
+QVNOcTdtWTVhTDVqa2s3bDRPY1pLM3hEcVdCbTd0Yzl5TFZ2L2psZEJkMnlYbHBOYnlLclJ5b3lN
+ckFrRUVZSVBJcmsvRDJyWGMrDQpqV245cDJWemJhbWllWGRSSkM4b1dWVHRiREtDQ0NSdUI3cVFj
+RE5mRDV6bDdweWpWdzhOSHVrcjYvOEFCT3FsTytqSlhrMUpMK0czDQorMDJwRWtieWJ2c3pjYlNn
+eC9yUDlyOUtzZlpieVgvV1h3VEhUN05DRkordTR0K21LWTZYYzJwUVhFV24zTWtDUlNKdk94Q1NX
+UWo1DQpXWU4vQ2VvRlhGdDlTZmtXdHVpbm9KTGdoaDlRRUl6OUNhOFdHVzQycGJscFA1cEw4elRu
+aXVwUjBOUHMzaWk0UzYxRjU1amJMOWxpDQptZU5UdFptTW1GVlZ6OXhPVG5BQTZaT2VxckVqME82
+bnZMZWE3dUxkb1lYRXF3UlFIY0hBSUg3d3QwR2V5Z25Ib1NLMjYrL3kybFZvDQpZYU5PckZSYTdm
+bm9jazJuSzZDaWlpdlVJQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29v
+QUtLS0tBQ2lpDQppZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQVAvWjwvRGF0YT4NCiAgICA8
+L1RodW1ibmFpbD4NCiAgPC9CaW5hcnk+DQogIDxkaXN0aW5mbz4NCiAgICA8cmVzZGVzYz5jbnR5
+MjRrMDlfMTwvcmVzZGVzYz4NCiAgICA8c3Rkb3JkZXI+DQogICAgICA8ZGlnZm9ybT4NCiAgICAg
+ICAgPGRpZ3RpbmZvPg0KICAgICAgICAgIDx0cmFuc2l6ZT5TbWFsbCAoMS0xMCBNQik8L3RyYW5z
+aXplPg0KICAgICAgICAgIDxkc3NpemU+U21hbGwgKDEtMTAgTUIpPC9kc3NpemU+DQogICAgICAg
+ICAgPGZvcm1uYW1lPkdEQjwvZm9ybW5hbWU+DQogICAgICAgICAgPGZvcm12ZXJuPkFyY0dJUyA5
+LjI8L2Zvcm12ZXJuPg0KICAgICAgICAgIDxmaWxlZGVjPnVuemlwPC9maWxlZGVjPg0KICAgICAg
+ICA8L2RpZ3RpbmZvPg0KICAgICAgICA8ZGlndG9wdD4NCiAgICAgICAgICA8b25saW5vcHQ+DQog
+ICAgICAgICAgICA8Y29tcHV0ZXI+DQogICAgICAgICAgICAgIDxuZXR3b3JrYT4NCiAgICAgICAg
+ICAgICAgICA8bmV0d29ya3I+aHR0cDovL2Nhc2lsLnVjZGF2aXMuZWR1L2Nhc2lsL2dlb3BvbGl0
+aWNhbC9jb3VudGllcy88L25ldHdvcmtyPg0KICAgICAgICAgICAgICAgIDxuZXR3b3Jrcj5odHRw
+Oi8vZnJhcC5jZGYuY2EuZ292L2RhdGEvZnJhcGdpc2RhdGEvZG93bmxvYWQuYXNwP3JlYz1jbnR5
+MjRrPC9uZXR3b3Jrcj4NCiAgICAgICAgICAgICAgPC9uZXR3b3JrYT4NCiAgICAgICAgICAgIDwv
+Y29tcHV0ZXI+DQogICAgICAgICAgPC9vbmxpbm9wdD4NCiAgICAgICAgPC9kaWd0b3B0Pg0KICAg
+ICAgPC9kaWdmb3JtPg0KICAgICAgPGZlZXM+bm9uZTwvZmVlcz4NCiAgICAgIDxvcmRlcmluZz5Q
+dWJsaWNseSBhdmFpbGFibGUgYXQgbm8gY29zdCB0aHJvdWdoIHRoZSBGUkFQIEluZm9ybWF0aW9u
+IGFuZCBEYXRhIENlbnRlciB3ZWJzaXRlPC9vcmRlcmluZz4NCiAgICA8L3N0ZG9yZGVyPg0KICAg
+IDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJwPg0KICAgICAgICAg
+IDxjbnRwZXI+RlJBUCBkYXRhIGxpYnJhcmlhbjwvY250cGVyPg0KICAgICAgICAgIDxjbnRvcmc+
+Q2FsaWZvcm5pYSBEZXBhcnRtZW50IG9mIEZvcmVzdHJ5IGFuZCBGaXJlIFByb3RlY3Rpb24gLSBG
+UkFQPC9jbnRvcmc+DQogICAgICAgIDwvY250cGVycD4NCiAgICAgICAgPGNudHZvaWNlPig5MTYp
+IDMyNy0zOTM5PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPkZSQVBkYXRhY29udGFjdEBm
+aXJlLmNhLmdvdjwvY250ZW1haWw+DQogICAgICAgIDxob3Vycz5NLUYgOC01PC9ob3Vycz4NCiAg
+ICAgIDwvY250aW5mbz4NCiAgICA8L2Rpc3RyaWI+DQogICAgPGRpc3RsaWFiPkRJU0NMQUlNRVIN
+CiAgICBUaGUgU3RhdGUgb2YgQ2FsaWZvcm5pYSBhbmQgdGhlIERlcGFydG1lbnQgb2YgRm9yZXN0
+cnkgYW5kIEZpcmUgUHJvdGVjdGlvbiBtYWtlIG5vIHJlcHJlc2VudGF0aW9ucyBvciB3YXJyYW50
+aWVzIHJlZ2FyZGluZyB0aGUgYWNjdXJhY3kgb2YgZGF0YSBvciBtYXBzLiAgVGhlIHVzZXIgd2ls
+bCBub3Qgc2VlayB0byBob2xkIHRoZSBTdGF0ZSBvciB0aGUgRGVwYXJ0bWVudCBsaWFibGUgdW5k
+ZXIgYW55IGNpcmN1bXN0YW5jZXMgZm9yIGFueSBkYW1hZ2VzIHdpdGggcmVzcGVjdCB0byBhbnkg
+Y2xhaW0gYnkgdGhlIHVzZXIgb3IgYW55IHRoaXJkIHBhcnR5IG9uIGFjY291bnQgb2Ygb3IgYXJp
+c2luZyBmcm9tIHRoZSB1c2Ugb2YgZGF0YSBvciBtYXBzLg0KICAgICAgVGhlcmUgYXJlIG5vIHJl
+c3RyaWN0aW9ucyBvbiBkaXN0cmlidXRpb24gb2YgdGhlIGRhdGEgYnkgdXNlcnMuIEhvd2V2ZXIs
+IHVzZXJzIGFyZSBlbmNvdXJhZ2VkIHRvIHJlZmVyIG90aGVycyB0byB0aGUgRGVwYXJ0bWVudCBv
+ZiBGb3Jlc3RyeSBhbmQgRmlyZSBQcm90ZWN0aW9uIHRvIGFjcXVpcmUgdGhlIGRhdGEsIGluIGNh
+c2UgdXBkYXRlZCBkYXRhIGJlY29tZSBhdmFpbGFibGUuPC9kaXN0bGlhYj4NCiAgICA8Y3VzdG9t
+Pm5vdCBhdmFpbGFibGU8L2N1c3RvbT4NCiAgPC9kaXN0aW5mbz4NCiAgPG1kQ29udGFjdD4NCiAg
+ICA8cnBJbmROYW1lPkdyZWcgVHdpc3Q8L3JwSW5kTmFtZT4NCiAgICA8cnBPcmdOYW1lPkNhbGlm
+b3JuaWEgRGVwYXJ0bWVudCBvZiBXYXRlciBSZXNvdXJjZXM8L3JwT3JnTmFtZT4NCiAgICA8cnBQ
+b3NOYW1lPlRyYW5zcG9ydGF0aW9uIFN1cnZleW9yPC9ycFBvc05hbWU+DQogICAgPHJvbGU+DQog
+ICAgICA8Um9sZUNkIHZhbHVlPSIwMDciIC8+DQogICAgPC9yb2xlPg0KICAgIDxycENudEluZm8+
+DQogICAgICA8Y250QWRkcmVzcyBhZGRyZXNzVHlwZT0iYm90aCI+DQogICAgICAgIDxkZWxQb2lu
+dD4xNDE2IDl0aCBTdHJlZXQsIFJvb20gMTUwPC9kZWxQb2ludD4NCiAgICAgICAgPGNpdHk+U2Fj
+cmFtZW50bzwvY2l0eT4NCiAgICAgICAgPGFkbWluQXJlYT5DYWxpZm9ybmlhPC9hZG1pbkFyZWE+
+DQogICAgICAgIDxwb3N0Q29kZT45NTgxNDwvcG9zdENvZGU+DQogICAgICAgIDxlTWFpbEFkZD5n
+dHdpc3RAd2F0ZXIuY2EuZ292PC9lTWFpbEFkZD4NCiAgICAgICAgPGNvdW50cnk+VVM8L2NvdW50
+cnk+DQogICAgICA8L2NudEFkZHJlc3M+DQogICAgICA8Y250UGhvbmU+DQogICAgICAgIDx2b2lj
+ZU51bT45MTYtNjUzLTI2OTg8L3ZvaWNlTnVtPg0KICAgICAgICA8ZmF4TnVtPjkxNi02NTctNDc5
+NjwvZmF4TnVtPg0KICAgICAgPC9jbnRQaG9uZT4NCiAgICA8L3JwQ250SW5mbz4NCiAgPC9tZENv
+bnRhY3Q+DQogIDxtZE1haW50Pg0KICAgIDxtYWludEZyZXE+DQogICAgICA8TWFpbnRGcmVxQ2Qg
+dmFsdWU9IjAwOCIgLz4NCiAgICA8L21haW50RnJlcT4NCiAgPC9tZE1haW50Pg0KPC9tZXRhZGF0
+YT4=</Data></Enclosure></Binary><distinfo><resdesc>cnty24k09_1</resdesc><stdorder><digform><digtinfo><transize>Small (1-10 MB)</transize><dssize>Small (1-10 MB)</dssize><formname>GDB</formname><formvern>ArcGIS 9.2</formvern><filedec>unzip</filedec></digtinfo><digtopt><onlinopt><computer><networka><networkr>http://casil.ucdavis.edu/casil/geopolitical/counties/</networkr><networkr>http://frap.cdf.ca.gov/data/frapgisdata/download.asp?rec=cnty24k</networkr></networka></computer></onlinopt></digtopt></digform><fees>none</fees><ordering>Publicly available at no cost through the FRAP Information and Data Center website</ordering></stdorder><distrib><cntinfo><cntperp><cntper>FRAP data librarian</cntper><cntorg>California Department of Forestry and Fire Protection - FRAP</cntorg></cntperp><cntvoice>(916) 327-3939</cntvoice><cntemail>FRAPdatacontact@fire.ca.gov</cntemail><hours>M-F 8-5</hours></cntinfo></distrib><distliab>DISCLAIMER
+    The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps.  The user will not seek to hold the State or the Department liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps.
+      There are no restrictions on distribution of the data by users. However, users are encouraged to refer others to the Department of Forestry and Fire Protection to acquire the data, in case updated data become available.</distliab><custom>not available</custom></distinfo><mdLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact><rpIndName>County Boundaries Specialist</rpIndName><rpOrgName>California Department of Forestry and Fire Protection - FRAP</rpOrgName><rpCntInfo><cntPhone><voiceNum>(916) 327-3939</voiceNum><faxNum>(916) 324-1180</faxNum></cntPhone><cntAddress><eMailAdd>geodata@dfg.ca.gov</eMailAdd></cntAddress><cntHours>M-F 8-5</cntHours></rpCntInfo><role><RoleCd value="007"/></role></mdContact><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distributor><distorCont><rpIndName>FRAP data librarian</rpIndName><rpOrgName>California Department of Forestry and Fire Protection - FRAP</rpOrgName><rpCntInfo><cntPhone><voiceNum>(916) 327-3939</voiceNum></cntPhone><cntAddress><eMailAdd>FRAPdatacontact@fire.ca.gov</eMailAdd></cntAddress><cntHours>M-F 8-5</cntHours></rpCntInfo><role><RoleCd value="005"/></role></distorCont><distorOrdPrc><resFees>none</resFees><ordInstr>Publicly available at no cost through the FRAP Information and Data Center website</ordInstr></distorOrdPrc><distorFormat><formatName>GDB</formatName><formatVer>ArcGIS 9.2</formatVer><fileDecmTech>unzip</fileDecmTech></distorFormat><distorTran><onLineSrc><linkage>http://casil.ucdavis.edu/casil/geopolitical/counties/</linkage></onLineSrc><onLineSrc><linkage>http://frap.cdf.ca.gov/data/frapgisdata/download.asp?rec=cnty24k</linkage></onLineSrc></distorTran><distorTran><onLineSrc><orDesc>cnty24k09_1</orDesc></onLineSrc></distorTran></distributor><distTranOps><onLineSrc><linkage>http://frap.cdf.ca.gov/data/frapgisdata/download.asp?rec=cnty24k</linkage></onLineSrc><onLineSrc><linkage>http://projects.atlas.ca.gov/frs/?group_id=41&amp;release_id=279</linkage></onLineSrc><transSize Sync="TRUE">0.000</transSize></distTranOps><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat></distInfo><dataIdInfo><idCitation><resTitle Sync="TRUE">County_Boundaries</resTitle><resEd>09_1</resEd><citRespParty><rpOrgName>California Department of Fish and Game</rpOrgName><role><RoleCd value="006"/></role></citRespParty><citRespParty><rpOrgName>California Department of Forestry and Fire Protection (using data from BOR, DFG and DOC FMMP)</rpOrgName><role><RoleCd value="006"/></role></citRespParty><otherCitDet>The user will cite the California Department of Forestry and Fire Protection as the original source of the data, but will clearly denote cases where the original data have been altered, updated, or in any way changed from the original condition.</otherCitDet><presForm><PresFormCd value="005" Sync="TRUE"/></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;In late 1996, the Dept of Conservation (DOC) surveyed state and federal agencies about the county boundary coverage they used. As a result, DOC adopted the 1:24,000 (24K) scale U.S. Bureau of Reclamation (USBR) dataset (USGS source) for their Farmland Mapping and Monitoring Program (FMMP) but with several modifications. Detailed documentation of these changes is provided by FMMP and included in the lineage section of the metadata. A dataset named cnty24k97_1 was made available (approximately 2004) through the California Department of Forestry and Fire Protection - Fire and Resource Assessment Program (CDF - FRAP) and the California Spatial Information Library (CaSIL). In late 2006, the Department of Fish and Game (DFG) reviewed cnty24k97_1. Comparisons were made to a high-quality 100K dataset (co100a/county100k from the former Teale Data Center GIS Solutions Group) and legal boundary descriptions from ( http://www.leginfo.ca.gov ). The cnty24k97_1 dataset was missing Anacapa and Santa Barbara islands. DFG added the missing islands using previously-digitized coastline data (coastn27 of State Lands Commission origin), corrected a few county boundaries, built region topology, added additional attributes, and renamed the dataset to county24k. In 2007, the California Mapping Coordinating Committee (CMCC) requested that the California Department of Forestry and Fire Protection (CAL FIRE) resume stewardship of the statewide county boundaries data. CAL FIRE adopted the changes made by DFG and collected additional suggestions for the county data from DFG, DOC, and local government agencies. CAL FIRE incorporated these suggestions into the latest revision, which has been renamed cnty24k09_1. Detailed documentation of changes is included in the Process Step section of the metadata.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>The multipart feature class combines polygons from a single county into one feature with one record in the attribute table (e.g. selecting Santa Barbara County in the attribute table will result in selecting all Santa Barbara County islands as well as the mainland portion of the county). This may be useful for selections and overlays when all parts of a county are needed. Ideally, state and federal agencies should be using the same framework data for common themes such as county boundaries. This layer provides an initial offering as "best available" at 1:24,000 scale. Additional improvements, including a review of data sources for the coastline, can be added over time based on interagency review and agreement on proposed changes.
+The associated data are considered DWR enterprise GIS data, which meet all appropriate requirements of the DWR GIS Spatial Data Standards.  
+This dataset was not produced by DWR.  DWR makes no warranties or guarantees, either expressed or implied, as to the completeness, accuracy or correctness of the data, nor accepts or assumes any liability arising from or for any incorrect, incomplete or misleading subject data. 
+The official DWR GIS Data Steward for this dataset is Greg Twist, who may be contacted at 916-653-2698, or at gtwist@water.ca.gov.  Comments, problems, improvements, updates, or suggestions should be forwarded to the official GIS Data Steward as available and appropriate.</idPurp><idStatus><ProgCd value="001"/></idStatus><idPoC><rpIndName>County Boundaries Specialist</rpIndName><rpOrgName>California Department of Forestry and Fire Protection - FRAP</rpOrgName><rpCntInfo><cntPhone><voiceNum>(916) 327-3939</voiceNum><faxNum>(916) 324-1180</faxNum></cntPhone><cntAddress><eMailAdd>FRAPdatacontact@fire.ca.gov</eMailAdd></cntAddress><cntHours>M-F 8-5</cntHours></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="010"/></maintFreq></resMaint><graphOver><bgFileName>http://frap.cdf.ca.gov/data/browsegraphic/cnty24k.gif</bgFileName><bgFileType>GIF</bgFileType></graphOver><placeKeys><keyword>California</keyword></placeKeys><themeKeys><thesaName><resTitle>ISO 19115 Topic Category</resTitle></thesaName><keyword>location</keyword><keyword>boundaries</keyword></themeKeys><themeKeys><keyword>county</keyword><keyword>government</keyword><keyword>border</keyword><keyword>counties</keyword><keyword>county line</keyword><keyword>borders</keyword><keyword>county boundaries</keyword><keyword>county boundary</keyword><keyword>boundary</keyword></themeKeys><searchKeys><keyword>county</keyword><keyword>location</keyword><keyword>government</keyword><keyword>border</keyword><keyword>counties</keyword><keyword>county line</keyword><keyword>borders</keyword><keyword>boundaries</keyword><keyword>county boundaries</keyword><keyword>county boundary</keyword><keyword>boundary</keyword><keyword>California</keyword></searchKeys><resConst><LegConsts><useLimit>DISCLAIMER The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State or the Department liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. There are no restrictions on distribution of the data by users. However, users are encouraged to refer others to the Department of Forestry and Fire Protection to acquire the data, in case updated data become available.</useLimit></LegConsts></resConst><dataLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></dataLang><dataExt><exDesc>publication date</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition>2009-01-01</tmPosition></TM_Instant></exTemp></TempExtent></tempEle></dataExt><suppInfo>Extremely detailed descriptions of boundary changes made for different versions are provided in the Process Step metadata section. More general version notes are provided here; Cnty24k09_1 notes: The linework has been updated to reflect legal boundary changes between the following counties: Fresno-Merced, Kern-Los Angles, Orange-Riverside, and Orange-Los Angeles. The linework has been improved for greater accuracy in sections shared by the following counties: Ventura-Kern, Ventura-Santa Barbara, and Lake-Mendocino-Sonoma.</suppInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</envirDesc><spatRpType><SpatRepTypCd value="001" Sync="TRUE"/></spatRpType><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-124.511650</westBL><eastBL Sync="TRUE">-113.497863</eastBL><northBL Sync="TRUE">42.068568</northBL><southBL Sync="TRUE">32.423674</southBL></GeoBndBox></geoEle></dataExt><tpCat><TopicCatCd value="013"/></tpCat><tpCat><TopicCatCd value="003"/></tpCat></dataIdInfo><mdConst><SecConsts><classSys>Public Data</classSys></SecConsts></mdConst><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><dataLineage><dataSource><srcScale><rfDenom>24</rfDenom></srcScale></dataSource><prcStep><stepDesc>Bureau of Reclamation County Line Modifications 14 July 1997 During the transition to a county line standard for the Farmland Mapping and Monitoring Program (FMMP) survey counties, it was discovered that the Bureau of Reclamation's county line file that FMMP wanted to adopt was outdated in two locations. A third area believed to be outdated, but could not be confirmed, was also changed in the Bureau's master file. All three changes are described below. When a county line has changed and no longer agrees with the Bureau's master file, the preferred order for incorporating the new linework into it are as follows: Copying information from digital USGS 7.5' SDTS formatted files. Copying information from digital USGS 100K DLG formatted files. Digitizing off of USGS 7.5' paper quads (if they reflect the new county line). Any other means where a correct boundary can be incorporated. The modified Bureau of Reclamation file contains the following linework changes: Butte-Glenn Counties Background The area in question is the entire Butte-Glenn county line along the Sacramento River. There were subtle and not so subtle differences between the FMMP's existing county line and what the Bureau was calling the county line. Several sources were referenced with no clear indication of where the line fell. In all the maps reviewed there was never a point in the process where the FMMP had to consider multiple interpretations of the county line. It was either FMMP's existing line or the Bureau's. Sources Referenced US Census Tiger File USGS 100K DLG USGS 7.5' DLG USGS 7.5' paper quads USGS 100K mylar quads ETAK State of California Legal text description of Butte County and Glenn County lines. Butte County Planning Department Butte County Public Works Butte County Assessor's Office Butte County Legal Counsel Glenn County Planning Department Glenn County Public Works Glenn County Assessor's Office Result After careful consideration of the sources contacted and/or reviewed, it was determined that the FMMP would adopt the 100K USGS DLG line as the county line between Butte and Glenn County. The biggest obstacles in making this decision were the ignorance of both counties on where their county line fell, and the USGS contradicting itself as to where the line went. The 100K USGS mylar and 100K DLG matched what FMMP was already using, while the 7.5' USGS paper quad and 7.5' USGS DLG identified a different county line. In the end it was decided that FMMP would adopt the 100K DLG since it closely resembled the line the FMMP has used all along for these two counties. The adoption of the 100K DLG line was performed by R. Withers in June 1997. The entire common boundary between Butte and Glenn counties was replaced and is distinguished from the rest of the Bureau's linework by color. The change starts at lat. 39- 23' 02.5349" N long. -121- 53' 20.1887" W and ends at lat. 39- 47' 52.0638" N long. -122- 02' 43.6258" W. Orange-Riverside Counties Background The USGS, Bureau of Reclamation, and the FMMP all had interpreted the county line between Orange and Riverside counties in the same way, but a note from Karen Freeman at the City of Anaheim Planning Department described a minor change that she was aware of between the two. Upon investigation, it was confirmed that a change had occurred. Since the adjustment of the line was written using bearing and distance, R. Withers tried to draw out the line using the precision placement options of Microstation 95 (version 5 mode). The legal text was obtained from the State of California (the county line change is highlighted in bold and is underlined): http://www.leginfo.ca.gov/cgi-bin/calawquery?codesection=gov&amp;codebody=23101 23130. The boundaries of Orange County are as follows: Beginning at the northwest corner of San Diego County at a point in the Pacific Ocean opposite San Mateo point; thence northerly along the San Diego County line to the southerly line of the Rancho Mission Viejo as shown on the survey on file in book 8, pages 34 through 46 inclusive of Records of Survey in the office of the County Recorder of Orange County; Thence, easterly and northeasterly to an angle point therein, said point being Rancho Mission Viejo Corner No. 7, as shown on said Record of Survey; thence northerly 12,693.95 feet along the northwestern boundary of San Diego County to the southwest corner of Section 33, T. 7 S., R. 6 W., said point being also the most southwest corner of Riverside County; thence northerly 1,324.46 feet along the western boundary of said Riverside County to the southwesterly corner of Government Lot 3, Fractional Section 33, T. 7 S., R. 6 W., S.B.M., as shown on that survey on file in book 122, pages 17 and 18 of Records of Survey in the office of the County Recorder of Orange County; Thence leaving said western boundary south 89*25'11 east, 2,042.68 feet to the southeast corner of the NE.1/4 of the SE. 1/4 of said Section 33; thence north 01*00'50 east, 1,320.33 feet to the northeast corner of the NE. 1/4 of the SE. 1/4 of said Section 33; thence north 00*27'14 east, 2,647.46 feet to the northeast corner of said Section 33; thence along the north line of said section north 89*16'14 west, 2,086.39 feet to the northwest corner of Government Lot 1 of said section, being a point on the existing western boundary of said Riverside County; Thence along said boundary of Riverside County northerly, northeasterly, northwesterly, westerly, northerly, westerly and northwesterly to a point on the south line of Section 36, T. 3 S., R. 8 W., as shown on that survey on file in book 131, pages 24 and 25 of Records of Survey in the office of the Orange County Recorder, said point lying distant therein north 89*05'38 west 151.58 feet from the southeast corner of said Section 36; Thence leaving said existing boundary of Riverside County and along said south line north 89*05'38 west, 2,484.00 feet; thence continuing along said south line, north 89*07'27 west, 818.46 feet to the easterly line of the Rancho Lomas de Santiago; thence along said easterly line north 02*53'27 west, 3,273.18 feet to a point on a nontangent curve, concave to the northwest and having a radius of 1,550.00 feet, a radial from said point bears north 14*05'30 west; thence easterly, leaving said east line, along said curve through a central angle of 15*01'17 and arc length of 406.35 feet; thence nontangent to said curve, south 84*32'29 east, 155.61 feet; thence north 65*40'06 east, 75.15 feet; thence north 48*16'56 east, 150.70 feet; thence north 68*49'57 east, 35.37 feet to said existing boundary of Riverside County; Thence northwesterly along the said boundary to the corner common to Riverside, San Bernardino, and Orange Counties; thence northwesterly along the southwest boundary of San Bernardino County to the point of intersection of said boundary with the southerly line of T. 2 S., R. 9 W., being also the corner common to San Bernardino and Los Angeles Counties; thence westerly along the township line between T. 2 and 3 S., to the corner common to T. 2 and 3 S., R. 10 and 11 W.; thence southerly along the range line between R. 10 and 11 W., to the southeast corner of Section 13, T. 3 S., R. 11 W., in the Rancho Los Coyotes; thence in a general southwesterly direction along section lines, quarter section lines and quarter quarter section lines in the Rancho Los Coyotes, as follows: westerly along the section line to the quarter corner on the south line of said Section 13; thence southerly along the quarter section line to the center of Section 24, T. 3 S., R. 11 W.; thence westerly along the quarter section line to the quarter corner on the west line of said Section 24; thence southerly along the section line to the southwest corner of said Section 24; thence westerly along the section line to the quarter corner on the north line of Section 26, T. 3 S., R. 11 W.; thence southerly along the quarter section line to the center of said Section 26; Thence westerly along the quarter section line to the quarter corner on the west line of said Section 26; thence southerly along the section line to the southwest corner of said Section 26; thence westerly along the section line to the northeast corner of Section 33, T. 3 S., R. 11 W.; thence southerly along the section line to the quarter corner on the east line of said Section 33; thence westerly along the quarter section line to the center of said Section 33; thence southerly along the quarter section line to the northeast corner of the SE. 1/4 of the SW. 1/4 of said Section 33; thence westerly along the quarter quarter section line to the center of the SW. 1/4 of said Section 33; thence southerly along the quarter quarter section line to the south line of said Section 33; thence westerly along the township line between T. 3 and 4 S., to the northeast corner of Section 5, T. 4 S., R. 11 W.; thence southerly along the section line to the northeast corner of the SE. 1/4 of said Section 5; thence westerly along the quarter section line to the northwest corner of the NE. 1/4 of the SE. 1/4 of said Section 5; thence southerly along the quarter quarter section line to the center of the SE. 1/4 of said Section 5; thence westerly along the quarter quarter section line to the westerly line of the SE. 1/4 of said Section 5; thence southerly along the quarter section line to the quarter corner on the south line of said Section 5; thence westerly along the section line to the northeast corner of the NW. 1/4 of the NW. 1/4 of Section 8, T. 4 S., R. 11 W.; Thence southerly along the quarter quarter section lines to the northeast corner of the SW. 1/4 of the SW. 1/4 of said Section 8; thence southwesterly in a straight line to a point on the south line of the Moody Creek Channel as shown on that survey on file in book 120, page 5 of Records of Survey in the office of the Recorder of Orange County, said point being on a nontangent curve, concave southeasterly and having a radius of 950.00 feet, a radial from said point bears south 03*41'24 east; thence westerly along said south line and said curve through a central angle of 26*34'39 and an arc length of 440.67 feet to its point of intersection with the east line of the Coyote Creek Channel, said point being on a nontangent curve concave northwesterly and having a radius of 5,200.00 feet, a radial from said point bears north 75*11'46 west; thence southwesterly along said easterly line and said curve through a central angle of 03*10' 38 and an arc length of 288.36 feet; thence continuing along said easterly line, tangent to said curve, south 17*58'52 west, 132.27 feet to a point on the existing boundary of Los Angeles County; thence southwesterly along said boundary in a straight line to the southwest corner of Section 8, T. 4 S., R. 11 W. said corner also being Los Angeles/Orange County Corner No. 11 as shown on Los Angeles County Surveyor's Map No. 8175 on file in the office of the Surveyor of the County of Los Angeles; Thence south 00*11'50 east, along the section line to a point on the boundary line between Rancho Los Coyotes and Rancho Los Alamitos, said point also being Los Angeles/Orange County Corner No. 10; Thence south 59*07'40 west, a distance of 3,391.48 feet to Los Angeles/Orange County Corner No. 9; Thence south 39*48'20 west, a distance of 5,650.97 feet to Los Angeles/Orange County Corner No. 8; Thence south 11*36'55 west, a distance of 2,241.41 feet to Los Angeles/Orange County Corner No. 7; Thence south 27*55'55 west, a distance of 8,375.40 feet to Los Angeles/Orange County Corner No. 6; Thence south 31*22'50 east, a distance of 1,296.21 feet to Los Angeles/Orange County Corner No. 5; Thence south 27*12'00 east, a distance of 2,106.10 feet to Los Angeles/Orange County Corner No. 4; Thence south 16*46'45 east, a distance of 1,444.82 feet to Los Angeles/Orange County Corner No. 3; Thence south 2*48'35 east, a distance of 2,207.94 feet to Los Angeles/Orange County Corner No. 2; Thence south 57*10'40 west, a distance of 8,238.78 feet to Los Angeles/Orange County Corner No. 1; Thence south 33*00'00 west, a distance of 622.43 feet to a point on the northeasterly line of block 59, Alamitos Bay tract, as shown on the map recorded in map book 5, page 137, on file in the office of the Recorder of the County of Los Angeles, distant thereon south 57*50'45 east, a distance of 428.91 feet from the most northerly corner of said block 59; thence continuing south 33*00'00 west, a distance of three miles, more or less to the southwesterly boundary line of the State of California (the boundary line between Los Angeles and Orange hereinabove described and established being shown on said county surveyor's map No. 8175 ; and likewise on map No. 300 on file in the office of the Surveyor of Orange County); thence southeasterly along the state line to the point of beginning. Sources Referenced USGS 7.5' paper quad City of Anaheim Planning Department US Census Tiger File ETAK State of California legal text description of Orange County. Result The precision placement of the modified Orange-Riverside line was successful. However, the Bureau's line does not take into account minor directional changes north and south of the main area of concern. As a result, the line had to be redigitized from the USGS 7.5' quadrangle Black Star Canyon. The new county line is distinguished from the rest of the Bureau's linework by color. The change starts at lat. 33- 46' 00.4197" N long. -117- 34' 37.4973" W and ends at lat. 33- 52' 39.0641" N long. -117- 40' 42.3113" W. Santa Cruz-Santa Clara Counties Background There had been a long history dating back to the late 1980's(?) regarding the correct placement of the county line between Santa Cruz and Santa Clara counties. The 100K USGS map did not agree with the 7.5' USGS quadrangles and the counties were of little help in resolving placement of the line. At that time the FMMP decided to go with the 100K line. In 1997 the issue came up again because the FMMP line did not match the Bureau's county line. Most of the 7.5' USGS paper quads along the county border were updated by USGS in the early to mid 1990's, and the legal text description of the county line agreed with what was represented on the newer 7.5' quads. Sources referenced State of California Legal text description of Santa Clara County and Santa Cruz County lines USGS 100K DLG USGS 7.5' DLG USGS 7.5' paper quads USGS 100K mylar quads Result The 100K DLG information was incomplete, but matched the 100K USGS paper map where DLG information was available. The 7.5' DLG information though complete, had some quads that matched the newer 7.5' paper maps and some that appeared to match older 7.5' USGS quads. The problem was finally resolved by digitizing the entire Santa Cruz-Santa Clara line off the newer 7.5' paper quads. This process was completed in May 1997 by R. Withers. The change begins in the south where San Benito, Santa Clara, and Santa Cruz counties meet, and ends just past the junction of Santa Cruz, Santa Clara, and San Mateo counties. The new county line is distinguished from the rest of the Bureau's linework by color. The change starts at lat. 36- 53' 57.9613" N long. -121- 34' 49.6766" W and ends at lat. 37- 17' 36.4162" N log. -122- 09' 35.4072" W. Modifications to FMMP County Line's Within Its Files There are two areas where the Bureau's line and the state's legal text description agreed, and the FMMP county line was out of date. A county line adjustment between Kern and Ventura counties resulted in about 9-10 sq. mi. going from Ventura to Kern County. The area was not surveyed on the Ventura side, but falls in the Interim Farmland area of Kern County. The addition was photo interpreted and incorporated into the 1994 Kern County survey area. Ventura County was unaffected since the FMMP does not map that portion of the county. The Tehama-Shasta county line change is located on the Lassen Peak and Gray's Peak USGS quads and involves about 5 sq. mi. going from Tehama to Shasta County. The FMMP loses land from its overall survey area because there's no soil survey information for that portion of Shasta County. All of the land lost is National Forest Service land and was classified as 'X' when it was mapped as part of Tehama County. R. Withers</stepDesc><stepDateTm>1997-07-14</stepDateTm></prcStep><prcStep><stepDesc>Converted to California Teale Albers NAD83.</stepDesc><stepDateTm>2004-05-01</stepDateTm><stepProc><rpIndName>GIS Service Center</rpIndName><rpOrgName>California Department of Fish and Game</rpOrgName><rpCntInfo><cntAddress><eMailAdd>geodata@dfg.ca.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="009"/></role></stepProc></prcStep><prcStep><stepDesc>In late 2006, the Department of Fish and Game (DFG) reviewed the 24K dataset known as cnty24k97_1. Comparisons were made to a high-quality 100K dataset (co100a/county100k from the former Teale Data Center GIS Solutions Group) and legal boundary descriptions from ( http://www.leginfo.ca.gov ). The cnty24k97_1 dataset was missing Anacapa and Santa Barbara islands. DFG added the missing islands using previously-digitized coastline data (coastn27 of State Lands Commission origin), corrected a few county boundaries, built region topology, added additional attributes, and renamed the dataset to county24k. The specific county boundary corrections were as follows: - San Francisco county boundary corrected to extend across the mouth of San Francisco bay instead of along the coastline as per ( http://www.leginfo.ca.gov ). - Small changes along the Orange/Riverside county boundary as per the Teale co100a/county100k dataset and ( http://www.leginfo.ca.gov ).</stepDesc><stepDateTm>2006-11-01</stepDateTm><stepProc><rpIndName>Will Patterson</rpIndName><rpOrgName>California Department of Fish and Game</rpOrgName><rpCntInfo><cntAddress><eMailAdd>geodata@dfg.ca.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="009"/></role></stepProc></prcStep><prcStep><stepDesc>Bureau of Reclamation County Line Modifications (Update) 6 May 2009 Since the time of the last update of the county data by the Department of Conservation's Farmland Mapping and Monitoring Program (DOC-FMMP) in July 1997, the California Mapping Coordinating Committee (CMCC) has requested that the California Department of Forestry and Fire Protection (CAL FIRE) resume stewardship of the statewide county boundary data (originally digitized by the US Bureau of Reclamation). For the past few years CAL FIRE has received suggestions for enhancements to the county data from multiple sources. Our latest update to county lines is based on comments and input from DOC-FMMP, CA Department of Fish and Game, CA Board of Equalization, Kern County, Orange County, and Ventura County. Data editing was performed by both Department of Fish and Game and CAL FIRE. All changes are described below. When a request was made to change a county line, CAL FIRE looked at two spatial sources: parcel data from counties, and the set of scanned USGS 7.5' topo quads (aka 24k DRGs) on the California Spatial Information Library (CaSIL). In addition, CAL FIRE also reviewed the legal text for county boundary descriptions (Government Code Section 23100-23158) on the California Legislative Information website: http://www.leginfo.ca.gov/cgi-bin/calawquery?codesection=gov&amp;codebody=23101 Documentation for legal boundary changes was also provided to CAL FIRE by CA Board of Equalization. Ventura-Kern and Ventura-Santa Barbara Counties Background The two county line sections in question are the western edge of Ventura County (shared with Santa Barbara County) and one of the northern edges of Ventura County (shared with Kern County). Ventura County Fire Protection District contacted CAL FIRE to let us know that the Bureau's line did not line up well with their county parcel data. Parcel data from Ventura County, Santa Barbara County, and Kern County aligned well with each other, but did not align well with the Bureau's county lines. Because Ventura County FPD needs CAL FIRE data to align with their data, Ventura County FPD requested that we adjust the Bureau's line. Sources Referenced Kern County Parcel Data Santa Barbara Parcel Data Ventura County Parcel Data Ventura County Fire Protection District Result After considering the sources reviewed, CAL FIRE decided to adjust the two county line sections that Ventura County FPD requested for us to adjust. The need for county boundary lines that agree with the county linework used by local governments is becoming more critical as more and more local governments are using GIS data from the state. Parcel data from the three counties does not align perfectly (node-to-node) from county to county. However, all 3 counties' parcel data illustrate the northwest corner of Ventura County as being about 0.1 mile west of where it is shown on the Bureau file. In addition, Kern parcel data and Santa Barbara parcel data illustrate one of the northern edges of Kern County as being 0.5 mile north of where it is shown in the Bureau file. CAL FIRE edited the Bureau's line by "snapping" the Bureau's northwest corner of Ventura County to the northwest corner of Ventura County's parcel data. CAL FIRE also used Ventura County's parcel data as a basis for snapping the northern section of the Bureau's line by snapping the nodes of the Bureau's line to the nodes of the parcel data. Lake-Mendocino-Sonoma Counties Background The boundary in question is the southeast corner of Mendocino County shared with Lake County and Sonoma County. Department of Fish and Game observed that the Bureau line did not line up with the scanned USGS 7.5' quad on CaSIL. Sources Referenced USGS 7.5' paper quad, "The Geysers" 1975 USGS 7.5' scanned quad, "The Geysers" 1993 Lake County parcel data Mendocino County parcel data Sonoma County parcel data Result After examining the 1975 USGS 7.5' quad and the 1993 USGS 7.5' quad CAL FIRE determined that USGS changed the way the boundary was drawn in the 1993 quad, which was released after the Bureau digitized the county lines into GIS format back in 1992. This is not considered a legal change because the Public Land Survey System (PLSS) lines (which form the basis for the county boundary lines in this area) are represented as dashed lines in both quads, which means neither version is up to National Map standards. However, after comparing parcel data from Lake, Mendocino, and Sonoma counties to the two USGS quads, it is clear that these counties based their county lines on the more recent 1993 quad. CAL FIRE adjusted the Bureau line for the southeast corner of Lake-Mendocino-Sonoma in order to match both the parcel data and the latest USGS quad. Fresno-Merced Counties (legal boundary change - January 1, 2008) Background On December 31, 2007 a Merced County press release announced that a portion of the Merced-Fresno county line would change on January 1, 2008 by officially moving a portion (6.52 sq mi or 4,175 ac) of Fresno County into Merced County. The purpose of the change was to enhance access to emergency services for local residents in the area south of Dos Palos. Sources Referenced Merced County Press Release (12/31/07) Fresno Local Agency Formation Commission Report (12/5/07) Vicinity Map of boundary change (in LAFCo report) California Board of Equalization documents Fresno County parcel data Merced County parcel data Result The vicinity map included in the LAFCo report showed which Fresno parcels would be moved into Merced County. CAL FIRE adjusted the Bureau line to the new county line by using the vicinity map and Fresno County parcel data as guidelines. San Bernardino-Riverside Counties (legal boundary change - 2003) Background California Board of Equalization reported a minor legal boundary change along the southern boundary of San Bernardino County (near the southwest corner of San Bernardino County) shared with Riverside County. The section of the boundary that changed is within unincorporated area that is west of the city of Rialto. Two former Riverside parcels were moved into San Bernardino and two former San Bernardino parcels were moved into Riverside. Sources Referenced California Board of Equalization documents Riverside County parcel data San Bernardino County parcel data Result California Board of Equalization provided CAL FIRE with copies of documents confirming the boundary change. Parcel data from San Bernardino and Riverside Counties also confirmed the change. CAL FIRE adjusted the Bureau line to match with the parcel data. Yuba-Placer-Sutter Counties (legal boundary change - 2002) Background California Board of Equalization reported an annexation by city of Wheatland near the boundary of Yuba County. This annexation indicated that a legal boundary change had occurred that affected Yuba, Placer, and Sutter Counties-parts of Placer and Sutter had been annexed by Yuba. Board of Equalization later provided CAL FIRE with the documentation that confirmed the county boundary changes. Sources Referenced California Board of Equalization documents Yuba County parcel data Placer County parcel data Sutter County parcel data Result The documents provided by Board of Equalization confirmed the boundary change among the three counties. In addition, the parcel data from the three counties also confirmed the change. CAL FIRE adjusted the Bureau line to match the parcel data, using Yuba county parcels as the main guideline. Kern-Los Angeles Counties (legal boundary change - 2001) Background Kern County Fire Department (KCFD) reported a boundary change in northwest Los Angeles County that had not been reflected in the Bureau county line. The part of the boundary in question was a segment shared between Kern County and Los Angles County. Sources Referenced State of California Legal text description of Los Angeles and Kern County boundary lines California Board of Equalization documents Los Angeles County parcel data Kern County parcel data Result After examining multiple sources CAL FIRE confirmed that KCFD was correct. The Los Angeles County parcel data and Kern County parcel data both reflect the boundary change. In addition the legal text for county boundary descriptions from the California Legislative Information website also confirms the change. CAL FIRE adjusted the Bureau line so that it would conform to the boundary shown in Kern County's parcel data. Orange-Riverside Counties (legal boundary change) Background During their review of the Bureau's county lines in 2006, Department of Fish and Game observed an inconsistency along the Orange-Riverside boundary when comparing the Bureau's line with the county line in co100a from the former Teale Data Center Solutions Group. The area in question is in southwest Riverside County. Sources Referenced State of California Legal text description of Orange and Riverside Counties co100a shapefile (aka 100k counties) from the former Teale Data Center GIS Solutions Group Orange County parcel data Riverside County parcel data Result Department of Fish and Game (DFG) confirmed that a boundary change had occurred by checking the county boundary legal text on the California Legislative Information website. DFG adjusted the Bureau line to match co100a, which was already consistent with the legal text description. CAL FIRE also checked the legal text and concurred that the change was accurate. CAL FIRE also compared the DFG line adjustment with parcel data from Orange County and Riverside County and determined the alignment with parcel data was good. So CAL FIRE made no further adjustments to DFG's adjustment in this area. Orange-Los Angeles Counties (legal boundary change - August 29, 1999) Background The Orange County Local Agency Formation Commission (LAFCo) contacted CaSIL in 2008 to report that the Bureau's line did not reflect a change along the Orange-Los Angeles County boundary that occurred on August 29, 1999. The area in question is along the northern boundary of Orange County and shared with the southern boundary of Los Angeles County. Sources Referenced Orange County Local Agency Formation Commission documents California Board of Equalization documents Los Angeles County parcel data Orange County parcel data Result Documentation provided by the Orange county LAFCo provided clear evidence of the boundary change in 1999. CAL FIRE found the area in question by comparing the Bureau's county line to parcel data for Orange County and Los Angeles County. The Orange County parcel data clearly showed the parcels that Orange County had annexed from Los Angeles County. CAL FIRE adjusted the Bureau line to match the county line as shown by Orange County parcel data. Orange County (man-made island) Background During a review of the county lines in 2008, Department of Conservation observed that the Bureau's county lines for Orange County did not include a man-made island in the Huntington Harbor/Seal Beach area. Sources Referenced Imagery from the National Agricultural Imagery Program (NAIP) Result CAL FIRE digitized the missing island based on NAIP data. San Francisco County (along mouth of bay) Background Department of Fish and Game observed that the Bureau's western boundary for San Francisco County followed the shoreline and did not include the mouth of the bay between Pt. Reyes (at the southern tip of Marin County) and Pt. Lobos along the northwest shore of San Francisco County. Sources Referenced State of California Legal text description of San Francisco County Result Department of Fish and Game confirmed that the bay opening is part of San Francisco County by checking the county boundary legal text on the California Legislative Information website. DFG adjusted the western boundary to include the bay opening. CAL FIRE and DOC-FMMP have both concurred with this change and CAL FIRE has not made any further adjustments to DFG's adjustment. Santa Barbara County (offshore islands) Background During their review of the Bureau's county lines in 2006, Department of Fish and Game observed that the Bureau's county lines for Santa Barbara did not include Anacapa and Santa Barbara islands. Sources Referenced coastn27 coverage from State Lands Commission Result Department of Fish and Game added the missing islands using previously-digitized coastline data (coast27 of State Lands Commission origin). Both CAL FIRE and DOC-FMMP concur with this change and have not made any further changes to the DFG linework. Changes other than linework During their 2006 update of the data, Department of Fish and Game created a multipart version of the counties feature class (using region topology in coverage format), which has 58 multipart features (one record for each county in the attribute table). CAL FIRE updated linework in both the single part feature class and the multipart feature class. Both of these feature classes can be found in the File geodatabase. Department of Fish and Game also added three additional attributes (ABBREV, ABCODE, and FIPS) to both versions of the feature class. CAL FIRE has kept these attributes, but renamed the FIPS field to ANSI (American National Standards Institute) to reflect the Federal Government's new name for FIPS. In addition to keeping the attributes from Department of Fish and Game, CAL FIRE has added an ISLAND attribute, which indicates with a Y or N if a feature is an island (making it easy to remove them from display). CAL FIRE has also updated the ABBREV field to reflect the new county abbreviations recommended by CMCC in April 2009. In the line feature class, CAL FIRE has also added a TYPE attribute, which classifies the lines into 5 categories: coast, county, island, stateline, and Mexico. The line feature class includes a cartographic representation, which symbolizes the county lines based on the TYPE categories. R. Caluza</stepDesc><stepDateTm>2009-01-01</stepDateTm></prcStep></dataLineage></dqInfo><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="3310" Sync="TRUE"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.1.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="County_Boundaries"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20150129</mdDateSt></metadata>

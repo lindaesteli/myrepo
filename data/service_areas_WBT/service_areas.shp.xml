@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>CEHTP Science Team</origin>
+        <pubdate>20150324</pubdate>
+        <pubtime>23003400</pubtime>
+        <title>Public Water System Service Area Boundaries</title>
+        <onlink>http://data.ehib.org/features/KmlExport?format=shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This zip file contains a shapefile that describes the current state of the California Public Water System Geographic Reporting Tool data repository as of the specified publication date/time in the Citation section.</abstract>
+      <purpose>This dataset serves as one means of exporting the current state of the California Public Water System Geographic Reporting Tool. Users can expect this file to reflect any changes to the data repository at 12am the following day after edits are updated to the system.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150324</caldate>
+          <time />
+        </sngdate>
+      </timeinfo>
+      <current>Time Period End Date</current>
+    </timeperd>
+    <status>
+      <progress>In Work</progress>
+      <update>Daily</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.409721</westbc>
+        <eastbc>-114.131208</eastbc>
+        <northbc>42.009521999999997</northbc>
+        <southbc>32.53416</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>NONE</themekt>
+        <themekey>Drinking water, water quality, GIS, distribution system, service area</themekey>
+      </theme>
+      <place>
+        <placekt>FIPS 5-2 (State)</placekt>
+        <placekey>Drinking water, water quality, GIS, distribution system, service area</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>Please be aware that this dataset derives from the input of many users. Though various administrative checks are employed to maintain the quality and consistency of this dataset, the authors of the data and the owners of the reporting system assume no liability for your use of this data. Use it at your own discretion.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>CEHTP Science Team</cntper>
+          <cntorg>CA Department of Public Health, CA Environmental Health Tracking Program</cntorg>
+        </cntperp>
+        <cntpos />
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>850 Marina Bay Parkway, Bldg P, 3rd Floor</address>
+          <city>Richmond</city>
+          <state>CA</state>
+          <postal>94804</postal>
+          <country>United States Of America</country>
+        </cntaddr>
+        <cntvoice>5106203620</cntvoice>
+        <cnttdd />
+        <cntfax>5106203720</cntfax>
+        <cntemail>data@cehtp.org</cntemail>
+        <hours />
+        <cntinst />
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>None</secclass>
+      <sechandl>Output from the Public Water Systems Geographic Reporting Tool is public-use. Sensitive information about water systems (such as storage facilities) are and should not be input to this system.</sechandl>
+    </secinfo>
+    <native>Shapefile export from live reporting system</native>
+  </idinfo>
+  <dataqual>
+    <logic />
+    <complete>TBD</complete>
+    <lineage>
+      <procstep>
+        <procdesc>Shapefile exported from live reporting tool and added to zip file</procdesc>
+        <procdate>20150324</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>Field Name ('short name','description','data type','length')&amp;#13;kml_key ('','The unique ID of the KML content that backs this boundary','Integer','4')&amp;#13;wsystem_key ('pwsid','The Public Water System (PWS) ID of this boundary (i.e. the CDPH PWS permit number).','String','7')&amp;#13;pwsname ('','The Public Water System name of this boundary (i.e. the SYSNAME for the CDPH PWS permit number).','String','40')&amp;#13;created ('','The date/time that this boundary was created.','String','23')&amp;#13;owner ('','The ID of the person who created this boundary.','Integer','4')&amp;#13;edited ('','The date/time that this boundary was last edited.','String','23')&amp;#13;editor ('','The ID of the person who last edited this boundary.','Integer','4')&amp;#13;kmlsource_key ('src_key','The general source of this boundary when it was created (1=Developed internally/interactively,2=Uploaded from external source)','Integer','1')&amp;#13;kmlsource_detail ('src_detail','Additional detail about the source of this boundary.','String','174')&amp;#13;complstatus_key ('stat_key','Completion status for this boundary (0=Incomplete (Unedited),1=Incomplete (Edited),2=Complete,3=Deleted)','Integer','1')&amp;#13;verifier ('','The ID of the person from LPA or District Office who verified the accuracy of this boundary.','Integer','4')&amp;#13;verify_dt ('','The date/time that this boundary was verified.','String','23')&amp;#13;start_dt ('','Start date of the time period that this boundary is valid.','String','19')&amp;#13;end_dt ('','End date of the time period that this boundary is valid.','String','19')&amp;#13;derived_from ('deriv_from','The unique ID of another boundary that this boundary was initially derived from.','Integer','4')&amp;#13;current ('','Whether this boundary is current (1) or not (0). Either one or no boundaries can be marked current per wsystem_key. A boundary is automatically marked current after a user updates the database and when complstatus_key=2 (ie. complete) and current date is compatible with start_dt and end_dt.','String','1')&amp;#13;population ('','The population served by the water system.','String','8')&amp;#13;connections ('','Number of connections served by the water system.','String','7')&amp;#13;locadd ('','Water system address','String','40')&amp;#13;locstreet ('','Water system street address','String','40')&amp;#13;loccity ('','Water system city','String','24')&amp;#13;loczip ('','Water system ZIP code','String','9')&amp;#13;locstate ('','Water system state','String','2')&amp;#13;county ('','Water system county','String','15')&amp;#13;phone ('','Phone number','String','12')&amp;#13;pws_class ('','Indicates the type of water system. C = Community, P = Non-Transient Non-Community, N = Non-Community, S = State Small, W = Wastewater, R = Reclaimed.','String','1')&amp;#13;p_m_status ('','Indicates activity status of the water system. A=Active, I=Inactive, P=Pending.','String','1')&amp;#13;</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>CEHTP Science Team</cntper>
+          <cntorg>CA Department of Public Health, CA Environmental Health Tracking Program</cntorg>
+        </cntperp>
+        <cntpos />
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>850 Marina Bay Parkway, Bldg P, 3rd Floor</address>
+          <city>Richmond</city>
+          <state>CA</state>
+          <postal>94804</postal>
+          <country>United States Of America</country>
+        </cntaddr>
+        <cntvoice>5106203620</cntvoice>
+        <cnttdd />
+        <cntfax>5106203720</cntfax>
+        <cntemail>data@cehtp.org</cntemail>
+        <hours />
+        <cntinst />
+      </cntinfo>
+    </distrib>
+    <resdesc>service_areas.zip</resdesc>
+    <distliab>The contributors to this dataset and the owners of the reporting system assume no liability for end users of this dataset.</distliab>
+    <custom>Download from the URL provided above.</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20150324</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>CEHTP Science Team</cntper>
+          <cntorg>CA Department of Public Health, CA Environmental Health Tracking Program</cntorg>
+        </cntperp>
+        <cntpos />
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>850 Marina Bay Parkway, Bldg P, 3rd Floor</address>
+          <city>Richmond</city>
+          <state>CA</state>
+          <postal>94804</postal>
+          <country>United States Of America</country>
+        </cntaddr>
+        <cntvoice>5106203620</cntvoice>
+        <cnttdd />
+        <cntfax>5106203720</cntfax>
+        <cntemail>data@cehtp.org</cntemail>
+        <hours />
+        <cntinst />
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Geospatial Metadata</metstdn>
+    <metac>None</metac>
+    <metuc>None</metuc>
+  </metainfo>
+</metadata>
+
