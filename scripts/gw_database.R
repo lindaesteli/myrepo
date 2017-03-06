@@ -30,8 +30,10 @@ SDWIS$PWSID <- gsub("CA", "", SDWIS$PWSID)
 #Now with the same codes, maybe we can merge both databases
 # Merging all PWS
 
-SDWIS <- SDWIS[SDWIS$AREA %in% c("Institution","Wholesaler (Sells Water)","Interstate Carrier", 
-                              "Service Station", "Industrial/Agricultural","Municipality")]
+# THESE CODE BELOW DID NOT WORK.
+
+#SDWIS <- SDWIS[SDWIS$AREA %in% c("Institution","Wholesaler (Sells Water)","Interstate Carrier", 
+ #                             "Service Station", "Industrial/Agricultural","Municipality")]
 
 #SDWIS <- SDWIS %>%
  #  filter(SOURCE !="Surface Water",
@@ -58,7 +60,7 @@ SDWIS <- SDWIS[SDWIS$AREA %in% c("Institution","Wholesaler (Sells Water)","Inter
 
 SDWIS <- SDWIS %>%
   filter(SOURCE !="Surface Water") %>% 
-  select(PWSID, PWS_NAME, SOURCE, AREA) #this worked, database deminished to 7641 obs.
+  select(PWSID, PWS_NAME, SOURCE, AREA) #this worked, database diminished from 8302 to 7641 obs.
 
 SDWIS <- SDWIS %>%
   filter(SOURCE !="Surface Water Purchased") %>% 
@@ -68,14 +70,21 @@ SDWIS <- SDWIS %>%
   filter(SOURCE !="Unknown") %>% 
   select(PWSID, PWS_NAME, SOURCE, AREA) #now 6821 obs.
 
-SDWIS <- SDWIS %>%
-  filter(AREA != "Mobile Home Park") %>% 
-  select(PWSID, PWS_NAME, SOURCE, AREA) # ATTENTION: NO CHANGE IN OBS.
 
-SDWIS <- SDWIS %>%
-  filter(AREA != "Restaurant") %>% 
-  select(PWSID, PWS_NAME, SOURCE, AREA) # ATTENTION: NO CHANGE IN OBS.
+# THIS CODE HASN'T WORKED. IT APPEARS THAT AREA IS THE ISSUE?
 
+# AREA <- subset(SDWIS, AREA=="Institution" | AREA=="Wholesaler (Sells Water)")
+
+#SDWIS <- SDWIS %>%
+ # filter(AREA != "Mobile Home Park") %>% 
+ # select(PWSID, PWS_NAME, SOURCE, AREA) # ATTENTION: NO CHANGE IN OBS.
+
+#SDWIS <- SDWIS %>%
+ # filter(AREA != "Restaurant") # ATTENTION: NO CHANGE IN OBS.
+
+#SDWIS <- SDWIS %>% 
+  #filter(AREA = "Institution", "Wholesaler (Sells Water)", "Interstate Carrier", "Service Station",
+    #     "Industrial/Agricultural", "Municipality")
   
 # Wanna keep the following categories in AREA:
 #AREA ="Institution", "Wholesaler (Sells Water)", "Interstate Carrier", "Service Station",
