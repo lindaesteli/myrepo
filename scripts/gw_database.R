@@ -19,6 +19,7 @@ write.csv(servicearea, file = "servicearea.csv",row.names=TRUE)
 write.csv(watboundary, file = "watboundary.csv",row.names=TRUE)
 
 SDWIS <- read.csv('data/SDWIS Public Water System Extract 4-8-2016.csv')
+SDWIS <- as.data.frame(SDWIS)
 watbound <- read.csv('data/watboundary.csv')
 servarea <- read.csv('data/servicearea.csv')
 wd <- read.csv('data/watdist.csv')
@@ -29,15 +30,13 @@ SDWIS$PWSID <- gsub("CA", "", SDWIS$PWSID)
 #Now with the same codes, maybe we can merge both databases
 # Merging all PWS
 
-AREA <- SDWIS[SDWIS$AREA %in% c("Institution","Wholesaler (Sells Water)","Interstate Carrier", 
+SDWIS <- SDWIS[SDWIS$AREA %in% c("Institution","Wholesaler (Sells Water)","Interstate Carrier", 
                               "Service Station", "Industrial/Agricultural","Municipality")]
 
-
 SDWIS <- SDWIS %>%
-   filter(AREA =!"" & AREA =!"Day Care Center") %>% 
-  select(PWSID, PWS_NAME, SOURCE, AREA)
-
-  
+   filter(SOURCE !="Surface Water",
+          SOURCE !="Surface Water Purchased",     
+          SOURCE !="Unknown"),
           AREA != "Mobile Home Park",
           AREA != "Other Area",
           AREA != "Other Transient Area",
@@ -54,16 +53,8 @@ SDWIS <- SDWIS %>%
           AREA != "Residential Area",
           AREA != "School",
           AREA != "Summer Camp") %>% 
-select(PWSID, PWS_NAME, SOURCE, AREA)
+  select(PWSID, PWS_NAME, SOURCE, AREA)
 
-        
-        
- 
-  
-  SOURCE !="Surface Water",
-  SOURCE !="Surface Water Purchased")     
-SOURCE !="Unknown") %>% 
-  
   
 # Wanna keep the following categories in AREA:
 #AREA ="Institution", "Wholesaler (Sells Water)", "Interstate Carrier", "Service Station",
@@ -95,10 +86,6 @@ agen1 <- merge(servarea, watbound, by.x=c("pwsid"), by.y=c("PWSID"), all=TRUE)
 
 agen2 <- merge(agen1, SDWIS, by.x=c("pwsid"), by.y=c("PWSID"), all=TRUE)
 #12344 observations which is literally the sum of agen1 + SDWIS
-
-agen2 %>% 
-  select(pwsid, PWS_NAME, PWSName, pwsname) -> agen3
-
 
 
 #Uploading shapefiles from DWR database
