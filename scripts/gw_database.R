@@ -33,27 +33,48 @@ SDWIS$PWSID <- gsub("CA", "", SDWIS$PWSID)
 SDWIS <- SDWIS[SDWIS$AREA %in% c("Institution","Wholesaler (Sells Water)","Interstate Carrier", 
                               "Service Station", "Industrial/Agricultural","Municipality")]
 
+#SDWIS <- SDWIS %>%
+ #  filter(SOURCE !="Surface Water",
+  #        SOURCE !="Surface Water Purchased",     
+   #       SOURCE !="Unknown"),
+    #      AREA != "Mobile Home Park",
+     #     AREA != "Other Area",
+      #    AREA != "Other Transient Area",
+       #   AREA != "Restaurant",
+        #  AREA != "Secondary Residences",
+         # AREA != "Day Care Center",
+          #AREA != "Hotel/Motel",
+          #AREA != "Mobile Home Park,Princ. Res.",
+          #AREA != "Other Non-Transient Area",
+      #    AREA != "Retail Employees",
+      #    AREA != "Highway Rest Area",
+       #   AREA != "Medical Facility",
+        #  AREA != "Other Residential Area",
+         # AREA != "Residential Area",
+      #    AREA != "School",
+       #   AREA != "Summer Camp") %>% 
+#  select(PWSID, PWS_NAME, SOURCE, AREA)
+
+
 SDWIS <- SDWIS %>%
-   filter(SOURCE !="Surface Water",
-          SOURCE !="Surface Water Purchased",     
-          SOURCE !="Unknown"),
-          AREA != "Mobile Home Park",
-          AREA != "Other Area",
-          AREA != "Other Transient Area",
-          AREA != "Restaurant",
-          AREA != "Secondary Residences",
-          AREA != "Day Care Center",
-          AREA != "Hotel/Motel",
-          AREA != "Mobile Home Park,Princ. Res.",
-          AREA != "Other Non-Transient Area",
-          AREA != "Retail Employees",
-          AREA != "Highway Rest Area",
-          AREA != "Medical Facility",
-          AREA != "Other Residential Area",
-          AREA != "Residential Area",
-          AREA != "School",
-          AREA != "Summer Camp") %>% 
-  select(PWSID, PWS_NAME, SOURCE, AREA)
+  filter(SOURCE !="Surface Water") %>% 
+  select(PWSID, PWS_NAME, SOURCE, AREA) #this worked, database deminished to 7641 obs.
+
+SDWIS <- SDWIS %>%
+  filter(SOURCE !="Surface Water Purchased") %>% 
+  select(PWSID, PWS_NAME, SOURCE, AREA) # now 7223 obs.
+
+SDWIS <- SDWIS %>%
+  filter(SOURCE !="Unknown") %>% 
+  select(PWSID, PWS_NAME, SOURCE, AREA) #now 6821 obs.
+
+SDWIS <- SDWIS %>%
+  filter(AREA != "Mobile Home Park") %>% 
+  select(PWSID, PWS_NAME, SOURCE, AREA) # ATTENTION: NO CHANGE IN OBS.
+
+SDWIS <- SDWIS %>%
+  filter(AREA != "Restaurant") %>% 
+  select(PWSID, PWS_NAME, SOURCE, AREA) # ATTENTION: NO CHANGE IN OBS.
 
   
 # Wanna keep the following categories in AREA:
